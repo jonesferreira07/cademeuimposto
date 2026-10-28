@@ -31,6 +31,6 @@ export function getState(uf: string) { return states.find((state) => state.uf ==
 export function taxLocation(uf?: string | null) {
   const state = uf ? getState(uf) : undefined;
   if (!state) return "no Brasil";
-  const preposition = ["RO", "MG", "AL", "SE", "RR", "SP"].includes(state.uf) ? "em" : ["BA", "PB"].includes(state.uf) ? "na" : "no";
+  const preposition = ["RO", "MG", "AL", "SE", "RR", "SP", "PE"].includes(state.uf) ? "em" : ["BA", "PB"].includes(state.uf) ? "na" : "no";
   return `${preposition} ${state.name}`;
 }

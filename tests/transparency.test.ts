@@ -85,7 +85,7 @@ describe("Contador e comparações com fontes", () => {
   it("aplica as preposições solicitadas em todas as UFs", () => {
     expect(taxLocation()).toBe("no Brasil");
     for (const state of states) {
-      const prefix = ["RO", "MG", "AL", "SE", "RR", "SP"].includes(state.uf) ? "em" : ["BA", "PB"].includes(state.uf) ? "na" : "no";
+      const prefix = ["RO", "MG", "AL", "SE", "RR", "SP", "PE"].includes(state.uf) ? "em" : ["BA", "PB"].includes(state.uf) ? "na" : "no";
       expect(taxLocation(state.uf)).toBe(`${prefix} ${state.name}`);
     }
   });
