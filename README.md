@@ -187,3 +187,10 @@ Custo/dia inclui a folha bruta do parlamentar, detalhando salário fixo, vantage
 O botão Revisar funciona sem depender da conexão de e-mail. A etapa seguinte gera um Pix de R$9,90, sem confirmação bancária automática. Após pagar, o anunciante envia os dados completos e o comprovante para a equipe; o envio automático usa Resend quando configurado, com alternativa de e-mail manual sempre disponível. Gerar o Pix não envia e-mail, não comprova pagamento e não publica anúncio.
 
 A referência assinada fica salva no armazenamento deste navegador por até 7 dias, sem guardar comprovante nem chave bancária. Ao reabrir Anunciar, `/api/anuncios/retomar` valida a assinatura e a validade e reconstrói no servidor o mesmo pedido, valor e Pix. Campos e valores adulterados no navegador não são aceitos. O prazo não é prolongado ao retomar. Apagar os dados do navegador pode remover essa referência; guarde também o código do pedido.
+
+
+## Google AdSense
+
+O layout raiz inclui uma única tag assíncrona do AdSense no `head`, com o ID público `ca-pub-8712356887699973`. Não usa chave privada nem nova dependência. `public/ads.txt` autoriza a conta `pub-8712356887699973` como vendedora direta do inventário Google e fica disponível em `/ads.txt`. A informação de publicidade e cookies consta na página Sobre.
+
+A instalação do código não equivale à aprovação da conta ou do site. A verificação e a configuração dos anúncios são feitas no painel do AdSense. O anúncio contratado por Pix e sua aprovação manual continuam com o fluxo próprio.
