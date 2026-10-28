@@ -690,3 +690,20 @@
 .quota-utilization,.cost-inclusions { padding: 15px; margin: 16px 0; border: 1px solid var(--border); border-radius: 9px; background: var(--raised); }.quota-utilization h4,.cost-inclusions h4 { font-size: 15px; line-height: 1.4; margin: 0 0 10px; }.quota-utilization p,.cost-inclusions p { color: var(--muted); font-size: 12px; line-height: 1.6; margin: 8px 0; }.cost-inclusions strong { color: var(--text); }.quota-utilization-values { display: grid; gap: 5px; }.quota-utilization-values strong { color: var(--money); font-size: 22px; }.quota-utilization-percent { color: var(--accent); font-size: 15px; }.quota-utilization progress { display: block; width: 100%; height: 10px; margin: 12px 0; border: 0; border-radius: 10px; overflow: hidden; appearance: none; background: var(--border); }.quota-utilization progress::-webkit-progress-bar { background: var(--border); border-radius: 10px; }.quota-utilization progress::-webkit-progress-value { background: var(--accent); border-radius: 10px; }.quota-utilization progress::-moz-progress-bar { background: var(--accent); border-radius: 10px; }.salary-breakdown { list-style: none; padding: 0; margin: 10px 0; }.salary-breakdown li { display: flex; justify-content: space-between; gap: 10px; padding: 7px 0; color: var(--muted); font-size: 12px; line-height: 1.5; }.salary-breakdown li span { min-width: 0; }.salary-breakdown b { flex-shrink: 0; color: var(--text); }.payroll-month-source { display: block; color: var(--accent); font-size: 12px; margin: 12px 0; line-height: 1.5; }
 
 .ad-manual-email { margin: 16px 0; padding: 14px; border: 1px solid var(--accent); border-radius: 9px; background: var(--raised); }.ad-manual-email a { display: block; color: var(--accent); font-weight: 750; line-height: 1.5; overflow-wrap: anywhere; }.ad-manual-email p { margin-bottom: 0; overflow-wrap: anywhere; }
+
+/* Transparência do Custo/dia: estilos limitados a este indicador. */
+.identified-daily > span { color: var(--text); font-size: 15px; line-height: 1.5; }
+.identified-daily > b { margin-top: 8px; font-size: 12px; overflow-wrap: anywhere; }
+.identified-daily .daily-info summary { display: flex; align-items: center; gap: 8px; cursor: pointer; color: var(--accent); font-size: 13px; line-height: 1.5; padding: 10px 0; }
+.identified-daily .daily-info svg { flex-shrink: 0; }
+.daily-info summary:focus-visible,.daily-method > summary:focus-visible { outline: 2px solid var(--accent); outline-offset: 3px; border-radius: 4px; }
+.identified-daily p,.daily-transparency p,.daily-method p,.daily-method li { font-size: 13px; line-height: 1.65; overflow-wrap: anywhere; }
+.daily-transparency { margin: 8px 0 16px; padding: 12px 14px; border: 1px solid var(--border); border-left: 3px solid var(--gold); border-radius: 7px; background: var(--raised); color: var(--text); }
+.daily-transparency p { margin: 0; }
+.daily-method { min-width: 0; }
+.daily-method h4 { font-size: 14px; line-height: 1.5; margin: 16px 0 8px; color: var(--text); }
+.daily-method ul { padding-left: 20px; }
+.daily-method li { margin-bottom: 12px; color: var(--muted); }
+.daily-method li strong { color: var(--text); }
+.daily-method li a { display: inline-block; margin-left: 5px; }
+.daily-method .daily-formula { border-left: 2px solid var(--accent); padding-left: 12px; color: var(--text); }

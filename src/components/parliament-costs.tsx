@@ -1,16 +1,51 @@
 "use client";
+import { Info } from "lucide-react";
 import { useState } from "react";
 import { useData, Loading, Failure, Pager } from "./dashboard-ui";
 import { money } from "@/lib/finance";
 import type { ParliamentCostResult } from "@/lib/parliament-costs";
 import type { getSenateCosts, SenateExpenseResult } from "@/lib/senate-finance";
 type Result = Omit<ParliamentCostResult, "benefits"|"payrollMonths"> & { benefits?: ParliamentCostResult["benefits"]; payrollMonths?:ParliamentCostResult["payrollMonths"];resources?: Awaited<ReturnType<typeof getSenateCosts>>["resources"] };
+type DailyData = Pick<Result, "identifiedDaily" | "identifiedTotal" | "days" | "period" | "components">;
+export function IdentifiedDailyCost({house,data}:{house:"camara"|"senado";data:DailyData}) {
+  const included=data.components.filter(item=>item.value!==null);
+  const missing=data.components.filter(item=>item.value===null);
+  const explanations:Record<string,string>={
+    salary:"Remuneração bruta publicada do parlamentar, incluindo 13º e outras verbas remuneratórias identificadas. O líquido não é somado novamente.",
+    staff:"Verba de gabinete efetivamente utilizada para salários de assessores, somente nas competências publicadas.",
+    quota:house==="camara"?"Cota parlamentar: despesas líquidas identificadas, incluindo pagamentos e reembolsos publicados, sem somar documentos novamente ao total.":"CEAPS: despesas reembolsadas identificadas pelo código do senador no período selecionado.",
+    housing:"Auxílio-moradia comprovado na fonte. Complementos já contabilizados na cota não são somados novamente.",
+    other:"Outros recursos oficialmente publicados fora da CEAPS. O bloco anual só entra no acumulado anual; não é atribuído a um mês isolado.",
+  };
+  return <>
+    <div className="daily-reflection identified-daily">
+      <span>Quanto custa este parlamentar aos cofres públicos por dia?</span>
+      <strong>{data.identifiedDaily===null?"Dados insuficientes":`${money(data.identifiedDaily)} / dia`}</strong>
+      <b>CUSTO IDENTIFICADO · VALOR PARCIAL</b>
+      <details className="daily-info"><summary><Info size={17} aria-hidden="true"/><span>Sobre este indicador parcial</span></summary><p>Exibe apenas o custo público identificado por dia nas fontes consultadas. Não comprova o custo integral de manutenção do parlamentar. Despesas sem informação suficiente ficam fora da soma, sem serem tratadas como zero.</p></details>
+      <p>Período selecionado: {data.period.label} · {data.days} dias corridos.</p>
+    </div>
+    <aside className="daily-transparency" aria-label="Aviso de transparência"><p>⚠️ ATENÇÃO: Este valor não representa o custo total do parlamentar. O cálculo considera apenas despesas identificadas nas fontes oficiais. O custo real tende a ser maior, pois outros gastos com pessoal, encargos, benefícios e estrutura pública ainda não estão integralmente disponíveis ou individualizados por parlamentar.</p></aside>
+    <details className="method-details daily-method"><summary>Entenda o cálculo</summary>
+      <h4>Como calculamos? · {house==="camara"?"Câmara dos Deputados":"Senado Federal"}</h4>
+      <p className="daily-formula">Custo público identificado por dia = Soma das despesas identificadas no período ÷ Número de dias corridos do período.</p>
+      <p>{data.identifiedTotal===null?"Soma identificada indisponível":`Soma identificada: ${money(data.identifiedTotal)}`} · {data.days} dias corridos. O divisor considera todo o período selecionado, inclusive quando algumas competências ainda não possuem dados.</p>
+      <h4>O que entra na conta nesta consulta</h4>
+      {included.length?<ul>{included.map(item=><li key={item.key}><strong>{item.label}:</strong> {explanations[item.key]||item.note}{item.coverageLabel&&<p>{item.coverageLabel}</p>}<a href={item.source} target="_blank" rel="noreferrer">Fonte oficial ↗</a></li>)}</ul>:<p>Nenhum componente tem informação suficiente nesta consulta. Não calculamos gasto zero a partir dessa ausência.</p>}
+      <h4>Componentes sem informação suficiente neste período</h4>
+      {missing.length?<ul>{missing.map(item=><li key={item.key}><strong>{item.label}:</strong> {item.note}{item.coverageLabel&&<p>{item.coverageLabel}</p>}<a href={item.source} target="_blank" rel="noreferrer">Fonte oficial ↗</a></li>)}</ul>:<p>Mesmo com valores para os componentes consultados, este indicador não comprova cobertura de todas as despesas do mandato.</p>}
+      <h4>O que ainda pode estar fora da conta</h4>
+      <ul><li>{house==="camara"?"Encargos, 13º, férias e benefícios dos assessores pagos fora da verba de gabinete e não incluídos nos dados consolidados.":"Remuneração, encargos, 13º, férias e benefícios dos assessores sem lotação histórica individual verificável; a equipe atual não comprova o vínculo de cada mês."}</li><li>Custos de prédios, energia elétrica, segurança e manutenção.</li><li>Custos institucionais compartilhados sem rateio individual verificável.</li><li>Demais despesas e benefícios não individualizados ou indisponíveis nas fontes consultadas.</li></ul>
+      <p>Competências confirmadas aparecem em cada componente, quando informadas pela fonte. Um acumulado com competências ausentes continua parcial. Ausência de informação não significa gasto zero; valores zero publicados e estornos são preservados.</p>
+      <p>Emendas parlamentares não são despesas pessoais nem custos de manutenção do parlamentar e não entram nesta soma. Não somamos despesas duplicadas nem estimamos componentes ausentes.</p>
+    </details>
+  </>;
+}
 export function ParliamentCosts({ house, id, year, month }: { house: "camara" | "senado"; id: string | number; year: number; month: string }) {
   const result = useData<Result>(`/api/custos/${house}/${id}?year=${year}&month=${month}`), data = result.data;
   const [staffPage, setStaffPage] = useState(0);
   return result.loading ? <Loading text="Conferindo remuneração, gabinete e despesas nas fontes oficiais…" /> : result.error ? <Failure message={result.error} retry={result.retry} /> : data && <section className="parliament-cost-breakdown">
-    <div className="daily-reflection"><span>Quanto custa um parlamentar por dia?</span><strong>{data.identifiedDaily === null ? "Dados insuficientes" : `${money(data.identifiedDaily)} / dia`}</strong><b>Custo identificado · parcial</b><p>{data.period.label} · soma dos componentes disponíveis ÷ {data.days} dias corridos. Inclui apenas os componentes listados abaixo. Não é o custo integral do mandato.</p></div>
-    <section className="cost-inclusions"><h4>O salário e o 13º estão incluídos?</h4><p><strong>O salário do parlamentar entra quando há folha publicada.</strong> O 13º, vantagens e verbas eventuais entram pelos valores publicados para a competência, sem estimar parcelas futuras.</p>{house==="camara"?<p>Os salários de assessores publicados na verba de gabinete também entram. <strong>13º, férias e auxílio-alimentação dos assessores pagos fora dessa verba ainda não foram individualizados e ficam fora da soma.</strong> Por isso o custo/dia continua parcial.</p>:<p>A folha histórica dos assessores e a estrutura sem rateio individual confirmado não entram nesta soma parcial.</p>}<p>Confira abaixo os valores e os meses confirmados. Não somamos o valor líquido novamente ao bruto.</p></section>
+    <IdentifiedDailyCost house={house} data={data} />
     <div className="expense-total"><span>Total identificado no período selecionado</span><strong>{money(data.identifiedTotal)}</strong><small>{data.note}</small></div>
     {data.benefits && <section className="cabinet-benefits"><h4>Gabinete e moradia</h4><dl>{data.benefits.staff && <><div><dt>Assessores ativos na consulta atual</dt><dd>{data.benefits.staff.activeNow} pessoas</dd></div><div><dt>Pessoas com vínculo no ano</dt><dd>{data.benefits.staff.inYear} · podem ter entrado e saído</dd></div></>}<div><dt>Imóvel funcional · situação atual</dt><dd>{data.benefits.functionalApartment || "Não confirmado nesta consulta"}</dd></div><div><dt>Auxílio-moradia · situação publicada</dt><dd>{data.benefits.housingStatus || "Não confirmado nesta consulta"}</dd></div></dl><p>A equipe e o uso de imóvel refletem a consulta atual, não uma fotografia histórica do mês selecionado. O custo de manutenção do imóvel não é estimado por deputado.</p><a href={data.benefits.source} target="_blank" rel="noreferrer">Gabinete e benefícios · Câmara ↗</a></section>}
     <dl className="cost-components">{data.components.map(item => <div key={item.key}><dt>{item.label}</dt><dd>{item.value === null ? "Não consolidado neste período" : money(item.value)}</dd>{item.coverageLabel&&<small className="component-coverage">{item.coverageLabel}</small>}{item.details&&<ul className="salary-breakdown">{item.details.map(row=><li key={row.key}><span>{row.label}</span><b>{money(row.value)}</b></li>)}</ul>}<details className="method-details"><summary>Fonte e composição</summary><p>{item.note}</p><a href={item.source} target="_blank" rel="noreferrer">Conferir na fonte oficial ↗</a></details></div>)}</dl>
