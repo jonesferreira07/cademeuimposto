@@ -32,8 +32,8 @@ describe("Referência de cota sem presumir saldo oficial", () => {
     });
     const result = await getQuotaComparison("204549", 2026, 2);
     expect(getExpenses).toHaveBeenCalledWith("204549", 2026, 2);
-    expect(result).toMatchObject({ spent: 90.10, endMonth: 2, reference: 109758.68, officialBalance: null, selectedSpent: -10.01, periodDays: 28, categories: [{ name: "Transporte", value: -10.01 }] });
-    expect((await getQuotaComparison("204549", 2026)).endMonth).toBe(10);
+    expect(result).toMatchObject({ spent: 90.10, endMonth: 2, reference: 109758.68, officialBalance: null, selectedSpent: -10.01, selectedReference:54879.34, periodDays: 28, categories: [{ name: "Transporte", value: -10.01 }] });
+    const annual=await getQuotaComparison("204549",2026);expect(annual.endMonth).toBe(10);expect(annual.selectedReference).toBe(548793.4);expect(annual.selectedUsedPercent).toBeCloseTo(annual.selectedSpent!/548793.4*100);
     expect(await getQuotaComparison("204549", 2026, 12)).toMatchObject({ endMonth: 10, selectedSpent: null, periodDays: 0, selectedDailySpent: null });
     expect((await getQuotaComparison("204549", 2025)).reference).toBeNull();
   });

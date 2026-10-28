@@ -54,7 +54,7 @@ node scripts/generate-map.mjs /caminho/brasil.json
 - A imagem fornecida pelo proprietário está em `public/brand-logo.png`, exibida sem recorte, com otimização pelo Next.js. A paleta do painel segue seu azul profundo, verde, amarelo e azul vivo. O título é “Cadê Meu Imposto?”.
 - Tema escuro padrão e botão Clarear/Escurecer, com contraste adaptado. A preferência é salva no navegador em `cmi-theme`; o controle funciona mesmo se o armazenamento estiver bloqueado.
 - Fontes, números, mapa e contador do Impostômetro ampliados. A composição preserva a leitura com rolagem quando necessária; os painéis laterais do desktop permitem rolagem interna.
-- Espaço de publicidade abaixo do mapa: **R$ 9,90 por 3 dias**, iniciados após confirmação manual do Pix e aprovação. Formulário de marca, frase, site, contato privado e aba CUPOM para indicação. Revisão, QR Code e copia e cola com valor fixo e referência por pedido. O leilão não está ativo. Pedidos locais ficam em `.data/ad-orders/`, fora do Git, com acesso privado; `node scripts/ad-orders.mjs listar` e `indicacoes` permitem consulta. `confirmar-pix ID` deve ser usado somente depois de conferir o pagamento no banco; `aprovar ID` publica apenas pedido pago e inicia as 72 horas. Não há confirmação bancária automática. Na Vercel, criação de pedidos fica desativada até existir armazenamento persistente autorizado.
+- Espaço de publicidade abaixo do mapa: **R$ 9,90 por 3 dias**, iniciados após confirmação manual do Pix e aprovação. Formulário de marca, frase, site, contato privado e aba CUPOM para indicação. Revisão, QR Code e copia e cola com valor fixo e referência por pedido. O leilão não está ativo. Pedidos locais ficam em `.data/ad-orders/`, fora do Git, com acesso privado; `node scripts/ad-orders.mjs listar` e `indicacoes` permitem consulta. `confirmar-pix ID` deve ser usado somente depois de conferir o pagamento no banco; `aprovar ID` publica apenas pedido pago e inicia as 72 horas. Não há confirmação bancária automática. Na Vercel, os pedidos só liberam Pix após o provedor de e-mail aceitar o envio dos dados à equipe. Comprovantes JPG/PNG/PDF de até 3 MB têm referência assinada válida por 7 dias e são enviados como anexos privados. Não há armazenamento de comprovantes no repositório. Até a configuração e o teste de entrega, há uma opção de solicitação manual por e-mail e o Pix permanece bloqueado.
 
 ## Dados financeiros e critérios
 
@@ -161,3 +161,22 @@ O painel estadual agora destaca **PIB do estado**, **recebido da União** e **de
 A base de segurança do ranking de emendas foi derivada do ZIP oficial CGU publicado em 28/10/2026 às 02:23:07 UTC: 5.604 emendas individuais de 2026, com hash SHA-256 registrado no JSON. O script `scripts/snapshot-amendment-ranking.py` reproduz a agregação em centavos, sem favorecidos ou dados pessoais. Quando a consulta ao vivo falha ou demora, a interface informa a cópia datada. Códigos cuja autoria mudou entre registros não recebem atribuição automática.
 
 Revisão responsiva de 28/10/2026: preço e chamada `Anunciar por R$9,90` não quebram a moeda; anúncio e zoom não se sobrepõem ao SVG. Seletores completos no celular, controles com área de toque maior, formulário ajustado a telas estreitas e temas claro/escuro preservados.
+
+
+## Anúncios por e-mail
+
+Destino fixo: `jonesferreira07@gmail.com`. Integração preparada com a API oficial do Resend, sem senha do Gmail. Configurar somente no ambiente privado da Vercel:
+
+- `RESEND_API_KEY`: chave de envio da conta do proprietário.
+- `AD_RECEIPT_SIGNING_KEY`: segredo aleatório com pelo menos 32 caracteres para vincular comprovantes aos pedidos.
+- `AD_MAIL_FROM` (opcional): remetente de domínio verificado. O padrão `onboarding@resend.dev` só pode enviar ao e-mail do proprietário da conta Resend; crie a conta com o destinatário acima ou verifique um domínio próprio.
+
+Nunca colocar essas chaves em arquivos versionados ou mensagens. Antes de ativar em produção, testar a aceitação do provedor e confirmar na caixa de entrada tanto os campos (incluindo cupom) quanto o anexo. Teste real opcional e explícito: `CMI_AD_EMAIL_TEST=1 pnpm test tests/ad-email-delivery.test.ts`, com as variáveis privadas carregadas. Os demais testes não enviam e-mail. O FormSubmit foi descartado após falhas de confirmação HTTP em testes; não é utilizado pelo site.
+
+Na produção, o e-mail é o registro para conferência manual, e não uma confirmação bancária. A equipe confere o Pix no banco, aprova o anúncio e adiciona **apenas** os campos públicos da campanha a `src/data/advertisements.json`: id, brand, phrase, website, paymentConfirmedAt, approvedAt, startsAt e expiresAt (ISO UTC). A validade é de 72 horas a partir de startsAt. Não incluir contato, cupom ou comprovantes nesse arquivo. Uma publicação do site disponibiliza a campanha aprovada; não há publicação nem renovação automática.
+
+## Revisão de custos de 28/10/2026
+
+A pesquisa usa “parlamentar”. A cota mostra gasto / referência da UF no período selecionado e barra percentual. Acumulado: janeiro até o mês de corte; mensal: apenas o mês selecionado. A barra preserva percentuais superiores a 100% (a representação visual termina em 100%) e não trata estorno ou falta de dados como gasto zero. Não representa saldo oficial nem prova de economicidade.
+
+Custo/dia inclui a folha bruta do parlamentar, detalhando salário fixo, vantagens, 13º, férias e verbas eventuais publicadas, e os demais componentes com valores identificados. Cada mês confirmado tem link para a folha. O líquido não é somado novamente. Salários de assessores entram pelo gasto real da verba de gabinete, sem substituir pelo teto legal. **13º, férias e auxílio-alimentação de assessores pagos fora dessa verba ainda não estão consolidados por mandato** e aparecem como componente ausente. Links individuais de remuneração dos assessores são extraídos da relação oficial da Câmara. Sem validar o vínculo histórico e sem evitar duplicação com a verba de gabinete, esses valores não são acrescentados ao total. Estrutura e encargos sem atribuição individual também ficam fora. Portanto o custo/dia é identificado e parcial, não o custo integral.

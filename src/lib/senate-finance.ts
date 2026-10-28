@@ -34,11 +34,11 @@ const payrollSchema = z.object({ sequencial: z.number().int(), nome: z.string(),
 export function parseSenatePayroll(raw: unknown, year: number, month: number) {
   const parsed = z.array(payrollSchema).max(100000).safeParse(raw);
   if (!parsed.success || parsed.data.some(row => row.ano !== year || row.mes !== month)) throw new Error("A folha do Senado não corresponde à competência solicitada.");
-  const index = new Map<string, { identities: Set<number>; gross: number; net: number }>();
+  const index = new Map<string, { identities: Set<number>; gross: number; net: number; breakdown: Record<string,number> }>();
   for (const row of parsed.data) {
-    const key = normalizePublicName(row.nome), existing = index.get(key) || { identities: new Set<number>(), gross: 0, net: 0 };
+    const key = normalizePublicName(row.nome), existing = index.get(key) || { identities: new Set<number>(), gross: 0, net: 0, breakdown: {} as Record<string,number> };
     existing.identities.add(row.sequencial);
-    existing.gross += salaryFields.reduce((sum, field) => sum + Math.round(publicMoney(row[field]) * 100), 0);
+    for(const field of salaryFields){const cents=Math.round(publicMoney(row[field])*100);existing.breakdown[field]=(existing.breakdown[field]||0)+cents;existing.gross+=cents;}
     existing.net += Math.round(publicMoney(row.remuneracao_liquida) * 100); index.set(key, existing);
   }
   return index;
@@ -62,11 +62,11 @@ export async function getSenateCosts(id: string, year: number, month?: number) {
   const period = selectionWindow(year, month), salarySource = `${SENATE_ADM}/servidores/remuneracoes/${year}/${month || period.months.at(-1) || 1}`;
   const [expenses, wages, resources] = await Promise.all([
     getSenateExpenses(id, year, month).catch(() => null),
-    mapLimited(period.months, 3, async m => { try { const index = await payroll(year, m), row = index.get(normalizePublicName(senator.civilName)); return row && row.identities.size === 1 ? { gross: row.gross / 100, net: row.net / 100 } : { gross: null, net: null }; } catch { return { gross: null, net: null }; } }),
+    mapLimited(period.months, 3, async m => { try { const index = await payroll(year, m), row = index.get(normalizePublicName(senator.civilName)); return row && row.identities.size === 1 ? { gross: row.gross / 100, net: row.net / 100, breakdown: row.breakdown } : { gross: null, net: null, breakdown: null }; } catch { return { gross: null, net: null, breakdown: null }; } }),
     getSenateResources(id, year).catch(() => null),
   ]);
   const components: CostComponent[] = [
-    { key: "salary", label: "Remuneração bruta do senador", value: sumPublished(month===undefined?wages.flatMap(row=>row.gross===null?[]:[row.gross]):wages.map(row=>row.gross)), coverageLabel: `Competências confirmadas: ${period.months.filter((_,i)=>wages[i].gross!==null).map(m=>String(m).padStart(2,"0")).join(", ") || "nenhuma"}/${year}. Ausências ficam fora da soma parcial.`, source: salarySource, note: "Nome civil exato e único na folha; inclui folhas normal e suplementar e estornos. Não usa subsídio presumido." },
+    { key: "salary", label: "Remuneração bruta do senador", details: salaryFields.map((key,i)=>({key,label:["Remuneração básica","Vantagens pessoais","Função comissionada","13º · gratificação natalina","Horas extras","Outras verbas eventuais","Abono de permanência","Reversão do teto constitucional"][i],value:sumPublished(wages.filter(row=>row.gross!==null).map(row=>row.breakdown?row.breakdown[key]/100:null))})), value: sumPublished(month===undefined?wages.flatMap(row=>row.gross===null?[]:[row.gross]):wages.map(row=>row.gross)), coverageLabel: `Competências confirmadas: ${period.months.filter((_,i)=>wages[i].gross!==null).map(m=>String(m).padStart(2,"0")).join(", ") || "nenhuma"}/${year}. Ausências ficam fora da soma parcial.`, source: salarySource, note: "Nome civil exato e único na folha; inclui folhas normal e suplementar e estornos. Não usa subsídio presumido." },
     { key: "quota", label: "CEAPS · valor reembolsado", value: expenses?.total ?? null, source: expenses?.source || `${SENATE_ADM}/senadores/despesas_ceaps/${year}`, note: "Despesas identificadas pelo código do senador, somente no período selecionado." },
     { key: "staff", label: "Remuneração dos assessores", value: null, source: resources?.source || "https://www12.senado.leg.br/transparencia/sen/senadores", note: "A lotação atual não comprova a lotação em cada mês da folha. Não atribuímos remuneração histórica por associação aproximada." },
     { key: "other", label: "Outros recursos fora da CEAPS", value: month === undefined ? resources?.gastosNaoInclusos?.totalValor ?? null : null, source: resources?.source || "https://www12.senado.leg.br/transparencia/sen/senadores", note: "A fonte publica este bloco por ano. Não é somado ao custo de um mês isolado." },

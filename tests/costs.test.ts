@@ -1,6 +1,6 @@
 import { readFileSync } from "node:fs";
 import { describe, expect, it } from "vitest";
-import { composeIdentifiedCost, parseCabinetExpenditure, parseDeputyPayroll, parseDeputyBenefits, parseHousingPayments } from "../src/lib/parliament-costs";
+import { composeIdentifiedCost, parseCabinetExpenditure, parseDeputyPayroll, parseDeputyBenefits, parseDeputyStaff, parseHousingPayments } from "../src/lib/parliament-costs";
 import { parseSenateExpenses, parseSenatePayroll } from "../src/lib/senate-finance";
 import { selectionWindow, sumPublished } from "../src/lib/official-source";
 import { economicRanking } from "../src/lib/economic-rankings";
@@ -11,6 +11,21 @@ describe("Custo identificado, com componentes reais", () => {
     expect(parseDeputyPayroll(html, 2026, 9)).toMatchObject({ gross: 46366.19, net: 29152.79, sheets: 1 });
     expect(parseDeputyPayroll(html, 2026, 10).gross).toBeNull();
     expect(parseDeputyPayroll(html.replace("PARLAMENTAR", "SERVIDOR"), 2026, 9).gross).toBeNull();
+  });
+  it("detalha 13º e estornos, soma folhas suplementares e recusa folha incompleta",()=>{
+    const html=readFileSync(new URL("./fixtures/deputy-payroll.html",import.meta.url),"utf8");
+    const withThirteenth=html.replace(/(Gratificação Natalina<\/td>\s*<td[^>]*>)0,00/,"$123.000,00");
+    const parsed=parseDeputyPayroll(withThirteenth,2026,9);
+    expect(parsed.gross).toBe(69366.19);expect(parsed.breakdown.find(row=>row.key==="thirteenth")?.value).toBe(23000);
+    const reversal=html.replace(/(Outras Remunerações Eventuais[^<]*<\/td>\s*<td[^>]*>)0,00/,"$1-3.219,87");
+    expect(parseDeputyPayroll(reversal,2026,9).gross).toBe(43146.32);
+    expect(parseDeputyPayroll(withThirteenth+html.replace("FOLHA NORMAL","FOLHA SUPLEMENTAR"),2026,9)).toMatchObject({gross:115732.38,sheets:2});
+    expect(()=>parseDeputyPayroll(html.replace("Gratificação Natalina","Campo removido"),2026,9)).toThrow("incompleta");
+  });
+  it("expõe apenas links de folha que vieram da relação oficial de assessores",()=>{
+    const row=(href:string)=>`<tr><td>ASSESSOR EXEMPLO</td><td>SECRETÁRIO PARLAMENTAR</td><td>SP08</td><td>Desde 27/02/2026</td><td><a href="${href}">Remuneração</a></td></tr>`;
+    const rows=parseDeputyStaff(`<table><tbody>${row("/transparencia/recursos-humanos/remuneracao/ABC123")}${row("https://example.com/fake")}</tbody></table>`);
+    expect(rows[0].payrollSource).toBe("https://www.camara.leg.br/transparencia/recursos-humanos/remuneracao/ABC123");expect(rows[1].payrollSource).toBeNull();
   });
   it("usa verba de gabinete gasta e não inventa meses não publicados", () => {
     const html = readFileSync(new URL("./fixtures/cabinet-expenditure.html", import.meta.url), "utf8"), rows = parseCabinetExpenditure(html);

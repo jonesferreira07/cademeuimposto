@@ -7,6 +7,7 @@ import type { QuotaResult } from "@/lib/quota";
 import type { AmendmentResult } from "@/lib/amendments";
 import { formatCnpj } from "@/lib/company-format";
 import type { Deputy, DeputyDetail } from "@/lib/camara";
+import {QuotaUsage} from "./quota-usage";
 
 export function QuotaOverview({ id, year, month }: { id: number; year: number; month: string }) {
   const result = useData<QuotaResult>(`/api/cota/${id}?year=${year}&month=${month}`);
@@ -15,6 +16,7 @@ export function QuotaOverview({ id, year, month }: { id: number; year: number; m
   return <div className="quota-overview">{result.loading ? <Loading text="Comparando gasto acumulado e cota de referência…" /> : result.error ? <Failure message={result.error} retry={result.retry} /> : data && <>
     <span className="dash-eyebrow">{data.selectedMonth ? months[data.selectedMonth - 1].toUpperCase() : `JANEIRO A ${months[data.endMonth - 1].toUpperCase()}`} · {year}</span>
     <div className="quota-spent"><span>Quanto gastou no período selecionado · CEAP</span><strong>{data.selectedSpent === null ? "Sem registros no período" : money(data.selectedSpent)}</strong><span>{data.selectedMonth ? `Somente ${months[data.selectedMonth - 1].toLowerCase()} de ${year}` : "Acumulado no ano até o mês indicado"}</span></div>
+    <QuotaUsage spent={data.selectedSpent} reference={data.selectedReference} percent={data.selectedUsedPercent} monthly={data.selectedMonth!==null} period={data.selectedMonth?`${months[data.selectedMonth-1]} de ${year}`:`janeiro a ${months[data.endMonth-1].toLowerCase()} de ${year}`}/>
     <div className="daily-reflection"><span>Média diária da cota neste período</span><strong>{data.selectedDailySpent === null ? "Sem dados para calcular" : `${money(data.selectedDailySpent)} / dia`}</strong><p>Gasto selecionado ÷ {data.periodDays} dias corridos. Salários, assessores e estrutura estão na aba Custo/dia.</p></div>
     <details className="method-details"><summary>Cota acumulada · janeiro a {months[data.endMonth - 1].toLowerCase()}</summary><dl className="quota-values"><div><dt>Gasto acumulado publicado</dt><dd>{money(data.spent)}</dd></div><div><dt>Limite de referência acumulado</dt><dd>{money(data.reference)}</dd></div><div><dt>Saldo oficial disponível</dt><dd>Não divulgado na API</dd></div></dl>{data.usedPercent !== null && <p className="context-note">{data.usedPercent.toLocaleString("pt-BR", { maximumFractionDigits: 1 })}% da referência acumulada utilizada.</p>}<p>A cota pode acumular dentro do ano. O limite de referência não informa quanto está disponível para este deputado.</p></details>
     <p className="context-note">{data.publishedAt ? `Arquivo da Câmara: ${fiscalDate(data.publishedAt)}. ` : ""}Cota é limite para despesas do mandato, não salário ou depósito pessoal.</p>
