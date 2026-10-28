@@ -1,0 +1,210 @@
+{
+  "verifiedAt": "2026-10-27",
+  "asOf": "2026-09-16",
+  "source": "https://moneyou.com.br/ranking-mundial-de-juros-reais-set26/",
+  "document": "https://moneyou.com.br/wp-content/uploads/2026/09/rankingdejurosreais160926.pdf",
+  "publisher": "MoneYou / Lev Intelligence",
+  "metric": "Juros reais projetados ex ante, cenário central do levantamento, entre 40 economias selecionadas. Taxa de mercado de 12 meses descontada da inflação esperada pela fórmula (1+i)/(1+inflação)−1. Não é a Selic, juros ao consumidor ou um ranking de todos os países.",
+  "records": [
+    {
+      "rank": 1,
+      "name": "Brasil",
+      "value": 8.45
+    },
+    {
+      "rank": 2,
+      "name": "Rússia",
+      "value": 6.79
+    },
+    {
+      "rank": 3,
+      "name": "Colômbia",
+      "value": 6.33
+    },
+    {
+      "rank": 4,
+      "name": "Turquia",
+      "value": 6.25
+    },
+    {
+      "rank": 5,
+      "name": "México",
+      "value": 3.08
+    },
+    {
+      "rank": 6,
+      "name": "África do Sul",
+      "value": 2.93
+    },
+    {
+      "rank": 7,
+      "name": "Argentina",
+      "value": 2.69
+    },
+    {
+      "rank": 8,
+      "name": "Hungria",
+      "value": 2.51
+    },
+    {
+      "rank": 9,
+      "name": "Indonésia",
+      "value": 2.14
+    },
+    {
+      "rank": 10,
+      "name": "Chile",
+      "value": 2.09
+    },
+    {
+      "rank": 11,
+      "name": "Bélgica",
+      "value": 1.71
+    },
+    {
+      "rank": 12,
+      "name": "França",
+      "value": 1.66
+    },
+    {
+      "rank": 13,
+      "name": "Índia",
+      "value": 1.63
+    },
+    {
+      "rank": 14,
+      "name": "Austrália",
+      "value": 1.5
+    },
+    {
+      "rank": 15,
+      "name": "Coreia do Sul",
+      "value": 1.42
+    },
+    {
+      "rank": 16,
+      "name": "Polônia",
+      "value": 1.41
+    },
+    {
+      "rank": 17,
+      "name": "Israel",
+      "value": 1.37
+    },
+    {
+      "rank": 18,
+      "name": "República Tcheca",
+      "value": 1.32
+    },
+    {
+      "rank": 19,
+      "name": "Alemanha",
+      "value": 1.1
+    },
+    {
+      "rank": 20,
+      "name": "Itália",
+      "value": 1.07
+    },
+    {
+      "rank": 21,
+      "name": "Espanha",
+      "value": 1.02
+    },
+    {
+      "rank": 22,
+      "name": "Portugal",
+      "value": 0.9
+    },
+    {
+      "rank": 23,
+      "name": "Suécia",
+      "value": 0.84
+    },
+    {
+      "rank": 24,
+      "name": "Reino Unido",
+      "value": 0.8
+    },
+    {
+      "rank": 25,
+      "name": "Estados Unidos",
+      "value": 0.74
+    },
+    {
+      "rank": 26,
+      "name": "Hong Kong",
+      "value": 0.73
+    },
+    {
+      "rank": 27,
+      "name": "Áustria",
+      "value": 0.73
+    },
+    {
+      "rank": 28,
+      "name": "Malásia",
+      "value": 0.68
+    },
+    {
+      "rank": 29,
+      "name": "Grécia",
+      "value": 0.68
+    },
+    {
+      "rank": 30,
+      "name": "Tailândia",
+      "value": 0.65
+    },
+    {
+      "rank": 31,
+      "name": "Dinamarca",
+      "value": 0.64
+    },
+    {
+      "rank": 32,
+      "name": "Canadá",
+      "value": 0.55
+    },
+    {
+      "rank": 33,
+      "name": "China",
+      "value": 0.52
+    },
+    {
+      "rank": 34,
+      "name": "Países Baixos",
+      "value": 0.5
+    },
+    {
+      "rank": 35,
+      "name": "Singapura",
+      "value": 0.12
+    },
+    {
+      "rank": 36,
+      "name": "Taiwan",
+      "value": -0.15
+    },
+    {
+      "rank": 37,
+      "name": "Japão",
+      "value": -0.44
+    },
+    {
+      "rank": 38,
+      "name": "Suíça",
+      "value": -0.5
+    },
+    {
+      "rank": 39,
+      "name": "Filipinas",
+      "value": -0.62
+    },
+    {
+      "rank": 40,
+      "name": "Nova Zelândia",
+      "value": -0.91
+    }
+  ]
+}

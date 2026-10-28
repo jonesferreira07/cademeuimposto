@@ -1,0 +1,52 @@
+"use client";
+import { useEffect, useRef, useState } from "react";
+import { ArrowUpRight, Check, ExternalLink, Info, MapPin, Moon, ShieldCheck, Sun, X, Link as LinkIcon } from "lucide-react";
+import { Brand } from "./brand";
+import { DashboardMap } from "./dashboard-map";
+import { StatePanel } from "./state-panel";
+import { RepresentationPanel } from "./representation-panel";
+import { TaxCounter } from "./tax-counter";
+import { TaxRankings } from "./tax-rankings";
+import { ReflectionGuide } from "./reflection-guide";
+import { getState, states } from "@/lib/states";
+import { months, brazilDate } from "@/lib/finance";
+import { REPORTING_YEAR } from "@/lib/reporting-period";
+import { CitizenshipWelcome } from "./citizenship-welcome";
+
+export function Dashboard({ initialMonth }: { initialMonth: number }) {
+  const [uf, setUf] = useState<string | null>(null);
+  const [homeVersion, setHomeVersion] = useState(0);
+  const year = REPORTING_YEAR;
+  const availableMonths = brazilDate().year === year ? brazilDate().month : 12;
+  const [month, setMonth] = useState(String(initialMonth));
+  const [view, setView] = useState<"map" | "state" | "deputies">("map");
+  const [copied, setCopied] = useState(false);
+  const [theme, setTheme] = useState<"dark" | "light">("dark");
+  const sources = useRef<HTMLDialogElement>(null);
+  useEffect(() => {
+    try { const saved = localStorage.getItem("cmi-theme"); if (saved === "dark" || saved === "light") setTheme(saved); } catch { /* A alternância continua funcionando com armazenamento bloqueado. */ }
+  }, []);
+  function toggleTheme() {
+    const next = theme === "dark" ? "light" : "dark";
+    setTheme(next);
+    try { localStorage.setItem("cmi-theme", next); } catch { /* Preferência opcional. */ }
+  }
+  useEffect(() => {
+    const read = () => { const param = new URLSearchParams(location.hash.slice(1)); const value = param.get("uf"); setUf(value && getState(value) ? value.toUpperCase() : null); };
+    read(); window.addEventListener("hashchange", read); return () => window.removeEventListener("hashchange", read);
+  }, []);
+  function selectState(value: string | null) { setUf(value); if (value) setView("deputies"); history.replaceState(null, "", value ? `/#uf=${value.toLowerCase()}` : "/"); }
+  function returnHome() { setUf(null); setView("map"); setMonth(String(initialMonth)); setHomeVersion(value => value + 1); history.replaceState(null, "", "/"); }
+  async function share() { try { await navigator.clipboard.writeText(location.href); setCopied(true); setTimeout(() => setCopied(false), 2000); } catch { sources.current?.showModal(); } }
+  const periodLabel = `${month === "all" ? "Acumulado" : months[Number(month) - 1]} de ${year}`;
+  return <main id="conteudo" className="dashboard" data-theme={theme}>
+    <header className="dash-header"><Brand onHome={returnHome} /><div className="dash-header-label"><span className="live-dot" /> Seu dinheiro merece atenção.</div><div className="dash-header-actions"><TaxRankings onSelect={selectState} year={year} month={month} /><button className="theme-toggle" onClick={toggleTheme} aria-label={theme === "dark" ? "Ativar tema claro" : "Ativar tema escuro"} title={theme === "dark" ? "Ativar tema claro" : "Ativar tema escuro"}>{theme === "dark" ? <Sun size={18} /> : <Moon size={18} />}<span>{theme === "dark" ? "Clarear" : "Escurecer"}</span></button><button aria-label="Fontes e critérios" onClick={() => sources.current?.showModal()}><Info size={17} /><span>Fontes e critérios</span></button><button onClick={share} aria-label="Copiar link deste painel">{copied ? <Check size={17} /> : <LinkIcon size={17} />}<span>{copied ? "Link copiado" : "Compartilhar"}</span></button></div></header>
+    <CitizenshipWelcome />
+    <TaxCounter key={uf || "BR"} uf={uf} year={year} />
+    <div className="dash-toolbar"><div className="dash-location"><MapPin size={15} /><label className="sr-only" htmlFor="dash-uf">Estado</label><select id="dash-uf" value={uf || ""} onChange={e => selectState(e.target.value || null)}><option value="">Brasil · escolha um estado</option>{states.map(s => <option value={s.uf} key={s.uf}>{s.name} ({s.uf})</option>)}</select></div><div className="dash-period"><span>Consultar gastos em</span><label className="sr-only" htmlFor="dash-month">Mês</label><select id="dash-month" value={month} onChange={e => setMonth(e.target.value)}><option value="all">Acumulado em 2026</option>{months.slice(0, availableMonths).map((name, i) => <option key={name} value={i + 1}>{name}</option>)}</select><span className="reporting-year" aria-label="Ano das contas: 2026">2026</span></div></div>
+    <nav className="dash-mobile-tabs" aria-label="Seção do painel"><button aria-pressed={view === "map"} className={view === "map" ? "active" : ""} onClick={() => setView("map")}>Mapa</button><button aria-pressed={view === "state"} className={view === "state" ? "active" : ""} onClick={() => setView("state")}>Estado{uf ? ` · ${uf}` : ""}</button><button aria-pressed={view === "deputies"} className={view === "deputies" ? "active" : ""} onClick={() => setView("deputies")}>Representantes</button></nav>
+    <div className={`dash-workspace mobile-${view}`}><StatePanel key={homeVersion} uf={uf} year={year} month={month} /><DashboardMap key={homeVersion} uf={uf} onSelect={selectState} /><RepresentationPanel key={`${homeVersion}-${uf || "BR"}`} uf={uf} year={year} month={month} periodLabel={periodLabel} /></div>
+    <footer className="dash-footer"><span><ShieldCheck size={12} /> Independente e apartidário. Dados das fontes indicadas.</span><ReflectionGuide /><span className="dash-desktop-only">IBGE · Câmara · Senado · Tesouro · CGU · ACSP/IBPT</span></footer>
+    <dialog className="dash-dialog" ref={sources} aria-labelledby="sources-title"><div className="dialog-heading"><div><span className="dash-eyebrow">INFORMAÇÃO EM CONTEXTO</span><h2 id="sources-title">De onde vêm os números?</h2></div><button aria-label="Fechar fontes" onClick={() => sources.current?.close()}><X size={20} /></button></div><div className="dialog-copy"><h3>Impostômetro · ACSP/IBPT</h3><p>O contador usa os números públicos e a taxa de projeção informados pela ACSP/IBPT, consultados a cada minuto. A projeção é pausada após cinco minutos sem atualização recente. Inclui estimativas e projeções, e não representa um registro oficial de pagamentos a cada segundo. O recorte de UF soma tributos das três esferas arrecadados naquele território; não é dinheiro recebido pelo governo estadual. <a href="https://impostometro.com.br/home/metodologiaimpostometro" target="_blank" rel="noreferrer">Metodologia ↗</a></p><h3>Estados · Tesouro Nacional / Siconfi</h3><p>RREO: receitas realizadas e despesas pagas no Anexo 01; despesas liquidadas por função no Anexo 02, sem somar funções e subfunções. Valores acumulados desde janeiro até o bimestre indicado. Transferências recebidas somam correntes e de capital e não se restringem à União. Receita total pode incluir operações de crédito e receitas intraorçamentárias.</p><h3>Deputados · Câmara dos Deputados</h3><p>Despesas da Cota para o Exercício da Atividade Parlamentar (CEAP): pagamentos e reembolsos vinculados ao mandato. Não são salário nem dinheiro pessoal recebido pelo deputado. O total líquido considera todas as páginas e preserva estornos. Quando a API está vazia ou indisponível, usamos o arquivo anual oficial, ligado pelo idDeputado e identificado no painel, sem somar as duas fontes. O índice do arquivo é mantido em memória por até uma hora. Data fiscal e mês de competência não são a data do reembolso. A finalidade exibida é a categoria declarada pela Câmara.</p><h3>Cota, emendas e rankings</h3><p>A margem da cota é uma referência: limite mensal da UF × meses, menos gasto acumulado. Não é o saldo oficial individual. Reembolsos podem chegar com atraso; menor gasto, sozinho, não comprova economicidade. Emendas individuais vêm dos arquivos públicos da CGU, com vínculo de autoria conferido no Congresso e na Câmara. Empenhado, liquidado e pago são etapas e não devem ser somados. Beneficiários e convênios têm escopos próprios.</p><p>Ranking estadual: volume estimado no território, segundo ACSP/IBPT. Comparação internacional: tributos como percentual do PIB em 2024, em 128 economias da base OCDE. O dado brasileiro de 2025 do Tesouro é apresentado separadamente. Consumo em PPC: Banco Mundial, 2025, em 124 economias. Não representa todos os países nem avalia serviços públicos.</p><h3>Atualização e limites</h3><p>Câmara: cache de até 30 minutos. Tesouro: até 1 hora. A data da consulta é diferente da data de publicação. Ausência de registros não comprova ausência de gasto. Os relatórios estaduais são agregados e não vinculam uma transferência a uma nota fiscal. Para contratos e pagamentos individuais, consulte o portal do ente responsável. Emendas, salários e demais verbas não integram o total CEAP. A aba Custo/dia soma apenas componentes individualizados e continua parcial. Pagamentos estaduais sem conferência primária ficam indisponíveis.</p><p>Fotos e consultas geram acessos às fontes. O contador usa uma apresentação própria, com atribuição à ACSP/IBPT, sem carregar o widget ou seus anúncios. O mapa foi derivado da malha simplificada do IBGE e não serve para medições.</p><a href="/sobre" className="dialog-full-source">Abrir documentação completa <ExternalLink size={13} /></a></div></dialog>
+  </main>;
+}
