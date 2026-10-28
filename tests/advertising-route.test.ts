@@ -1,7 +1,7 @@
 import{beforeEach,describe,expect,it,vi}from'vitest';
 import{NextRequest}from'next/server';
 import{readPixFields}from'../src/lib/advertising/pix';
-vi.mock('../src/lib/advertising/store',()=>({createAdOrder:vi.fn(async(input)=>({...input,id:'00000000-0000-4000-8000-000000000009',status:'pending'}))}));
+vi.mock('../src/lib/advertising/store',()=>({createAdOrder:vi.fn(async(input)=>({...input,id:'00000000-0000-4000-8000-000000000009',status:'pending',createdAt:new Date().toISOString()}))}));
 import{POST}from'../src/app/api/anuncios/pedidos/route';
 import{createAdOrder}from'../src/lib/advertising/store';
 beforeEach(()=>vi.clearAllMocks());

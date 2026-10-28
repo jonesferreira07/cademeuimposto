@@ -1,9 +1,7 @@
 import { NextRequest,NextResponse } from "next/server";
-import QRCode from "qrcode";
-import { adInputSchema,AD_DURATION_DAYS,AD_PRICE_CENTS } from "@/lib/advertising/schema";
+import { adInputSchema } from "@/lib/advertising/schema";
 import { createAdOrder } from "@/lib/advertising/store";
-import { orderPix } from "@/lib/advertising/pix";
-import { receiptSigningReady,signReceiptToken } from "@/lib/advertising/receipt-token";
+import { adCheckout } from "@/lib/advertising/checkout";
 export const runtime="nodejs";
 export const maxDuration=30;
 const attempts=new Map<string,{count:number;expires:number}>();
@@ -17,7 +15,7 @@ export async function POST(request:NextRequest){
  try{
   const body=await request.text();if(body.length>4096)return NextResponse.json({error:"Pedido muito grande."},{status:413});
   const parsed=adInputSchema.safeParse(JSON.parse(body));if(!parsed.success)return NextResponse.json({error:parsed.error.issues[0]?.message||"Confira os campos."},{status:400});
-  const order=await createAdOrder(parsed.data),pix=orderPix(order.id);const qrCode=await QRCode.toDataURL(pix.code,{errorCorrectionLevel:"M",margin:2,width:280});
-  return NextResponse.json({id:order.id,status:"pending",priceCents:AD_PRICE_CENTS,durationDays:AD_DURATION_DAYS,receiptToken:receiptSigningReady()?signReceiptToken(order.id,parsed.data):null,pix:{copyPaste:pix.code,reference:pix.reference,key:pix.key,qrCode},message:"Solicitação registrada para análise. Após pagar, envie o comprovante abaixo. Os 3 dias começam somente após confirmação no banco e aprovação; enviar o comprovante não confirma o pagamento."},{status:201,headers:{"Cache-Control":"no-store"}});
+  const order=await createAdOrder(parsed.data);
+  return NextResponse.json(await adCheckout(order.id,parsed.data,Date.parse(order.createdAt)),{status:201,headers:{"Cache-Control":"no-store"}});
  }catch(error){return NextResponse.json({error:error instanceof SyntaxError?"Pedido inválido.":error instanceof Error&&"code" in error?"Não foi possível salvar o pedido. Nenhum Pix foi gerado.":error instanceof Error?error.message:"Não foi possível registrar o pedido."},{status:error instanceof SyntaxError?400:503});}
 }

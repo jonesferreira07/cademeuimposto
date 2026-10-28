@@ -2,16 +2,17 @@ import { mkdir,writeFile,readFile,readdir } from "node:fs/promises";
 import path from "node:path";
 import { randomUUID } from "node:crypto";
 import { AD_DURATION_DAYS,AD_PRICE_CENTS,type AdInput } from "./schema";
-import { adEmailAvailable,sendAdMail } from "./mail";
+import { receiptSigningReady } from "./receipt-token";
 import campaigns from "../../data/advertisements.json";
 import { z } from "zod";
 export type AdOrder={id:string;brand:string;phrase:string;website:string;contact:string;coupon:string;createdAt:string;priceCents:number;durationDays:number;paymentConfirmedAt:string|null;approvedAt:string|null;startsAt:string|null;expiresAt:string|null;status:"pending"|"active"|"rejected"};
-export const adStoreAvailable=()=>!process.env.VERCEL||adEmailAvailable();
+export const adStoreAvailable=()=>!process.env.VERCEL||receiptSigningReady();
 export const orderDirectory=()=>path.join(process.cwd(),".data","ad-orders");
 export async function createAdOrder(input:AdInput):Promise<AdOrder>{
- if(!adStoreAvailable())throw new Error("O recebimento de anúncios por e-mail está em configuração. Tente novamente em instantes.");
+ if(!adStoreAvailable())throw new Error("O registro de anúncios está temporariamente indisponível. Entre em contato com a equipe.");
  const order:AdOrder={id:randomUUID(),brand:input.brand,phrase:input.phrase,website:input.website,contact:input.contact,coupon:input.coupon,createdAt:new Date().toISOString(),priceCents:AD_PRICE_CENTS,durationDays:AD_DURATION_DAYS,paymentConfirmedAt:null,approvedAt:null,startsAt:null,expiresAt:null,status:"pending"};
- if(process.env.VERCEL){await sendAdMail({id:order.id,input,createdAt:order.createdAt});return order;}
+ // O pedido em produção fica vinculado ao token assinado. O e-mail é enviado somente com o comprovante.
+ if(process.env.VERCEL)return order;
  const dir=orderDirectory();await mkdir(dir,{recursive:true,mode:0o700});const files=await readdir(dir);if(files.filter(name=>name.endsWith(".json")).length>=1000)throw new Error("Fila de anúncios indisponível. Tente novamente mais tarde.");
  await writeFile(path.join(dir,`${order.id}.json`),JSON.stringify(order)+"\n",{flag:"wx",mode:0o600});return order;
 }

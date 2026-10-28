@@ -2,7 +2,8 @@ import { createHash } from "node:crypto";
 import { orderPix } from "./pix";
 import { receiptSigningReady } from "./receipt-token";
 import type { AdInput } from "./schema";
-export const AD_CONTACT_EMAIL="jonesferreira07@gmail.com";
+import { AD_CONTACT_EMAIL } from "./contact";
+export { AD_CONTACT_EMAIL } from "./contact";
 // O remetente padrão só permite envio ao proprietário da conta Resend.
 // Um endereço próprio exige verificação do domínio no provedor.
 export const adEmailAvailable=()=>receiptSigningReady()&&!!process.env.RESEND_API_KEY;
