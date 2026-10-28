@@ -1,0 +1,5950 @@
+{
+  "year": 2026,
+  "checkedAt": "2026-10-28T05:17:50.333374+00:00",
+  "publishedAt": "Wed, 28 Oct 2026 02:23:07 GMT",
+  "source": "https://portaldatransparencia.gov.br/download-de-dados/emendas-parlamentares",
+  "archiveSha256": "7aaefe0326bacdd30e33ee47793f6a4f027c3e6cd4f58cc17f298f6032c9acc4",
+  "amendmentCount": 5604,
+  "records": [
+    {
+      "code": "aggregate:3897:ACACIO FAVACHO",
+      "authorCode": "3897",
+      "authorName": "ACACIO FAVACHO",
+      "committed": 35949040.0,
+      "liquidated": 17648693.95,
+      "paid": 17648693.95,
+      "remainingPaid": 0.0,
+      "amendmentCount": 6
+    },
+    {
+      "code": "aggregate:4291:ADAIL FILHO",
+      "authorCode": "4291",
+      "authorName": "ADAIL FILHO",
+      "committed": 39479578.99,
+      "liquidated": 34412548.38,
+      "paid": 34412548.38,
+      "remainingPaid": 0.0,
+      "amendmentCount": 4
+    },
+    {
+      "code": "aggregate:3898:ADOLFO VIANA",
+      "authorCode": "3898",
+      "authorName": "ADOLFO VIANA",
+      "committed": 39628982.68,
+      "liquidated": 26256816.89,
+      "paid": 24520788.63,
+      "remainingPaid": 0.0,
+      "amendmentCount": 6
+    },
+    {
+      "code": "aggregate:3899:ADRIANA VENTURA",
+      "authorCode": "3899",
+      "authorName": "ADRIANA VENTURA",
+      "committed": 37990520.84,
+      "liquidated": 8636021.73,
+      "paid": 7973025.96,
+      "remainingPaid": 0.0,
+      "amendmentCount": 8
+    },
+    {
+      "code": "aggregate:3900:ADRIANO DO BALDY",
+      "authorCode": "3900",
+      "authorName": "ADRIANO DO BALDY",
+      "committed": 29214336.34,
+      "liquidated": 18914254.13,
+      "paid": 18164326.81,
+      "remainingPaid": 0.0,
+      "amendmentCount": 15
+    },
+    {
+      "code": "aggregate:1349:AECIO NEVES",
+      "authorCode": "1349",
+      "authorName": "AECIO NEVES",
+      "committed": 38123386.99,
+      "liquidated": 29295281.51,
+      "paid": 29280011.51,
+      "remainingPaid": 0.0,
+      "amendmentCount": 10
+    },
+    {
+      "code": "aggregate:2871:AFONSO FLORENCE",
+      "authorCode": "2871",
+      "authorName": "AFONSO FLORENCE",
+      "committed": 35125759.0,
+      "liquidated": 28038259.04,
+      "paid": 28038259.04,
+      "remainingPaid": 0.0,
+      "amendmentCount": 23
+    },
+    {
+      "code": "aggregate:2098:AFONSO HAMM",
+      "authorCode": "2098",
+      "authorName": "AFONSO HAMM",
+      "committed": 36285915.12,
+      "liquidated": 25213450.08,
+      "paid": 25207933.68,
+      "remainingPaid": 0.0,
+      "amendmentCount": 9
+    },
+    {
+      "code": "aggregate:3020:AFONSO MOTTA",
+      "authorCode": "3020",
+      "authorName": "AFONSO MOTTA",
+      "committed": 35434830.0,
+      "liquidated": 23110373.11,
+      "paid": 23110373.11,
+      "remainingPaid": 0.0,
+      "amendmentCount": 10
+    },
+    {
+      "code": "aggregate:2711:AGUINALDO RIBEIRO",
+      "authorCode": "2711",
+      "authorName": "AGUINALDO RIBEIRO",
+      "committed": 37970500.0,
+      "liquidated": 30796646.16,
+      "paid": 30796646.16,
+      "remainingPaid": 0.0,
+      "amendmentCount": 5
+    },
+    {
+      "code": "aggregate:3901:AIRTON FALEIRO",
+      "authorCode": "3901",
+      "authorName": "AIRTON FALEIRO",
+      "committed": 31207379.6,
+      "liquidated": 21164247.62,
+      "paid": 21106473.62,
+      "remainingPaid": 0.0,
+      "amendmentCount": 13
+    },
+    {
+      "code": "aggregate:3902:AJ ALBUQUERQUE",
+      "authorCode": "3902",
+      "authorName": "AJ ALBUQUERQUE",
+      "committed": 39719507.0,
+      "liquidated": 32781904.25,
+      "paid": 32781904.25,
+      "remainingPaid": 0.0,
+      "amendmentCount": 3
+    },
+    {
+      "code": "aggregate:4394:ALAN RICK",
+      "authorCode": "4394",
+      "authorName": "ALAN RICK",
+      "committed": 69526015.9,
+      "liquidated": 46131445.18,
+      "paid": 45697427.18,
+      "remainingPaid": 0.0,
+      "amendmentCount": 12
+    },
+    {
+      "code": "aggregate:3630:ALBERTO FRAGA",
+      "authorCode": "3630",
+      "authorName": "ALBERTO FRAGA",
+      "committed": 27765439.89,
+      "liquidated": 26800326.87,
+      "paid": 26792960.76,
+      "remainingPaid": 0.0,
+      "amendmentCount": 8
+    },
+    {
+      "code": "aggregate:4293:ALBUQUERQUE",
+      "authorCode": "4293",
+      "authorName": "ALBUQUERQUE",
+      "committed": 39135194.15,
+      "liquidated": 14906075.18,
+      "paid": 14906075.18,
+      "remainingPaid": 0.0,
+      "amendmentCount": 9
+    },
+    {
+      "code": "aggregate:2858:ALCEU MOREIRA",
+      "authorCode": "2858",
+      "authorName": "ALCEU MOREIRA",
+      "committed": 37604598.94,
+      "liquidated": 22272535.04,
+      "paid": 22272535.04,
+      "remainingPaid": 0.0,
+      "amendmentCount": 9
+    },
+    {
+      "code": "aggregate:3905:ALENCAR SANTANA",
+      "authorCode": "3905",
+      "authorName": "ALENCAR SANTANA",
+      "committed": 31391287.39,
+      "liquidated": 23634637.18,
+      "paid": 23351709.05,
+      "remainingPaid": 0.0,
+      "amendmentCount": 21
+    },
+    {
+      "code": "aggregate:4144:ALESSANDRO VIEIRA",
+      "authorCode": "4144",
+      "authorName": "ALESSANDRO VIEIRA",
+      "committed": 59484158.43,
+      "liquidated": 47790127.46,
+      "paid": 47409507.46,
+      "remainingPaid": 0.0,
+      "amendmentCount": 12
+    },
+    {
+      "code": "aggregate:3037:ALEX MANENTE",
+      "authorCode": "3037",
+      "authorName": "ALEX MANENTE",
+      "committed": 40252007.0,
+      "liquidated": 29000000.0,
+      "paid": 29000000.0,
+      "remainingPaid": 0.0,
+      "amendmentCount": 2
+    },
+    {
+      "code": "aggregate:3906:ALEX SANTANA",
+      "authorCode": "3906",
+      "authorName": "ALEX SANTANA",
+      "committed": 37877589.25,
+      "liquidated": 26985519.82,
+      "paid": 26967080.32,
+      "remainingPaid": 0.0,
+      "amendmentCount": 4
+    },
+    {
+      "code": "aggregate:4294:ALEXANDRE GUIMARAES",
+      "authorCode": "4294",
+      "authorName": "ALEXANDRE GUIMARAES",
+      "committed": 29140641.99,
+      "liquidated": 18603574.02,
+      "paid": 18603574.02,
+      "remainingPaid": 0.0,
+      "amendmentCount": 6
+    },
+    {
+      "code": "aggregate:2796:ALEXANDRE LEITE",
+      "authorCode": "2796",
+      "authorName": "ALEXANDRE LEITE",
+      "committed": 29009832.57,
+      "liquidated": 8885765.0,
+      "paid": 8885765.0,
+      "remainingPaid": 0.0,
+      "amendmentCount": 13
+    },
+    {
+      "code": "aggregate:4295:ALEXANDRE LINDENMEYER",
+      "authorCode": "4295",
+      "authorName": "ALEXANDRE LINDENMEYER",
+      "committed": 25003348.69,
+      "liquidated": 16818671.06,
+      "paid": 16699755.15,
+      "remainingPaid": 0.0,
+      "amendmentCount": 17
+    },
+    {
+      "code": "aggregate:4258:ALFREDINHO",
+      "authorCode": "4258",
+      "authorName": "ALFREDINHO",
+      "committed": 22958929.0,
+      "liquidated": 18039566.0,
+      "paid": 18039566.0,
+      "remainingPaid": 0.0,
+      "amendmentCount": 9
+    },
+    {
+      "code": "aggregate:4296:ALFREDO GASPAR",
+      "authorCode": "4296",
+      "authorName": "ALFREDO GASPAR",
+      "committed": 33702007.0,
+      "liquidated": 33202007.0,
+      "paid": 33202007.0,
+      "remainingPaid": 0.0,
+      "amendmentCount": 5
+    },
+    {
+      "code": "aggregate:1331:ALICE PORTUGAL",
+      "authorCode": "1331",
+      "authorName": "ALICE PORTUGAL",
+      "committed": 35278374.0,
+      "liquidated": 31139280.84,
+      "paid": 31139280.84,
+      "remainingPaid": 0.0,
+      "amendmentCount": 19
+    },
+    {
+      "code": "aggregate:3041:ALIEL MACHADO",
+      "authorCode": "3041",
+      "authorName": "ALIEL MACHADO",
+      "committed": 36768955.35,
+      "liquidated": 29614397.98,
+      "paid": 29199440.78,
+      "remainingPaid": 0.0,
+      "amendmentCount": 16
+    },
+    {
+      "code": "aggregate:3042:ALTINEU CORTES",
+      "authorCode": "3042",
+      "authorName": "ALTINEU CORTES",
+      "committed": 39135410.06,
+      "liquidated": 37686343.34,
+      "paid": 37678279.87,
+      "remainingPaid": 0.0,
+      "amendmentCount": 23
+    },
+    {
+      "code": "aggregate:3043:ALUISIO MENDES",
+      "authorCode": "3043",
+      "authorName": "ALUISIO MENDES",
+      "committed": 37653308.99,
+      "liquidated": 19601904.45,
+      "paid": 18278694.29,
+      "remainingPaid": 0.0,
+      "amendmentCount": 5
+    },
+    {
+      "code": "aggregate:4298:AMANDA GENTIL",
+      "authorCode": "4298",
+      "authorName": "AMANDA GENTIL",
+      "committed": 39253318.63,
+      "liquidated": 37742554.86,
+      "paid": 37742554.86,
+      "remainingPaid": 0.0,
+      "amendmentCount": 4
+    },
+    {
+      "code": "aggregate:3912:AMARO NETO",
+      "authorCode": "3912",
+      "authorName": "AMARO NETO",
+      "committed": 40184738.15,
+      "liquidated": 25203456.28,
+      "paid": 25203456.28,
+      "remainingPaid": 0.0,
+      "amendmentCount": 9
+    },
+    {
+      "code": "aggregate:4299:AMOM MANDEL",
+      "authorCode": "4299",
+      "authorName": "AMOM MANDEL",
+      "committed": 38231607.0,
+      "liquidated": 35821607.0,
+      "paid": 35815167.37,
+      "remainingPaid": 0.0,
+      "amendmentCount": 6
+    },
+    {
+      "code": "aggregate:4300:ANA PAULA LEAO",
+      "authorCode": "4300",
+      "authorName": "ANA PAULA LEAO",
+      "committed": 35044833.59,
+      "liquidated": 21316386.68,
+      "paid": 21316386.68,
+      "remainingPaid": 0.0,
+      "amendmentCount": 11
+    },
+    {
+      "code": "aggregate:4301:ANA PAULA LIMA",
+      "authorCode": "4301",
+      "authorName": "ANA PAULA LIMA",
+      "committed": 36428951.1,
+      "liquidated": 21047828.44,
+      "paid": 21039130.23,
+      "remainingPaid": 0.0,
+      "amendmentCount": 24
+    },
+    {
+      "code": "aggregate:4283:ANA PAULA LOBATO",
+      "authorCode": "4283",
+      "authorName": "ANA PAULA LOBATO",
+      "committed": 73491169.3,
+      "liquidated": 57791953.19,
+      "paid": 57653612.45,
+      "remainingPaid": 0.0,
+      "amendmentCount": 4
+    },
+    {
+      "code": "aggregate:4302:ANA PIMENTEL",
+      "authorCode": "4302",
+      "authorName": "ANA PIMENTEL",
+      "committed": 27548387.87,
+      "liquidated": 18471840.58,
+      "paid": 18441127.72,
+      "remainingPaid": 0.0,
+      "amendmentCount": 17
+    },
+    {
+      "code": "aggregate:3045:ANDRE ABDON",
+      "authorCode": "3045",
+      "authorName": "ANDRE ABDON",
+      "committed": 33552279.39,
+      "liquidated": 18002028.76,
+      "paid": 17625297.87,
+      "remainingPaid": 0.0,
+      "amendmentCount": 11
+    },
+    {
+      "code": "aggregate:4303:ANDRE FERNANDES",
+      "authorCode": "4303",
+      "authorName": "ANDRE FERNANDES",
+      "committed": 38325000.74,
+      "liquidated": 15072430.72,
+      "paid": 15072430.72,
+      "remainingPaid": 0.0,
+      "amendmentCount": 5
+    },
+    {
+      "code": "aggregate:3913:ANDRE FERREIRA",
+      "authorCode": "3913",
+      "authorName": "ANDRE FERREIRA",
+      "committed": 40158246.97,
+      "liquidated": 24703068.17,
+      "paid": 24703068.17,
+      "remainingPaid": 0.0,
+      "amendmentCount": 5
+    },
+    {
+      "code": "aggregate:2083:ANDRE FIGUEIREDO",
+      "authorCode": "2083",
+      "authorName": "ANDRE FIGUEIREDO",
+      "committed": 34057392.0,
+      "liquidated": 30138104.68,
+      "paid": 30138104.68,
+      "remainingPaid": 0.0,
+      "amendmentCount": 14
+    },
+    {
+      "code": "aggregate:3046:ANDRE FUFUCA",
+      "authorCode": "3046",
+      "authorName": "ANDRE FUFUCA",
+      "committed": 39692007.0,
+      "liquidated": 28865961.71,
+      "paid": 28865961.71,
+      "remainingPaid": 0.0,
+      "amendmentCount": 3
+    },
+    {
+      "code": "aggregate:3914:ANDRE JANONES",
+      "authorCode": "3914",
+      "authorName": "ANDRE JANONES",
+      "committed": 39108062.97,
+      "liquidated": 28639017.26,
+      "paid": 28639017.26,
+      "remainingPaid": 0.0,
+      "amendmentCount": 5
+    },
+    {
+      "code": "aggregate:4304:ANDREIA SIQUEIRA",
+      "authorCode": "4304",
+      "authorName": "ANDREIA SIQUEIRA",
+      "committed": 38948507.0,
+      "liquidated": 33407640.5,
+      "paid": 33407640.5,
+      "remainingPaid": 0.0,
+      "amendmentCount": 4
+    },
+    {
+      "code": "aggregate:4179:ANGELO CORONEL",
+      "authorCode": "4179",
+      "authorName": "ANGELO CORONEL",
+      "committed": 72551362.23,
+      "liquidated": 57893897.64,
+      "paid": 57397295.64,
+      "remainingPaid": 0.0,
+      "amendmentCount": 6
+    },
+    {
+      "code": "aggregate:2686:ANTONIA LUCIA",
+      "authorCode": "2686",
+      "authorName": "ANTONIA LUCIA",
+      "committed": 37589043.98,
+      "liquidated": 29970904.02,
+      "paid": 29970904.02,
+      "remainingPaid": 0.0,
+      "amendmentCount": 3
+    },
+    {
+      "code": "aggregate:4305:ANTONIO ANDRADE",
+      "authorCode": "4305",
+      "authorName": "ANTONIO ANDRADE",
+      "committed": 32114473.0,
+      "liquidated": 23874586.19,
+      "paid": 23874586.19,
+      "remainingPaid": 0.0,
+      "amendmentCount": 6
+    },
+    {
+      "code": "aggregate:2737:ANTONIO BRITO",
+      "authorCode": "2737",
+      "authorName": "ANTONIO BRITO",
+      "committed": 38558590.8,
+      "liquidated": 30897904.61,
+      "paid": 30896506.39,
+      "remainingPaid": 0.0,
+      "amendmentCount": 14
+    },
+    {
+      "code": "aggregate:4306:ANTONIO CARLOS RODRIGUES",
+      "authorCode": "4306",
+      "authorName": "ANTONIO CARLOS RODRIGUES",
+      "committed": 40159453.24,
+      "liquidated": 25892969.46,
+      "paid": 25892969.46,
+      "remainingPaid": 0.0,
+      "amendmentCount": 6
+    },
+    {
+      "code": "aggregate:4307:ANTONIO DOIDO",
+      "authorCode": "4307",
+      "authorName": "ANTONIO DOIDO",
+      "committed": 35177007.0,
+      "liquidated": 31216150.59,
+      "paid": 31216150.59,
+      "remainingPaid": 0.0,
+      "amendmentCount": 2
+    },
+    {
+      "code": "aggregate:4308:ANY ORTIZ",
+      "authorCode": "4308",
+      "authorName": "ANY ORTIZ",
+      "committed": 38460257.97,
+      "liquidated": 24672606.39,
+      "paid": 24672606.39,
+      "remainingPaid": 0.0,
+      "amendmentCount": 5
+    },
+    {
+      "code": "aggregate:3135:ARLINDO CHINAGLIA",
+      "authorCode": "3135",
+      "authorName": "ARLINDO CHINAGLIA",
+      "committed": 37480823.57,
+      "liquidated": 31699643.36,
+      "paid": 31636280.66,
+      "remainingPaid": 0.0,
+      "amendmentCount": 15
+    },
+    {
+      "code": "aggregate:2356:ARNALDO JARDIM",
+      "authorCode": "2356",
+      "authorName": "ARNALDO JARDIM",
+      "committed": 29518596.0,
+      "liquidated": 21829113.92,
+      "paid": 21829113.92,
+      "remainingPaid": 0.0,
+      "amendmentCount": 6
+    },
+    {
+      "code": "aggregate:2726:ARTHUR LIRA",
+      "authorCode": "2726",
+      "authorName": "ARTHUR LIRA",
+      "committed": 39187679.0,
+      "liquidated": 39187679.0,
+      "paid": 39187679.0,
+      "remainingPaid": 0.0,
+      "amendmentCount": 2
+    },
+    {
+      "code": "aggregate:2739:ARTHUR OLIVEIRA MAIA",
+      "authorCode": "2739",
+      "authorName": "ARTHUR OLIVEIRA MAIA",
+      "committed": 30129396.9,
+      "liquidated": 14484618.06,
+      "paid": 14385289.31,
+      "remainingPaid": 0.0,
+      "amendmentCount": 10
+    },
+    {
+      "code": "aggregate:4265:ASTRONAUTA MARCOS PONTES",
+      "authorCode": "4265",
+      "authorName": "ASTRONAUTA MARCOS PONTES",
+      "committed": 49214181.75,
+      "liquidated": 17627759.56,
+      "paid": 17589195.52,
+      "remainingPaid": 0.0,
+      "amendmentCount": 20
+    },
+    {
+      "code": "aggregate:1619:ATILA LINS",
+      "authorCode": "1619",
+      "authorName": "ATILA LINS",
+      "committed": 33463332.28,
+      "liquidated": 12739717.93,
+      "paid": 12631072.71,
+      "remainingPaid": 0.0,
+      "amendmentCount": 10
+    },
+    {
+      "code": "aggregate:4309:ATILA LIRA",
+      "authorCode": "4309",
+      "authorName": "ATILA LIRA",
+      "committed": 38861272.36,
+      "liquidated": 30207885.08,
+      "paid": 30165753.72,
+      "remainingPaid": 0.0,
+      "amendmentCount": 4
+    },
+    {
+      "code": "aggregate:4281:AUGUSTA BRITO",
+      "authorCode": "4281",
+      "authorName": "AUGUSTA BRITO",
+      "committed": 74011754.0,
+      "liquidated": 61005877.0,
+      "paid": 61005877.0,
+      "remainingPaid": 0.0,
+      "amendmentCount": 2
+    },
+    {
+      "code": "aggregate:2718:AUGUSTO COUTINHO",
+      "authorCode": "2718",
+      "authorName": "AUGUSTO COUTINHO",
+      "committed": 36908951.09,
+      "liquidated": 30512238.4,
+      "paid": 29492457.13,
+      "remainingPaid": 0.0,
+      "amendmentCount": 19
+    },
+    {
+      "code": "aggregate:2778:AUREO RIBEIRO",
+      "authorCode": "2778",
+      "authorName": "AUREO RIBEIRO",
+      "committed": 40225007.0,
+      "liquidated": 28079007.0,
+      "paid": 28079007.0,
+      "remainingPaid": 0.0,
+      "amendmentCount": 10
+    },
+    {
+      "code": "aggregate:3051:BACELAR",
+      "authorCode": "3051",
+      "authorName": "BACELAR",
+      "committed": 38678359.0,
+      "liquidated": 34618580.2,
+      "paid": 34618580.2,
+      "remainingPaid": 0.0,
+      "amendmentCount": 8
+    },
+    {
+      "code": "aggregate:3052:BALEIA ROSSI",
+      "authorCode": "3052",
+      "authorName": "BALEIA ROSSI",
+      "committed": 37007350.0,
+      "liquidated": 30413643.67,
+      "paid": 30413643.67,
+      "remainingPaid": 0.0,
+      "amendmentCount": 9
+    },
+    {
+      "code": "aggregate:4311:BANDEIRA DE MELLO",
+      "authorCode": "4311",
+      "authorName": "BANDEIRA DE MELLO",
+      "committed": 35569351.03,
+      "liquidated": 24870351.03,
+      "paid": 24861590.6,
+      "remainingPaid": 0.0,
+      "amendmentCount": 16
+    },
+    {
+      "code": "aggregate:4312:BEBETO",
+      "authorCode": "4312",
+      "authorName": "BEBETO",
+      "committed": 36191447.18,
+      "liquidated": 29357734.43,
+      "paid": 29282394.75,
+      "remainingPaid": 0.0,
+      "amendmentCount": 9
+    },
+    {
+      "code": "aggregate:1310:BENEDITA DA SILVA",
+      "authorCode": "1310",
+      "authorName": "BENEDITA DA SILVA",
+      "committed": 34649156.46,
+      "liquidated": 26043983.0,
+      "paid": 25915501.0,
+      "remainingPaid": 0.0,
+      "amendmentCount": 17
+    },
+    {
+      "code": "aggregate:3917:BENES LEOCADIO",
+      "authorCode": "3917",
+      "authorName": "BENES LEOCADIO",
+      "committed": 36120229.32,
+      "liquidated": 27902899.18,
+      "paid": 27601980.73,
+      "remainingPaid": 0.0,
+      "amendmentCount": 12
+    },
+    {
+      "code": "aggregate:4266:BETO FARO",
+      "authorCode": "4266",
+      "authorName": "BETO FARO",
+      "committed": 73334255.0,
+      "liquidated": 62621308.0,
+      "paid": 62621308.0,
+      "remainingPaid": 0.0,
+      "amendmentCount": 17
+    },
+    {
+      "code": "aggregate:3918:BETO PEREIRA",
+      "authorCode": "3918",
+      "authorName": "BETO PEREIRA",
+      "committed": 35892881.9,
+      "liquidated": 24553403.74,
+      "paid": 23627612.64,
+      "remainingPaid": 0.0,
+      "amendmentCount": 16
+    },
+    {
+      "code": "aggregate:4313:BETO PRETO",
+      "authorCode": "4313",
+      "authorName": "BETO PRETO",
+      "committed": 37160347.97,
+      "liquidated": 26747735.03,
+      "paid": 26747735.03,
+      "remainingPaid": 0.0,
+      "amendmentCount": 4
+    },
+    {
+      "code": "aggregate:4314:BETO RICHA",
+      "authorCode": "4314",
+      "authorName": "BETO RICHA",
+      "committed": 28787190.0,
+      "liquidated": 20365438.53,
+      "paid": 20365438.53,
+      "remainingPaid": 0.0,
+      "amendmentCount": 5
+    },
+    {
+      "code": "aggregate:3919:BIA KICIS",
+      "authorCode": "3919",
+      "authorName": "BIA KICIS",
+      "committed": 12161245.66,
+      "liquidated": 2180826.67,
+      "paid": 1915076.22,
+      "remainingPaid": 0.0,
+      "amendmentCount": 13
+    },
+    {
+      "code": "aggregate:3920:BIBO NUNES",
+      "authorCode": "3920",
+      "authorName": "BIBO NUNES",
+      "committed": 35609399.08,
+      "liquidated": 17091753.37,
+      "paid": 17062045.37,
+      "remainingPaid": 0.0,
+      "amendmentCount": 8
+    },
+    {
+      "code": "aggregate:2862:BOHN GASS",
+      "authorCode": "2862",
+      "authorName": "BOHN GASS",
+      "committed": 36231960.66,
+      "liquidated": 26551506.93,
+      "paid": 25109178.13,
+      "remainingPaid": 0.0,
+      "amendmentCount": 22
+    },
+    {
+      "code": "aggregate:4315:BRUNO FARIAS",
+      "authorCode": "4315",
+      "authorName": "BRUNO FARIAS",
+      "committed": 38821087.0,
+      "liquidated": 24266950.53,
+      "paid": 24266950.53,
+      "remainingPaid": 0.0,
+      "amendmentCount": 5
+    },
+    {
+      "code": "aggregate:4316:BRUNO GANEM",
+      "authorCode": "4316",
+      "authorName": "BRUNO GANEM",
+      "committed": 39995470.42,
+      "liquidated": 14701123.82,
+      "paid": 14701123.82,
+      "remainingPaid": 0.0,
+      "amendmentCount": 6
+    },
+    {
+      "code": "aggregate:4317:CABO GILBERTO SILVA",
+      "authorCode": "4317",
+      "authorName": "CABO GILBERTO SILVA",
+      "committed": 23818659.0,
+      "liquidated": 14572298.59,
+      "paid": 14572298.59,
+      "remainingPaid": 0.0,
+      "amendmentCount": 11
+    },
+    {
+      "code": "aggregate:4318:CAMILA JARA",
+      "authorCode": "4318",
+      "authorName": "CAMILA JARA",
+      "committed": 32551680.08,
+      "liquidated": 26290747.99,
+      "paid": 25340146.44,
+      "remainingPaid": 0.0,
+      "amendmentCount": 12
+    },
+    {
+      "code": "aggregate:3926:CAPITAO ALBERTO NETO",
+      "authorCode": "3926",
+      "authorName": "CAPITAO ALBERTO NETO",
+      "committed": 37521607.0,
+      "liquidated": 34787264.44,
+      "paid": 34787264.44,
+      "remainingPaid": 0.0,
+      "amendmentCount": 6
+    },
+    {
+      "code": "aggregate:4319:CAPITAO ALDEN",
+      "authorCode": "4319",
+      "authorName": "CAPITAO ALDEN",
+      "committed": 34240974.91,
+      "liquidated": 18525166.73,
+      "paid": 18520717.73,
+      "remainingPaid": 0.0,
+      "amendmentCount": 7
+    },
+    {
+      "code": "aggregate:3064:CAPITAO AUGUSTO",
+      "authorCode": "3064",
+      "authorName": "CAPITAO AUGUSTO",
+      "committed": 40252007.0,
+      "liquidated": 20800000.0,
+      "paid": 20800000.0,
+      "remainingPaid": 0.0,
+      "amendmentCount": 3
+    },
+    {
+      "code": "aggregate:4202:CARLA DICKSON",
+      "authorCode": "4202",
+      "authorName": "CARLA DICKSON",
+      "committed": 35839828.92,
+      "liquidated": 18641561.78,
+      "paid": 17096561.78,
+      "remainingPaid": 0.0,
+      "amendmentCount": 7
+    },
+    {
+      "code": "aggregate:3929:CARLOS CHIODINI",
+      "authorCode": "3929",
+      "authorName": "CARLOS CHIODINI",
+      "committed": 39354600.0,
+      "liquidated": 22407293.98,
+      "paid": 22407293.98,
+      "remainingPaid": 0.0,
+      "amendmentCount": 8
+    },
+    {
+      "code": "aggregate:4201:CARLOS FAVARO",
+      "authorCode": "4201",
+      "authorName": "CARLOS FAVARO",
+      "committed": 63588956.03,
+      "liquidated": 58617163.41,
+      "paid": 58548984.78,
+      "remainingPaid": 0.0,
+      "amendmentCount": 7
+    },
+    {
+      "code": "aggregate:3067:CARLOS GOMES",
+      "authorCode": "3067",
+      "authorName": "CARLOS GOMES",
+      "committed": 38419613.0,
+      "liquidated": 25490122.01,
+      "paid": 25490122.01,
+      "remainingPaid": 0.0,
+      "amendmentCount": 9
+    },
+    {
+      "code": "aggregate:3068:CARLOS HENRIQUE GAGUIM",
+      "authorCode": "3068",
+      "authorName": "CARLOS HENRIQUE GAGUIM",
+      "committed": 36954688.0,
+      "liquidated": 33181354.53,
+      "paid": 33181354.53,
+      "remainingPaid": 0.0,
+      "amendmentCount": 6
+    },
+    {
+      "code": "aggregate:3930:CARLOS JORDY",
+      "authorCode": "3930",
+      "authorName": "CARLOS JORDY",
+      "committed": 35200326.42,
+      "liquidated": 19294167.27,
+      "paid": 18702582.87,
+      "remainingPaid": 0.0,
+      "amendmentCount": 8
+    },
+    {
+      "code": "aggregate:4210:CARLOS PORTINHO",
+      "authorCode": "4210",
+      "authorName": "CARLOS PORTINHO",
+      "committed": 65013372.4,
+      "liquidated": 42427158.61,
+      "paid": 41728409.94,
+      "remainingPaid": 0.0,
+      "amendmentCount": 24
+    },
+    {
+      "code": "aggregate:1527:CARLOS SAMPAIO",
+      "authorCode": "1527",
+      "authorName": "CARLOS SAMPAIO",
+      "committed": 33693999.8,
+      "liquidated": 21529619.28,
+      "paid": 21529619.28,
+      "remainingPaid": 0.0,
+      "amendmentCount": 14
+    },
+    {
+      "code": "aggregate:3931:CARLOS VERAS",
+      "authorCode": "3931",
+      "authorName": "CARLOS VERAS",
+      "committed": 36187259.83,
+      "liquidated": 32562467.9,
+      "paid": 32562467.9,
+      "remainingPaid": 0.0,
+      "amendmentCount": 7
+    },
+    {
+      "code": "aggregate:4087:CARLOS VIANA",
+      "authorCode": "4087",
+      "authorName": "CARLOS VIANA",
+      "committed": 67530025.57,
+      "liquidated": 46470851.44,
+      "paid": 46344341.63,
+      "remainingPaid": 0.0,
+      "amendmentCount": 11
+    },
+    {
+      "code": "aggregate:2520:CARLOS ZARATTINI",
+      "authorCode": "2520",
+      "authorName": "CARLOS ZARATTINI",
+      "committed": 36225865.4,
+      "liquidated": 30503883.8,
+      "paid": 30503883.8,
+      "remainingPaid": 0.0,
+      "amendmentCount": 12
+    },
+    {
+      "code": "aggregate:4320:CAROL DARTORA",
+      "authorCode": "4320",
+      "authorName": "CAROL DARTORA",
+      "committed": 28399117.71,
+      "liquidated": 20956985.56,
+      "paid": 20670752.82,
+      "remainingPaid": 0.0,
+      "amendmentCount": 21
+    },
+    {
+      "code": "aggregate:3932:CAROLINE DE TONI",
+      "authorCode": "3932",
+      "authorName": "CAROLINE DE TONI",
+      "committed": 39657107.0,
+      "liquidated": 22678814.37,
+      "paid": 22678814.37,
+      "remainingPaid": 0.0,
+      "amendmentCount": 5
+    },
+    {
+      "code": "aggregate:4321:CASTRO NETO",
+      "authorCode": "4321",
+      "authorName": "CASTRO NETO",
+      "committed": 38472007.0,
+      "liquidated": 33686828.2,
+      "paid": 33686828.2,
+      "remainingPaid": 0.0,
+      "amendmentCount": 3
+    },
+    {
+      "code": "aggregate:4322:CELIA XAKRIABA",
+      "authorCode": "4322",
+      "authorName": "CELIA XAKRIABA",
+      "committed": 26521449.86,
+      "liquidated": 21157422.51,
+      "paid": 20672593.34,
+      "remainingPaid": 0.0,
+      "amendmentCount": 16
+    },
+    {
+      "code": "aggregate:3070:CELIO SILVEIRA",
+      "authorCode": "3070",
+      "authorName": "CELIO SILVEIRA",
+      "committed": 39979495.89,
+      "liquidated": 32306478.29,
+      "paid": 32296546.29,
+      "remainingPaid": 0.0,
+      "amendmentCount": 6
+    },
+    {
+      "code": "aggregate:3936:CELIO STUDART",
+      "authorCode": "3936",
+      "authorName": "CELIO STUDART",
+      "committed": 35294594.94,
+      "liquidated": 31465694.13,
+      "paid": 31465694.13,
+      "remainingPaid": 0.0,
+      "amendmentCount": 7
+    },
+    {
+      "code": "aggregate:3160:CELSO RUSSOMANNO",
+      "authorCode": "3160",
+      "authorName": "CELSO RUSSOMANNO",
+      "committed": 36186306.66,
+      "liquidated": 15081087.28,
+      "paid": 14798407.23,
+      "remainingPaid": 0.0,
+      "amendmentCount": 16
+    },
+    {
+      "code": "aggregate:3937:CELSO SABINO",
+      "authorCode": "3937",
+      "authorName": "CELSO SABINO",
+      "committed": 39404746.98,
+      "liquidated": 27401676.5,
+      "paid": 27401676.5,
+      "remainingPaid": 0.0,
+      "amendmentCount": 3
+    },
+    {
+      "code": "aggregate:3938:CEZINHA DE MADUREIRA",
+      "authorCode": "3938",
+      "authorName": "CEZINHA DE MADUREIRA",
+      "committed": 34257410.35,
+      "liquidated": 27579418.35,
+      "paid": 27488812.85,
+      "remainingPaid": 0.0,
+      "amendmentCount": 4
+    },
+    {
+      "code": "aggregate:1468:CHICO ALENCAR",
+      "authorCode": "1468",
+      "authorName": "CHICO ALENCAR",
+      "committed": 25083145.25,
+      "liquidated": 6501300.0,
+      "paid": 4736100.0,
+      "remainingPaid": 0.0,
+      "amendmentCount": 17
+    },
+    {
+      "code": "aggregate:4143:CHICO RODRIGUES",
+      "authorCode": "4143",
+      "authorName": "CHICO RODRIGUES",
+      "committed": 71773230.27,
+      "liquidated": 55789491.03,
+      "paid": 55765833.24,
+      "remainingPaid": 0.0,
+      "amendmentCount": 5
+    },
+    {
+      "code": "aggregate:3942:CHRIS TONIETTO",
+      "authorCode": "3942",
+      "authorName": "CHRIS TONIETTO",
+      "committed": 31673942.32,
+      "liquidated": 16984186.98,
+      "paid": 16801644.94,
+      "remainingPaid": 0.0,
+      "amendmentCount": 23
+    },
+    {
+      "code": "aggregate:4081:CID GOMES",
+      "authorCode": "4081",
+      "authorName": "CID GOMES",
+      "committed": 73961755.0,
+      "liquidated": 70066137.91,
+      "paid": 70066137.91,
+      "remainingPaid": 0.0,
+      "amendmentCount": 3
+    },
+    {
+      "code": "aggregate:2900:CIRO NOGUEIRA",
+      "authorCode": "2900",
+      "authorName": "CIRO NOGUEIRA",
+      "committed": 73233696.23,
+      "liquidated": 60280308.01,
+      "paid": 60280308.01,
+      "remainingPaid": 0.0,
+      "amendmentCount": 3
+    },
+    {
+      "code": "aggregate:4323:CLARISSA TERCIO",
+      "authorCode": "4323",
+      "authorName": "CLARISSA TERCIO",
+      "committed": 38978259.27,
+      "liquidated": 31045047.86,
+      "paid": 30943047.86,
+      "remainingPaid": 0.0,
+      "amendmentCount": 9
+    },
+    {
+      "code": "aggregate:3166:CLAUDIO CAJADO",
+      "authorCode": "3166",
+      "authorName": "CLAUDIO CAJADO",
+      "committed": 37687451.82,
+      "liquidated": 20302631.18,
+      "paid": 16444082.09,
+      "remainingPaid": 0.0,
+      "amendmentCount": 10
+    },
+    {
+      "code": "aggregate:2388:CLEBER VERDE",
+      "authorCode": "2388",
+      "authorName": "CLEBER VERDE",
+      "committed": 39187524.7,
+      "liquidated": 32774093.16,
+      "paid": 32774093.16,
+      "remainingPaid": 0.0,
+      "amendmentCount": 8
+    },
+    {
+      "code": "aggregate:4267:CLEITINHO",
+      "authorCode": "4267",
+      "authorName": "CLEITINHO",
+      "committed": 71239767.23,
+      "liquidated": 51270440.14,
+      "paid": 51270440.14,
+      "remainingPaid": 0.0,
+      "amendmentCount": 5
+    },
+    {
+      "code": "aggregate:4324:CLODOALDO MAGALHAES",
+      "authorCode": "4324",
+      "authorName": "CLODOALDO MAGALHAES",
+      "committed": 31592481.0,
+      "liquidated": 29388148.52,
+      "paid": 29388148.52,
+      "remainingPaid": 0.0,
+      "amendmentCount": 3
+    },
+    {
+      "code": "aggregate:4325:COBALCHINI",
+      "authorCode": "4325",
+      "authorName": "COBALCHINI",
+      "committed": 36507346.0,
+      "liquidated": 23400963.85,
+      "paid": 23400963.85,
+      "remainingPaid": 0.0,
+      "amendmentCount": 9
+    },
+    {
+      "code": "aggregate:4092:CONFUCIO MOURA",
+      "authorCode": "4092",
+      "authorName": "CONFUCIO MOURA",
+      "committed": 64632964.0,
+      "liquidated": 48520230.85,
+      "paid": 48517306.87,
+      "remainingPaid": 0.0,
+      "amendmentCount": 7
+    },
+    {
+      "code": "aggregate:4326:CORONEL ASSIS",
+      "authorCode": "4326",
+      "authorName": "CORONEL ASSIS",
+      "committed": 33046642.68,
+      "liquidated": 15032507.78,
+      "paid": 14322047.78,
+      "remainingPaid": 0.0,
+      "amendmentCount": 15
+    },
+    {
+      "code": "aggregate:3945:CORONEL CHRISOSTOMO",
+      "authorCode": "3945",
+      "authorName": "CORONEL CHRISOSTOMO",
+      "committed": 34838039.0,
+      "liquidated": 19502794.46,
+      "paid": 18828989.9,
+      "remainingPaid": 0.0,
+      "amendmentCount": 16
+    },
+    {
+      "code": "aggregate:4327:CORONEL FERNANDA",
+      "authorCode": "4327",
+      "authorName": "CORONEL FERNANDA",
+      "committed": 32676546.0,
+      "liquidated": 12616221.0,
+      "paid": 12616221.0,
+      "remainingPaid": 0.0,
+      "amendmentCount": 6
+    },
+    {
+      "code": "aggregate:4328:CORONEL MEIRA",
+      "authorCode": "4328",
+      "authorName": "CORONEL MEIRA",
+      "committed": 38783006.97,
+      "liquidated": 29095300.83,
+      "paid": 29095300.83,
+      "remainingPaid": 0.0,
+      "amendmentCount": 5
+    },
+    {
+      "code": "aggregate:4330:CORONEL ULYSSES",
+      "authorCode": "4330",
+      "authorName": "CORONEL ULYSSES",
+      "committed": 27702274.0,
+      "liquidated": 19171947.01,
+      "paid": 19171947.01,
+      "remainingPaid": 0.0,
+      "amendmentCount": 18
+    },
+    {
+      "code": "aggregate:3077:COVATTI FILHO",
+      "authorCode": "3077",
+      "authorName": "COVATTI FILHO",
+      "committed": 37350967.0,
+      "liquidated": 23309250.42,
+      "paid": 23309250.42,
+      "remainingPaid": 0.0,
+      "amendmentCount": 9
+    },
+    {
+      "code": "aggregate:4331:CRISTIANE LOPES",
+      "authorCode": "4331",
+      "authorName": "CRISTIANE LOPES",
+      "committed": 38363611.0,
+      "liquidated": 26313415.84,
+      "paid": 26313415.84,
+      "remainingPaid": 0.0,
+      "amendmentCount": 8
+    },
+    {
+      "code": "aggregate:3948:DA VITORIA",
+      "authorCode": "3948",
+      "authorName": "DA VITORIA",
+      "committed": 35969183.58,
+      "liquidated": 27460807.88,
+      "paid": 26849258.58,
+      "remainingPaid": 0.0,
+      "amendmentCount": 7
+    },
+    {
+      "code": "aggregate:2170:DAGOBERTO NOGUEIRA",
+      "authorCode": "2170",
+      "authorName": "DAGOBERTO NOGUEIRA",
+      "committed": 38651370.0,
+      "liquidated": 28428324.39,
+      "paid": 28428324.39,
+      "remainingPaid": 0.0,
+      "amendmentCount": 3
+    },
+    {
+      "code": "aggregate:4332:DAIANA SANTOS",
+      "authorCode": "4332",
+      "authorName": "DAIANA SANTOS",
+      "committed": 26663869.73,
+      "liquidated": 15102101.37,
+      "paid": 14752101.37,
+      "remainingPaid": 0.0,
+      "amendmentCount": 12
+    },
+    {
+      "code": "aggregate:4333:DAL BARRETO",
+      "authorCode": "4333",
+      "authorName": "DAL BARRETO",
+      "committed": 31964900.0,
+      "liquidated": 21583881.39,
+      "paid": 21583881.39,
+      "remainingPaid": 0.0,
+      "amendmentCount": 4
+    },
+    {
+      "code": "aggregate:4268:DAMARES ALVES",
+      "authorCode": "4268",
+      "authorName": "DAMARES ALVES",
+      "committed": 45431724.81,
+      "liquidated": 10557074.32,
+      "paid": 8793474.95,
+      "remainingPaid": 0.0,
+      "amendmentCount": 20
+    },
+    {
+      "code": "aggregate:3530:DAMIAO FELICIANO",
+      "authorCode": "3530",
+      "authorName": "DAMIAO FELICIANO",
+      "committed": 29787437.0,
+      "liquidated": 24334497.53,
+      "paid": 24334497.53,
+      "remainingPaid": 0.0,
+      "amendmentCount": 10
+    },
+    {
+      "code": "aggregate:4334:DANDARA",
+      "authorCode": "4334",
+      "authorName": "DANDARA",
+      "committed": 26282483.76,
+      "liquidated": 19753878.88,
+      "paid": 19708269.84,
+      "remainingPaid": 0.0,
+      "amendmentCount": 16
+    },
+    {
+      "code": "aggregate:4335:DANI CUNHA",
+      "authorCode": "4335",
+      "authorName": "DANI CUNHA",
+      "committed": 34000000.0,
+      "liquidated": 23600000.0,
+      "paid": 23600000.0,
+      "remainingPaid": 0.0,
+      "amendmentCount": 2
+    },
+    {
+      "code": "aggregate:4336:DANIEL AGROBOM",
+      "authorCode": "4336",
+      "authorName": "DANIEL AGROBOM",
+      "committed": 38088587.97,
+      "liquidated": 26407014.1,
+      "paid": 26152029.96,
+      "remainingPaid": 0.0,
+      "amendmentCount": 8
+    },
+    {
+      "code": "aggregate:1339:DANIEL ALMEIDA",
+      "authorCode": "1339",
+      "authorName": "DANIEL ALMEIDA",
+      "committed": 36701555.72,
+      "liquidated": 29197412.94,
+      "paid": 28366451.73,
+      "remainingPaid": 0.0,
+      "amendmentCount": 12
+    },
+    {
+      "code": "aggregate:4337:DANIEL BARBOSA",
+      "authorCode": "4337",
+      "authorName": "DANIEL BARBOSA",
+      "committed": 38481301.2,
+      "liquidated": 31320940.58,
+      "paid": 29828043.86,
+      "remainingPaid": 0.0,
+      "amendmentCount": 7
+    },
+    {
+      "code": "aggregate:3949:DANIEL FREITAS",
+      "authorCode": "3949",
+      "authorName": "DANIEL FREITAS",
+      "committed": 32395007.0,
+      "liquidated": 18904743.08,
+      "paid": 18904743.08,
+      "remainingPaid": 0.0,
+      "amendmentCount": 5
+    },
+    {
+      "code": "aggregate:3951:DANIEL TRZECIAK",
+      "authorCode": "3951",
+      "authorName": "DANIEL TRZECIAK",
+      "committed": 27941685.53,
+      "liquidated": 16072184.65,
+      "paid": 16066876.17,
+      "remainingPaid": 0.0,
+      "amendmentCount": 9
+    },
+    {
+      "code": "aggregate:3952:DANIELA DO WAGUINHO",
+      "authorCode": "3952",
+      "authorName": "DANIELA DO WAGUINHO",
+      "committed": 37928642.59,
+      "liquidated": 34758977.0,
+      "paid": 34758977.0,
+      "remainingPaid": 0.0,
+      "amendmentCount": 10
+    },
+    {
+      "code": "aggregate:4339:DANIELA REINEHR",
+      "authorCode": "4339",
+      "authorName": "DANIELA REINEHR",
+      "committed": 34651584.0,
+      "liquidated": 21029432.89,
+      "paid": 20829432.89,
+      "remainingPaid": 0.0,
+      "amendmentCount": 8
+    },
+    {
+      "code": "aggregate:4141:DANIELLA RIBEIRO",
+      "authorCode": "4141",
+      "authorName": "DANIELLA RIBEIRO",
+      "committed": 58805228.65,
+      "liquidated": 45662873.34,
+      "paid": 45662873.34,
+      "remainingPaid": 0.0,
+      "amendmentCount": 12
+    },
+    {
+      "code": "aggregate:2700:DANILO FORTE",
+      "authorCode": "2700",
+      "authorName": "DANILO FORTE",
+      "committed": 37018341.0,
+      "liquidated": 31290267.76,
+      "paid": 31290267.76,
+      "remainingPaid": 0.0,
+      "amendmentCount": 7
+    },
+    {
+      "code": "aggregate:2861:DANRLEI DE DEUS HINTERHOLZ",
+      "authorCode": "2861",
+      "authorName": "DANRLEI DE DEUS HINTERHOLZ",
+      "committed": 40144391.8,
+      "liquidated": 20524365.35,
+      "paid": 20524365.35,
+      "remainingPaid": 0.0,
+      "amendmentCount": 6
+    },
+    {
+      "code": "aggregate:3787:DAVI ALCOLUMBRE",
+      "authorCode": "3787",
+      "authorName": "DAVI ALCOLUMBRE",
+      "committed": 73831696.23,
+      "liquidated": 65987759.71,
+      "paid": 65987759.71,
+      "remainingPaid": 0.0,
+      "amendmentCount": 2
+    },
+    {
+      "code": "aggregate:3955:DAVID SOARES",
+      "authorCode": "3955",
+      "authorName": "DAVID SOARES",
+      "committed": 37469578.0,
+      "liquidated": 25501022.84,
+      "paid": 25501022.84,
+      "remainingPaid": 0.0,
+      "amendmentCount": 5
+    },
+    {
+      "code": "aggregate:4340:DAYANY BITTENCOURT",
+      "authorCode": "4340",
+      "authorName": "DAYANY BITTENCOURT",
+      "committed": 40149920.6,
+      "liquidated": 32111005.05,
+      "paid": 32111005.05,
+      "remainingPaid": 0.0,
+      "amendmentCount": 6
+    },
+    {
+      "code": "aggregate:4341:DEFENSOR STELIO DENER",
+      "authorCode": "4341",
+      "authorName": "DEFENSOR STELIO DENER",
+      "committed": 32636048.8,
+      "liquidated": 19009415.75,
+      "paid": 19009415.75,
+      "remainingPaid": 0.0,
+      "amendmentCount": 17
+    },
+    {
+      "code": "aggregate:4342:DELEGADA ADRIANA ACCORSI",
+      "authorCode": "4342",
+      "authorName": "DELEGADA ADRIANA ACCORSI",
+      "committed": 32687183.41,
+      "liquidated": 28471700.37,
+      "paid": 28140179.77,
+      "remainingPaid": 0.0,
+      "amendmentCount": 20
+    },
+    {
+      "code": "aggregate:4343:DELEGADA IONE",
+      "authorCode": "4343",
+      "authorName": "DELEGADA IONE",
+      "committed": 38986663.0,
+      "liquidated": 26718943.06,
+      "paid": 26718943.06,
+      "remainingPaid": 0.0,
+      "amendmentCount": 9
+    },
+    {
+      "code": "aggregate:4344:DELEGADA KATARINA",
+      "authorCode": "4344",
+      "authorName": "DELEGADA KATARINA",
+      "committed": 34693965.0,
+      "liquidated": 18126406.84,
+      "paid": 18126406.84,
+      "remainingPaid": 0.0,
+      "amendmentCount": 10
+    },
+    {
+      "code": "aggregate:4289:DELEGADO BRUNO LIMA",
+      "authorCode": "4289",
+      "authorName": "DELEGADO BRUNO LIMA",
+      "committed": 30657389.0,
+      "liquidated": 14214751.0,
+      "paid": 14214751.0,
+      "remainingPaid": 0.0,
+      "amendmentCount": 4
+    },
+    {
+      "code": "aggregate:4345:DELEGADO CAVEIRA",
+      "authorCode": "4345",
+      "authorName": "DELEGADO CAVEIRA",
+      "committed": 39373205.86,
+      "liquidated": 25328460.0,
+      "paid": 24855178.26,
+      "remainingPaid": 0.0,
+      "amendmentCount": 10
+    },
+    {
+      "code": "aggregate:4346:DELEGADO DA CUNHA",
+      "authorCode": "4346",
+      "authorName": "DELEGADO DA CUNHA",
+      "committed": 40058156.55,
+      "liquidated": 23054156.55,
+      "paid": 23054156.55,
+      "remainingPaid": 0.0,
+      "amendmentCount": 4
+    },
+    {
+      "code": "aggregate:3082:DELEGADO EDER MAURO",
+      "authorCode": "3082",
+      "authorName": "DELEGADO EDER MAURO",
+      "committed": 39615081.99,
+      "liquidated": 21990054.6,
+      "paid": 21990054.6,
+      "remainingPaid": 0.0,
+      "amendmentCount": 5
+    },
+    {
+      "code": "aggregate:4347:DELEGADO FABIO COSTA",
+      "authorCode": "4347",
+      "authorName": "DELEGADO FABIO COSTA",
+      "committed": 39378951.5,
+      "liquidated": 31776868.0,
+      "paid": 31640797.99,
+      "remainingPaid": 0.0,
+      "amendmentCount": 6
+    },
+    {
+      "code": "aggregate:3957:DELEGADO MARCELO FREITAS",
+      "authorCode": "3957",
+      "authorName": "DELEGADO MARCELO FREITAS",
+      "committed": 37439462.04,
+      "liquidated": 20107171.19,
+      "paid": 20098992.67,
+      "remainingPaid": 0.0,
+      "amendmentCount": 6
+    },
+    {
+      "code": "aggregate:4348:DELEGADO MATHEUS LAIOLA",
+      "authorCode": "4348",
+      "authorName": "DELEGADO MATHEUS LAIOLA",
+      "committed": 40167467.0,
+      "liquidated": 13440000.0,
+      "paid": 13440000.0,
+      "remainingPaid": 0.0,
+      "amendmentCount": 12
+    },
+    {
+      "code": "aggregate:4349:DELEGADO PALUMBO",
+      "authorCode": "4349",
+      "authorName": "DELEGADO PALUMBO",
+      "committed": 33661963.0,
+      "liquidated": 19122876.58,
+      "paid": 19122876.58,
+      "remainingPaid": 0.0,
+      "amendmentCount": 6
+    },
+    {
+      "code": "aggregate:4350:DELEGADO PAULO BILYNSKYJ",
+      "authorCode": "4350",
+      "authorName": "DELEGADO PAULO BILYNSKYJ",
+      "committed": 39089615.84,
+      "liquidated": 16321655.22,
+      "paid": 15853009.67,
+      "remainingPaid": 0.0,
+      "amendmentCount": 7
+    },
+    {
+      "code": "aggregate:4351:DELEGADO RAMAGEM",
+      "authorCode": "4351",
+      "authorName": "DELEGADO RAMAGEM",
+      "committed": 8156195.1,
+      "liquidated": 1834055.7,
+      "paid": 1788658.01,
+      "remainingPaid": 0.0,
+      "amendmentCount": 6
+    },
+    {
+      "code": "aggregate:4353:DENISE PESSOA",
+      "authorCode": "4353",
+      "authorName": "DENISE PESSOA",
+      "committed": 37303363.13,
+      "liquidated": 27420277.39,
+      "paid": 27297193.03,
+      "remainingPaid": 0.0,
+      "amendmentCount": 23
+    },
+    {
+      "code": "aggregate:4354:DETINHA",
+      "authorCode": "4354",
+      "authorName": "DETINHA",
+      "committed": 35570257.0,
+      "liquidated": 17393040.94,
+      "paid": 17393040.94,
+      "remainingPaid": 0.0,
+      "amendmentCount": 3
+    },
+    {
+      "code": "aggregate:2754:DIEGO ANDRADE",
+      "authorCode": "2754",
+      "authorName": "DIEGO ANDRADE",
+      "committed": 38934337.69,
+      "liquidated": 27577970.45,
+      "paid": 27539070.47,
+      "remainingPaid": 0.0,
+      "amendmentCount": 4
+    },
+    {
+      "code": "aggregate:4355:DIEGO CORONEL",
+      "authorCode": "4355",
+      "authorName": "DIEGO CORONEL",
+      "committed": 35706383.0,
+      "liquidated": 32606255.24,
+      "paid": 32606255.24,
+      "remainingPaid": 0.0,
+      "amendmentCount": 5
+    },
+    {
+      "code": "aggregate:3084:DIEGO GARCIA",
+      "authorCode": "3084",
+      "authorName": "DIEGO GARCIA",
+      "committed": 35410037.99,
+      "liquidated": 15754452.39,
+      "paid": 15585816.33,
+      "remainingPaid": 0.0,
+      "amendmentCount": 12
+    },
+    {
+      "code": "aggregate:3176:DILCEU SPERAFICO",
+      "authorCode": "3176",
+      "authorName": "DILCEU SPERAFICO",
+      "committed": 36788149.89,
+      "liquidated": 20943659.79,
+      "paid": 20923939.44,
+      "remainingPaid": 0.0,
+      "amendmentCount": 10
+    },
+    {
+      "code": "aggregate:4356:DILVANDA FARO",
+      "authorCode": "4356",
+      "authorName": "DILVANDA FARO",
+      "committed": 38951907.64,
+      "liquidated": 35740294.18,
+      "paid": 35740294.18,
+      "remainingPaid": 0.0,
+      "amendmentCount": 5
+    },
+    {
+      "code": "aggregate:2755:DIMAS FABIANO",
+      "authorCode": "2755",
+      "authorName": "DIMAS FABIANO",
+      "committed": 37973750.0,
+      "liquidated": 25877676.98,
+      "paid": 25877676.98,
+      "remainingPaid": 0.0,
+      "amendmentCount": 6
+    },
+    {
+      "code": "aggregate:4357:DIMAS GADELHA",
+      "authorCode": "4357",
+      "authorName": "DIMAS GADELHA",
+      "committed": 33286982.59,
+      "liquidated": 20759761.14,
+      "paid": 20394954.63,
+      "remainingPaid": 0.0,
+      "amendmentCount": 11
+    },
+    {
+      "code": "aggregate:2701:DOMINGOS NETO",
+      "authorCode": "2701",
+      "authorName": "DOMINGOS NETO",
+      "committed": 40251410.44,
+      "liquidated": 40169211.44,
+      "paid": 40094824.0,
+      "remainingPaid": 0.0,
+      "amendmentCount": 3
+    },
+    {
+      "code": "aggregate:2756:DOMINGOS SAVIO",
+      "authorCode": "2756",
+      "authorName": "DOMINGOS SAVIO",
+      "committed": 36585669.71,
+      "liquidated": 26391809.53,
+      "paid": 26362725.59,
+      "remainingPaid": 0.0,
+      "amendmentCount": 7
+    },
+    {
+      "code": "aggregate:4358:DORINALDO MALAFAIA",
+      "authorCode": "4358",
+      "authorName": "DORINALDO MALAFAIA",
+      "committed": 36848402.0,
+      "liquidated": 25010669.23,
+      "paid": 25010669.23,
+      "remainingPaid": 0.0,
+      "amendmentCount": 6
+    },
+    {
+      "code": "aggregate:3963:DOUTOR LUIZINHO",
+      "authorCode": "3963",
+      "authorName": "DOUTOR LUIZINHO",
+      "committed": 38362141.14,
+      "liquidated": 28300252.0,
+      "paid": 28300252.0,
+      "remainingPaid": 0.0,
+      "amendmentCount": 6
+    },
+    {
+      "code": "aggregate:4338:DR. DANIEL SORANZ",
+      "authorCode": "4338",
+      "authorName": "DR. DANIEL SORANZ",
+      "committed": 38500000.0,
+      "liquidated": 30000000.0,
+      "paid": 30000000.0,
+      "remainingPaid": 0.0,
+      "amendmentCount": 8
+    },
+    {
+      "code": "aggregate:4360:DR. FERNANDO MAXIMO",
+      "authorCode": "4360",
+      "authorName": "DR. FERNANDO MAXIMO",
+      "committed": 29465920.81,
+      "liquidated": 13452718.86,
+      "paid": 13431624.86,
+      "remainingPaid": 0.0,
+      "amendmentCount": 9
+    },
+    {
+      "code": "aggregate:4351:DR. FLAVIO (EX-PARLAMENTAR DELEGADO RAMAGEM, NOS TERMOS DA DECISAO ADPF 854, DE 03",
+      "authorCode": "4351",
+      "authorName": "DR. FLAVIO (EX-PARLAMENTAR DELEGADO RAMAGEM, NOS TERMOS DA DECISAO ADPF 854, DE 03",
+      "committed": 32092007.0,
+      "liquidated": 27692613.0,
+      "paid": 27692613.0,
+      "remainingPaid": 0.0,
+      "amendmentCount": 2
+    },
+    {
+      "code": "aggregate:4361:DR. FRANCISCO",
+      "authorCode": "4361",
+      "authorName": "DR. FRANCISCO",
+      "committed": 28972406.25,
+      "liquidated": 27517095.39,
+      "paid": 27488117.39,
+      "remainingPaid": 0.0,
+      "amendmentCount": 7
+    },
+    {
+      "code": "aggregate:3960:DR. FREDERICO",
+      "authorCode": "3960",
+      "authorName": "DR. FREDERICO",
+      "committed": 39028049.6,
+      "liquidated": 23993769.17,
+      "paid": 23993769.17,
+      "remainingPaid": 0.0,
+      "amendmentCount": 11
+    },
+    {
+      "code": "aggregate:4269:DR. HIRAN",
+      "authorCode": "4269",
+      "authorName": "DR. HIRAN",
+      "committed": 57076718.04,
+      "liquidated": 32828170.66,
+      "paid": 32768446.37,
+      "remainingPaid": 0.0,
+      "amendmentCount": 10
+    },
+    {
+      "code": "aggregate:4393:DR. ISMAEL ALEXANDRINO",
+      "authorCode": "4393",
+      "authorName": "DR. ISMAEL ALEXANDRINO",
+      "committed": 28579784.18,
+      "liquidated": 8558528.68,
+      "paid": 8507605.0,
+      "remainingPaid": 0.0,
+      "amendmentCount": 13
+    },
+    {
+      "code": "aggregate:3961:DR. JAZIEL",
+      "authorCode": "3961",
+      "authorName": "DR. JAZIEL",
+      "committed": 38423675.0,
+      "liquidated": 34318530.45,
+      "paid": 34318530.45,
+      "remainingPaid": 0.0,
+      "amendmentCount": 6
+    },
+    {
+      "code": "aggregate:3964:DR. LUIZ OVANDO",
+      "authorCode": "3964",
+      "authorName": "DR. LUIZ OVANDO",
+      "committed": 35706374.3,
+      "liquidated": 25318482.44,
+      "paid": 25009049.33,
+      "remainingPaid": 0.0,
+      "amendmentCount": 9
+    },
+    {
+      "code": "aggregate:4362:DR. VICTOR LINHALIS",
+      "authorCode": "4362",
+      "authorName": "DR. VICTOR LINHALIS",
+      "committed": 40106640.0,
+      "liquidated": 28258831.46,
+      "paid": 28258831.46,
+      "remainingPaid": 0.0,
+      "amendmentCount": 5
+    },
+    {
+      "code": "aggregate:3965:DR. ZACHARIAS CALIL",
+      "authorCode": "3965",
+      "authorName": "DR. ZACHARIAS CALIL",
+      "committed": 37069179.54,
+      "liquidated": 24966015.65,
+      "paid": 24964265.05,
+      "remainingPaid": 0.0,
+      "amendmentCount": 10
+    },
+    {
+      "code": "aggregate:4363:DRA. ALESSANDRA HABER",
+      "authorCode": "4363",
+      "authorName": "DRA. ALESSANDRA HABER",
+      "committed": 39882681.98,
+      "liquidated": 28628278.98,
+      "paid": 28628278.98,
+      "remainingPaid": 0.0,
+      "amendmentCount": 6
+    },
+    {
+      "code": "aggregate:4239:DRA. EUDOCIA",
+      "authorCode": "4239",
+      "authorName": "DRA. EUDOCIA",
+      "committed": 45134970.11,
+      "liquidated": 39497992.75,
+      "paid": 39437143.45,
+      "remainingPaid": 0.0,
+      "amendmentCount": 12
+    },
+    {
+      "code": "aggregate:4364:DUARTE JR.",
+      "authorCode": "4364",
+      "authorName": "DUARTE JR.",
+      "committed": 40202007.0,
+      "liquidated": 27702007.0,
+      "paid": 27702007.0,
+      "remainingPaid": 0.0,
+      "amendmentCount": 2
+    },
+    {
+      "code": "aggregate:4365:DUDA RAMOS",
+      "authorCode": "4365",
+      "authorName": "DUDA RAMOS",
+      "committed": 37113142.0,
+      "liquidated": 28683934.16,
+      "paid": 28683934.16,
+      "remainingPaid": 0.0,
+      "amendmentCount": 3
+    },
+    {
+      "code": "aggregate:4366:DUDA SALABERT",
+      "authorCode": "4366",
+      "authorName": "DUDA SALABERT",
+      "committed": 32771434.9,
+      "liquidated": 24843831.99,
+      "paid": 24423831.99,
+      "remainingPaid": 0.0,
+      "amendmentCount": 18
+    },
+    {
+      "code": "aggregate:3970:EDUARDO BISMARCK",
+      "authorCode": "3970",
+      "authorName": "EDUARDO BISMARCK",
+      "committed": 40252007.0,
+      "liquidated": 37642007.0,
+      "paid": 37642007.0,
+      "remainingPaid": 0.0,
+      "amendmentCount": 4
+    },
+    {
+      "code": "aggregate:3088:EDUARDO BOLSONARO",
+      "authorCode": "3088",
+      "authorName": "EDUARDO BOLSONARO",
+      "committed": 400000.0,
+      "liquidated": 0.0,
+      "paid": 0.0,
+      "remainingPaid": 0.0,
+      "amendmentCount": 1
+    },
+    {
+      "code": "aggregate:2909:EDUARDO BRAGA",
+      "authorCode": "2909",
+      "authorName": "EDUARDO BRAGA",
+      "committed": 73291355.0,
+      "liquidated": 73291355.0,
+      "paid": 73291355.0,
+      "remainingPaid": 0.0,
+      "amendmentCount": 2
+    },
+    {
+      "code": "aggregate:2456:EDUARDO DA FONTE",
+      "authorCode": "2456",
+      "authorName": "EDUARDO DA FONTE",
+      "committed": 40251904.53,
+      "liquidated": 32796200.0,
+      "paid": 32697400.0,
+      "remainingPaid": 0.0,
+      "amendmentCount": 3
+    },
+    {
+      "code": "aggregate:4138:EDUARDO GIRAO",
+      "authorCode": "4138",
+      "authorName": "EDUARDO GIRAO",
+      "committed": 45576478.96,
+      "liquidated": 25649846.2,
+      "paid": 24844374.2,
+      "remainingPaid": 0.0,
+      "amendmentCount": 19
+    },
+    {
+      "code": "aggregate:4186:EDUARDO GOMES",
+      "authorCode": "4186",
+      "authorName": "EDUARDO GOMES",
+      "committed": 67645764.62,
+      "liquidated": 50809497.34,
+      "paid": 50044425.54,
+      "remainingPaid": 0.0,
+      "amendmentCount": 9
+    },
+    {
+      "code": "aggregate:4499:EDUARDO VELLOSO",
+      "authorCode": "4499",
+      "authorName": "EDUARDO VELLOSO",
+      "committed": 22884274.47,
+      "liquidated": 17225430.94,
+      "paid": 17225430.94,
+      "remainingPaid": 0.0,
+      "amendmentCount": 8
+    },
+    {
+      "code": "aggregate:4270:EFRAIM FILHO",
+      "authorCode": "4270",
+      "authorName": "EFRAIM FILHO",
+      "committed": 53714050.37,
+      "liquidated": 44152840.42,
+      "paid": 43652254.71,
+      "remainingPaid": 0.0,
+      "amendmentCount": 15
+    },
+    {
+      "code": "aggregate:3188:ELCIONE BARBALHO",
+      "authorCode": "3188",
+      "authorName": "ELCIONE BARBALHO",
+      "committed": 39156377.0,
+      "liquidated": 26073308.21,
+      "paid": 26073308.21,
+      "remainingPaid": 0.0,
+      "amendmentCount": 2
+    },
+    {
+      "code": "aggregate:3973:ELI BORGES",
+      "authorCode": "3973",
+      "authorName": "ELI BORGES",
+      "committed": 35410319.97,
+      "liquidated": 27630606.14,
+      "paid": 27630606.14,
+      "remainingPaid": 0.0,
+      "amendmentCount": 8
+    },
+    {
+      "code": "aggregate:4139:ELIZIANE GAMA",
+      "authorCode": "4139",
+      "authorName": "ELIZIANE GAMA",
+      "committed": 62916309.78,
+      "liquidated": 52296060.11,
+      "paid": 51861936.73,
+      "remainingPaid": 0.0,
+      "amendmentCount": 17
+    },
+    {
+      "code": "aggregate:3091:ELMAR NASCIMENTO",
+      "authorCode": "3091",
+      "authorName": "ELMAR NASCIMENTO",
+      "committed": 30568827.0,
+      "liquidated": 18265430.0,
+      "paid": 18265430.0,
+      "remainingPaid": 0.0,
+      "amendmentCount": 6
+    },
+    {
+      "code": "aggregate:4229:ELY SANTOS",
+      "authorCode": "4229",
+      "authorName": "ELY SANTOS",
+      "committed": 40222007.0,
+      "liquidated": 29424801.03,
+      "paid": 29424801.03,
+      "remainingPaid": 0.0,
+      "amendmentCount": 10
+    },
+    {
+      "code": "aggregate:3975:EMANUEL PINHEIRO NETO",
+      "authorCode": "3975",
+      "authorName": "EMANUEL PINHEIRO NETO",
+      "committed": 38871472.57,
+      "liquidated": 26052744.7,
+      "paid": 26052744.7,
+      "remainingPaid": 0.0,
+      "amendmentCount": 7
+    },
+    {
+      "code": "aggregate:3976:EMIDINHO MADEIRA",
+      "authorCode": "3976",
+      "authorName": "EMIDINHO MADEIRA",
+      "committed": 36511968.09,
+      "liquidated": 23304821.6,
+      "paid": 23096905.7,
+      "remainingPaid": 0.0,
+      "amendmentCount": 7
+    },
+    {
+      "code": "aggregate:4550:ENFERMEIRA REJANE",
+      "authorCode": "4550",
+      "authorName": "ENFERMEIRA REJANE",
+      "committed": 33379906.39,
+      "liquidated": 28961521.27,
+      "paid": 24411521.27,
+      "remainingPaid": 0.0,
+      "amendmentCount": 10
+    },
+    {
+      "code": "aggregate:4367:ERIBERTO MEDEIROS",
+      "authorCode": "4367",
+      "authorName": "ERIBERTO MEDEIROS",
+      "committed": 39798903.99,
+      "liquidated": 25605152.51,
+      "paid": 25263886.62,
+      "remainingPaid": 0.0,
+      "amendmentCount": 17
+    },
+    {
+      "code": "aggregate:4368:ERIKA HILTON",
+      "authorCode": "4368",
+      "authorName": "ERIKA HILTON",
+      "committed": 28558560.0,
+      "liquidated": 14649872.9,
+      "paid": 13382260.0,
+      "remainingPaid": 0.0,
+      "amendmentCount": 14
+    },
+    {
+      "code": "aggregate:2826:ERIKA KOKAY",
+      "authorCode": "2826",
+      "authorName": "ERIKA KOKAY",
+      "committed": 32046705.2,
+      "liquidated": 16109892.12,
+      "paid": 16107440.12,
+      "remainingPaid": 0.0,
+      "amendmentCount": 12
+    },
+    {
+      "code": "aggregate:2759:EROS BIONDINI",
+      "authorCode": "2759",
+      "authorName": "EROS BIONDINI",
+      "committed": 35739910.46,
+      "liquidated": 16551942.39,
+      "paid": 16404718.89,
+      "remainingPaid": 0.0,
+      "amendmentCount": 11
+    },
+    {
+      "code": "aggregate:2210:ESPERIDIAO AMIN",
+      "authorCode": "2210",
+      "authorName": "ESPERIDIAO AMIN",
+      "committed": 55036085.54,
+      "liquidated": 28074164.15,
+      "paid": 26851583.89,
+      "remainingPaid": 0.0,
+      "amendmentCount": 22
+    },
+    {
+      "code": "aggregate:3978:EUCLYDES PETTERSEN",
+      "authorCode": "3978",
+      "authorName": "EUCLYDES PETTERSEN",
+      "committed": 39020732.6,
+      "liquidated": 27171591.24,
+      "paid": 27171591.24,
+      "remainingPaid": 0.0,
+      "amendmentCount": 7
+    },
+    {
+      "code": "aggregate:3520:EUNICIO OLIVEIRA",
+      "authorCode": "3520",
+      "authorName": "EUNICIO OLIVEIRA",
+      "committed": 40043899.0,
+      "liquidated": 34249168.58,
+      "paid": 34249168.58,
+      "remainingPaid": 0.0,
+      "amendmentCount": 3
+    },
+    {
+      "code": "aggregate:3093:EVAIR VIEIRA DE MELO",
+      "authorCode": "3093",
+      "authorName": "EVAIR VIEIRA DE MELO",
+      "committed": 40172876.99,
+      "liquidated": 27898228.21,
+      "paid": 27898228.21,
+      "remainingPaid": 0.0,
+      "amendmentCount": 6
+    },
+    {
+      "code": "aggregate:4180:FABIANO CONTARATO",
+      "authorCode": "4180",
+      "authorName": "FABIANO CONTARATO",
+      "committed": 60180084.49,
+      "liquidated": 50925487.14,
+      "paid": 50920641.5,
+      "remainingPaid": 0.0,
+      "amendmentCount": 16
+    },
+    {
+      "code": "aggregate:3101:FABIO GARCIA",
+      "authorCode": "3101",
+      "authorName": "FABIO GARCIA",
+      "committed": 39252007.0,
+      "liquidated": 39252007.0,
+      "paid": 39252007.0,
+      "remainingPaid": 0.0,
+      "amendmentCount": 1
+    },
+    {
+      "code": "aggregate:4369:FABIO MACEDO",
+      "authorCode": "4369",
+      "authorName": "FABIO MACEDO",
+      "committed": 23137004.0,
+      "liquidated": 9341095.73,
+      "paid": 9341095.73,
+      "remainingPaid": 0.0,
+      "amendmentCount": 3
+    },
+    {
+      "code": "aggregate:2979:FABIO REIS",
+      "authorCode": "2979",
+      "authorName": "FABIO REIS",
+      "committed": 35395402.24,
+      "liquidated": 22676752.22,
+      "paid": 22659408.06,
+      "remainingPaid": 0.0,
+      "amendmentCount": 13
+    },
+    {
+      "code": "aggregate:3980:FABIO SCHIOCHET",
+      "authorCode": "3980",
+      "authorName": "FABIO SCHIOCHET",
+      "committed": 39255644.99,
+      "liquidated": 31126212.56,
+      "paid": 31126212.56,
+      "remainingPaid": 0.0,
+      "amendmentCount": 5
+    },
+    {
+      "code": "aggregate:4370:FABIO TERUEL",
+      "authorCode": "4370",
+      "authorName": "FABIO TERUEL",
+      "committed": 40252007.0,
+      "liquidated": 30189005.0,
+      "paid": 30189005.0,
+      "remainingPaid": 0.0,
+      "amendmentCount": 2
+    },
+    {
+      "code": "aggregate:4559:FATIMA PELAES",
+      "authorCode": "4559",
+      "authorName": "FATIMA PELAES",
+      "committed": 25051878.0,
+      "liquidated": 16813818.99,
+      "paid": 16813818.99,
+      "remainingPaid": 0.0,
+      "amendmentCount": 8
+    },
+    {
+      "code": "aggregate:4371:FAUSTO JR.",
+      "authorCode": "4371",
+      "authorName": "FAUSTO JR.",
+      "committed": 40252007.0,
+      "liquidated": 40252007.0,
+      "paid": 40252007.0,
+      "remainingPaid": 0.0,
+      "amendmentCount": 1
+    },
+    {
+      "code": "aggregate:3134:FAUSTO PINATO",
+      "authorCode": "3134",
+      "authorName": "FAUSTO PINATO",
+      "committed": 36017746.24,
+      "liquidated": 19456198.52,
+      "paid": 19456198.52,
+      "remainingPaid": 0.0,
+      "amendmentCount": 9
+    },
+    {
+      "code": "aggregate:4372:FELIPE BECARI",
+      "authorCode": "4372",
+      "authorName": "FELIPE BECARI",
+      "committed": 30252007.0,
+      "liquidated": 15700000.0,
+      "paid": 15700000.0,
+      "remainingPaid": 0.0,
+      "amendmentCount": 16
+    },
+    {
+      "code": "aggregate:3187:FELIPE CARRERAS",
+      "authorCode": "3187",
+      "authorName": "FELIPE CARRERAS",
+      "committed": 35274260.94,
+      "liquidated": 27579307.58,
+      "paid": 27379307.58,
+      "remainingPaid": 0.0,
+      "amendmentCount": 9
+    },
+    {
+      "code": "aggregate:3982:FELIPE FRANCISCHINI",
+      "authorCode": "3982",
+      "authorName": "FELIPE FRANCISCHINI",
+      "committed": 19860806.0,
+      "liquidated": 17178211.56,
+      "paid": 17178211.56,
+      "remainingPaid": 0.0,
+      "amendmentCount": 5
+    },
+    {
+      "code": "aggregate:2742:FELIX MENDONCA JUNIOR",
+      "authorCode": "2742",
+      "authorName": "FELIX MENDONCA JUNIOR",
+      "committed": 36366061.0,
+      "liquidated": 25159037.26,
+      "paid": 25159037.26,
+      "remainingPaid": 0.0,
+      "amendmentCount": 4
+    },
+    {
+      "code": "aggregate:3984:FERNANDA MELCHIONNA",
+      "authorCode": "3984",
+      "authorName": "FERNANDA MELCHIONNA",
+      "committed": 31267644.13,
+      "liquidated": 19302528.0,
+      "paid": 18500528.0,
+      "remainingPaid": 0.0,
+      "amendmentCount": 19
+    },
+    {
+      "code": "aggregate:4373:FERNANDA PESSOA",
+      "authorCode": "4373",
+      "authorName": "FERNANDA PESSOA",
+      "committed": 37420701.29,
+      "liquidated": 30516548.65,
+      "paid": 30516548.65,
+      "remainingPaid": 0.0,
+      "amendmentCount": 22
+    },
+    {
+      "code": "aggregate:2392:FERNANDO COELHO FILHO",
+      "authorCode": "2392",
+      "authorName": "FERNANDO COELHO FILHO",
+      "committed": 22437243.41,
+      "liquidated": 8735564.4,
+      "paid": 8323469.0,
+      "remainingPaid": 0.0,
+      "amendmentCount": 7
+    },
+    {
+      "code": "aggregate:4252:FERNANDO DUEIRE",
+      "authorCode": "4252",
+      "authorName": "FERNANDO DUEIRE",
+      "committed": 48493223.78,
+      "liquidated": 42328641.81,
+      "paid": 41728776.81,
+      "remainingPaid": 0.0,
+      "amendmentCount": 6
+    },
+    {
+      "code": "aggregate:4285:FERNANDO FARIAS",
+      "authorCode": "4285",
+      "authorName": "FERNANDO FARIAS",
+      "committed": 66707423.62,
+      "liquidated": 59575284.86,
+      "paid": 59575284.86,
+      "remainingPaid": 0.0,
+      "amendmentCount": 6
+    },
+    {
+      "code": "aggregate:4374:FERNANDO MINEIRO",
+      "authorCode": "4374",
+      "authorName": "FERNANDO MINEIRO",
+      "committed": 30250676.5,
+      "liquidated": 24397579.63,
+      "paid": 22553655.02,
+      "remainingPaid": 0.0,
+      "amendmentCount": 17
+    },
+    {
+      "code": "aggregate:3813:FERNANDO MONTEIRO",
+      "authorCode": "3813",
+      "authorName": "FERNANDO MONTEIRO",
+      "committed": 32915640.86,
+      "liquidated": 21964456.2,
+      "paid": 21924216.2,
+      "remainingPaid": 0.0,
+      "amendmentCount": 13
+    },
+    {
+      "code": "aggregate:3985:FERNANDO RODOLFO",
+      "authorCode": "3985",
+      "authorName": "FERNANDO RODOLFO",
+      "committed": 27689031.84,
+      "liquidated": 25018948.19,
+      "paid": 25018948.19,
+      "remainingPaid": 0.0,
+      "amendmentCount": 9
+    },
+    {
+      "code": "aggregate:3986:FILIPE BARROS",
+      "authorCode": "3986",
+      "authorName": "FILIPE BARROS",
+      "committed": 33052007.0,
+      "liquidated": 16276004.0,
+      "paid": 16276004.0,
+      "remainingPaid": 0.0,
+      "amendmentCount": 2
+    },
+    {
+      "code": "aggregate:4375:FILIPE MARTINS",
+      "authorCode": "4375",
+      "authorName": "FILIPE MARTINS",
+      "committed": 34739947.46,
+      "liquidated": 29064279.5,
+      "paid": 29042296.74,
+      "remainingPaid": 0.0,
+      "amendmentCount": 8
+    },
+    {
+      "code": "aggregate:2833:FLAVIA MORAIS",
+      "authorCode": "2833",
+      "authorName": "FLAVIA MORAIS",
+      "committed": 29405410.11,
+      "liquidated": 25511684.54,
+      "paid": 25371684.54,
+      "remainingPaid": 0.0,
+      "amendmentCount": 7
+    },
+    {
+      "code": "aggregate:2038:FLAVIO ARNS",
+      "authorCode": "2038",
+      "authorName": "FLAVIO ARNS",
+      "committed": 66683116.31,
+      "liquidated": 57936516.0,
+      "paid": 57562013.42,
+      "remainingPaid": 0.0,
+      "amendmentCount": 12
+    },
+    {
+      "code": "aggregate:9219:FLAVIO BOLSONARO",
+      "authorCode": "9219",
+      "authorName": "FLAVIO BOLSONARO",
+      "committed": 67422919.24,
+      "liquidated": 22559839.58,
+      "paid": 20969980.72,
+      "remainingPaid": 0.0,
+      "amendmentCount": 18
+    },
+    {
+      "code": "aggregate:3827:FLAVIO NOGUEIRA",
+      "authorCode": "3827",
+      "authorName": "FLAVIO NOGUEIRA",
+      "committed": 39305246.97,
+      "liquidated": 36017342.74,
+      "paid": 36017342.74,
+      "remainingPaid": 0.0,
+      "amendmentCount": 3
+    },
+    {
+      "code": "aggregate:4376:FLORENTINO NETO",
+      "authorCode": "4376",
+      "authorName": "FLORENTINO NETO",
+      "committed": 40136605.06,
+      "liquidated": 34780035.75,
+      "paid": 34780035.75,
+      "remainingPaid": 0.0,
+      "amendmentCount": 5
+    },
+    {
+      "code": "aggregate:4377:FRANCIANE BAYER",
+      "authorCode": "4377",
+      "authorName": "FRANCIANE BAYER",
+      "committed": 38951924.66,
+      "liquidated": 21632537.01,
+      "paid": 21621885.03,
+      "remainingPaid": 0.0,
+      "amendmentCount": 7
+    },
+    {
+      "code": "aggregate:3991:FRED COSTA",
+      "authorCode": "3991",
+      "authorName": "FRED COSTA",
+      "committed": 35027887.23,
+      "liquidated": 28058604.22,
+      "paid": 27966847.87,
+      "remainingPaid": 0.0,
+      "amendmentCount": 10
+    },
+    {
+      "code": "aggregate:4378:FRED LINHARES",
+      "authorCode": "4378",
+      "authorName": "FRED LINHARES",
+      "committed": 37926991.4,
+      "liquidated": 19293984.4,
+      "paid": 19134604.4,
+      "remainingPaid": 0.0,
+      "amendmentCount": 6
+    },
+    {
+      "code": "aggregate:4498:GABRIEL MOTA",
+      "authorCode": "4498",
+      "authorName": "GABRIEL MOTA",
+      "committed": 37606667.0,
+      "liquidated": 13879152.93,
+      "paid": 13784673.18,
+      "remainingPaid": 0.0,
+      "amendmentCount": 6
+    },
+    {
+      "code": "aggregate:4379:GABRIEL NUNES",
+      "authorCode": "4379",
+      "authorName": "GABRIEL NUNES",
+      "committed": 39941908.05,
+      "liquidated": 28946097.58,
+      "paid": 28283297.58,
+      "remainingPaid": 0.0,
+      "amendmentCount": 12
+    },
+    {
+      "code": "aggregate:3994:GENERAL GIRAO",
+      "authorCode": "3994",
+      "authorName": "GENERAL GIRAO",
+      "committed": 34570877.72,
+      "liquidated": 24251209.49,
+      "paid": 24096705.75,
+      "remainingPaid": 0.0,
+      "amendmentCount": 14
+    },
+    {
+      "code": "aggregate:4380:GENERAL PAZUELLO",
+      "authorCode": "4380",
+      "authorName": "GENERAL PAZUELLO",
+      "committed": 39507936.83,
+      "liquidated": 22330593.9,
+      "paid": 21719998.96,
+      "remainingPaid": 0.0,
+      "amendmentCount": 16
+    },
+    {
+      "code": "aggregate:3235:GEOVANIA DE SA",
+      "authorCode": "3235",
+      "authorName": "GEOVANIA DE SA",
+      "committed": 39305757.0,
+      "liquidated": 29182321.28,
+      "paid": 29182321.28,
+      "remainingPaid": 0.0,
+      "amendmentCount": 3
+    },
+    {
+      "code": "aggregate:4381:GERALDO MENDES",
+      "authorCode": "4381",
+      "authorName": "GERALDO MENDES",
+      "committed": 28680866.65,
+      "liquidated": 20319133.66,
+      "paid": 20319133.66,
+      "remainingPaid": 0.0,
+      "amendmentCount": 5
+    },
+    {
+      "code": "aggregate:1445:GERALDO RESENDE",
+      "authorCode": "1445",
+      "authorName": "GERALDO RESENDE",
+      "committed": 28490110.66,
+      "liquidated": 20196628.02,
+      "paid": 18796628.02,
+      "remainingPaid": 0.0,
+      "amendmentCount": 11
+    },
+    {
+      "code": "aggregate:3997:GERVASIO MAIA",
+      "authorCode": "3997",
+      "authorName": "GERVASIO MAIA",
+      "committed": 28522515.44,
+      "liquidated": 23114540.01,
+      "paid": 23110483.11,
+      "remainingPaid": 0.0,
+      "amendmentCount": 6
+    },
+    {
+      "code": "aggregate:1968:GIACOBO",
+      "authorCode": "1968",
+      "authorName": "GIACOBO",
+      "committed": 37212159.0,
+      "liquidated": 23664343.0,
+      "paid": 23664343.0,
+      "remainingPaid": 0.0,
+      "amendmentCount": 2
+    },
+    {
+      "code": "aggregate:3999:GILBERTO ABRAMO",
+      "authorCode": "3999",
+      "authorName": "GILBERTO ABRAMO",
+      "committed": 39520374.27,
+      "liquidated": 36897243.27,
+      "paid": 36441218.13,
+      "remainingPaid": 0.0,
+      "amendmentCount": 7
+    },
+    {
+      "code": "aggregate:1568:GILBERTO NASCIMENTO",
+      "authorCode": "1568",
+      "authorName": "GILBERTO NASCIMENTO",
+      "committed": 38844277.01,
+      "liquidated": 18925702.75,
+      "paid": 18717473.76,
+      "remainingPaid": 0.0,
+      "amendmentCount": 15
+    },
+    {
+      "code": "aggregate:4383:GILSON DANIEL",
+      "authorCode": "4383",
+      "authorName": "GILSON DANIEL",
+      "committed": 37334977.4,
+      "liquidated": 18611950.79,
+      "paid": 18611950.79,
+      "remainingPaid": 0.0,
+      "amendmentCount": 11
+    },
+    {
+      "code": "aggregate:9055:GILSON MARQUES",
+      "authorCode": "9055",
+      "authorName": "GILSON MARQUES",
+      "committed": 33985247.13,
+      "liquidated": 6147883.36,
+      "paid": 6147883.36,
+      "remainingPaid": 0.0,
+      "amendmentCount": 11
+    },
+    {
+      "code": "aggregate:4384:GILVAN DA FEDERAL",
+      "authorCode": "4384",
+      "authorName": "GILVAN DA FEDERAL",
+      "committed": 35375757.0,
+      "liquidated": 17843372.23,
+      "paid": 17843372.23,
+      "remainingPaid": 0.0,
+      "amendmentCount": 3
+    },
+    {
+      "code": "aggregate:4221:GIORDANO",
+      "authorCode": "4221",
+      "authorName": "GIORDANO",
+      "committed": 73081861.43,
+      "liquidated": 72797013.0,
+      "paid": 72797013.0,
+      "remainingPaid": 0.0,
+      "amendmentCount": 5
+    },
+    {
+      "code": "aggregate:2863:GIOVANI CHERINI",
+      "authorCode": "2863",
+      "authorName": "GIOVANI CHERINI",
+      "committed": 38063397.95,
+      "liquidated": 20394206.95,
+      "paid": 20394206.95,
+      "remainingPaid": 0.0,
+      "amendmentCount": 8
+    },
+    {
+      "code": "aggregate:2616:GLAUBER BRAGA",
+      "authorCode": "2616",
+      "authorName": "GLAUBER BRAGA",
+      "committed": 14556748.23,
+      "liquidated": 5679055.14,
+      "paid": 4849247.73,
+      "remainingPaid": 0.0,
+      "amendmentCount": 17
+    },
+    {
+      "code": "aggregate:4100:GREYCE ELIAS",
+      "authorCode": "4100",
+      "authorName": "GREYCE ELIAS",
+      "committed": 38394456.07,
+      "liquidated": 22328738.31,
+      "paid": 22328738.31,
+      "remainingPaid": 0.0,
+      "amendmentCount": 8
+    },
+    {
+      "code": "aggregate:4386:GUILHERME BOULOS",
+      "authorCode": "4386",
+      "authorName": "GUILHERME BOULOS",
+      "committed": 32262469.22,
+      "liquidated": 12570804.77,
+      "paid": 11863450.69,
+      "remainingPaid": 0.0,
+      "amendmentCount": 19
+    },
+    {
+      "code": "aggregate:9060:GUILHERME DERRITE",
+      "authorCode": "9060",
+      "authorName": "GUILHERME DERRITE",
+      "committed": 38042503.21,
+      "liquidated": 28245075.01,
+      "paid": 28245075.01,
+      "remainingPaid": 0.0,
+      "amendmentCount": 10
+    },
+    {
+      "code": "aggregate:4387:GUILHERME UCHOA",
+      "authorCode": "4387",
+      "authorName": "GUILHERME UCHOA",
+      "committed": 35771624.0,
+      "liquidated": 23736948.75,
+      "paid": 23736948.75,
+      "remainingPaid": 0.0,
+      "amendmentCount": 6
+    },
+    {
+      "code": "aggregate:4101:GUSTINHO RIBEIRO",
+      "authorCode": "4101",
+      "authorName": "GUSTINHO RIBEIRO",
+      "committed": 36370218.0,
+      "liquidated": 21078706.77,
+      "paid": 21078706.77,
+      "remainingPaid": 0.0,
+      "amendmentCount": 4
+    },
+    {
+      "code": "aggregate:4014:GUTEMBERG REIS",
+      "authorCode": "4014",
+      "authorName": "GUTEMBERG REIS",
+      "committed": 36352156.98,
+      "liquidated": 27380703.19,
+      "paid": 27368858.95,
+      "remainingPaid": 0.0,
+      "amendmentCount": 12
+    },
+    {
+      "code": "aggregate:4271:HAMILTON MOURAO",
+      "authorCode": "4271",
+      "authorName": "HAMILTON MOURAO",
+      "committed": 67730197.54,
+      "liquidated": 40763886.93,
+      "paid": 38612142.81,
+      "remainingPaid": 0.0,
+      "amendmentCount": 17
+    },
+    {
+      "code": "aggregate:3298:HEITOR SCHUCH",
+      "authorCode": "3298",
+      "authorName": "HEITOR SCHUCH",
+      "committed": 36176390.97,
+      "liquidated": 24223368.32,
+      "paid": 24221659.43,
+      "remainingPaid": 0.0,
+      "amendmentCount": 11
+    },
+    {
+      "code": "aggregate:3312:HELDER SALOMAO",
+      "authorCode": "3312",
+      "authorName": "HELDER SALOMAO",
+      "committed": 35584638.53,
+      "liquidated": 25081433.64,
+      "paid": 25074491.4,
+      "remainingPaid": 0.0,
+      "amendmentCount": 20
+    },
+    {
+      "code": "aggregate:4389:HELENA LIMA",
+      "authorCode": "4389",
+      "authorName": "HELENA LIMA",
+      "committed": 39486532.88,
+      "liquidated": 12781325.94,
+      "paid": 12642803.8,
+      "remainingPaid": 0.0,
+      "amendmentCount": 12
+    },
+    {
+      "code": "aggregate:4102:HELIO LOPES",
+      "authorCode": "4102",
+      "authorName": "HELIO LOPES",
+      "committed": 25773737.69,
+      "liquidated": 10710730.32,
+      "paid": 9396139.83,
+      "remainingPaid": 0.0,
+      "amendmentCount": 14
+    },
+    {
+      "code": "aggregate:4390:HENDERSON PINTO",
+      "authorCode": "4390",
+      "authorName": "HENDERSON PINTO",
+      "committed": 40155310.52,
+      "liquidated": 31321088.21,
+      "paid": 30584077.77,
+      "remainingPaid": 0.0,
+      "amendmentCount": 7
+    },
+    {
+      "code": "aggregate:4016:HERCILIO COELHO DINIZ",
+      "authorCode": "4016",
+      "authorName": "HERCILIO COELHO DINIZ",
+      "committed": 35672876.99,
+      "liquidated": 25761981.52,
+      "paid": 25761981.52,
+      "remainingPaid": 0.0,
+      "amendmentCount": 4
+    },
+    {
+      "code": "aggregate:3393:HILDO ROCHA",
+      "authorCode": "3393",
+      "authorName": "HILDO ROCHA",
+      "committed": 38255895.99,
+      "liquidated": 31269012.5,
+      "paid": 31267756.5,
+      "remainingPaid": 0.0,
+      "amendmentCount": 5
+    },
+    {
+      "code": "aggregate:2397:HUGO LEAL",
+      "authorCode": "2397",
+      "authorName": "HUGO LEAL",
+      "committed": 36188979.87,
+      "liquidated": 30447205.14,
+      "paid": 29272739.52,
+      "remainingPaid": 0.0,
+      "amendmentCount": 9
+    },
+    {
+      "code": "aggregate:2712:HUGO MOTTA",
+      "authorCode": "2712",
+      "authorName": "HUGO MOTTA",
+      "committed": 39539891.97,
+      "liquidated": 34329504.11,
+      "paid": 34329504.11,
+      "remainingPaid": 0.0,
+      "amendmentCount": 4
+    },
+    {
+      "code": "aggregate:2885:HUMBERTO COSTA",
+      "authorCode": "2885",
+      "authorName": "HUMBERTO COSTA",
+      "committed": 61651426.41,
+      "liquidated": 50735442.3,
+      "paid": 49386182.96,
+      "remainingPaid": 0.0,
+      "amendmentCount": 18
+    },
+    {
+      "code": "aggregate:4391:ICARO DE VALMIR",
+      "authorCode": "4391",
+      "authorName": "ICARO DE VALMIR",
+      "committed": 35460824.0,
+      "liquidated": 23247520.77,
+      "paid": 23247520.77,
+      "remainingPaid": 0.0,
+      "amendmentCount": 8
+    },
+    {
+      "code": "aggregate:4148:IGOR TIMO",
+      "authorCode": "4148",
+      "authorName": "IGOR TIMO",
+      "committed": 37942017.71,
+      "liquidated": 30004034.99,
+      "paid": 29796273.99,
+      "remainingPaid": 0.0,
+      "amendmentCount": 4
+    },
+    {
+      "code": "aggregate:4096:IRAJA",
+      "authorCode": "4096",
+      "authorName": "IRAJA",
+      "committed": 15633882.11,
+      "liquidated": 12679901.0,
+      "paid": 12679901.0,
+      "remainingPaid": 0.0,
+      "amendmentCount": 7
+    },
+    {
+      "code": "aggregate:4392:ISMAEL",
+      "authorCode": "4392",
+      "authorName": "ISMAEL",
+      "committed": 37646452.41,
+      "liquidated": 18645569.61,
+      "paid": 18645569.61,
+      "remainingPaid": 0.0,
+      "amendmentCount": 9
+    },
+    {
+      "code": "aggregate:4018:ISNALDO BULHOES JR.",
+      "authorCode": "4018",
+      "authorName": "ISNALDO BULHOES JR.",
+      "committed": 32683012.0,
+      "liquidated": 28289172.3,
+      "paid": 28289172.3,
+      "remainingPaid": 0.0,
+      "amendmentCount": 4
+    },
+    {
+      "code": "aggregate:3228:IVAN VALENTE",
+      "authorCode": "3228",
+      "authorName": "IVAN VALENTE",
+      "committed": 20366110.36,
+      "liquidated": 11587694.05,
+      "paid": 10877210.25,
+      "remainingPaid": 0.0,
+      "amendmentCount": 14
+    },
+    {
+      "code": "aggregate:4251:IVETE DA SILVEIRA",
+      "authorCode": "4251",
+      "authorName": "IVETE DA SILVEIRA",
+      "committed": 70272131.0,
+      "liquidated": 46154763.64,
+      "paid": 46154763.64,
+      "remainingPaid": 0.0,
+      "amendmentCount": 12
+    },
+    {
+      "code": "aggregate:4395:IVONEIDE CAETANO",
+      "authorCode": "4395",
+      "authorName": "IVONEIDE CAETANO",
+      "committed": 38863230.59,
+      "liquidated": 32287106.91,
+      "paid": 32287106.91,
+      "remainingPaid": 0.0,
+      "amendmentCount": 10
+    },
+    {
+      "code": "aggregate:4396:IZA ARRUDA",
+      "authorCode": "4396",
+      "authorName": "IZA ARRUDA",
+      "committed": 39279784.51,
+      "liquidated": 34419430.4,
+      "paid": 34164008.94,
+      "remainingPaid": 0.0,
+      "amendmentCount": 22
+    },
+    {
+      "code": "aggregate:4136:IZALCI LUCAS",
+      "authorCode": "4136",
+      "authorName": "IZALCI LUCAS",
+      "committed": 62800392.27,
+      "liquidated": 31006993.61,
+      "paid": 31004013.35,
+      "remainingPaid": 0.0,
+      "amendmentCount": 21
+    },
+    {
+      "code": "aggregate:4397:JACK ROCHA",
+      "authorCode": "4397",
+      "authorName": "JACK ROCHA",
+      "committed": 30375583.2,
+      "liquidated": 19516903.12,
+      "paid": 19516903.12,
+      "remainingPaid": 0.0,
+      "amendmentCount": 9
+    },
+    {
+      "code": "aggregate:2263:JADER BARBALHO",
+      "authorCode": "2263",
+      "authorName": "JADER BARBALHO",
+      "committed": 73484268.43,
+      "liquidated": 71425253.62,
+      "paid": 71412185.56,
+      "remainingPaid": 0.0,
+      "amendmentCount": 8
+    },
+    {
+      "code": "aggregate:4398:JADYEL ALENCAR",
+      "authorCode": "4398",
+      "authorName": "JADYEL ALENCAR",
+      "committed": 38946940.37,
+      "liquidated": 34540277.57,
+      "paid": 33115000.7,
+      "remainingPaid": 0.0,
+      "amendmentCount": 7
+    },
+    {
+      "code": "aggregate:4272:JAIME BAGATTOLI",
+      "authorCode": "4272",
+      "authorName": "JAIME BAGATTOLI",
+      "committed": 61536166.21,
+      "liquidated": 37402198.05,
+      "paid": 37378760.05,
+      "remainingPaid": 0.0,
+      "amendmentCount": 12
+    },
+    {
+      "code": "aggregate:1775:JANDIRA FEGHALI",
+      "authorCode": "1775",
+      "authorName": "JANDIRA FEGHALI",
+      "committed": 22320973.22,
+      "liquidated": 12831395.33,
+      "paid": 12315736.23,
+      "remainingPaid": 0.0,
+      "amendmentCount": 15
+    },
+    {
+      "code": "aggregate:4080:JAQUES WAGNER",
+      "authorCode": "4080",
+      "authorName": "JAQUES WAGNER",
+      "committed": 65590632.95,
+      "liquidated": 56968190.81,
+      "paid": 56233110.63,
+      "remainingPaid": 0.0,
+      "amendmentCount": 12
+    },
+    {
+      "code": "aggregate:2376:JAYME CAMPOS",
+      "authorCode": "2376",
+      "authorName": "JAYME CAMPOS",
+      "committed": 64353876.84,
+      "liquidated": 40656168.61,
+      "paid": 40656168.61,
+      "remainingPaid": 0.0,
+      "amendmentCount": 7
+    },
+    {
+      "code": "aggregate:4399:JEFERSON RODRIGUES",
+      "authorCode": "4399",
+      "authorName": "JEFERSON RODRIGUES",
+      "committed": 34505212.68,
+      "liquidated": 16688015.27,
+      "paid": 16688015.27,
+      "remainingPaid": 0.0,
+      "amendmentCount": 8
+    },
+    {
+      "code": "aggregate:1581:JEFFERSON CAMPOS",
+      "authorCode": "1581",
+      "authorName": "JEFFERSON CAMPOS",
+      "committed": 39288054.38,
+      "liquidated": 14471333.95,
+      "paid": 14459335.05,
+      "remainingPaid": 0.0,
+      "amendmentCount": 17
+    },
+    {
+      "code": "aggregate:2528:JILMAR TATTO",
+      "authorCode": "2528",
+      "authorName": "JILMAR TATTO",
+      "committed": 31756875.63,
+      "liquidated": 24697447.02,
+      "paid": 24673141.6,
+      "remainingPaid": 0.0,
+      "amendmentCount": 9
+    },
+    {
+      "code": "aggregate:1270:JOAO CARLOS BACELAR",
+      "authorCode": "1270",
+      "authorName": "JOAO CARLOS BACELAR",
+      "committed": 39996009.21,
+      "liquidated": 31606184.73,
+      "paid": 31606184.73,
+      "remainingPaid": 0.0,
+      "amendmentCount": 6
+    },
+    {
+      "code": "aggregate:4551:JOAO CURY",
+      "authorCode": "4551",
+      "authorName": "JOAO CURY",
+      "committed": 36437728.6,
+      "liquidated": 20312895.06,
+      "paid": 20312836.78,
+      "remainingPaid": 0.0,
+      "amendmentCount": 13
+    },
+    {
+      "code": "aggregate:3691:JOAO DANIEL",
+      "authorCode": "3691",
+      "authorName": "JOAO DANIEL",
+      "committed": 39060093.6,
+      "liquidated": 30950128.33,
+      "paid": 30950128.33,
+      "remainingPaid": 0.0,
+      "amendmentCount": 9
+    },
+    {
+      "code": "aggregate:3239:JOAO LEAO",
+      "authorCode": "3239",
+      "authorName": "JOAO LEAO",
+      "committed": 30817876.64,
+      "liquidated": 19530669.0,
+      "paid": 17989453.01,
+      "remainingPaid": 0.0,
+      "amendmentCount": 7
+    },
+    {
+      "code": "aggregate:2446:JOAO MAIA",
+      "authorCode": "2446",
+      "authorName": "JOAO MAIA",
+      "committed": 38462810.97,
+      "liquidated": 31481645.61,
+      "paid": 31387393.66,
+      "remainingPaid": 0.0,
+      "amendmentCount": 11
+    },
+    {
+      "code": "aggregate:3692:JOAQUIM PASSARINHO",
+      "authorCode": "3692",
+      "authorName": "JOAQUIM PASSARINHO",
+      "committed": 35633754.0,
+      "liquidated": 20537316.24,
+      "paid": 20537316.24,
+      "remainingPaid": 0.0,
+      "amendmentCount": 10
+    },
+    {
+      "code": "aggregate:2802:JONAS DONIZETTE",
+      "authorCode": "2802",
+      "authorName": "JONAS DONIZETTE",
+      "committed": 38344922.0,
+      "liquidated": 32525974.3,
+      "paid": 32525974.3,
+      "remainingPaid": 0.0,
+      "amendmentCount": 8
+    },
+    {
+      "code": "aggregate:4152:JORGE BRAZ",
+      "authorCode": "4152",
+      "authorName": "JORGE BRAZ",
+      "committed": 31914691.94,
+      "liquidated": 22131075.15,
+      "paid": 22001099.34,
+      "remainingPaid": 0.0,
+      "amendmentCount": 11
+    },
+    {
+      "code": "aggregate:4209:JORGE GOETTEN",
+      "authorCode": "4209",
+      "authorName": "JORGE GOETTEN",
+      "committed": 31790238.57,
+      "liquidated": 16505874.17,
+      "paid": 16505874.17,
+      "remainingPaid": 0.0,
+      "amendmentCount": 8
+    },
+    {
+      "code": "aggregate:9206:JORGE KAJURU",
+      "authorCode": "9206",
+      "authorName": "JORGE KAJURU",
+      "committed": 69245349.94,
+      "liquidated": 60110999.95,
+      "paid": 59347739.24,
+      "remainingPaid": 0.0,
+      "amendmentCount": 8
+    },
+    {
+      "code": "aggregate:4273:JORGE SEIF",
+      "authorCode": "4273",
+      "authorName": "JORGE SEIF",
+      "committed": 51924808.2,
+      "liquidated": 15279314.02,
+      "paid": 15279314.02,
+      "remainingPaid": 0.0,
+      "amendmentCount": 12
+    },
+    {
+      "code": "aggregate:3694:JORGE SOLLA",
+      "authorCode": "3694",
+      "authorName": "JORGE SOLLA",
+      "committed": 35347428.51,
+      "liquidated": 30004877.56,
+      "paid": 28645349.56,
+      "remainingPaid": 0.0,
+      "amendmentCount": 13
+    },
+    {
+      "code": "aggregate:2441:JOSE AIRTON FELIX CIRILO",
+      "authorCode": "2441",
+      "authorName": "JOSE AIRTON FELIX CIRILO",
+      "committed": 39169393.0,
+      "liquidated": 29791194.08,
+      "paid": 29791194.08,
+      "remainingPaid": 0.0,
+      "amendmentCount": 5
+    },
+    {
+      "code": "aggregate:2442:JOSE GUIMARAES",
+      "authorCode": "2442",
+      "authorName": "JOSE GUIMARAES",
+      "committed": 37462805.34,
+      "liquidated": 28516995.3,
+      "paid": 28516995.3,
+      "remainingPaid": 0.0,
+      "amendmentCount": 12
+    },
+    {
+      "code": "aggregate:4153:JOSE MEDEIROS",
+      "authorCode": "4153",
+      "authorName": "JOSE MEDEIROS",
+      "committed": 31211959.31,
+      "liquidated": 10700141.8,
+      "paid": 10470931.8,
+      "remainingPaid": 0.0,
+      "amendmentCount": 11
+    },
+    {
+      "code": "aggregate:4023:JOSE NELTO",
+      "authorCode": "4023",
+      "authorName": "JOSE NELTO",
+      "committed": 37966578.66,
+      "liquidated": 31583174.59,
+      "paid": 31580378.15,
+      "remainingPaid": 0.0,
+      "amendmentCount": 6
+    },
+    {
+      "code": "aggregate:3260:JOSE PRIANTE",
+      "authorCode": "3260",
+      "authorName": "JOSE PRIANTE",
+      "committed": 36753289.42,
+      "liquidated": 29969044.45,
+      "paid": 29969044.45,
+      "remainingPaid": 0.0,
+      "amendmentCount": 3
+    },
+    {
+      "code": "aggregate:3262:JOSE ROCHA",
+      "authorCode": "3262",
+      "authorName": "JOSE ROCHA",
+      "committed": 36692562.0,
+      "liquidated": 27970470.82,
+      "paid": 27970470.82,
+      "remainingPaid": 0.0,
+      "amendmentCount": 5
+    },
+    {
+      "code": "aggregate:4190:JOSEILDO RAMOS",
+      "authorCode": "4190",
+      "authorName": "JOSEILDO RAMOS",
+      "committed": 39878150.93,
+      "liquidated": 36374438.01,
+      "paid": 36156648.01,
+      "remainingPaid": 0.0,
+      "amendmentCount": 10
+    },
+    {
+      "code": "aggregate:4400:JOSENILDO",
+      "authorCode": "4400",
+      "authorName": "JOSENILDO",
+      "committed": 40151310.0,
+      "liquidated": 36327029.61,
+      "paid": 36327029.61,
+      "remainingPaid": 0.0,
+      "amendmentCount": 5
+    },
+    {
+      "code": "aggregate:4024:JOSIMAR MARANHAOZINHO",
+      "authorCode": "4024",
+      "authorName": "JOSIMAR MARANHAOZINHO",
+      "committed": 38217007.0,
+      "liquidated": 14747619.66,
+      "paid": 14747619.66,
+      "remainingPaid": 0.0,
+      "amendmentCount": 3
+    },
+    {
+      "code": "aggregate:4212:JOSIVALDO JP",
+      "authorCode": "4212",
+      "authorName": "JOSIVALDO JP",
+      "committed": 39806997.0,
+      "liquidated": 31385284.18,
+      "paid": 31385284.18,
+      "remainingPaid": 0.0,
+      "amendmentCount": 5
+    },
+    {
+      "code": "aggregate:4154:JUAREZ COSTA",
+      "authorCode": "4154",
+      "authorName": "JUAREZ COSTA",
+      "committed": 40252007.0,
+      "liquidated": 252007.0,
+      "paid": 252007.0,
+      "remainingPaid": 0.0,
+      "amendmentCount": 2
+    },
+    {
+      "code": "aggregate:4401:JULIA ZANATTA",
+      "authorCode": "4401",
+      "authorName": "JULIA ZANATTA",
+      "committed": 36211958.9,
+      "liquidated": 19442317.94,
+      "paid": 19421385.94,
+      "remainingPaid": 0.0,
+      "amendmentCount": 9
+    },
+    {
+      "code": "aggregate:4402:JULIANA CARDOSO",
+      "authorCode": "4402",
+      "authorName": "JULIANA CARDOSO",
+      "committed": 29311526.98,
+      "liquidated": 19444116.61,
+      "paid": 19336017.18,
+      "remainingPaid": 0.0,
+      "amendmentCount": 17
+    },
+    {
+      "code": "aggregate:4403:JULIO ARCOVERDE",
+      "authorCode": "4403",
+      "authorName": "JULIO ARCOVERDE",
+      "committed": 39355396.97,
+      "liquidated": 32504142.62,
+      "paid": 32504142.62,
+      "remainingPaid": 0.0,
+      "amendmentCount": 3
+    },
+    {
+      "code": "aggregate:1246:JULIO CESAR",
+      "authorCode": "1246",
+      "authorName": "JULIO CESAR",
+      "committed": 36792441.68,
+      "liquidated": 28467337.25,
+      "paid": 28467337.25,
+      "remainingPaid": 0.0,
+      "amendmentCount": 6
+    },
+    {
+      "code": "aggregate:4110:JULIO CESAR RIBEIRO",
+      "authorCode": "4110",
+      "authorName": "JULIO CESAR RIBEIRO",
+      "committed": 27257049.56,
+      "liquidated": 12695023.97,
+      "paid": 12594428.55,
+      "remainingPaid": 0.0,
+      "amendmentCount": 10
+    },
+    {
+      "code": "aggregate:1504:JULIO LOPES",
+      "authorCode": "1504",
+      "authorName": "JULIO LOPES",
+      "committed": 39933742.99,
+      "liquidated": 36312390.6,
+      "paid": 36312390.6,
+      "remainingPaid": 0.0,
+      "amendmentCount": 4
+    },
+    {
+      "code": "aggregate:4026:JUNINHO DO PNEU",
+      "authorCode": "4026",
+      "authorName": "JUNINHO DO PNEU",
+      "committed": 40247442.35,
+      "liquidated": 32397063.0,
+      "paid": 32397063.0,
+      "remainingPaid": 0.0,
+      "amendmentCount": 10
+    },
+    {
+      "code": "aggregate:3924:JUNIO AMARAL",
+      "authorCode": "3924",
+      "authorName": "JUNIO AMARAL",
+      "committed": 35459772.5,
+      "liquidated": 22413217.92,
+      "paid": 22413217.92,
+      "remainingPaid": 0.0,
+      "amendmentCount": 11
+    },
+    {
+      "code": "aggregate:4027:JUNIOR FERRARI",
+      "authorCode": "4027",
+      "authorName": "JUNIOR FERRARI",
+      "committed": 40199007.0,
+      "liquidated": 23112239.32,
+      "paid": 23112239.32,
+      "remainingPaid": 0.0,
+      "amendmentCount": 4
+    },
+    {
+      "code": "aggregate:4111:JUNIOR LOURENCO",
+      "authorCode": "4111",
+      "authorName": "JUNIOR LOURENCO",
+      "committed": 40083585.35,
+      "liquidated": 31541790.83,
+      "paid": 31540226.42,
+      "remainingPaid": 0.0,
+      "amendmentCount": 6
+    },
+    {
+      "code": "aggregate:4028:JUNIOR MANO",
+      "authorCode": "4028",
+      "authorName": "JUNIOR MANO",
+      "committed": 38801363.37,
+      "liquidated": 32316309.11,
+      "paid": 32316309.11,
+      "remainingPaid": 0.0,
+      "amendmentCount": 6
+    },
+    {
+      "code": "aggregate:3699:JUSCELINO FILHO",
+      "authorCode": "3699",
+      "authorName": "JUSCELINO FILHO",
+      "committed": 37321740.0,
+      "liquidated": 31270727.91,
+      "paid": 30819294.2,
+      "remainingPaid": 0.0,
+      "amendmentCount": 7
+    },
+    {
+      "code": "aggregate:4496:JUSSARA LIMA",
+      "authorCode": "4496",
+      "authorName": "JUSSARA LIMA",
+      "committed": 70598370.96,
+      "liquidated": 59816042.09,
+      "paid": 59816042.09,
+      "remainingPaid": 0.0,
+      "amendmentCount": 8
+    },
+    {
+      "code": "aggregate:4404:KENISTON BRAGA",
+      "authorCode": "4404",
+      "authorName": "KENISTON BRAGA",
+      "committed": 39385788.05,
+      "liquidated": 32233996.29,
+      "paid": 32233996.29,
+      "remainingPaid": 0.0,
+      "amendmentCount": 6
+    },
+    {
+      "code": "aggregate:4405:KIKO CELEGUIM",
+      "authorCode": "4405",
+      "authorName": "KIKO CELEGUIM",
+      "committed": 35053804.16,
+      "liquidated": 21919084.65,
+      "paid": 21676144.89,
+      "remainingPaid": 0.0,
+      "amendmentCount": 21
+    },
+    {
+      "code": "aggregate:4155:KIM KATAGUIRI",
+      "authorCode": "4155",
+      "authorName": "KIM KATAGUIRI",
+      "committed": 34937714.95,
+      "liquidated": 13006916.96,
+      "paid": 12528525.16,
+      "remainingPaid": 0.0,
+      "amendmentCount": 13
+    },
+    {
+      "code": "aggregate:4274:LAERCIO OLIVEIRA",
+      "authorCode": "4274",
+      "authorName": "LAERCIO OLIVEIRA",
+      "committed": 66989775.66,
+      "liquidated": 49102095.29,
+      "paid": 48902095.29,
+      "remainingPaid": 0.0,
+      "amendmentCount": 13
+    },
+    {
+      "code": "aggregate:4029:LAFAYETTE DE ANDRADA",
+      "authorCode": "4029",
+      "authorName": "LAFAYETTE DE ANDRADA",
+      "committed": 37158730.2,
+      "liquidated": 29509671.87,
+      "paid": 29476963.54,
+      "remainingPaid": 0.0,
+      "amendmentCount": 8
+    },
+    {
+      "code": "aggregate:3268:LAURA CARNEIRO",
+      "authorCode": "3268",
+      "authorName": "LAURA CARNEIRO",
+      "committed": 38690233.71,
+      "liquidated": 34708239.68,
+      "paid": 34595789.04,
+      "remainingPaid": 0.0,
+      "amendmentCount": 21
+    },
+    {
+      "code": "aggregate:3702:LEANDRE",
+      "authorCode": "3702",
+      "authorName": "LEANDRE",
+      "committed": 31604162.0,
+      "liquidated": 21542666.63,
+      "paid": 21542666.63,
+      "remainingPaid": 0.0,
+      "amendmentCount": 11
+    },
+    {
+      "code": "aggregate:4407:LEDA BORGES",
+      "authorCode": "4407",
+      "authorName": "LEDA BORGES",
+      "committed": 29994915.0,
+      "liquidated": 17751966.26,
+      "paid": 17751966.26,
+      "remainingPaid": 0.0,
+      "amendmentCount": 7
+    },
+    {
+      "code": "aggregate:4082:LEILA BARROS",
+      "authorCode": "4082",
+      "authorName": "LEILA BARROS",
+      "committed": 45162951.14,
+      "liquidated": 30556434.07,
+      "paid": 29524732.85,
+      "remainingPaid": 0.0,
+      "amendmentCount": 22
+    },
+    {
+      "code": "aggregate:4553:LENIR DE ASSIS",
+      "authorCode": "4553",
+      "authorName": "LENIR DE ASSIS",
+      "committed": 34136554.31,
+      "liquidated": 23585325.25,
+      "paid": 23347253.77,
+      "remainingPaid": 0.0,
+      "amendmentCount": 18
+    },
+    {
+      "code": "aggregate:4408:LEO PRATES",
+      "authorCode": "4408",
+      "authorName": "LEO PRATES",
+      "committed": 33577255.87,
+      "liquidated": 22802419.22,
+      "paid": 22793904.98,
+      "remainingPaid": 0.0,
+      "amendmentCount": 15
+    },
+    {
+      "code": "aggregate:1403:LEONARDO MONTEIRO",
+      "authorCode": "1403",
+      "authorName": "LEONARDO MONTEIRO",
+      "committed": 37828952.37,
+      "liquidated": 29697902.54,
+      "paid": 29697902.54,
+      "remainingPaid": 0.0,
+      "amendmentCount": 11
+    },
+    {
+      "code": "aggregate:3270:LEONIDAS CRISTINO",
+      "authorCode": "3270",
+      "authorName": "LEONIDAS CRISTINO",
+      "committed": 36565007.0,
+      "liquidated": 30136352.13,
+      "paid": 30136352.13,
+      "remainingPaid": 0.0,
+      "amendmentCount": 3
+    },
+    {
+      "code": "aggregate:4031:LEUR LOMANTO JUNIOR",
+      "authorCode": "4031",
+      "authorName": "LEUR LOMANTO JUNIOR",
+      "committed": 38867008.79,
+      "liquidated": 28305801.0,
+      "paid": 28297287.0,
+      "remainingPaid": 0.0,
+      "amendmentCount": 10
+    },
+    {
+      "code": "aggregate:2468:LIDICE DA MATA",
+      "authorCode": "2468",
+      "authorName": "LIDICE DA MATA",
+      "committed": 28526221.94,
+      "liquidated": 18657241.93,
+      "paid": 18452377.84,
+      "remainingPaid": 0.0,
+      "amendmentCount": 21
+    },
+    {
+      "code": "aggregate:3595:LINCOLN PORTELA",
+      "authorCode": "3595",
+      "authorName": "LINCOLN PORTELA",
+      "committed": 35463790.29,
+      "liquidated": 23277891.23,
+      "paid": 23277891.23,
+      "remainingPaid": 0.0,
+      "amendmentCount": 8
+    },
+    {
+      "code": "aggregate:3273:LINDBERGH FARIAS",
+      "authorCode": "3273",
+      "authorName": "LINDBERGH FARIAS",
+      "committed": 33622007.0,
+      "liquidated": 25122007.0,
+      "paid": 25122007.0,
+      "remainingPaid": 0.0,
+      "amendmentCount": 10
+    },
+    {
+      "code": "aggregate:4079:LUCAS BARRETO",
+      "authorCode": "4079",
+      "authorName": "LUCAS BARRETO",
+      "committed": 32933303.0,
+      "liquidated": 21986406.34,
+      "paid": 21986406.34,
+      "remainingPaid": 0.0,
+      "amendmentCount": 9
+    },
+    {
+      "code": "aggregate:4409:LUCAS RAMOS",
+      "authorCode": "4409",
+      "authorName": "LUCAS RAMOS",
+      "committed": 37607474.97,
+      "liquidated": 21658830.19,
+      "paid": 20658830.19,
+      "remainingPaid": 0.0,
+      "amendmentCount": 6
+    },
+    {
+      "code": "aggregate:4033:LUCAS REDECKER",
+      "authorCode": "4033",
+      "authorName": "LUCAS REDECKER",
+      "committed": 36271517.05,
+      "liquidated": 26587003.95,
+      "paid": 26444330.27,
+      "remainingPaid": 0.0,
+      "amendmentCount": 9
+    },
+    {
+      "code": "aggregate:4410:LUCIANO AMARAL",
+      "authorCode": "4410",
+      "authorName": "LUCIANO AMARAL",
+      "committed": 40172007.0,
+      "liquidated": 39928530.93,
+      "paid": 39928530.93,
+      "remainingPaid": 0.0,
+      "amendmentCount": 3
+    },
+    {
+      "code": "aggregate:3539:LUCIANO BIVAR",
+      "authorCode": "3539",
+      "authorName": "LUCIANO BIVAR",
+      "committed": 35977993.11,
+      "liquidated": 29673188.65,
+      "paid": 29673188.65,
+      "remainingPaid": 0.0,
+      "amendmentCount": 8
+    },
+    {
+      "code": "aggregate:3705:LUCIANO DUCCI",
+      "authorCode": "3705",
+      "authorName": "LUCIANO DUCCI",
+      "committed": 36244105.51,
+      "liquidated": 29122015.31,
+      "paid": 29117657.14,
+      "remainingPaid": 0.0,
+      "amendmentCount": 14
+    },
+    {
+      "code": "aggregate:4411:LUCIANO VIEIRA",
+      "authorCode": "4411",
+      "authorName": "LUCIANO VIEIRA",
+      "committed": 36585299.53,
+      "liquidated": 35404495.13,
+      "paid": 35404495.13,
+      "remainingPaid": 0.0,
+      "amendmentCount": 6
+    },
+    {
+      "code": "aggregate:3706:LUCIO MOSQUINI",
+      "authorCode": "3706",
+      "authorName": "LUCIO MOSQUINI",
+      "committed": 37433061.99,
+      "liquidated": 30234868.04,
+      "paid": 30234868.04,
+      "remainingPaid": 0.0,
+      "amendmentCount": 5
+    },
+    {
+      "code": "aggregate:4184:LUIS CARLOS HEINZE",
+      "authorCode": "4184",
+      "authorName": "LUIS CARLOS HEINZE",
+      "committed": 66473819.43,
+      "liquidated": 35189732.61,
+      "paid": 35111267.13,
+      "remainingPaid": 0.0,
+      "amendmentCount": 8
+    },
+    {
+      "code": "aggregate:2762:LUIS TIBE",
+      "authorCode": "2762",
+      "authorName": "LUIS TIBE",
+      "committed": 39764986.8,
+      "liquidated": 31432498.96,
+      "paid": 31389919.15,
+      "remainingPaid": 0.0,
+      "amendmentCount": 5
+    },
+    {
+      "code": "aggregate:4034:LUISA CANZIANI",
+      "authorCode": "4034",
+      "authorName": "LUISA CANZIANI",
+      "committed": 38633323.0,
+      "liquidated": 28902043.84,
+      "paid": 28902043.84,
+      "remainingPaid": 0.0,
+      "amendmentCount": 3
+    },
+    {
+      "code": "aggregate:2407:LUIZ CARLOS BUSATO",
+      "authorCode": "2407",
+      "authorName": "LUIZ CARLOS BUSATO",
+      "committed": 35049899.35,
+      "liquidated": 15275396.48,
+      "paid": 15275396.48,
+      "remainingPaid": 0.0,
+      "amendmentCount": 8
+    },
+    {
+      "code": "aggregate:1867:LUIZ CARLOS HAULY",
+      "authorCode": "1867",
+      "authorName": "LUIZ CARLOS HAULY",
+      "committed": 28893496.43,
+      "liquidated": 14557950.65,
+      "paid": 14472868.08,
+      "remainingPaid": 0.0,
+      "amendmentCount": 12
+    },
+    {
+      "code": "aggregate:4035:LUIZ CARLOS MOTTA",
+      "authorCode": "4035",
+      "authorName": "LUIZ CARLOS MOTTA",
+      "committed": 36507039.0,
+      "liquidated": 22558526.5,
+      "paid": 22558526.5,
+      "remainingPaid": 0.0,
+      "amendmentCount": 3
+    },
+    {
+      "code": "aggregate:1271:LUIZ COUTO",
+      "authorCode": "1271",
+      "authorName": "LUIZ COUTO",
+      "committed": 23822791.12,
+      "liquidated": 14962283.18,
+      "paid": 9801001.13,
+      "remainingPaid": 0.0,
+      "amendmentCount": 20
+    },
+    {
+      "code": "aggregate:2482:LUIZ FERNANDO FARIA",
+      "authorCode": "2482",
+      "authorName": "LUIZ FERNANDO FARIA",
+      "committed": 37985324.72,
+      "liquidated": 21523765.23,
+      "paid": 21511750.23,
+      "remainingPaid": 0.0,
+      "amendmentCount": 8
+    },
+    {
+      "code": "aggregate:4413:LUIZ GASTAO",
+      "authorCode": "4413",
+      "authorName": "LUIZ GASTAO",
+      "committed": 38023003.33,
+      "liquidated": 28457760.48,
+      "paid": 28427071.98,
+      "remainingPaid": 0.0,
+      "amendmentCount": 7
+    },
+    {
+      "code": "aggregate:4158:LUIZ LIMA",
+      "authorCode": "4158",
+      "authorName": "LUIZ LIMA",
+      "committed": 39095256.87,
+      "liquidated": 13505936.09,
+      "paid": 13257714.09,
+      "remainingPaid": 0.0,
+      "amendmentCount": 10
+    },
+    {
+      "code": "aggregate:2874:LUIZ NISHIMORI",
+      "authorCode": "2874",
+      "authorName": "LUIZ NISHIMORI",
+      "committed": 36153434.46,
+      "liquidated": 26088464.59,
+      "paid": 26087081.74,
+      "remainingPaid": 0.0,
+      "amendmentCount": 13
+    },
+    {
+      "code": "aggregate:4036:LUIZ PHILIPPE DE ORLEANS E BRAGANCA",
+      "authorCode": "4036",
+      "authorName": "LUIZ PHILIPPE DE ORLEANS E BRAGANCA",
+      "committed": 28006260.83,
+      "liquidated": 8307977.25,
+      "paid": 7743933.28,
+      "remainingPaid": 0.0,
+      "amendmentCount": 18
+    },
+    {
+      "code": "aggregate:3611:LUIZA ERUNDINA",
+      "authorCode": "3611",
+      "authorName": "LUIZA ERUNDINA",
+      "committed": 26737261.95,
+      "liquidated": 8073480.14,
+      "paid": 7910480.14,
+      "remainingPaid": 0.0,
+      "amendmentCount": 18
+    },
+    {
+      "code": "aggregate:3710:LUIZIANNE LINS",
+      "authorCode": "3710",
+      "authorName": "LUIZIANNE LINS",
+      "committed": 32238925.86,
+      "liquidated": 26489363.2,
+      "paid": 26279363.2,
+      "remainingPaid": 0.0,
+      "amendmentCount": 16
+    },
+    {
+      "code": "aggregate:4414:LULA DA FONTE",
+      "authorCode": "4414",
+      "authorName": "LULA DA FONTE",
+      "committed": 39487304.53,
+      "liquidated": 25604400.0,
+      "paid": 25604400.0,
+      "remainingPaid": 0.0,
+      "amendmentCount": 3
+    },
+    {
+      "code": "aggregate:2935:MAGDA MOFATTO",
+      "authorCode": "2935",
+      "authorName": "MAGDA MOFATTO",
+      "committed": 23405614.0,
+      "liquidated": 12033724.99,
+      "paid": 11923162.71,
+      "remainingPaid": 0.0,
+      "amendmentCount": 7
+    },
+    {
+      "code": "aggregate:2029:MAGNO MALTA",
+      "authorCode": "2029",
+      "authorName": "MAGNO MALTA",
+      "committed": 63966840.72,
+      "liquidated": 30879717.74,
+      "paid": 30860842.13,
+      "remainingPaid": 0.0,
+      "amendmentCount": 11
+    },
+    {
+      "code": "aggregate:4094:MARA GABRILLI",
+      "authorCode": "4094",
+      "authorName": "MARA GABRILLI",
+      "committed": 69262034.62,
+      "liquidated": 40045903.53,
+      "paid": 39910456.43,
+      "remainingPaid": 0.0,
+      "amendmentCount": 9
+    },
+    {
+      "code": "aggregate:4415:MARANGONI",
+      "authorCode": "4415",
+      "authorName": "MARANGONI",
+      "committed": 33580741.4,
+      "liquidated": 26003209.4,
+      "paid": 25999209.4,
+      "remainingPaid": 0.0,
+      "amendmentCount": 8
+    },
+    {
+      "code": "aggregate:4116:MARCEL VAN HATTEM",
+      "authorCode": "4116",
+      "authorName": "MARCEL VAN HATTEM",
+      "committed": 26615908.0,
+      "liquidated": 7187079.79,
+      "paid": 7187079.79,
+      "remainingPaid": 0.0,
+      "amendmentCount": 7
+    },
+    {
+      "code": "aggregate:3713:MARCELO ALVARO ANTONIO",
+      "authorCode": "3713",
+      "authorName": "MARCELO ALVARO ANTONIO",
+      "committed": 36932811.38,
+      "liquidated": 29000581.84,
+      "paid": 28875618.89,
+      "remainingPaid": 0.0,
+      "amendmentCount": 7
+    },
+    {
+      "code": "aggregate:4183:MARCELO CASTRO",
+      "authorCode": "4183",
+      "authorName": "MARCELO CASTRO",
+      "committed": 72833225.62,
+      "liquidated": 63757648.88,
+      "paid": 63757648.88,
+      "remainingPaid": 0.0,
+      "amendmentCount": 5
+    },
+    {
+      "code": "aggregate:4416:MARCELO CRIVELLA",
+      "authorCode": "4416",
+      "authorName": "MARCELO CRIVELLA",
+      "committed": 24070124.0,
+      "liquidated": 10838650.98,
+      "paid": 10815013.15,
+      "remainingPaid": 0.0,
+      "amendmentCount": 12
+    },
+    {
+      "code": "aggregate:4040:MARCELO MORAES",
+      "authorCode": "4040",
+      "authorName": "MARCELO MORAES",
+      "committed": 30404500.0,
+      "liquidated": 18716006.33,
+      "paid": 18716006.33,
+      "remainingPaid": 0.0,
+      "amendmentCount": 6
+    },
+    {
+      "code": "aggregate:4418:MARCELO QUEIROZ",
+      "authorCode": "4418",
+      "authorName": "MARCELO QUEIROZ",
+      "committed": 39993889.3,
+      "liquidated": 24251078.41,
+      "paid": 24246150.41,
+      "remainingPaid": 0.0,
+      "amendmentCount": 7
+    },
+    {
+      "code": "aggregate:3717:MARCIO ALVINO",
+      "authorCode": "3717",
+      "authorName": "MARCIO ALVINO",
+      "committed": 29548680.72,
+      "liquidated": 8481181.49,
+      "paid": 8473168.93,
+      "remainingPaid": 0.0,
+      "amendmentCount": 13
+    },
+    {
+      "code": "aggregate:3718:MARCIO BIOLCHI",
+      "authorCode": "3718",
+      "authorName": "MARCIO BIOLCHI",
+      "committed": 38714470.0,
+      "liquidated": 23270158.7,
+      "paid": 23270158.7,
+      "remainingPaid": 0.0,
+      "amendmentCount": 7
+    },
+    {
+      "code": "aggregate:4078:MARCIO BITTAR",
+      "authorCode": "4078",
+      "authorName": "MARCIO BITTAR",
+      "committed": 63149344.12,
+      "liquidated": 27337440.62,
+      "paid": 26890889.72,
+      "remainingPaid": 0.0,
+      "amendmentCount": 18
+    },
+    {
+      "code": "aggregate:4419:MARCIO HONAISER",
+      "authorCode": "4419",
+      "authorName": "MARCIO HONAISER",
+      "committed": 36962452.49,
+      "liquidated": 27625026.25,
+      "paid": 27493728.23,
+      "remainingPaid": 0.0,
+      "amendmentCount": 8
+    },
+    {
+      "code": "aggregate:3893:MARCIO JERRY",
+      "authorCode": "3893",
+      "authorName": "MARCIO JERRY",
+      "committed": 37101539.04,
+      "liquidated": 30658356.62,
+      "paid": 30492188.25,
+      "remainingPaid": 0.0,
+      "amendmentCount": 10
+    },
+    {
+      "code": "aggregate:2601:MARCIO MARINHO",
+      "authorCode": "2601",
+      "authorName": "MARCIO MARINHO",
+      "committed": 34682798.54,
+      "liquidated": 18886757.09,
+      "paid": 18193156.39,
+      "remainingPaid": 0.0,
+      "amendmentCount": 11
+    },
+    {
+      "code": "aggregate:2867:MARCON",
+      "authorCode": "2867",
+      "authorName": "MARCON",
+      "committed": 35838830.14,
+      "liquidated": 29973507.66,
+      "paid": 29693929.55,
+      "remainingPaid": 0.0,
+      "amendmentCount": 16
+    },
+    {
+      "code": "aggregate:4042:MARCOS AURELIO SAMPAIO",
+      "authorCode": "4042",
+      "authorName": "MARCOS AURELIO SAMPAIO",
+      "committed": 39952377.0,
+      "liquidated": 32627705.33,
+      "paid": 32627705.33,
+      "remainingPaid": 0.0,
+      "amendmentCount": 3
+    },
+    {
+      "code": "aggregate:9204:MARCOS DO VAL",
+      "authorCode": "9204",
+      "authorName": "MARCOS DO VAL",
+      "committed": 73273109.0,
+      "liquidated": 45899305.6,
+      "paid": 45899305.6,
+      "remainingPaid": 0.0,
+      "amendmentCount": 4
+    },
+    {
+      "code": "aggregate:4161:MARCOS PEREIRA",
+      "authorCode": "4161",
+      "authorName": "MARCOS PEREIRA",
+      "committed": 32921579.0,
+      "liquidated": 20817385.16,
+      "paid": 20803322.16,
+      "remainingPaid": 0.0,
+      "amendmentCount": 7
+    },
+    {
+      "code": "aggregate:4420:MARCOS POLLON",
+      "authorCode": "4420",
+      "authorName": "MARCOS POLLON",
+      "committed": 34283167.59,
+      "liquidated": 23247464.11,
+      "paid": 23246478.51,
+      "remainingPaid": 0.0,
+      "amendmentCount": 10
+    },
+    {
+      "code": "aggregate:9224:MARCOS ROGERIO",
+      "authorCode": "9224",
+      "authorName": "MARCOS ROGERIO",
+      "committed": 70222690.62,
+      "liquidated": 52841520.75,
+      "paid": 52841520.75,
+      "remainingPaid": 0.0,
+      "amendmentCount": 4
+    },
+    {
+      "code": "aggregate:3724:MARCOS SOARES",
+      "authorCode": "3724",
+      "authorName": "MARCOS SOARES",
+      "committed": 40166906.46,
+      "liquidated": 34644471.0,
+      "paid": 34644471.0,
+      "remainingPaid": 0.0,
+      "amendmentCount": 5
+    },
+    {
+      "code": "aggregate:4421:MARCOS TAVARES",
+      "authorCode": "4421",
+      "authorName": "MARCOS TAVARES",
+      "committed": 29980395.72,
+      "liquidated": 24089556.97,
+      "paid": 24089556.97,
+      "remainingPaid": 0.0,
+      "amendmentCount": 8
+    },
+    {
+      "code": "aggregate:4422:MARIA ARRAES",
+      "authorCode": "4422",
+      "authorName": "MARIA ARRAES",
+      "committed": 40217007.0,
+      "liquidated": 31308342.05,
+      "paid": 31308342.05,
+      "remainingPaid": 0.0,
+      "amendmentCount": 4
+    },
+    {
+      "code": "aggregate:1983:MARIA DO ROSARIO",
+      "authorCode": "1983",
+      "authorName": "MARIA DO ROSARIO",
+      "committed": 32197507.74,
+      "liquidated": 25013192.71,
+      "paid": 24872710.85,
+      "remainingPaid": 0.0,
+      "amendmentCount": 15
+    },
+    {
+      "code": "aggregate:4119:MARIA ROSAS",
+      "authorCode": "4119",
+      "authorName": "MARIA ROSAS",
+      "committed": 37938141.0,
+      "liquidated": 18778125.0,
+      "paid": 18778125.0,
+      "remainingPaid": 0.0,
+      "amendmentCount": 6
+    },
+    {
+      "code": "aggregate:4423:MARIO FRIAS",
+      "authorCode": "4423",
+      "authorName": "MARIO FRIAS",
+      "committed": 33628216.8,
+      "liquidated": 3506652.8,
+      "paid": 3506652.8,
+      "remainingPaid": 0.0,
+      "amendmentCount": 5
+    },
+    {
+      "code": "aggregate:1405:MARIO HERINGER",
+      "authorCode": "1405",
+      "authorName": "MARIO HERINGER",
+      "committed": 35152971.2,
+      "liquidated": 27794768.61,
+      "paid": 27794768.61,
+      "remainingPaid": 0.0,
+      "amendmentCount": 8
+    },
+    {
+      "code": "aggregate:3727:MARIO NEGROMONTE JR.",
+      "authorCode": "3727",
+      "authorName": "MARIO NEGROMONTE JR.",
+      "committed": 37293357.0,
+      "liquidated": 30487648.28,
+      "paid": 30487648.28,
+      "remainingPaid": 0.0,
+      "amendmentCount": 3
+    },
+    {
+      "code": "aggregate:4120:MARRECA FILHO",
+      "authorCode": "4120",
+      "authorName": "MARRECA FILHO",
+      "committed": 35084257.0,
+      "liquidated": 30652992.56,
+      "paid": 30652992.56,
+      "remainingPaid": 0.0,
+      "amendmentCount": 3
+    },
+    {
+      "code": "aggregate:4424:MARUSSA BOLDRIN",
+      "authorCode": "4424",
+      "authorName": "MARUSSA BOLDRIN",
+      "committed": 34154878.0,
+      "liquidated": 27268280.33,
+      "paid": 27268280.33,
+      "remainingPaid": 0.0,
+      "amendmentCount": 9
+    },
+    {
+      "code": "aggregate:3728:MARX BELTRAO",
+      "authorCode": "3728",
+      "authorName": "MARX BELTRAO",
+      "committed": 34402007.0,
+      "liquidated": 30941150.59,
+      "paid": 30941150.59,
+      "remainingPaid": 0.0,
+      "amendmentCount": 3
+    },
+    {
+      "code": "aggregate:4425:MATHEUS NORONHA",
+      "authorCode": "4425",
+      "authorName": "MATHEUS NORONHA",
+      "committed": 38161373.0,
+      "liquidated": 32061810.54,
+      "paid": 32061810.54,
+      "remainingPaid": 0.0,
+      "amendmentCount": 3
+    },
+    {
+      "code": "aggregate:4426:MAURICIO CARVALHO",
+      "authorCode": "4426",
+      "authorName": "MAURICIO CARVALHO",
+      "committed": 20408535.0,
+      "liquidated": 13047346.11,
+      "paid": 13047346.11,
+      "remainingPaid": 0.0,
+      "amendmentCount": 4
+    },
+    {
+      "code": "aggregate:4427:MAURICIO DO VOLEI",
+      "authorCode": "4427",
+      "authorName": "MAURICIO DO VOLEI",
+      "committed": 30271444.0,
+      "liquidated": 12995356.03,
+      "paid": 12930356.03,
+      "remainingPaid": 0.0,
+      "amendmentCount": 5
+    },
+    {
+      "code": "aggregate:4428:MAURICIO MARCON",
+      "authorCode": "4428",
+      "authorName": "MAURICIO MARCON",
+      "committed": 36676687.54,
+      "liquidated": 17770844.99,
+      "paid": 17770844.99,
+      "remainingPaid": 0.0,
+      "amendmentCount": 6
+    },
+    {
+      "code": "aggregate:4429:MAURICIO NEVES",
+      "authorCode": "4429",
+      "authorName": "MAURICIO NEVES",
+      "committed": 38580007.0,
+      "liquidated": 26616615.13,
+      "paid": 26616615.13,
+      "remainingPaid": 0.0,
+      "amendmentCount": 4
+    },
+    {
+      "code": "aggregate:4046:MAURO BENEVIDES FILHO",
+      "authorCode": "4046",
+      "authorName": "MAURO BENEVIDES FILHO",
+      "committed": 39031612.91,
+      "liquidated": 35681230.93,
+      "paid": 35680301.16,
+      "remainingPaid": 0.0,
+      "amendmentCount": 7
+    },
+    {
+      "code": "aggregate:4430:MAX LEMOS",
+      "authorCode": "4430",
+      "authorName": "MAX LEMOS",
+      "committed": 35574792.44,
+      "liquidated": 28402437.76,
+      "paid": 28402437.76,
+      "remainingPaid": 0.0,
+      "amendmentCount": 19
+    },
+    {
+      "code": "aggregate:4093:MECIAS DE JESUS",
+      "authorCode": "4093",
+      "authorName": "MECIAS DE JESUS",
+      "committed": 69515234.23,
+      "liquidated": 48909028.87,
+      "paid": 48689454.37,
+      "remainingPaid": 0.0,
+      "amendmentCount": 7
+    },
+    {
+      "code": "aggregate:4431:MEIRE SERAFIM",
+      "authorCode": "4431",
+      "authorName": "MEIRE SERAFIM",
+      "committed": 39209493.0,
+      "liquidated": 22646399.84,
+      "paid": 22544973.84,
+      "remainingPaid": 0.0,
+      "amendmentCount": 6
+    },
+    {
+      "code": "aggregate:3299:MENDONCA FILHO",
+      "authorCode": "3299",
+      "authorName": "MENDONCA FILHO",
+      "committed": 35384116.75,
+      "liquidated": 27468324.52,
+      "paid": 27441764.25,
+      "remainingPaid": 0.0,
+      "amendmentCount": 10
+    },
+    {
+      "code": "aggregate:3822:MERLONG SOLANO",
+      "authorCode": "3822",
+      "authorName": "MERLONG SOLANO",
+      "committed": 33239879.98,
+      "liquidated": 26215341.54,
+      "paid": 26170154.65,
+      "remainingPaid": 0.0,
+      "amendmentCount": 11
+    },
+    {
+      "code": "aggregate:4432:MERSINHO LUCENA",
+      "authorCode": "4432",
+      "authorName": "MERSINHO LUCENA",
+      "committed": 34513217.41,
+      "liquidated": 25798020.0,
+      "paid": 25798020.0,
+      "remainingPaid": 0.0,
+      "amendmentCount": 14
+    },
+    {
+      "code": "aggregate:4433:MESSIAS DONATO",
+      "authorCode": "4433",
+      "authorName": "MESSIAS DONATO",
+      "committed": 37502633.45,
+      "liquidated": 15531932.45,
+      "paid": 15531662.45,
+      "remainingPaid": 0.0,
+      "amendmentCount": 10
+    },
+    {
+      "code": "aggregate:4434:MIGUEL ANGELO",
+      "authorCode": "4434",
+      "authorName": "MIGUEL ANGELO",
+      "committed": 29593224.78,
+      "liquidated": 21467404.98,
+      "paid": 21175574.32,
+      "remainingPaid": 0.0,
+      "amendmentCount": 16
+    },
+    {
+      "code": "aggregate:3730:MIGUEL LOMBARDI",
+      "authorCode": "3730",
+      "authorName": "MIGUEL LOMBARDI",
+      "committed": 39429144.8,
+      "liquidated": 19344956.8,
+      "paid": 19344956.8,
+      "remainingPaid": 0.0,
+      "amendmentCount": 6
+    },
+    {
+      "code": "aggregate:3731:MISAEL VARELLA",
+      "authorCode": "3731",
+      "authorName": "MISAEL VARELLA",
+      "committed": 38292082.99,
+      "liquidated": 18640716.19,
+      "paid": 18640716.19,
+      "remainingPaid": 0.0,
+      "amendmentCount": 5
+    },
+    {
+      "code": "aggregate:3088:MISSIONARIO JOSE OLIMPIO (EX-PARLAMENTAR EDUARDO BOLSONARO, NOS TERMOS DA DECISAO ADPF 854, DE 03",
+      "authorCode": "3088",
+      "authorName": "MISSIONARIO JOSE OLIMPIO (EX-PARLAMENTAR EDUARDO BOLSONARO, NOS TERMOS DA DECISAO ADPF 854, DE 03",
+      "committed": 27915606.0,
+      "liquidated": 4332007.0,
+      "paid": 4332007.0,
+      "remainingPaid": 0.0,
+      "amendmentCount": 3
+    },
+    {
+      "code": "aggregate:3733:MOSES RODRIGUES",
+      "authorCode": "3733",
+      "authorName": "MOSES RODRIGUES",
+      "committed": 33676754.0,
+      "liquidated": 31289556.52,
+      "paid": 31289556.52,
+      "remainingPaid": 0.0,
+      "amendmentCount": 7
+    },
+    {
+      "code": "aggregate:4435:MURILLO GOUVEA",
+      "authorCode": "4435",
+      "authorName": "MURILLO GOUVEA",
+      "committed": 35080005.91,
+      "liquidated": 34130006.0,
+      "paid": 34130006.0,
+      "remainingPaid": 0.0,
+      "amendmentCount": 9
+    },
+    {
+      "code": "aggregate:4436:MURILO GALDINO",
+      "authorCode": "4436",
+      "authorName": "MURILO GALDINO",
+      "committed": 29880835.14,
+      "liquidated": 23772695.95,
+      "paid": 23699764.27,
+      "remainingPaid": 0.0,
+      "amendmentCount": 11
+    },
+    {
+      "code": "aggregate:4163:NATALIA BONAVIDES",
+      "authorCode": "4163",
+      "authorName": "NATALIA BONAVIDES",
+      "committed": 23726716.97,
+      "liquidated": 17883123.62,
+      "paid": 15229498.12,
+      "remainingPaid": 0.0,
+      "amendmentCount": 16
+    },
+    {
+      "code": "aggregate:4181:NELSINHO TRAD",
+      "authorCode": "4181",
+      "authorName": "NELSINHO TRAD",
+      "committed": 69152087.45,
+      "liquidated": 59789885.23,
+      "paid": 59761085.23,
+      "remainingPaid": 0.0,
+      "amendmentCount": 10
+    },
+    {
+      "code": "aggregate:4047:NELSON BARBUDO",
+      "authorCode": "4047",
+      "authorName": "NELSON BARBUDO",
+      "committed": 31764146.0,
+      "liquidated": 17888404.39,
+      "paid": 17888404.39,
+      "remainingPaid": 0.0,
+      "amendmentCount": 12
+    },
+    {
+      "code": "aggregate:4437:NELY AQUINO",
+      "authorCode": "4437",
+      "authorName": "NELY AQUINO",
+      "committed": 38392100.77,
+      "liquidated": 29979974.46,
+      "paid": 29933184.35,
+      "remainingPaid": 0.0,
+      "amendmentCount": 8
+    },
+    {
+      "code": "aggregate:4438:NETO CARLETTO",
+      "authorCode": "4438",
+      "authorName": "NETO CARLETTO",
+      "committed": 35152649.0,
+      "liquidated": 27287523.62,
+      "paid": 27287523.62,
+      "remainingPaid": 0.0,
+      "amendmentCount": 10
+    },
+    {
+      "code": "aggregate:3734:NEWTON CARDOSO JR",
+      "authorCode": "3734",
+      "authorName": "NEWTON CARDOSO JR",
+      "committed": 36484384.94,
+      "liquidated": 30977486.41,
+      "paid": 30943406.41,
+      "remainingPaid": 0.0,
+      "amendmentCount": 7
+    },
+    {
+      "code": "aggregate:4164:NICOLETTI",
+      "authorCode": "4164",
+      "authorName": "NICOLETTI",
+      "committed": 35677302.13,
+      "liquidated": 24973966.71,
+      "paid": 24920073.71,
+      "remainingPaid": 0.0,
+      "amendmentCount": 5
+    },
+    {
+      "code": "aggregate:4439:NIKOLAS FERREIRA",
+      "authorCode": "4439",
+      "authorName": "NIKOLAS FERREIRA",
+      "committed": 32738019.84,
+      "liquidated": 14609715.43,
+      "paid": 14552144.42,
+      "remainingPaid": 0.0,
+      "amendmentCount": 8
+    },
+    {
+      "code": "aggregate:3735:NILTO TATTO",
+      "authorCode": "3735",
+      "authorName": "NILTO TATTO",
+      "committed": 38188985.6,
+      "liquidated": 33037258.65,
+      "paid": 33037258.65,
+      "remainingPaid": 0.0,
+      "amendmentCount": 15
+    },
+    {
+      "code": "aggregate:1407:ODAIR CUNHA",
+      "authorCode": "1407",
+      "authorName": "ODAIR CUNHA",
+      "committed": 29348812.7,
+      "liquidated": 21006051.83,
+      "paid": 20315171.72,
+      "remainingPaid": 0.0,
+      "amendmentCount": 16
+    },
+    {
+      "code": "aggregate:4049:OLIVAL MARQUES",
+      "authorCode": "4049",
+      "authorName": "OLIVAL MARQUES",
+      "committed": 36050000.0,
+      "liquidated": 28258765.82,
+      "paid": 28258765.82,
+      "remainingPaid": 0.0,
+      "amendmentCount": 4
+    },
+    {
+      "code": "aggregate:3794:OMAR AZIZ",
+      "authorCode": "3794",
+      "authorName": "OMAR AZIZ",
+      "committed": 68862867.04,
+      "liquidated": 59984657.47,
+      "paid": 59984657.47,
+      "remainingPaid": 0.0,
+      "amendmentCount": 12
+    },
+    {
+      "code": "aggregate:4089:ORIOVISTO GUIMARAES",
+      "authorCode": "4089",
+      "authorName": "ORIOVISTO GUIMARAES",
+      "committed": 70164894.55,
+      "liquidated": 45020435.96,
+      "paid": 44418154.24,
+      "remainingPaid": 0.0,
+      "amendmentCount": 18
+    },
+    {
+      "code": "aggregate:3737:ORLANDO SILVA",
+      "authorCode": "3737",
+      "authorName": "ORLANDO SILVA",
+      "committed": 35580846.05,
+      "liquidated": 26443973.88,
+      "paid": 26363851.4,
+      "remainingPaid": 0.0,
+      "amendmentCount": 12
+    },
+    {
+      "code": "aggregate:9048:OSMAR TERRA",
+      "authorCode": "9048",
+      "authorName": "OSMAR TERRA",
+      "committed": 39738483.04,
+      "liquidated": 23927810.33,
+      "paid": 23812876.07,
+      "remainingPaid": 0.0,
+      "amendmentCount": 4
+    },
+    {
+      "code": "aggregate:4050:OSSESIO SILVA",
+      "authorCode": "4050",
+      "authorName": "OSSESIO SILVA",
+      "committed": 38980973.99,
+      "liquidated": 28892163.28,
+      "paid": 28892163.28,
+      "remainingPaid": 0.0,
+      "amendmentCount": 7
+    },
+    {
+      "code": "aggregate:4051:OTONI DE PAULA",
+      "authorCode": "4051",
+      "authorName": "OTONI DE PAULA",
+      "committed": 28737248.0,
+      "liquidated": 19583248.0,
+      "paid": 19571849.64,
+      "remainingPaid": 0.0,
+      "amendmentCount": 6
+    },
+    {
+      "code": "aggregate:3795:OTTO ALENCAR",
+      "authorCode": "3795",
+      "authorName": "OTTO ALENCAR",
+      "committed": 72573946.23,
+      "liquidated": 63460948.8,
+      "paid": 63460948.8,
+      "remainingPaid": 0.0,
+      "amendmentCount": 3
+    },
+    {
+      "code": "aggregate:4123:OTTO ALENCAR FILHO",
+      "authorCode": "4123",
+      "authorName": "OTTO ALENCAR FILHO",
+      "committed": 28885800.0,
+      "liquidated": 22385507.0,
+      "paid": 21185507.0,
+      "remainingPaid": 0.0,
+      "amendmentCount": 4
+    },
+    {
+      "code": "aggregate:4440:PADOVANI",
+      "authorCode": "4440",
+      "authorName": "PADOVANI",
+      "committed": 37702577.0,
+      "liquidated": 7902577.0,
+      "paid": 7902577.0,
+      "remainingPaid": 0.0,
+      "amendmentCount": 4
+    },
+    {
+      "code": "aggregate:2764:PADRE JOAO",
+      "authorCode": "2764",
+      "authorName": "PADRE JOAO",
+      "committed": 32097182.63,
+      "liquidated": 21302829.7,
+      "paid": 21178929.08,
+      "remainingPaid": 0.0,
+      "amendmentCount": 21
+    },
+    {
+      "code": "aggregate:4441:PASTOR DINIZ",
+      "authorCode": "4441",
+      "authorName": "PASTOR DINIZ",
+      "committed": 34117254.61,
+      "liquidated": 13935858.4,
+      "paid": 13915352.4,
+      "remainingPaid": 0.0,
+      "amendmentCount": 13
+    },
+    {
+      "code": "aggregate:2724:PASTOR EURICO",
+      "authorCode": "2724",
+      "authorName": "PASTOR EURICO",
+      "committed": 38984838.0,
+      "liquidated": 23987834.12,
+      "paid": 23930154.12,
+      "remainingPaid": 0.0,
+      "amendmentCount": 10
+    },
+    {
+      "code": "aggregate:4052:PASTOR GIL",
+      "authorCode": "4052",
+      "authorName": "PASTOR GIL",
+      "committed": 37109143.0,
+      "liquidated": 23764198.46,
+      "paid": 23764198.46,
+      "remainingPaid": 0.0,
+      "amendmentCount": 3
+    },
+    {
+      "code": "aggregate:4442:PASTOR HENRIQUE VIEIRA",
+      "authorCode": "4442",
+      "authorName": "PASTOR HENRIQUE VIEIRA",
+      "committed": 30407836.12,
+      "liquidated": 10569758.67,
+      "paid": 10040540.0,
+      "remainingPaid": 0.0,
+      "amendmentCount": 20
+    },
+    {
+      "code": "aggregate:4166:PASTOR SARGENTO ISIDORIO",
+      "authorCode": "4166",
+      "authorName": "PASTOR SARGENTO ISIDORIO",
+      "committed": 38758376.99,
+      "liquidated": 17112918.84,
+      "paid": 17112918.84,
+      "remainingPaid": 0.0,
+      "amendmentCount": 2
+    },
+    {
+      "code": "aggregate:1408:PATRUS ANANIAS",
+      "authorCode": "1408",
+      "authorName": "PATRUS ANANIAS",
+      "committed": 30332721.93,
+      "liquidated": 22907179.9,
+      "paid": 22272152.9,
+      "remainingPaid": 0.0,
+      "amendmentCount": 18
+    },
+    {
+      "code": "aggregate:2973:PAULAO",
+      "authorCode": "2973",
+      "authorName": "PAULAO",
+      "committed": 30413381.0,
+      "liquidated": 23203935.32,
+      "paid": 22278451.95,
+      "remainingPaid": 0.0,
+      "amendmentCount": 17
+    },
+    {
+      "code": "aggregate:2532:PAULINHO DA FORCA",
+      "authorCode": "2532",
+      "authorName": "PAULINHO DA FORCA",
+      "committed": 30200969.0,
+      "liquidated": 15380601.77,
+      "paid": 15380601.77,
+      "remainingPaid": 0.0,
+      "amendmentCount": 5
+    },
+    {
+      "code": "aggregate:2487:PAULO ABI-ACKEL",
+      "authorCode": "2487",
+      "authorName": "PAULO ABI-ACKEL",
+      "committed": 38520440.04,
+      "liquidated": 28988337.04,
+      "paid": 28988337.04,
+      "remainingPaid": 0.0,
+      "amendmentCount": 8
+    },
+    {
+      "code": "aggregate:4444:PAULO ALEXANDRE BARBOSA",
+      "authorCode": "4444",
+      "authorName": "PAULO ALEXANDRE BARBOSA",
+      "committed": 38433385.0,
+      "liquidated": 23354503.08,
+      "paid": 23354503.08,
+      "remainingPaid": 0.0,
+      "amendmentCount": 16
+    },
+    {
+      "code": "aggregate:3738:PAULO AZI",
+      "authorCode": "3738",
+      "authorName": "PAULO AZI",
+      "committed": 38429003.58,
+      "liquidated": 32634304.07,
+      "paid": 31766216.39,
+      "remainingPaid": 0.0,
+      "amendmentCount": 6
+    },
+    {
+      "code": "aggregate:2774:PAULO FOLLETTO",
+      "authorCode": "2774",
+      "authorName": "PAULO FOLLETTO",
+      "committed": 37459769.96,
+      "liquidated": 33399879.82,
+      "paid": 33399879.82,
+      "remainingPaid": 0.0,
+      "amendmentCount": 7
+    },
+    {
+      "code": "aggregate:2813:PAULO FREIRE COSTA",
+      "authorCode": "2813",
+      "authorName": "PAULO FREIRE COSTA",
+      "committed": 32021394.81,
+      "liquidated": 18923762.23,
+      "paid": 18796629.23,
+      "remainingPaid": 0.0,
+      "amendmentCount": 13
+    },
+    {
+      "code": "aggregate:4167:PAULO GUEDES",
+      "authorCode": "4167",
+      "authorName": "PAULO GUEDES",
+      "committed": 34941093.22,
+      "liquidated": 28359243.14,
+      "paid": 27809985.92,
+      "remainingPaid": 0.0,
+      "amendmentCount": 12
+    },
+    {
+      "code": "aggregate:4556:PAULO LEMOS",
+      "authorCode": "4556",
+      "authorName": "PAULO LEMOS",
+      "committed": 39663391.68,
+      "liquidated": 30032573.9,
+      "paid": 29946979.8,
+      "remainingPaid": 0.0,
+      "amendmentCount": 8
+    },
+    {
+      "code": "aggregate:4445:PAULO LITRO",
+      "authorCode": "4445",
+      "authorName": "PAULO LITRO",
+      "committed": 37316955.0,
+      "liquidated": 29115869.85,
+      "paid": 29115869.85,
+      "remainingPaid": 0.0,
+      "amendmentCount": 6
+    },
+    {
+      "code": "aggregate:3568:PAULO MAGALHAES",
+      "authorCode": "3568",
+      "authorName": "PAULO MAGALHAES",
+      "committed": 37562250.0,
+      "liquidated": 23661831.88,
+      "paid": 23661831.88,
+      "remainingPaid": 0.0,
+      "amendmentCount": 5
+    },
+    {
+      "code": "aggregate:2023:PAULO PAIM",
+      "authorCode": "2023",
+      "authorName": "PAULO PAIM",
+      "committed": 69282587.0,
+      "liquidated": 38420574.46,
+      "paid": 38419697.27,
+      "remainingPaid": 0.0,
+      "amendmentCount": 13
+    },
+    {
+      "code": "aggregate:1986:PAULO PIMENTA",
+      "authorCode": "1986",
+      "authorName": "PAULO PIMENTA",
+      "committed": 32900619.92,
+      "liquidated": 26695611.25,
+      "paid": 25207055.09,
+      "remainingPaid": 0.0,
+      "amendmentCount": 17
+    },
+    {
+      "code": "aggregate:4446:PEDRO AIHARA",
+      "authorCode": "4446",
+      "authorName": "PEDRO AIHARA",
+      "committed": 34286397.73,
+      "liquidated": 26044723.95,
+      "paid": 25918540.67,
+      "remainingPaid": 0.0,
+      "amendmentCount": 10
+    },
+    {
+      "code": "aggregate:4447:PEDRO CAMPOS",
+      "authorCode": "4447",
+      "authorName": "PEDRO CAMPOS",
+      "committed": 35118765.3,
+      "liquidated": 23442577.31,
+      "paid": 22150528.95,
+      "remainingPaid": 0.0,
+      "amendmentCount": 18
+    },
+    {
+      "code": "aggregate:4125:PEDRO LUCAS FERNANDES",
+      "authorCode": "4125",
+      "authorName": "PEDRO LUCAS FERNANDES",
+      "committed": 39180959.0,
+      "liquidated": 34129865.98,
+      "paid": 34129865.98,
+      "remainingPaid": 0.0,
+      "amendmentCount": 6
+    },
+    {
+      "code": "aggregate:4056:PEDRO LUPION",
+      "authorCode": "4056",
+      "authorName": "PEDRO LUPION",
+      "committed": 33275065.98,
+      "liquidated": 23780385.2,
+      "paid": 23780385.2,
+      "remainingPaid": 0.0,
+      "amendmentCount": 6
+    },
+    {
+      "code": "aggregate:2787:PEDRO PAULO",
+      "authorCode": "2787",
+      "authorName": "PEDRO PAULO",
+      "committed": 36382377.0,
+      "liquidated": 28972900.93,
+      "paid": 27972900.93,
+      "remainingPaid": 0.0,
+      "amendmentCount": 5
+    },
+    {
+      "code": "aggregate:2855:PEDRO UCZAI",
+      "authorCode": "2855",
+      "authorName": "PEDRO UCZAI",
+      "committed": 34389483.1,
+      "liquidated": 25990875.35,
+      "paid": 25530875.35,
+      "remainingPaid": 0.0,
+      "amendmentCount": 21
+    },
+    {
+      "code": "aggregate:4168:PEDRO WESTPHALEN",
+      "authorCode": "4168",
+      "authorName": "PEDRO WESTPHALEN",
+      "committed": 37752685.2,
+      "liquidated": 22455941.4,
+      "paid": 22455941.4,
+      "remainingPaid": 0.0,
+      "amendmentCount": 6
+    },
+    {
+      "code": "aggregate:4448:PEZENTI",
+      "authorCode": "4448",
+      "authorName": "PEZENTI",
+      "committed": 33172280.6,
+      "liquidated": 16667589.54,
+      "paid": 16667589.54,
+      "remainingPaid": 0.0,
+      "amendmentCount": 4
+    },
+    {
+      "code": "aggregate:4057:PINHEIRINHO",
+      "authorCode": "4057",
+      "authorName": "PINHEIRINHO",
+      "committed": 39322653.0,
+      "liquidated": 27965924.2,
+      "paid": 27965924.2,
+      "remainingPaid": 0.0,
+      "amendmentCount": 5
+    },
+    {
+      "code": "aggregate:4137:PLINIO VALERIO",
+      "authorCode": "4137",
+      "authorName": "PLINIO VALERIO",
+      "committed": 63685192.73,
+      "liquidated": 42742058.18,
+      "paid": 42054182.19,
+      "remainingPaid": 0.0,
+      "amendmentCount": 16
+    },
+    {
+      "code": "aggregate:3666:POMPEO DE MATTOS",
+      "authorCode": "3666",
+      "authorName": "POMPEO DE MATTOS",
+      "committed": 38387551.02,
+      "liquidated": 22737843.39,
+      "paid": 22737843.39,
+      "remainingPaid": 0.0,
+      "amendmentCount": 14
+    },
+    {
+      "code": "aggregate:2812:PR. MARCO FELICIANO",
+      "authorCode": "2812",
+      "authorName": "PR. MARCO FELICIANO",
+      "committed": 40191007.0,
+      "liquidated": 21789000.0,
+      "paid": 21789000.0,
+      "remainingPaid": 0.0,
+      "amendmentCount": 14
+    },
+    {
+      "code": "aggregate:4449:PROF. REGINALDO VERAS",
+      "authorCode": "4449",
+      "authorName": "PROF. REGINALDO VERAS",
+      "committed": 17462944.78,
+      "liquidated": 12192987.18,
+      "paid": 11935399.34,
+      "remainingPaid": 0.0,
+      "amendmentCount": 13
+    },
+    {
+      "code": "aggregate:4058:PROFESSOR ALCIDES",
+      "authorCode": "4058",
+      "authorName": "PROFESSOR ALCIDES",
+      "committed": 40151377.0,
+      "liquidated": 28186188.11,
+      "paid": 28186188.11,
+      "remainingPaid": 0.0,
+      "amendmentCount": 4
+    },
+    {
+      "code": "aggregate:4275:PROFESSORA DORINHA SEABRA",
+      "authorCode": "4275",
+      "authorName": "PROFESSORA DORINHA SEABRA",
+      "committed": 69241889.0,
+      "liquidated": 63384488.28,
+      "paid": 63384488.28,
+      "remainingPaid": 0.0,
+      "amendmentCount": 10
+    },
+    {
+      "code": "aggregate:4451:PROFESSORA LUCIENE CAVALCANTE",
+      "authorCode": "4451",
+      "authorName": "PROFESSORA LUCIENE CAVALCANTE",
+      "committed": 23241108.95,
+      "liquidated": 12985710.95,
+      "paid": 12879224.13,
+      "remainingPaid": 0.0,
+      "amendmentCount": 18
+    },
+    {
+      "code": "aggregate:2675:PROFESSORA MARCIVANIA",
+      "authorCode": "2675",
+      "authorName": "PROFESSORA MARCIVANIA",
+      "committed": 32831192.0,
+      "liquidated": 26073677.78,
+      "paid": 26073677.78,
+      "remainingPaid": 0.0,
+      "amendmentCount": 6
+    },
+    {
+      "code": "aggregate:4452:RAFAEL BRITO",
+      "authorCode": "4452",
+      "authorName": "RAFAEL BRITO",
+      "committed": 40143311.0,
+      "liquidated": 35228582.15,
+      "paid": 35110042.15,
+      "remainingPaid": 0.0,
+      "amendmentCount": 8
+    },
+    {
+      "code": "aggregate:4557:RAFAEL FERA",
+      "authorCode": "4557",
+      "authorName": "RAFAEL FERA",
+      "committed": 33982573.43,
+      "liquidated": 14042475.54,
+      "paid": 14042475.54,
+      "remainingPaid": 0.0,
+      "amendmentCount": 9
+    },
+    {
+      "code": "aggregate:4453:RAFAEL PRUDENTE",
+      "authorCode": "4453",
+      "authorName": "RAFAEL PRUDENTE",
+      "committed": 17892112.19,
+      "liquidated": 11274547.29,
+      "paid": 11231952.2,
+      "remainingPaid": 0.0,
+      "amendmentCount": 8
+    },
+    {
+      "code": "aggregate:4454:RAFAEL SIMOES",
+      "authorCode": "4454",
+      "authorName": "RAFAEL SIMOES",
+      "committed": 40166407.0,
+      "liquidated": 28459117.33,
+      "paid": 28459117.33,
+      "remainingPaid": 0.0,
+      "amendmentCount": 4
+    },
+    {
+      "code": "aggregate:4128:RAIMUNDO COSTA",
+      "authorCode": "4128",
+      "authorName": "RAIMUNDO COSTA",
+      "committed": 39633754.2,
+      "liquidated": 28376561.52,
+      "paid": 28310394.43,
+      "remainingPaid": 0.0,
+      "amendmentCount": 12
+    },
+    {
+      "code": "aggregate:3328:RAIMUNDO SANTOS",
+      "authorCode": "3328",
+      "authorName": "RAIMUNDO SANTOS",
+      "committed": 37386500.46,
+      "liquidated": 31689781.73,
+      "paid": 31689781.73,
+      "remainingPaid": 0.0,
+      "amendmentCount": 11
+    },
+    {
+      "code": "aggregate:2919:RANDOLFE RODRIGUES",
+      "authorCode": "2919",
+      "authorName": "RANDOLFE RODRIGUES",
+      "committed": 58970885.94,
+      "liquidated": 37922038.62,
+      "paid": 37808675.47,
+      "remainingPaid": 0.0,
+      "amendmentCount": 8
+    },
+    {
+      "code": "aggregate:1411:REGINALDO LOPES",
+      "authorCode": "1411",
+      "authorName": "REGINALDO LOPES",
+      "committed": 31374168.79,
+      "liquidated": 25534779.34,
+      "paid": 25436424.03,
+      "remainingPaid": 0.0,
+      "amendmentCount": 17
+    },
+    {
+      "code": "aggregate:4456:REIMONT",
+      "authorCode": "4456",
+      "authorName": "REIMONT",
+      "committed": 34239485.35,
+      "liquidated": 22623886.14,
+      "paid": 21198755.86,
+      "remainingPaid": 0.0,
+      "amendmentCount": 17
+    },
+    {
+      "code": "aggregate:2289:RENAN CALHEIROS",
+      "authorCode": "2289",
+      "authorName": "RENAN CALHEIROS",
+      "committed": 70829900.0,
+      "liquidated": 66847720.03,
+      "paid": 66847720.03,
+      "remainingPaid": 0.0,
+      "amendmentCount": 5
+    },
+    {
+      "code": "aggregate:3746:RENATA ABREU",
+      "authorCode": "3746",
+      "authorName": "RENATA ABREU",
+      "committed": 35562625.4,
+      "liquidated": 30216078.86,
+      "paid": 30216078.86,
+      "remainingPaid": 0.0,
+      "amendmentCount": 13
+    },
+    {
+      "code": "aggregate:4457:RENILCE NICODEMOS",
+      "authorCode": "4457",
+      "authorName": "RENILCE NICODEMOS",
+      "committed": 38879752.13,
+      "liquidated": 26755014.47,
+      "paid": 26336392.87,
+      "remainingPaid": 0.0,
+      "amendmentCount": 8
+    },
+    {
+      "code": "aggregate:1690:RENILDO CALHEIROS",
+      "authorCode": "1690",
+      "authorName": "RENILDO CALHEIROS",
+      "committed": 37802363.0,
+      "liquidated": 35838485.04,
+      "paid": 35838485.04,
+      "remainingPaid": 0.0,
+      "amendmentCount": 4
+    },
+    {
+      "code": "aggregate:4545:RIBAMAR SILVA",
+      "authorCode": "4545",
+      "authorName": "RIBAMAR SILVA",
+      "committed": 39847853.0,
+      "liquidated": 24645846.0,
+      "paid": 24645846.0,
+      "remainingPaid": 0.0,
+      "amendmentCount": 2
+    },
+    {
+      "code": "aggregate:4458:RICARDO ABRAO",
+      "authorCode": "4458",
+      "authorName": "RICARDO ABRAO",
+      "committed": 40139475.72,
+      "liquidated": 28320461.6,
+      "paid": 28320461.6,
+      "remainingPaid": 0.0,
+      "amendmentCount": 13
+    },
+    {
+      "code": "aggregate:4459:RICARDO AYRES",
+      "authorCode": "4459",
+      "authorName": "RICARDO AYRES",
+      "committed": 36978157.8,
+      "liquidated": 32725177.0,
+      "paid": 32725177.0,
+      "remainingPaid": 0.0,
+      "amendmentCount": 6
+    },
+    {
+      "code": "aggregate:3332:RICARDO BARROS",
+      "authorCode": "3332",
+      "authorName": "RICARDO BARROS",
+      "committed": 36775004.0,
+      "liquidated": 23907960.99,
+      "paid": 23907960.99,
+      "remainingPaid": 0.0,
+      "amendmentCount": 9
+    },
+    {
+      "code": "aggregate:4062:RICARDO GUIDI",
+      "authorCode": "4062",
+      "authorName": "RICARDO GUIDI",
+      "committed": 38132117.0,
+      "liquidated": 26247342.39,
+      "paid": 26247342.39,
+      "remainingPaid": 0.0,
+      "amendmentCount": 7
+    },
+    {
+      "code": "aggregate:4460:RICARDO MAIA",
+      "authorCode": "4460",
+      "authorName": "RICARDO MAIA",
+      "committed": 38514971.97,
+      "liquidated": 33322069.94,
+      "paid": 33322069.94,
+      "remainingPaid": 0.0,
+      "amendmentCount": 7
+    },
+    {
+      "code": "aggregate:4461:RICARDO SALLES",
+      "authorCode": "4461",
+      "authorName": "RICARDO SALLES",
+      "committed": 32720461.0,
+      "liquidated": 13412670.0,
+      "paid": 13412670.0,
+      "remainingPaid": 0.0,
+      "amendmentCount": 6
+    },
+    {
+      "code": "aggregate:9162:ROBERIO MONTEIRO",
+      "authorCode": "9162",
+      "authorName": "ROBERIO MONTEIRO",
+      "committed": 39346222.97,
+      "liquidated": 30554802.82,
+      "paid": 30554147.62,
+      "remainingPaid": 0.0,
+      "amendmentCount": 5
+    },
+    {
+      "code": "aggregate:4462:ROBERTA ROMA",
+      "authorCode": "4462",
+      "authorName": "ROBERTA ROMA",
+      "committed": 34002542.0,
+      "liquidated": 15558045.29,
+      "paid": 15554636.29,
+      "remainingPaid": 0.0,
+      "amendmentCount": 5
+    },
+    {
+      "code": "aggregate:4463:ROBERTO DUARTE",
+      "authorCode": "4463",
+      "authorName": "ROBERTO DUARTE",
+      "committed": 36156372.99,
+      "liquidated": 16240360.69,
+      "paid": 16240360.69,
+      "remainingPaid": 0.0,
+      "amendmentCount": 3
+    },
+    {
+      "code": "aggregate:4464:ROBERTO MONTEIRO PAI",
+      "authorCode": "4464",
+      "authorName": "ROBERTO MONTEIRO PAI",
+      "committed": 33303623.5,
+      "liquidated": 17337117.75,
+      "paid": 15728716.84,
+      "remainingPaid": 0.0,
+      "amendmentCount": 16
+    },
+    {
+      "code": "aggregate:4465:ROBINSON FARIA",
+      "authorCode": "4465",
+      "authorName": "ROBINSON FARIA",
+      "committed": 35612866.0,
+      "liquidated": 31596686.92,
+      "paid": 31596686.92,
+      "remainingPaid": 0.0,
+      "amendmentCount": 4
+    },
+    {
+      "code": "aggregate:4466:RODOLFO NOGUEIRA",
+      "authorCode": "4466",
+      "authorName": "RODOLFO NOGUEIRA",
+      "committed": 38848075.0,
+      "liquidated": 33443742.52,
+      "paid": 33407742.52,
+      "remainingPaid": 0.0,
+      "amendmentCount": 4
+    },
+    {
+      "code": "aggregate:4548:RODRIGO DA ZAELI",
+      "authorCode": "4548",
+      "authorName": "RODRIGO DA ZAELI",
+      "committed": 33302015.52,
+      "liquidated": 8451305.02,
+      "paid": 8266035.69,
+      "remainingPaid": 0.0,
+      "amendmentCount": 12
+    },
+    {
+      "code": "aggregate:2488:RODRIGO DE CASTRO",
+      "authorCode": "2488",
+      "authorName": "RODRIGO DE CASTRO",
+      "committed": 38585217.55,
+      "liquidated": 18984089.04,
+      "paid": 18850473.65,
+      "remainingPaid": 0.0,
+      "amendmentCount": 8
+    },
+    {
+      "code": "aggregate:4468:RODRIGO GAMBALE",
+      "authorCode": "4468",
+      "authorName": "RODRIGO GAMBALE",
+      "committed": 35607979.04,
+      "liquidated": 26642804.95,
+      "paid": 26642804.95,
+      "remainingPaid": 0.0,
+      "amendmentCount": 8
+    },
+    {
+      "code": "aggregate:4140:RODRIGO PACHECO",
+      "authorCode": "4140",
+      "authorName": "RODRIGO PACHECO",
+      "committed": 68505828.6,
+      "liquidated": 42375950.95,
+      "paid": 42332157.69,
+      "remainingPaid": 0.0,
+      "amendmentCount": 12
+    },
+    {
+      "code": "aggregate:2553:RODRIGO ROLLEMBERG",
+      "authorCode": "2553",
+      "authorName": "RODRIGO ROLLEMBERG",
+      "committed": 28106144.59,
+      "liquidated": 21011680.96,
+      "paid": 19973680.96,
+      "remainingPaid": 0.0,
+      "amendmentCount": 17
+    },
+    {
+      "code": "aggregate:4469:RODRIGO VALADARES",
+      "authorCode": "4469",
+      "authorName": "RODRIGO VALADARES",
+      "committed": 26291521.28,
+      "liquidated": 13739341.31,
+      "paid": 13739341.31,
+      "remainingPaid": 0.0,
+      "amendmentCount": 5
+    },
+    {
+      "code": "aggregate:4470:ROGERIA SANTOS",
+      "authorCode": "4470",
+      "authorName": "ROGERIA SANTOS",
+      "committed": 33714040.01,
+      "liquidated": 20214207.29,
+      "paid": 20165834.44,
+      "remainingPaid": 0.0,
+      "amendmentCount": 15
+    },
+    {
+      "code": "aggregate:4095:ROGERIO CARVALHO",
+      "authorCode": "4095",
+      "authorName": "ROGERIO CARVALHO",
+      "committed": 70248225.62,
+      "liquidated": 63059254.83,
+      "paid": 63059254.83,
+      "remainingPaid": 0.0,
+      "amendmentCount": 6
+    },
+    {
+      "code": "aggregate:4064:ROGERIO CORREIA",
+      "authorCode": "4064",
+      "authorName": "ROGERIO CORREIA",
+      "committed": 31131923.31,
+      "liquidated": 22790825.92,
+      "paid": 22525443.14,
+      "remainingPaid": 0.0,
+      "amendmentCount": 19
+    },
+    {
+      "code": "aggregate:4276:ROGERIO MARINHO",
+      "authorCode": "4276",
+      "authorName": "ROGERIO MARINHO",
+      "committed": 72184864.19,
+      "liquidated": 60241080.98,
+      "paid": 60110246.29,
+      "remainingPaid": 0.0,
+      "amendmentCount": 16
+    },
+    {
+      "code": "aggregate:3799:ROMARIO",
+      "authorCode": "3799",
+      "authorName": "ROMARIO",
+      "committed": 72816499.06,
+      "liquidated": 37247850.0,
+      "paid": 37047850.0,
+      "remainingPaid": 0.0,
+      "amendmentCount": 6
+    },
+    {
+      "code": "aggregate:2714:ROMERO RODRIGUES",
+      "authorCode": "2714",
+      "authorName": "ROMERO RODRIGUES",
+      "committed": 40167793.03,
+      "liquidated": 32900135.95,
+      "paid": 32900135.95,
+      "remainingPaid": 0.0,
+      "amendmentCount": 6
+    },
+    {
+      "code": "aggregate:4171:ROSANA VALLE",
+      "authorCode": "4171",
+      "authorName": "ROSANA VALLE",
+      "committed": 35883773.38,
+      "liquidated": 18870099.65,
+      "paid": 18166063.15,
+      "remainingPaid": 0.0,
+      "amendmentCount": 17
+    },
+    {
+      "code": "aggregate:3756:ROSANGELA GOMES",
+      "authorCode": "3756",
+      "authorName": "ROSANGELA GOMES",
+      "committed": 34970675.11,
+      "liquidated": 29606045.25,
+      "paid": 29106163.11,
+      "remainingPaid": 0.0,
+      "amendmentCount": 11
+    },
+    {
+      "code": "aggregate:4471:ROSANGELA MORO",
+      "authorCode": "4471",
+      "authorName": "ROSANGELA MORO",
+      "committed": 37650000.0,
+      "liquidated": 4050000.0,
+      "paid": 4050000.0,
+      "remainingPaid": 0.0,
+      "amendmentCount": 4
+    },
+    {
+      "code": "aggregate:4472:ROSANGELA REIS",
+      "authorCode": "4472",
+      "authorName": "ROSANGELA REIS",
+      "committed": 38935165.4,
+      "liquidated": 31279013.85,
+      "paid": 31279013.85,
+      "remainingPaid": 0.0,
+      "amendmentCount": 5
+    },
+    {
+      "code": "aggregate:1960:RUBENS OTONI",
+      "authorCode": "1960",
+      "authorName": "RUBENS OTONI",
+      "committed": 31354203.34,
+      "liquidated": 25805427.32,
+      "paid": 25629551.55,
+      "remainingPaid": 0.0,
+      "amendmentCount": 19
+    },
+    {
+      "code": "aggregate:3758:RUBENS PEREIRA JUNIOR",
+      "authorCode": "3758",
+      "authorName": "RUBENS PEREIRA JUNIOR",
+      "committed": 37234852.0,
+      "liquidated": 30065546.96,
+      "paid": 30048233.88,
+      "remainingPaid": 0.0,
+      "amendmentCount": 7
+    },
+    {
+      "code": "aggregate:9032:RUI FALCAO",
+      "authorCode": "9032",
+      "authorName": "RUI FALCAO",
+      "committed": 36681259.35,
+      "liquidated": 31263550.36,
+      "paid": 30862361.56,
+      "remainingPaid": 0.0,
+      "amendmentCount": 16
+    },
+    {
+      "code": "aggregate:2715:RUY CARNEIRO",
+      "authorCode": "2715",
+      "authorName": "RUY CARNEIRO",
+      "committed": 27003440.83,
+      "liquidated": 17966166.52,
+      "paid": 17766170.46,
+      "remainingPaid": 0.0,
+      "amendmentCount": 12
+    },
+    {
+      "code": "aggregate:4130:SAMIA BOMFIM",
+      "authorCode": "4130",
+      "authorName": "SAMIA BOMFIM",
+      "committed": 13422559.49,
+      "liquidated": 6164738.34,
+      "paid": 5696233.44,
+      "remainingPaid": 0.0,
+      "amendmentCount": 12
+    },
+    {
+      "code": "aggregate:4560:SAMUEL SANTOS",
+      "authorCode": "4560",
+      "authorName": "SAMUEL SANTOS",
+      "committed": 33442498.0,
+      "liquidated": 20126772.77,
+      "paid": 20126772.77,
+      "remainingPaid": 0.0,
+      "amendmentCount": 7
+    },
+    {
+      "code": "aggregate:4473:SAMUEL VIANA",
+      "authorCode": "4473",
+      "authorName": "SAMUEL VIANA",
+      "committed": 39660662.6,
+      "liquidated": 25781906.95,
+      "paid": 25781906.95,
+      "remainingPaid": 0.0,
+      "amendmentCount": 7
+    },
+    {
+      "code": "aggregate:4073:SANDERSON",
+      "authorCode": "4073",
+      "authorName": "SANDERSON",
+      "committed": 32093704.33,
+      "liquidated": 14879273.36,
+      "paid": 14809603.56,
+      "remainingPaid": 0.0,
+      "amendmentCount": 10
+    },
+    {
+      "code": "aggregate:2847:SANDRO ALEX",
+      "authorCode": "2847",
+      "authorName": "SANDRO ALEX",
+      "committed": 37705315.25,
+      "liquidated": 30456282.55,
+      "paid": 30251051.49,
+      "remainingPaid": 0.0,
+      "amendmentCount": 6
+    },
+    {
+      "code": "aggregate:4066:SARGENTO FAHUR",
+      "authorCode": "4066",
+      "authorName": "SARGENTO FAHUR",
+      "committed": 35903352.74,
+      "liquidated": 17706829.68,
+      "paid": 17661209.18,
+      "remainingPaid": 0.0,
+      "amendmentCount": 13
+    },
+    {
+      "code": "aggregate:4474:SARGENTO GONCALVES",
+      "authorCode": "4474",
+      "authorName": "SARGENTO GONCALVES",
+      "committed": 33818257.4,
+      "liquidated": 21589478.17,
+      "paid": 21439478.17,
+      "remainingPaid": 0.0,
+      "amendmentCount": 12
+    },
+    {
+      "code": "aggregate:4475:SARGENTO PORTUGAL",
+      "authorCode": "4475",
+      "authorName": "SARGENTO PORTUGAL",
+      "committed": 31243663.24,
+      "liquidated": 20944250.0,
+      "paid": 20944250.0,
+      "remainingPaid": 0.0,
+      "amendmentCount": 8
+    },
+    {
+      "code": "aggregate:4476:SAULLO VIANNA",
+      "authorCode": "4476",
+      "authorName": "SAULLO VIANNA",
+      "committed": 20401367.08,
+      "liquidated": 20127359.08,
+      "paid": 20127359.08,
+      "remainingPaid": 0.0,
+      "amendmentCount": 3
+    },
+    {
+      "code": "aggregate:4512:SAULO PEDROSO",
+      "authorCode": "4512",
+      "authorName": "SAULO PEDROSO",
+      "committed": 35494101.59,
+      "liquidated": 19768907.63,
+      "paid": 19768907.63,
+      "remainingPaid": 0.0,
+      "amendmentCount": 7
+    },
+    {
+      "code": "aggregate:2471:SERGIO BRITO",
+      "authorCode": "2471",
+      "authorName": "SERGIO BRITO",
+      "committed": 36311757.0,
+      "liquidated": 19951711.44,
+      "paid": 19837810.94,
+      "remainingPaid": 0.0,
+      "amendmentCount": 8
+    },
+    {
+      "code": "aggregate:4277:SERGIO MORO",
+      "authorCode": "4277",
+      "authorName": "SERGIO MORO",
+      "committed": 66840773.0,
+      "liquidated": 39157104.41,
+      "paid": 38957704.41,
+      "remainingPaid": 0.0,
+      "amendmentCount": 14
+    },
+    {
+      "code": "aggregate:2914:SERGIO PETECAO",
+      "authorCode": "2914",
+      "authorName": "SERGIO PETECAO",
+      "committed": 57650298.19,
+      "liquidated": 38246652.95,
+      "paid": 37780730.95,
+      "remainingPaid": 0.0,
+      "amendmentCount": 17
+    },
+    {
+      "code": "aggregate:3809:SERGIO SOUZA",
+      "authorCode": "3809",
+      "authorName": "SERGIO SOUZA",
+      "committed": 36569128.78,
+      "liquidated": 25308731.02,
+      "paid": 25285815.26,
+      "remainingPaid": 0.0,
+      "amendmentCount": 11
+    },
+    {
+      "code": "aggregate:4068:SIDNEY LEITE",
+      "authorCode": "4068",
+      "authorName": "SIDNEY LEITE",
+      "committed": 39387717.46,
+      "liquidated": 33091152.17,
+      "paid": 33091152.17,
+      "remainingPaid": 0.0,
+      "amendmentCount": 5
+    },
+    {
+      "code": "aggregate:3496:SILAS CAMARA",
+      "authorCode": "3496",
+      "authorName": "SILAS CAMARA",
+      "committed": 37107304.0,
+      "liquidated": 30221699.73,
+      "paid": 30221699.73,
+      "remainingPaid": 0.0,
+      "amendmentCount": 10
+    },
+    {
+      "code": "aggregate:4173:SILVIA CRISTINA",
+      "authorCode": "4173",
+      "authorName": "SILVIA CRISTINA",
+      "committed": 32123604.35,
+      "liquidated": 18180321.88,
+      "paid": 18147322.38,
+      "remainingPaid": 0.0,
+      "amendmentCount": 9
+    },
+    {
+      "code": "aggregate:4478:SILVYE ALVES",
+      "authorCode": "4478",
+      "authorName": "SILVYE ALVES",
+      "committed": 40167007.0,
+      "liquidated": 34532246.32,
+      "paid": 34532246.32,
+      "remainingPaid": 0.0,
+      "amendmentCount": 4
+    },
+    {
+      "code": "aggregate:4479:SIMONE MARQUETTO",
+      "authorCode": "4479",
+      "authorName": "SIMONE MARQUETTO",
+      "committed": 35171129.67,
+      "liquidated": 13011494.0,
+      "paid": 12923494.0,
+      "remainingPaid": 0.0,
+      "amendmentCount": 8
+    },
+    {
+      "code": "aggregate:4480:SOCORRO NERI",
+      "authorCode": "4480",
+      "authorName": "SOCORRO NERI",
+      "committed": 39656018.9,
+      "liquidated": 21720567.45,
+      "paid": 21684838.55,
+      "remainingPaid": 0.0,
+      "amendmentCount": 5
+    },
+    {
+      "code": "aggregate:3765:SORAYA SANTOS",
+      "authorCode": "3765",
+      "authorName": "SORAYA SANTOS",
+      "committed": 39238746.97,
+      "liquidated": 29138746.97,
+      "paid": 29138746.97,
+      "remainingPaid": 0.0,
+      "amendmentCount": 6
+    },
+    {
+      "code": "aggregate:4086:SORAYA THRONICKE",
+      "authorCode": "4086",
+      "authorName": "SORAYA THRONICKE",
+      "committed": 69495641.98,
+      "liquidated": 53307349.64,
+      "paid": 53250392.98,
+      "remainingPaid": 0.0,
+      "amendmentCount": 14
+    },
+    {
+      "code": "aggregate:3766:SOSTENES CAVALCANTE",
+      "authorCode": "3766",
+      "authorName": "SOSTENES CAVALCANTE",
+      "committed": 32908780.71,
+      "liquidated": 26428711.29,
+      "paid": 26320770.47,
+      "remainingPaid": 0.0,
+      "amendmentCount": 22
+    },
+    {
+      "code": "aggregate:2924:STEFANO AGUIAR",
+      "authorCode": "2924",
+      "authorName": "STEFANO AGUIAR",
+      "committed": 36260827.0,
+      "liquidated": 18928241.66,
+      "paid": 18928241.66,
+      "remainingPaid": 0.0,
+      "amendmentCount": 22
+    },
+    {
+      "code": "aggregate:4142:STYVENSON VALENTIM",
+      "authorCode": "4142",
+      "authorName": "STYVENSON VALENTIM",
+      "committed": 70019778.0,
+      "liquidated": 58483545.12,
+      "paid": 58483545.12,
+      "remainingPaid": 0.0,
+      "amendmentCount": 6
+    },
+    {
+      "code": "aggregate:4132:TABATA AMARAL",
+      "authorCode": "4132",
+      "authorName": "TABATA AMARAL",
+      "committed": 23715564.69,
+      "liquidated": 14480470.5,
+      "paid": 14227602.61,
+      "remainingPaid": 0.0,
+      "amendmentCount": 17
+    },
+    {
+      "code": "aggregate:4482:TADEU VENERI",
+      "authorCode": "4482",
+      "authorName": "TADEU VENERI",
+      "committed": 27032166.11,
+      "liquidated": 16976083.18,
+      "paid": 16969433.18,
+      "remainingPaid": 0.0,
+      "amendmentCount": 18
+    },
+    {
+      "code": "aggregate:4070:TALIRIA PETRONE",
+      "authorCode": "4070",
+      "authorName": "TALIRIA PETRONE",
+      "committed": 29881950.59,
+      "liquidated": 16394707.23,
+      "paid": 16135542.11,
+      "remainingPaid": 0.0,
+      "amendmentCount": 21
+    },
+    {
+      "code": "aggregate:4483:TARCISIO MOTTA",
+      "authorCode": "4483",
+      "authorName": "TARCISIO MOTTA",
+      "committed": 24720611.69,
+      "liquidated": 7786319.59,
+      "paid": 6715701.6,
+      "remainingPaid": 0.0,
+      "amendmentCount": 17
+    },
+    {
+      "code": "aggregate:4278:TERESA LEITAO",
+      "authorCode": "4278",
+      "authorName": "TERESA LEITAO",
+      "committed": 56564679.44,
+      "liquidated": 41050948.33,
+      "paid": 40277920.62,
+      "remainingPaid": 0.0,
+      "amendmentCount": 19
+    },
+    {
+      "code": "aggregate:4279:TEREZA CRISTINA",
+      "authorCode": "4279",
+      "authorName": "TEREZA CRISTINA",
+      "committed": 33282965.27,
+      "liquidated": 15853307.85,
+      "paid": 14474707.59,
+      "remainingPaid": 0.0,
+      "amendmentCount": 19
+    },
+    {
+      "code": "aggregate:4485:THIAGO DE JOALDO",
+      "authorCode": "4485",
+      "authorName": "THIAGO DE JOALDO",
+      "committed": 35717042.5,
+      "liquidated": 15797089.15,
+      "paid": 15797089.15,
+      "remainingPaid": 0.0,
+      "amendmentCount": 3
+    },
+    {
+      "code": "aggregate:4486:THIAGO FLORES",
+      "authorCode": "4486",
+      "authorName": "THIAGO FLORES",
+      "committed": 27092680.0,
+      "liquidated": 11235711.29,
+      "paid": 11235711.29,
+      "remainingPaid": 0.0,
+      "amendmentCount": 7
+    },
+    {
+      "code": "aggregate:4071:TIAGO DIMAS",
+      "authorCode": "4071",
+      "authorName": "TIAGO DIMAS",
+      "committed": 38412655.95,
+      "liquidated": 29380683.64,
+      "paid": 29380683.64,
+      "remainingPaid": 0.0,
+      "amendmentCount": 8
+    },
+    {
+      "code": "aggregate:4487:TIAO MEDEIROS",
+      "authorCode": "4487",
+      "authorName": "TIAO MEDEIROS",
+      "committed": 37999616.0,
+      "liquidated": 29316311.24,
+      "paid": 29316311.24,
+      "remainingPaid": 0.0,
+      "amendmentCount": 6
+    },
+    {
+      "code": "aggregate:2818:TIRIRICA",
+      "authorCode": "2818",
+      "authorName": "TIRIRICA",
+      "committed": 38314824.0,
+      "liquidated": 16000000.0,
+      "paid": 16000000.0,
+      "remainingPaid": 0.0,
+      "amendmentCount": 2
+    },
+    {
+      "code": "aggregate:3771:TONINHO WANDSCHEER",
+      "authorCode": "3771",
+      "authorName": "TONINHO WANDSCHEER",
+      "committed": 35415701.09,
+      "liquidated": 17684376.6,
+      "paid": 17610066.2,
+      "remainingPaid": 0.0,
+      "amendmentCount": 14
+    },
+    {
+      "code": "aggregate:4175:TULIO GADELHA",
+      "authorCode": "4175",
+      "authorName": "TULIO GADELHA",
+      "committed": 27958367.46,
+      "liquidated": 13171747.6,
+      "paid": 13093837.6,
+      "remainingPaid": 0.0,
+      "amendmentCount": 16
+    },
+    {
+      "code": "aggregate:2750:VALMIR ASSUNCAO",
+      "authorCode": "2750",
+      "authorName": "VALMIR ASSUNCAO",
+      "committed": 39156377.0,
+      "liquidated": 34573308.21,
+      "paid": 34573308.21,
+      "remainingPaid": 0.0,
+      "amendmentCount": 4
+    },
+    {
+      "code": "aggregate:1451:VANDER LOUBET",
+      "authorCode": "1451",
+      "authorName": "VANDER LOUBET",
+      "committed": 23639622.46,
+      "liquidated": 18138729.8,
+      "paid": 17999807.26,
+      "remainingPaid": 0.0,
+      "amendmentCount": 14
+    },
+    {
+      "code": "aggregate:4083:VANDERLAN CARDOSO",
+      "authorCode": "4083",
+      "authorName": "VANDERLAN CARDOSO",
+      "committed": 51265198.8,
+      "liquidated": 28649860.19,
+      "paid": 28649860.19,
+      "remainingPaid": 0.0,
+      "amendmentCount": 10
+    },
+    {
+      "code": "aggregate:4088:VENEZIANO VITAL DO REGO",
+      "authorCode": "4088",
+      "authorName": "VENEZIANO VITAL DO REGO",
+      "committed": 64558580.28,
+      "liquidated": 54690292.12,
+      "paid": 54657204.12,
+      "remainingPaid": 0.0,
+      "amendmentCount": 9
+    },
+    {
+      "code": "aggregate:4074:VERMELHO",
+      "authorCode": "4074",
+      "authorName": "VERMELHO",
+      "committed": 39228850.64,
+      "liquidated": 27089180.58,
+      "paid": 27089180.58,
+      "remainingPaid": 0.0,
+      "amendmentCount": 5
+    },
+    {
+      "code": "aggregate:1997:VICENTINHO",
+      "authorCode": "1997",
+      "authorName": "VICENTINHO",
+      "committed": 29406629.62,
+      "liquidated": 19458423.78,
+      "paid": 19381016.11,
+      "remainingPaid": 0.0,
+      "amendmentCount": 20
+    },
+    {
+      "code": "aggregate:3775:VICENTINHO JUNIOR",
+      "authorCode": "3775",
+      "authorName": "VICENTINHO JUNIOR",
+      "committed": 38474538.6,
+      "liquidated": 29299070.88,
+      "paid": 29253872.08,
+      "remainingPaid": 0.0,
+      "amendmentCount": 9
+    },
+    {
+      "code": "aggregate:2517:VINICIUS CARVALHO",
+      "authorCode": "2517",
+      "authorName": "VINICIUS CARVALHO",
+      "committed": 37582400.7,
+      "liquidated": 20938089.47,
+      "paid": 20319112.24,
+      "remainingPaid": 0.0,
+      "amendmentCount": 23
+    },
+    {
+      "code": "aggregate:2676:VINICIUS GURGEL",
+      "authorCode": "2676",
+      "authorName": "VINICIUS GURGEL",
+      "committed": 21039990.55,
+      "liquidated": 13276851.45,
+      "paid": 13276851.45,
+      "remainingPaid": 0.0,
+      "amendmentCount": 5
+    },
+    {
+      "code": "aggregate:3777:VITOR LIPPI",
+      "authorCode": "3777",
+      "authorName": "VITOR LIPPI",
+      "committed": 35034278.0,
+      "liquidated": 22066725.01,
+      "paid": 22066725.01,
+      "remainingPaid": 0.0,
+      "amendmentCount": 9
+    },
+    {
+      "code": "aggregate:4488:WALDEMAR OLIVEIRA",
+      "authorCode": "4488",
+      "authorName": "WALDEMAR OLIVEIRA",
+      "committed": 39205023.0,
+      "liquidated": 31562957.9,
+      "paid": 31562957.9,
+      "remainingPaid": 0.0,
+      "amendmentCount": 5
+    },
+    {
+      "code": "aggregate:2751:WALDENOR PEREIRA",
+      "authorCode": "2751",
+      "authorName": "WALDENOR PEREIRA",
+      "committed": 37001359.37,
+      "liquidated": 30128067.2,
+      "paid": 29570500.15,
+      "remainingPaid": 0.0,
+      "amendmentCount": 13
+    },
+    {
+      "code": "aggregate:2768:WELITON PRADO",
+      "authorCode": "2768",
+      "authorName": "WELITON PRADO",
+      "committed": 19058276.45,
+      "liquidated": 6828913.19,
+      "paid": 6690371.93,
+      "remainingPaid": 0.0,
+      "amendmentCount": 3
+    },
+    {
+      "code": "aggregate:3805:WELLINGTON FAGUNDES",
+      "authorCode": "3805",
+      "authorName": "WELLINGTON FAGUNDES",
+      "committed": 62007390.01,
+      "liquidated": 23541594.93,
+      "paid": 22809481.83,
+      "remainingPaid": 0.0,
+      "amendmentCount": 13
+    },
+    {
+      "code": "aggregate:1277:WELLINGTON ROBERTO",
+      "authorCode": "1277",
+      "authorName": "WELLINGTON ROBERTO",
+      "committed": 37742567.87,
+      "liquidated": 27340212.25,
+      "paid": 27251001.26,
+      "remainingPaid": 0.0,
+      "amendmentCount": 13
+    },
+    {
+      "code": "aggregate:4500:WELTER",
+      "authorCode": "4500",
+      "authorName": "WELTER",
+      "committed": 34460612.98,
+      "liquidated": 23285264.69,
+      "paid": 23285264.69,
+      "remainingPaid": 0.0,
+      "amendmentCount": 17
+    },
+    {
+      "code": "aggregate:4084:WEVERTON",
+      "authorCode": "4084",
+      "authorName": "WEVERTON",
+      "committed": 72784706.95,
+      "liquidated": 67890525.86,
+      "paid": 67740042.66,
+      "remainingPaid": 0.0,
+      "amendmentCount": 10
+    },
+    {
+      "code": "aggregate:2969:WILDER MORAIS",
+      "authorCode": "2969",
+      "authorName": "WILDER MORAIS",
+      "committed": 57787732.06,
+      "liquidated": 19854450.58,
+      "paid": 19293205.18,
+      "remainingPaid": 0.0,
+      "amendmentCount": 14
+    },
+    {
+      "code": "aggregate:1283:WILSON SANTIAGO",
+      "authorCode": "1283",
+      "authorName": "WILSON SANTIAGO",
+      "committed": 38518204.0,
+      "liquidated": 29282480.28,
+      "paid": 29282480.28,
+      "remainingPaid": 0.0,
+      "amendmentCount": 8
+    },
+    {
+      "code": "aggregate:4490:YANDRA MOURA",
+      "authorCode": "4490",
+      "authorName": "YANDRA MOURA",
+      "committed": 36557457.56,
+      "liquidated": 24651997.53,
+      "paid": 24651997.53,
+      "remainingPaid": 0.0,
+      "amendmentCount": 6
+    },
+    {
+      "code": "aggregate:4491:YURY DO PAREDAO",
+      "authorCode": "4491",
+      "authorName": "YURY DO PAREDAO",
+      "committed": 40151377.0,
+      "liquidated": 31595540.39,
+      "paid": 31595540.39,
+      "remainingPaid": 0.0,
+      "amendmentCount": 3
+    },
+    {
+      "code": "aggregate:4546:ZE ADRIANO",
+      "authorCode": "4546",
+      "authorName": "ZE ADRIANO",
+      "committed": 32329792.94,
+      "liquidated": 18577068.22,
+      "paid": 18077068.22,
+      "remainingPaid": 0.0,
+      "amendmentCount": 12
+    },
+    {
+      "code": "aggregate:4492:ZE HAROLDO CATHEDRAL",
+      "authorCode": "4492",
+      "authorName": "ZE HAROLDO CATHEDRAL",
+      "committed": 34945501.2,
+      "liquidated": 13466903.32,
+      "paid": 12988076.1,
+      "remainingPaid": 0.0,
+      "amendmentCount": 19
+    },
+    {
+      "code": "aggregate:9191:ZE NETO",
+      "authorCode": "9191",
+      "authorName": "ZE NETO",
+      "committed": 34408936.67,
+      "liquidated": 26618794.92,
+      "paid": 26567125.92,
+      "remainingPaid": 0.0,
+      "amendmentCount": 13
+    },
+    {
+      "code": "aggregate:2769:ZE SILVA",
+      "authorCode": "2769",
+      "authorName": "ZE SILVA",
+      "committed": 33990546.1,
+      "liquidated": 20894793.92,
+      "paid": 20894793.92,
+      "remainingPaid": 0.0,
+      "amendmentCount": 5
+    },
+    {
+      "code": "aggregate:4493:ZE TROVAO",
+      "authorCode": "4493",
+      "authorName": "ZE TROVAO",
+      "committed": 33986248.0,
+      "liquidated": 15995239.32,
+      "paid": 15995239.32,
+      "remainingPaid": 0.0,
+      "amendmentCount": 15
+    },
+    {
+      "code": "aggregate:4077:ZE VITOR",
+      "authorCode": "4077",
+      "authorName": "ZE VITOR",
+      "committed": 36633373.91,
+      "liquidated": 29075631.4,
+      "paid": 29014243.6,
+      "remainingPaid": 0.0,
+      "amendmentCount": 12
+    },
+    {
+      "code": "aggregate:2849:ZECA DIRCEU",
+      "authorCode": "2849",
+      "authorName": "ZECA DIRCEU",
+      "committed": 36496163.5,
+      "liquidated": 27052348.61,
+      "paid": 26534247.07,
+      "remainingPaid": 0.0,
+      "amendmentCount": 18
+    },
+    {
+      "code": "aggregate:4091:ZENAIDE MAIA",
+      "authorCode": "4091",
+      "authorName": "ZENAIDE MAIA",
+      "committed": 62881735.03,
+      "liquidated": 51152638.38,
+      "paid": 50190226.58,
+      "remainingPaid": 0.0,
+      "amendmentCount": 12
+    },
+    {
+      "code": "aggregate:4182:ZEQUINHA MARINHO",
+      "authorCode": "4182",
+      "authorName": "ZEQUINHA MARINHO",
+      "committed": 71271239.79,
+      "liquidated": 46444184.67,
+      "paid": 46402311.52,
+      "remainingPaid": 0.0,
+      "amendmentCount": 11
+    },
+    {
+      "code": "aggregate:4494:ZEZINHO BARBARY",
+      "authorCode": "4494",
+      "authorName": "ZEZINHO BARBARY",
+      "committed": 39790896.0,
+      "liquidated": 18653800.51,
+      "paid": 18653800.51,
+      "remainingPaid": 0.0,
+      "amendmentCount": 4
+    },
+    {
+      "code": "aggregate:4484:ZUCCO",
+      "authorCode": "4484",
+      "authorName": "ZUCCO",
+      "committed": 31585971.0,
+      "liquidated": 15153974.09,
+      "paid": 15153974.09,
+      "remainingPaid": 0.0,
+      "amendmentCount": 8
+    }
+  ]
+}

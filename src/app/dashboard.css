@@ -573,6 +573,16 @@
 .state-ranking-name small { display: block; color: var(--muted); font-size: 11px; margin-top: 4px; }
 .state-ranking-row strong { color: var(--money); font-size: 17px; white-space: nowrap; }
 .state-ranking-row>a { display: block; padding-left: 46px; margin-top: 5px; font-size: 11px; color: var(--accent); }
+.debt-state-row>div, .amendment-ranking-row>div { display: flex; align-items: center; gap: 12px; padding: 5px 0; }
+.debt-state-row>p { margin: 4px 0 6px 46px; color: var(--muted); font-size: 12px; }
+.debt-state-row>p b { color: var(--text); }
+.debt-national>a { display: block; margin-top: 8px; }
+.debt-national>b { color: var(--text); }
+.amendment-ranking-row dl { margin: 12px 0 12px 46px; display: grid; grid-template-columns: 1fr 1fr; gap: 9px 15px; }
+.amendment-ranking-row dt { font-size: 11px; color: var(--muted); }
+.amendment-ranking-row dd { margin: 3px 0 0; font-size: 13px; color: var(--text); }
+.amendment-ranking-row dl>div:last-child dd { color: var(--money); }
+@media(max-width:500px) { .amendment-ranking-row dl { margin-left: 0; }.amendment-ranking-row dd { font-size: 12px; }.debt-state-row>p { margin-left: 0; } }
 @media(max-width: 500px) { .state-ranking-name { font-size: 13px; }.state-ranking-row strong { font-size: 14px; }.state-ranking-row>a { padding-left: 40px; font-size: 10px; } }
 .cabinet-benefits { padding: 15px; margin: 14px 0; border: 1px solid var(--border); border-radius: 8px; background: var(--raised); }
 .cabinet-benefits h4 { font-size: 16px; margin: 0 0 12px; }
@@ -580,3 +590,22 @@
 .cabinet-benefits dt { font-size: 12px; color: var(--muted); }
 .cabinet-benefits dd { margin: 6px 0 0; font-size: 15px; font-weight: 700; color: var(--text); line-height: 1.5; }
 .cabinet-benefits p, .cabinet-benefits a { font-size: 12px; line-height: 1.6; }.cabinet-benefits p { color: var(--muted); }.cabinet-benefits a { color: var(--accent); }
+.ad-checkout { max-width: 540px; }
+.ad-checkout .dialog-heading h2 { font-family: Georgia,serif; font-size: 31px; letter-spacing: -.6px; margin: 9px 0 10px; }
+.ad-checkout-intro { font-size: 14px; line-height: 1.6; color: var(--muted); margin: 0 0 20px; }
+.ad-form { display: grid; gap: 16px; margin-top: 18px; }.ad-form label,.ad-pix label { display: grid; gap: 8px; font-size: 13px; color: var(--muted); }
+.ad-form input,.ad-pix textarea { width: 100%; border: 1px solid var(--border); border-radius: 11px; background: var(--raised); color: var(--text); padding: 14px 15px; font-size: 16px; min-width: 0; }
+.ad-form input:focus { outline: 2px solid var(--accent); outline-offset: 2px; }.ad-form small { font-size: 12px; line-height: 1.6; }.ad-honeypot { display: none !important; }
+.ad-placement { display: inline-block; border: 1px solid var(--accent); color: var(--accent); font-size: 12px; border-radius: 20px; padding: 7px 12px; justify-self: start; }
+.advertisement-preview { display: grid; gap: 8px; padding: 16px; background: var(--raised); border: 1px solid var(--border); border-radius: 12px; position: relative; }.advertisement-preview>span:first-child { font-size: 10px; color: var(--muted); }.advertisement-preview strong { font-family: Georgia,serif; font-size: 23px; }.advertisement-preview p { font-size: 13px; color: var(--muted); margin: 0; padding-right: 55px; line-height: 1.5; }.preview-visit { display: flex; align-items: center; gap: 6px; position: absolute; right: 12px; top: 35px; font-size: 12px; color: var(--accent); }
+.dashboard .ad-primary { display: flex; align-items: center; justify-content: center; gap: 10px; width: 100%; padding: 15px; min-height: 49px; border-radius: 11px; background: var(--accent); color: var(--accent-ink); font-size: 16px; font-weight: 700; }
+.ad-form-error { color: #ff8d8d; font-size: 13px; line-height: 1.5; margin: 0; }.dashboard[data-theme="light"] .ad-form-error { color: #a02525; }
+.ad-checkout-footer { font-size: 11px; line-height: 1.6; text-align: center; color: var(--muted); margin: 18px 0 0; }.ad-review h3,.ad-pix h3 { font-size: 22px; margin: 20px 0 12px; }.ad-review dl>div { padding: 10px 0; border-bottom: 1px solid var(--border); }.ad-review dt { font-size: 12px; color: var(--muted); }.ad-review dd { margin: 5px 0 0; font-size: 15px; line-height: 1.5; overflow-wrap: anywhere; }.ad-review p,.ad-pix p { font-size: 13px; color: var(--muted); line-height: 1.6; }.dashboard .ad-secondary { width: 100%; padding: 13px; margin-top: 8px; color: var(--accent); }
+.ad-pix img { display: block; max-width: 100%; height: auto; margin: 18px auto; border-radius: 10px; background: white; padding: 8px; }.ad-pix textarea { font-size: 11px; line-height: 1.5; overflow-wrap: anywhere; resize: vertical; }.ad-pix .ad-primary { margin-top: 12px; }.ad-order-code { font-family: monospace; font-size: 10px !important; overflow-wrap: anywhere; }
+.dash-ad-slot>a { display: flex; justify-content: space-between; color: var(--accent); font-size: 13px; margin: 10px 0; }.dash-ad-slot>p { font-size: 12px; color: var(--muted); line-height: 1.5; }
+.powers-total { padding: 20px; background: var(--raised); border-radius: 10px; display: grid; gap: 9px; margin: 12px 0 18px; }.powers-total>span,.powers-total>small { color: var(--muted); font-size: 13px; }.powers-total>strong { color: var(--money); font-size: clamp(32px,5vw,46px); }
+.powers-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 12px; }.powers-grid>article { padding: 16px; border: 1px solid var(--border); border-radius: 8px; }.powers-grid>article>span { color: var(--muted); font-size: 14px; }.powers-grid>article>strong { display: block; font-size: 26px; margin: 10px 0; color: var(--text); }.powers-grid>article>small { font-size: 12px; color: var(--muted); }.powers-grid .quota-group strong { font-size: 13px; white-space: nowrap; }
+.fiscal-forecast { border: 1px solid var(--gold); background: var(--raised); border-radius: 10px; padding: 20px; margin: 20px 0; }.fiscal-forecast>span { font-size: 12px; color: var(--muted); }.fiscal-forecast h3 { font-size: 20px; margin: 12px 0; }.fiscal-forecast>strong { color: var(--gold); font-size: 32px; }.fiscal-forecast p { font-size: 13px; line-height: 1.6; color: var(--muted); }.fiscal-forecast a { font-size: 13px; color: var(--accent); }
+@media(max-width: 500px) { .powers-grid { grid-template-columns: 1fr; } }
+.component-coverage { display: block; color: var(--muted); font-size: 11px; line-height: 1.6; margin: 7px 0; }
+.ad-checkout { scrollbar-width: thin; scrollbar-color: var(--border) transparent; }

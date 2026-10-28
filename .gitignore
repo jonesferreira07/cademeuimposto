@@ -18,3 +18,5 @@ node_modules/
 *.bak
 *.tls-backup
 .DS_Store
+
+.data/

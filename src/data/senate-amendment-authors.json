@@ -1,0 +1,457 @@
+{
+  "verifiedAt": "2026-10-28",
+  "source": "https://www.congressonacional.leg.br/documents/150599582/152195354/individuais.pdf/b04027ac-a228-4b4d-b626-45f5f0b63e4d",
+  "method": "Código e nome publicados pelo Congresso como Senador, cruzados apenas com nome parlamentar ou civil exato e único na listagem oficial do Senado, sem aproximação. Composição consultada em 27/10/2026. Não inclui autoria coletiva.",
+  "links": {
+    "5672": {
+      "authorCode": "4394",
+      "authorName": "Alan Rick",
+      "senatorName": "Alan Rick",
+      "uf": "AC"
+    },
+    "5982": {
+      "authorCode": "4144",
+      "authorName": "Alessandro Vieira",
+      "senatorName": "Alessandro Vieira",
+      "uf": "SE"
+    },
+    "6358": {
+      "authorCode": "4283",
+      "authorName": "Ana Paula Lobato",
+      "senatorName": "Ana Paula Lobato",
+      "uf": "MA"
+    },
+    "5967": {
+      "authorCode": "4179",
+      "authorName": "Angelo Coronel",
+      "senatorName": "Angelo Coronel",
+      "uf": "BA"
+    },
+    "6009": {
+      "authorCode": "4265",
+      "authorName": "Astronauta Marcos Pontes",
+      "senatorName": "Astronauta Marcos Pontes",
+      "uf": "SP"
+    },
+    "4639": {
+      "authorCode": "4266",
+      "authorName": "Beto Faro",
+      "senatorName": "Beto Faro",
+      "uf": "PA"
+    },
+    "6295": {
+      "authorCode": "4201",
+      "authorName": "Carlos Fávaro",
+      "senatorName": "Carlos Fávaro",
+      "uf": "MT"
+    },
+    "5936": {
+      "authorCode": "4210",
+      "authorName": "Carlos Portinho",
+      "senatorName": "Carlos Portinho",
+      "uf": "RJ"
+    },
+    "5990": {
+      "authorCode": "4087",
+      "authorName": "Carlos Viana",
+      "senatorName": "Carlos Viana",
+      "uf": "MG"
+    },
+    "470": {
+      "authorCode": "4143",
+      "authorName": "Chico Rodrigues",
+      "senatorName": "Chico Rodrigues",
+      "uf": "RR"
+    },
+    "5973": {
+      "authorCode": "4081",
+      "authorName": "Cid Gomes",
+      "senatorName": "Cid Gomes",
+      "uf": "CE"
+    },
+    "739": {
+      "authorCode": "2900",
+      "authorName": "Ciro Nogueira",
+      "senatorName": "Ciro Nogueira",
+      "uf": "PI"
+    },
+    "6337": {
+      "authorCode": "4267",
+      "authorName": "Cleitinho",
+      "senatorName": "Cleitinho",
+      "uf": "MG"
+    },
+    "475": {
+      "authorCode": "4092",
+      "authorName": "Confúcio Moura",
+      "senatorName": "Confúcio Moura",
+      "uf": "RO"
+    },
+    "6335": {
+      "authorCode": "4268",
+      "authorName": "Damares Alves",
+      "senatorName": "Damares Alves",
+      "uf": "DF"
+    },
+    "5998": {
+      "authorCode": "4141",
+      "authorName": "Daniella Ribeiro",
+      "senatorName": "Daniella Ribeiro",
+      "uf": "PB"
+    },
+    "3830": {
+      "authorCode": "3787",
+      "authorName": "Davi Alcolumbre",
+      "senatorName": "Davi Alcolumbre",
+      "uf": "AP"
+    },
+    "5793": {
+      "authorCode": "4269",
+      "authorName": "Dr. Hiran",
+      "senatorName": "Dr. Hiran",
+      "uf": "RR"
+    },
+    "5906": {
+      "authorCode": "4239",
+      "authorName": "Dra. Eudócia",
+      "senatorName": "Dra. Eudócia",
+      "uf": "AL"
+    },
+    "4994": {
+      "authorCode": "2909",
+      "authorName": "Eduardo Braga",
+      "senatorName": "Eduardo Braga",
+      "uf": "AM"
+    },
+    "3777": {
+      "authorCode": "4186",
+      "authorName": "Eduardo Gomes",
+      "senatorName": "Eduardo Gomes",
+      "uf": "TO"
+    },
+    "4642": {
+      "authorCode": "4270",
+      "authorName": "Efraim Filho",
+      "senatorName": "Efraim Filho",
+      "uf": "PB"
+    },
+    "5718": {
+      "authorCode": "4139",
+      "authorName": "Eliziane Gama",
+      "senatorName": "Eliziane Gama",
+      "uf": "MA"
+    },
+    "22": {
+      "authorCode": "2210",
+      "authorName": "Esperidião Amin",
+      "senatorName": "Esperidião Amin",
+      "uf": "SC"
+    },
+    "5953": {
+      "authorCode": "4180",
+      "authorName": "Fabiano Contarato",
+      "senatorName": "Fabiano Contarato",
+      "uf": "ES"
+    },
+    "5917": {
+      "authorCode": "4252",
+      "authorName": "Fernando Dueire",
+      "senatorName": "Fernando Dueire",
+      "uf": "PE"
+    },
+    "345": {
+      "authorCode": "2038",
+      "authorName": "Flávio Arns",
+      "senatorName": "Flávio Arns",
+      "uf": "PR"
+    },
+    "5894": {
+      "authorCode": "9219",
+      "authorName": "Flávio Bolsonaro",
+      "senatorName": "Flávio Bolsonaro",
+      "uf": "RJ"
+    },
+    "6008": {
+      "authorCode": "4221",
+      "authorName": "Giordano",
+      "senatorName": "Giordano",
+      "uf": "SP"
+    },
+    "6341": {
+      "authorCode": "4271",
+      "authorName": "Hamilton Mourão",
+      "senatorName": "Hamilton Mourão",
+      "uf": "RS"
+    },
+    "5008": {
+      "authorCode": "2885",
+      "authorName": "Humberto Costa",
+      "senatorName": "Humberto Costa",
+      "uf": "PE"
+    },
+    "5385": {
+      "authorCode": "4096",
+      "authorName": "Irajá",
+      "senatorName": "Irajá",
+      "uf": "TO"
+    },
+    "6010": {
+      "authorCode": "4251",
+      "authorName": "Ivete da Silveira",
+      "senatorName": "Ivete da Silveira",
+      "uf": "SC"
+    },
+    "4770": {
+      "authorCode": "4136",
+      "authorName": "Izalci Lucas",
+      "senatorName": "Izalci Lucas",
+      "uf": "DF"
+    },
+    "35": {
+      "authorCode": "2263",
+      "authorName": "Jader Barbalho",
+      "senatorName": "Jader Barbalho",
+      "uf": "PA"
+    },
+    "6340": {
+      "authorCode": "4272",
+      "authorName": "Jaime Bagattoli",
+      "senatorName": "Jaime Bagattoli",
+      "uf": "RO"
+    },
+    "581": {
+      "authorCode": "4080",
+      "authorName": "Jaques Wagner",
+      "senatorName": "Jaques Wagner",
+      "uf": "BA"
+    },
+    "4531": {
+      "authorCode": "2376",
+      "authorName": "Jayme Campos",
+      "senatorName": "Jayme Campos",
+      "uf": "MT"
+    },
+    "5895": {
+      "authorCode": "9206",
+      "authorName": "Jorge Kajuru",
+      "senatorName": "Jorge Kajuru",
+      "uf": "GO"
+    },
+    "6342": {
+      "authorCode": "4273",
+      "authorName": "Jorge Seif",
+      "senatorName": "Jorge Seif",
+      "uf": "SC"
+    },
+    "6369": {
+      "authorCode": "4496",
+      "authorName": "Jussara Lima",
+      "senatorName": "Jussara Lima",
+      "uf": "PI"
+    },
+    "4811": {
+      "authorCode": "4274",
+      "authorName": "Laércio Oliveira",
+      "senatorName": "Laércio Oliveira",
+      "uf": "SE"
+    },
+    "5926": {
+      "authorCode": "4079",
+      "authorName": "Lucas Barreto",
+      "senatorName": "Lucas Barreto",
+      "uf": "AP"
+    },
+    "1186": {
+      "authorCode": "4184",
+      "authorName": "Luis Carlos Heinze",
+      "senatorName": "Luis Carlos Heinze",
+      "uf": "RS"
+    },
+    "631": {
+      "authorCode": "2029",
+      "authorName": "Magno Malta",
+      "senatorName": "Magno Malta",
+      "uf": "ES"
+    },
+    "5376": {
+      "authorCode": "4094",
+      "authorName": "Mara Gabrilli",
+      "senatorName": "Mara Gabrilli",
+      "uf": "SP"
+    },
+    "742": {
+      "authorCode": "4183",
+      "authorName": "Marcelo Castro",
+      "senatorName": "Marcelo Castro",
+      "uf": "PI"
+    },
+    "285": {
+      "authorCode": "4078",
+      "authorName": "Marcio Bittar",
+      "senatorName": "Marcio Bittar",
+      "uf": "AC"
+    },
+    "5422": {
+      "authorCode": "9224",
+      "authorName": "Marcos Rogério",
+      "senatorName": "Marcos Rogério",
+      "uf": "RO"
+    },
+    "5942": {
+      "authorCode": "9204",
+      "authorName": "Marcos do Val",
+      "senatorName": "Marcos do Val",
+      "uf": "ES"
+    },
+    "5985": {
+      "authorCode": "4181",
+      "authorName": "Nelsinho Trad",
+      "senatorName": "Nelsinho Trad",
+      "uf": "MS"
+    },
+    "5525": {
+      "authorCode": "3794",
+      "authorName": "Omar Aziz",
+      "senatorName": "Omar Aziz",
+      "uf": "AM"
+    },
+    "5924": {
+      "authorCode": "4089",
+      "authorName": "Oriovisto Guimarães",
+      "senatorName": "Oriovisto Guimarães",
+      "uf": "PR"
+    },
+    "5523": {
+      "authorCode": "3795",
+      "authorName": "Otto Alencar",
+      "senatorName": "Otto Alencar",
+      "uf": "BA"
+    },
+    "825": {
+      "authorCode": "2023",
+      "authorName": "Paulo Paim",
+      "senatorName": "Paulo Paim",
+      "uf": "RS"
+    },
+    "5502": {
+      "authorCode": "4137",
+      "authorName": "Plínio Valério",
+      "senatorName": "Plínio Valério",
+      "uf": "AM"
+    },
+    "5386": {
+      "authorCode": "4275",
+      "authorName": "Professora Dorinha Seabra",
+      "senatorName": "Professora Dorinha Seabra",
+      "uf": "TO"
+    },
+    "5012": {
+      "authorCode": "2919",
+      "authorName": "Randolfe Rodrigues",
+      "senatorName": "Randolfe Rodrigues",
+      "uf": "AP"
+    },
+    "70": {
+      "authorCode": "2289",
+      "authorName": "Renan Calheiros",
+      "senatorName": "Renan Calheiros",
+      "uf": "AL"
+    },
+    "4694": {
+      "authorCode": "4276",
+      "authorName": "Rogério Marinho",
+      "senatorName": "Rogerio Marinho",
+      "uf": "RN"
+    },
+    "5352": {
+      "authorCode": "4095",
+      "authorName": "Rogério Carvalho",
+      "senatorName": "Rogério Carvalho",
+      "uf": "SE"
+    },
+    "5322": {
+      "authorCode": "3799",
+      "authorName": "Romário",
+      "senatorName": "Romário",
+      "uf": "RJ"
+    },
+    "6331": {
+      "authorCode": "4277",
+      "authorName": "Sergio Moro",
+      "senatorName": "Sergio Moro",
+      "uf": "PR"
+    },
+    "5988": {
+      "authorCode": "4086",
+      "authorName": "Soraya Thronicke",
+      "senatorName": "Soraya Thronicke",
+      "uf": "MS"
+    },
+    "5959": {
+      "authorCode": "4142",
+      "authorName": "Styvenson Valentim",
+      "senatorName": "Styvenson Valentim",
+      "uf": "RN"
+    },
+    "4560": {
+      "authorCode": "2914",
+      "authorName": "Sérgio Petecão",
+      "senatorName": "Sérgio Petecão",
+      "uf": "AC"
+    },
+    "6338": {
+      "authorCode": "4278",
+      "authorName": "Teresa Leitão",
+      "senatorName": "Teresa Leitão",
+      "uf": "PE"
+    },
+    "5736": {
+      "authorCode": "4279",
+      "authorName": "Tereza Cristina",
+      "senatorName": "Tereza Cristina",
+      "uf": "MS"
+    },
+    "5899": {
+      "authorCode": "4083",
+      "authorName": "Vanderlan Cardoso",
+      "senatorName": "Vanderlan Cardoso",
+      "uf": "GO"
+    },
+    "5748": {
+      "authorCode": "4088",
+      "authorName": "Veneziano Vital do Rêgo",
+      "senatorName": "Veneziano Vital do Rêgo",
+      "uf": "PB"
+    },
+    "1173": {
+      "authorCode": "3805",
+      "authorName": "Wellington Fagundes",
+      "senatorName": "Wellington Fagundes",
+      "uf": "MT"
+    },
+    "5411": {
+      "authorCode": "4084",
+      "authorName": "Weverton",
+      "senatorName": "Weverton",
+      "uf": "MA"
+    },
+    "5070": {
+      "authorCode": "2969",
+      "authorName": "Wilder Morais",
+      "senatorName": "Wilder Morais",
+      "uf": "GO"
+    },
+    "5783": {
+      "authorCode": "4091",
+      "authorName": "Zenaide Maia",
+      "senatorName": "Zenaide Maia",
+      "uf": "RN"
+    },
+    "3806": {
+      "authorCode": "4182",
+      "authorName": "Zequinha Marinho",
+      "senatorName": "Zequinha Marinho",
+      "uf": "PA"
+    }
+  }
+}

@@ -1,0 +1,88 @@
+{
+  "source": "https://dadosabertos.camara.leg.br/api/v2",
+  "retrieved": "2026-10-27",
+  "list": {
+    "dados": [
+      {
+        "id": 204549,
+        "uri": "https://dadosabertos.camara.leg.br/api/v2/deputados/204549",
+        "nome": "AJ Albuquerque",
+        "siglaPartido": "PP",
+        "uriPartido": "https://dadosabertos.camara.leg.br/api/v2/partidos/37903",
+        "siglaUf": "CE",
+        "idLegislatura": 57,
+        "urlFoto": "https://www.camara.leg.br/internet/deputado/bandep/204549.jpg",
+        "email": "dep.ajalbuquerque@camara.leg.br"
+      },
+      {
+        "id": 220657,
+        "uri": "https://dadosabertos.camara.leg.br/api/v2/deputados/220657",
+        "nome": "André Fernandes",
+        "siglaPartido": "PL",
+        "uriPartido": "https://dadosabertos.camara.leg.br/api/v2/partidos/37906",
+        "siglaUf": "CE",
+        "idLegislatura": 57,
+        "urlFoto": "https://www.camara.leg.br/internet/deputado/bandep/220657.jpg",
+        "email": "dep.andrefernandes@camara.leg.br"
+      }
+    ],
+    "links": [
+      {
+        "rel": "self",
+        "href": "https://dadosabertos.camara.leg.br/api/v2/deputados?siglaUf=CE&itens=100&ordem=ASC&ordenarPor=nome"
+      },
+      {
+        "rel": "first",
+        "href": "https://dadosabertos.camara.leg.br/api/v2/deputados?siglaUf=CE&ordem=ASC&ordenarPor=nome&pagina=1&itens=100"
+      },
+      {
+        "rel": "last",
+        "href": "https://dadosabertos.camara.leg.br/api/v2/deputados?siglaUf=CE&ordem=ASC&ordenarPor=nome&pagina=1&itens=100"
+      }
+    ]
+  },
+  "detail": {
+    "dados": {
+      "id": 204379,
+      "uri": "https://dadosabertos.camara.leg.br/api/v2/deputados/204379",
+      "nomeCivil": "ACÁCIO DA SILVA FAVACHO NETO",
+      "ultimoStatus": {
+        "id": 204379,
+        "uri": "https://dadosabertos.camara.leg.br/api/v2/deputados/204379",
+        "nome": "Acácio Favacho",
+        "siglaPartido": "MDB",
+        "uriPartido": null,
+        "siglaUf": "AP",
+        "idLegislatura": 57,
+        "urlFoto": "https://www.camara.leg.br/internet/deputado/bandep/204379.jpg",
+        "email": null,
+        "data": "2023-02-01",
+        "nomeEleitoral": "Acácio Favacho",
+        "gabinete": {
+          "nome": "414",
+          "predio": "4",
+          "sala": "414",
+          "andar": "4",
+          "telefone": "3215-5414",
+          "email": "dep.acaciofavacho@camara.leg.br"
+        },
+        "situacao": "Exercício",
+        "condicaoEleitoral": "Titular",
+        "descricaoStatus": null
+      },
+      "sexo": "M",
+      "urlWebsite": null,
+      "dataNascimento": "1983-09-28",
+      "dataFalecimento": null,
+      "ufNascimento": "AP",
+      "municipioNascimento": "Macapá",
+      "escolaridade": "Superior"
+    },
+    "links": [
+      {
+        "rel": "self",
+        "href": "https://dadosabertos.camara.leg.br/api/v2/deputados/204379"
+      }
+    ]
+  }
+}

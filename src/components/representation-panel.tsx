@@ -10,7 +10,7 @@ import type { SenateResult } from "@/lib/senate";
 
 export function RepresentationPanel(props: { uf: string | null; year: number; month: string; periodLabel: string }) {
   const [role, setRole] = useState("federal");
-  return <aside className="dash-deputies-panel dash-panel"><div className="representation-heading"><UsersRound size={18} /><h2>Seus representantes</h2>{props.uf && <span>{props.uf}</span>}</div><nav className="representation-tabs" aria-label="Cargo do representante">{[["federal", "Dep. federais"], ["senate", "Senadores"], ["government", "Governadores"], ["assembly", props.uf === "DF" ? "Dep. distritais" : "Dep. estaduais"]].map(([value, label]) => <button key={value} aria-pressed={role === value} onClick={() => setRole(value)}>{label}</button>)}</nav>
+  return <aside className="dash-deputies-panel dash-panel"><div className="representation-heading"><UsersRound size={18} /><h2>Seus representantes</h2>{props.uf && <span>{props.uf}</span>}</div><nav className="representation-tabs" aria-label="Cargo do representante">{[["senate", "Senadores"], ["federal", "Dep. Federais"], ["government", "Governadores"], ["assembly", props.uf === "DF" ? "Dep. Distritais" : "Dep. Estaduais"]].map(([value, label]) => <button key={value} aria-pressed={role === value} onClick={() => setRole(value)}>{label}</button>)}</nav>
     {role === "federal" ? <ParliamentPanel {...props} /> : role === "senate" ? <SenatePanel key={`${props.uf}-${props.year}-${props.month}`} uf={props.uf} year={props.year} month={props.month} /> : <StateRepresentatives key={`${role}-${props.uf}-${props.year}-${props.month}`} uf={props.uf} role={role as "government" | "assembly"} year={props.year} month={props.month} />}
   </aside>;
 }

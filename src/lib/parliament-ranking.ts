@@ -13,7 +13,7 @@ export function rankPublishedQuota(input: Published[]) {
   const records = sorted.map(row => ({ ...row, spent: row.spent!, rank: 1 + sorted.filter(other => Math.round(other.spent! * 100) < Math.round(row.spent! * 100)).length }));
   return { records, top: records.slice(0,3), excluded: input.length - eligible.length, withoutRecords: input.filter(row => row.documents === 0 || row.spent === null).length, netRefunds: input.filter(row => row.spent !== null && row.spent < 0 && row.documents > 0).length };
 }
-async function federalRoster() {
+export async function federalRoster() {
   const people: Person[] = [];
   for (let page=1;page<=10;page++) {
     const result = await getDeputies({page:String(page)});

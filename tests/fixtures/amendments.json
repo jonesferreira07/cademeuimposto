@@ -1,0 +1,135 @@
+{
+  "source": "https://portaldatransparencia.gov.br/download-de-dados/emendas-parlamentares",
+  "collectedAt": "2026-10-27",
+  "files": {
+    "EmendasParlamentares.csv": {
+      "columns": [
+        "Código da Emenda",
+        "Ano da Emenda",
+        "Tipo de Emenda",
+        "Código do Autor da Emenda",
+        "Nome do Autor da Emenda",
+        "Número da emenda",
+        "Localidade de aplicação do recurso",
+        "Código Município IBGE",
+        "Município",
+        "Código UF IBGE",
+        "UF",
+        "Região",
+        "Código Função",
+        "Nome Função",
+        "Código Subfunção",
+        "Nome Subfunção",
+        "Código Programa",
+        "Nome Programa",
+        "Código Ação",
+        "Nome Ação",
+        "Código Plano Orçamentário",
+        "Nome Plano Orçamentário",
+        "Valor Empenhado",
+        "Valor Liquidado",
+        "Valor Pago",
+        "Valor Restos A Pagar Inscritos",
+        "Valor Restos A Pagar Cancelados",
+        "Valor Restos A Pagar Pagos"
+      ],
+      "rows": [
+        {
+          "Código da Emenda": "202639020001",
+          "Ano da Emenda": "2026",
+          "Tipo de Emenda": "Emenda Individual - Transferências com Finalidade Definida",
+          "Código do Autor da Emenda": "3902",
+          "Nome do Autor da Emenda": "AJ ALBUQUERQUE",
+          "Número da emenda": "0001",
+          "Localidade de aplicação do recurso": "MÚLTIPLO",
+          "Código Município IBGE": "Sem informação",
+          "Município": "Múltiplo",
+          "Código UF IBGE": "2300000",
+          "UF": "CEARÁ",
+          "Região": "Nordeste",
+          "Código Função": "10",
+          "Nome Função": "Saúde",
+          "Código Subfunção": "301",
+          "Nome Subfunção": "Atenção básica",
+          "Código Programa": "5119",
+          "Nome Programa": "ATENCAO PRIMARIA A SAUDE",
+          "Código Ação": "2E89",
+          "Nome Ação": "INCREMENTO TEMPORARIO AO CUSTEIO DOS SERVICOS DE ATENCAO PRIMARIA A SAUDE PARA CUMPRIMENTO DE METAS",
+          "Código Plano Orçamentário": "0000",
+          "Nome Plano Orçamentário": "INCREMENTO TEMPORARIO AO CUSTEIO DOS SERVICOS DE ATENCAO PRIMARIA A SAUDE PARA CUMPRIMENTO DE METAS",
+          "Valor Empenhado": "25252007,00",
+          "Valor Liquidado": "24252007,00",
+          "Valor Pago": "24252007,00",
+          "Valor Restos A Pagar Inscritos": "0,00",
+          "Valor Restos A Pagar Cancelados": "0,00",
+          "Valor Restos A Pagar Pagos": "0,00"
+        }
+      ]
+    },
+    "EmendasParlamentares_Convenios.csv": {
+      "columns": [
+        "Código da Emenda",
+        "Código Função",
+        "Nome Função",
+        "Código Subfunção",
+        "Nome Subfunção",
+        "Localidade do gasto",
+        "Tipo de Emenda",
+        "Data Publicação Convênio",
+        "Convenente",
+        "Objeto Convênio",
+        "Número Convênio",
+        "Valor Convênio"
+      ],
+      "rows": []
+    },
+    "EmendasParlamentares_PorFavorecido.csv": {
+      "columns": [
+        "Código da Emenda",
+        "Código do Autor da Emenda",
+        "Nome do Autor da Emenda",
+        "Número da emenda",
+        "Tipo de Emenda",
+        "Ano/Mês",
+        "Código do Favorecido",
+        "Favorecido",
+        "Natureza Jurídica",
+        "Tipo Favorecido",
+        "UF Favorecido",
+        "Município Favorecido",
+        "Valor Recebido"
+      ],
+      "rows": [
+        {
+          "Código da Emenda": "202639020001",
+          "Código do Autor da Emenda": "3902",
+          "Nome do Autor da Emenda": "AJ ALBUQUERQUE",
+          "Número da emenda": "0001",
+          "Tipo de Emenda": "Emenda Individual - Transferências com Finalidade Definida",
+          "Ano/Mês": "202606",
+          "Favorecido": "FUNDO MUNICIPAL DE SAUDE DE MIRAIMA",
+          "Natureza Jurídica": "Fundo Público da Administração Direta Municipal",
+          "Tipo Favorecido": "Pessoa Jurídica",
+          "UF Favorecido": "CE",
+          "Município Favorecido": "MIRAÍMA",
+          "Valor Recebido": "2000000,00",
+          "Código do Favorecido": "11787063000156"
+        },
+        {
+          "Código da Emenda": "202639020001",
+          "Código do Autor da Emenda": "3902",
+          "Nome do Autor da Emenda": "AJ ALBUQUERQUE",
+          "Número da emenda": "0001",
+          "Tipo de Emenda": "Emenda Individual - Transferências com Finalidade Definida",
+          "Ano/Mês": "202605",
+          "Favorecido": "FUNDO MUNICIPAL DE SAUDE",
+          "Natureza Jurídica": "Fundo Público da Administração Direta Municipal",
+          "Tipo Favorecido": "Pessoa Jurídica",
+          "UF Favorecido": "CE",
+          "Município Favorecido": "PINDORETAMA",
+          "Valor Recebido": "1000000,00"
+        }
+      ]
+    }
+  }
+}

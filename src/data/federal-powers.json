@@ -1,0 +1,412 @@
+{
+  "year": 2026,
+  "verifiedAt": "2026-10-28",
+  "updatedAt": "2026-10-27T01:46:42.924-03:00",
+  "source": "https://www1.siop.planejamento.gov.br/siopdoc/doku.php/acesso_publico:dados_abertos",
+  "endpoint": "https://www1.siop.planejamento.gov.br/sparql/",
+  "classificationSource": "https://www25.senado.leg.br/documents/150599582/151112091/NTC_PLOA_2026.pdf/a05a2668-4419-46cf-b92d-f60983e4188c",
+  "query": "SELECT ?code ?name (SUM(?p) AS ?paid) (SUM(?a) AS ?authorized) (MAX(?date) AS ?updated) WHERE { GRAPH <http://orcamento.dados.gov.br/2026/> { ?i loa:temUnidadeOrcamentaria ?uo ; loa:valorPago ?p ; loa:valorLeiMaisCredito ?a ; loa:temExercicio ?ex ; loa:temEsfera ?sphere . ?sphere loa:codigo ?sphereCode . FILTER(?sphereCode IN (\"10\",\"20\")) ?uo loa:temOrgao ?org . ?org loa:codigo ?code ; rdfs:label ?name . ?ex loa:dataUltimaAtualizacao ?date . } } GROUP BY ?code ?name ORDER BY ?code",
+  "organizations": [
+    {
+      "code": "01000",
+      "name": "Camara dos Deputados",
+      "power": "legislative",
+      "paid": 6105644051.0,
+      "authorized": 9275147825.0
+    },
+    {
+      "code": "02000",
+      "name": "Senado Federal",
+      "power": "legislative",
+      "paid": 4983716915.0,
+      "authorized": 6816912036.0
+    },
+    {
+      "code": "03000",
+      "name": "Tribunal de Contas da União",
+      "power": "legislative",
+      "paid": 2359090265.0,
+      "authorized": 3311244494.0
+    },
+    {
+      "code": "10000",
+      "name": "Supremo Tribunal Federal",
+      "power": "judiciary",
+      "paid": 789705092.0,
+      "authorized": 1119903433.0
+    },
+    {
+      "code": "11000",
+      "name": "Superior Tribunal de Justiça",
+      "power": "judiciary",
+      "paid": 1753865119.0,
+      "authorized": 2478121438.0
+    },
+    {
+      "code": "12000",
+      "name": "Justiça Federal",
+      "power": "judiciary",
+      "paid": 14318421189.0,
+      "authorized": 18840282305.0
+    },
+    {
+      "code": "13000",
+      "name": "Justiça Militar da União",
+      "power": "judiciary",
+      "paid": 710586370.0,
+      "authorized": 936023775.0
+    },
+    {
+      "code": "14000",
+      "name": "Justiça Eleitoral",
+      "power": "judiciary",
+      "paid": 9300323542.0,
+      "authorized": 13825163121.0
+    },
+    {
+      "code": "15000",
+      "name": "Justiça do Trabalho",
+      "power": "judiciary",
+      "paid": 23206768436.0,
+      "authorized": 32516709033.0
+    },
+    {
+      "code": "16000",
+      "name": "Justiça do Distrito Federal e dos Territórios",
+      "power": "judiciary",
+      "paid": 3524449580.0,
+      "authorized": 4726199930.0
+    },
+    {
+      "code": "17000",
+      "name": "Conselho Nacional de Justiça",
+      "power": "judiciary",
+      "paid": 264334582.0,
+      "authorized": 598064589.0
+    },
+    {
+      "code": "20000",
+      "name": "Presidência da República",
+      "power": "executive",
+      "paid": 2111252152.0,
+      "authorized": 3935349792.0
+    },
+    {
+      "code": "22000",
+      "name": "Ministério da Agricultura e Pecuária",
+      "power": "executive",
+      "paid": 7176161272.0,
+      "authorized": 12966973337.0
+    },
+    {
+      "code": "24000",
+      "name": "Ministério da Ciência, Tecnologia e Inovação",
+      "power": "executive",
+      "paid": 8562476570.0,
+      "authorized": 14789708618.0
+    },
+    {
+      "code": "25000",
+      "name": "Ministério da Fazenda",
+      "power": "executive",
+      "paid": 10592559737.0,
+      "authorized": 23962182371.0
+    },
+    {
+      "code": "26000",
+      "name": "Ministério da Educação",
+      "power": "executive",
+      "paid": 154756031794.0,
+      "authorized": 235769983814.0
+    },
+    {
+      "code": "28000",
+      "name": "Ministério do Desenvolvimento, Indústria, Comércio e Serviços",
+      "power": "executive",
+      "paid": 1560130614.0,
+      "authorized": 4198416667.0
+    },
+    {
+      "code": "29000",
+      "name": "Defensoria Pública da União",
+      "power": "autonomous",
+      "paid": 605071524.0,
+      "authorized": 892363845.0
+    },
+    {
+      "code": "30000",
+      "name": "Ministério da Justiça e Segurança Pública",
+      "power": "executive",
+      "paid": 15027408986.0,
+      "authorized": 26992570561.0
+    },
+    {
+      "code": "32000",
+      "name": "Ministério de Minas e Energia",
+      "power": "executive",
+      "paid": 22030611207.0,
+      "authorized": 40295236302.0
+    },
+    {
+      "code": "33000",
+      "name": "Ministério da Previdência Social",
+      "power": "executive",
+      "paid": 877783316756.0,
+      "authorized": 1147273828591.0
+    },
+    {
+      "code": "34000",
+      "name": "Ministério Público da União",
+      "power": "autonomous",
+      "paid": 8177440583.0,
+      "authorized": 10672147262.0
+    },
+    {
+      "code": "35000",
+      "name": "Ministério das Relações Exteriores",
+      "power": "executive",
+      "paid": 3970594684.0,
+      "authorized": 5345425417.0
+    },
+    {
+      "code": "36000",
+      "name": "Ministério da Saúde",
+      "power": "executive",
+      "paid": 199915624493.0,
+      "authorized": 274083022891.0
+    },
+    {
+      "code": "37000",
+      "name": "Controladoria-Geral da União",
+      "power": "executive",
+      "paid": 1107669939.0,
+      "authorized": 1661440838.0
+    },
+    {
+      "code": "39000",
+      "name": "Ministério dos Transportes",
+      "power": "executive",
+      "paid": 9969096443.0,
+      "authorized": 18863507523.0
+    },
+    {
+      "code": "40000",
+      "name": "Ministério do Trabalho e Emprego",
+      "power": "executive",
+      "paid": 106734349537.0,
+      "authorized": 129125278601.0
+    },
+    {
+      "code": "41000",
+      "name": "Ministério das Comunicações",
+      "power": "executive",
+      "paid": 1365795211.0,
+      "authorized": 2449061653.0
+    },
+    {
+      "code": "42000",
+      "name": "Ministério da Cultura",
+      "power": "executive",
+      "paid": 2113187324.0,
+      "authorized": 4203719697.0
+    },
+    {
+      "code": "44000",
+      "name": "Ministério do Meio Ambiente e Mudança do Clima",
+      "power": "executive",
+      "paid": 3006106474.0,
+      "authorized": 5416718074.0
+    },
+    {
+      "code": "46000",
+      "name": "Ministério da Gestão e da Inovação em Serviços Públicos",
+      "power": "executive",
+      "paid": 3303389233.0,
+      "authorized": 5736783288.0
+    },
+    {
+      "code": "47000",
+      "name": "Ministério do Planejamento e Orçamento",
+      "power": "executive",
+      "paid": 3060894029.0,
+      "authorized": 5057158576.0
+    },
+    {
+      "code": "49000",
+      "name": "Ministério do Desenvolvimento Agrário e Agricultura Familiar",
+      "power": "executive",
+      "paid": 3921000695.0,
+      "authorized": 7595664247.0
+    },
+    {
+      "code": "51000",
+      "name": "Ministério do Esporte",
+      "power": "executive",
+      "paid": 494359589.0,
+      "authorized": 2525256920.0
+    },
+    {
+      "code": "52000",
+      "name": "Ministério da Defesa",
+      "power": "executive",
+      "paid": 93431540545.0,
+      "authorized": 145209289446.0
+    },
+    {
+      "code": "53000",
+      "name": "Ministério da Integração e do Desenvolvimento Regional",
+      "power": "executive",
+      "paid": 4309762099.0,
+      "authorized": 13744116039.0
+    },
+    {
+      "code": "54000",
+      "name": "Ministério do Turismo",
+      "power": "executive",
+      "paid": 198462376.0,
+      "authorized": 3079460180.0
+    },
+    {
+      "code": "55000",
+      "name": "Ministério do Desenvolvimento e Assistência Social, Família e Combate à Fome",
+      "power": "executive",
+      "paid": 247246566611.0,
+      "authorized": 306277121475.0
+    },
+    {
+      "code": "56000",
+      "name": "Ministério das Cidades",
+      "power": "executive",
+      "paid": 7688430967.0,
+      "authorized": 14996856147.0
+    },
+    {
+      "code": "58000",
+      "name": "Ministério da Pesca e Aquicultura",
+      "power": "executive",
+      "paid": 143153713.0,
+      "authorized": 302062421.0
+    },
+    {
+      "code": "59000",
+      "name": "Conselho Nacional do Ministério Público",
+      "power": "autonomous",
+      "paid": 96107214.0,
+      "authorized": 133216601.0
+    },
+    {
+      "code": "60000",
+      "name": "Gabinete da Vice-Presidência da República",
+      "power": "executive",
+      "paid": 8669806.0,
+      "authorized": 15786386.0
+    },
+    {
+      "code": "63000",
+      "name": "Advocacia-Geral da União",
+      "power": "executive",
+      "paid": 3729672672.0,
+      "authorized": 5399524285.0
+    },
+    {
+      "code": "65000",
+      "name": "Ministério das Mulheres",
+      "power": "executive",
+      "paid": 115704935.0,
+      "authorized": 394798024.0
+    },
+    {
+      "code": "67000",
+      "name": "Ministério da Igualdade Racial",
+      "power": "executive",
+      "paid": 98007817.0,
+      "authorized": 204678278.0
+    },
+    {
+      "code": "68000",
+      "name": "Ministério de Portos e Aeroportos",
+      "power": "executive",
+      "paid": 9020613980.0,
+      "authorized": 12237322495.0
+    },
+    {
+      "code": "69000",
+      "name": "Ministério do Empreendedorismo, da Microempresa e da Empresa de Pequeno Porte",
+      "power": "executive",
+      "paid": 147583455.0,
+      "authorized": 458604707.0
+    },
+    {
+      "code": "71000",
+      "name": "Encargos Financeiros da União",
+      "power": "executive",
+      "paid": 125533070152.0,
+      "authorized": 172227483197.0
+    },
+    {
+      "code": "72000",
+      "name": "Encargos Previdenciarios da União",
+      "power": "executive",
+      "paid": 15054568304.0,
+      "authorized": 21438651695.0
+    },
+    {
+      "code": "73000",
+      "name": "Transferências a Estados, Distrito Federal e Municípios",
+      "power": "executive",
+      "paid": 479128958985.0,
+      "authorized": 669010772841.0
+    },
+    {
+      "code": "74000",
+      "name": "Operações Oficiais de Crédito",
+      "power": "executive",
+      "paid": 140024631119.0,
+      "authorized": 210118075870.0
+    },
+    {
+      "code": "75000",
+      "name": "Dívida Pública Federal",
+      "power": "executive",
+      "paid": 2294528423510.0,
+      "authorized": 2859968152647.0
+    },
+    {
+      "code": "81000",
+      "name": "Ministério dos Direitos Humanos e da Cidadania",
+      "power": "executive",
+      "paid": 272594266.0,
+      "authorized": 678915458.0
+    },
+    {
+      "code": "83000",
+      "name": "Banco Central do Brasil",
+      "power": "executive",
+      "paid": 3504249704.0,
+      "authorized": 5074783211.0
+    },
+    {
+      "code": "84000",
+      "name": "Ministério dos Povos Indígenas",
+      "power": "executive",
+      "paid": 797496765.0,
+      "authorized": 1441640468.0
+    },
+    {
+      "code": "90000",
+      "name": "Reserva de Contingência",
+      "power": "executive",
+      "paid": 0.0,
+      "authorized": 13128556542.0
+    }
+  ],
+  "forecast": {
+    "year": 2026,
+    "value": -53048000000,
+    "metric": "Resultado primário do Governo Central",
+    "method": "Mediana das projeções de mercado · Prisma Fiscal",
+    "publishedAt": "2026-10-15",
+    "source": "https://www.gov.br/fazenda/pt-br/assuntos/noticias/2026/outubro/prisma-fiscal-eleva-projecao-de-deficit-para-2026-e-reduz-estimativa-para-2027",
+    "note": "Projeção, não resultado realizado nem meta oficial. Resultado primário exclui juros; a pesquisa não pode ser calculada subtraindo os totais do orçamento por Poder."
+  }
+}

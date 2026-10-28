@@ -82,6 +82,13 @@ export function createAmendmentReader(year: number) {
   };
 }
 const cache = new Map<number, { expires: number; value: Promise<Index> }>();
+export function loadAmendmentIndex(year: number) {
+  let entry = cache.get(year);
+  if (!entry || entry.expires < Date.now()) {
+    cache.clear(); const value = loadIndex(year).catch(error => { cache.delete(year); throw error; }); entry = { expires: Date.now() + 3600000, value }; cache.set(year, entry);
+  }
+  return entry.value;
+}
 async function loadIndex(year: number): Promise<Index> {
   const response = await fetch(AMENDMENT_ARCHIVE, { cache: "no-store", signal: AbortSignal.timeout(45000) });
   if (!response.ok || !response.body) throw new Error("Os dados de emendas estão indisponíveis na CGU.");
@@ -92,7 +99,7 @@ async function loadIndex(year: number): Promise<Index> {
     return { ...await parser.result(), publishedAt: response.headers.get("last-modified") || null };
   } catch (error) { await reader.cancel(); throw error; }
 }
-export function amendmentTotals(records: Amendment[]) {
+export function amendmentTotals(records: Pick<Amendment,"committed"|"liquidated"|"paid"|"remainingPaid">[]) {
   const sum = (field: "committed" | "liquidated" | "paid" | "remainingPaid") => records.length ? records.reduce((total, item) => total + Math.round(item[field] * 100), 0) / 100 : null;
   return { committed: sum("committed"), liquidated: sum("liquidated"), awaitingLiquidation: unliquidatedAmount(sum("committed"), sum("liquidated")), paid: sum("paid"), remainingPaid: sum("remainingPaid") };
 }
@@ -100,11 +107,7 @@ export async function getAmendments(id: string, year: number) {
   const identity = (authors.links as Record<string, { authorCode: string; authorName: string; deputyName: string; uf: string }>)[id];
   const empty = { records: [] as Amendment[], beneficiaries: {} as Record<string, Beneficiary[]>, agreements: {} as Record<string, Agreement[]>, totals: amendmentTotals([]), source: AMENDMENT_SOURCE, year, authorSource: authors.source, publishedAt: null as string | null };
   if (!identity) return { ...empty, verified: false, identity: null, message: "A autoria deste parlamentar ainda não foi vinculada com segurança. Consulte o nome no Portal da Transparência; nenhum valor foi atribuído automaticamente." };
-  let entry = cache.get(year);
-  if (!entry || entry.expires < Date.now()) {
-    cache.clear(); const value = loadIndex(year).catch(error => { cache.delete(year); throw error; }); entry = { expires: Date.now() + 3600000, value }; cache.set(year, entry);
-  }
-  const data = await entry.value;
+  const data = await loadAmendmentIndex(year);
   const records = data.amendments.filter(row => row.authorCode === identity.authorCode);
   if (records.some(row => normal(row.authorName) !== normal(identity.authorName))) return { ...empty, verified: false, identity: null, message: "A identificação do autor divergiu entre as fontes. Confirme a autoria diretamente na CGU antes de atribuir valores." };
   const codes = new Set(records.map(row => row.code));

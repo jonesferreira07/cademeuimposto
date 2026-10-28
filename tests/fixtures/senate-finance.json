@@ -1,0 +1,70 @@
+{
+  "year": 2026,
+  "month": 9,
+  "source": "https://adm.senado.gov.br/adm-dadosabertos/api/v1",
+  "expenses": [
+    {
+      "id": 2293332,
+      "tipoDocumento": "Nota Fiscal Eletrônica",
+      "ano": 2026,
+      "mes": 7,
+      "codSenador": 5982,
+      "nomeSenador": "ALESSANDRO VIEIRA",
+      "tipoDespesa": "Locomoção, hospedagem, alimentação, combustíveis e lubrificantes",
+      "fornecedor": "COMERCIAL MARIVAN LTDA",
+      "documento": "4349",
+      "data": "2026-07-02",
+      "valorReembolsado": 7000
+    },
+    {
+      "id": 2293333,
+      "tipoDocumento": "Nota Fiscal Eletrônica",
+      "ano": 2026,
+      "mes": 7,
+      "codSenador": 5982,
+      "nomeSenador": "ALESSANDRO VIEIRA",
+      "tipoDespesa": "Locomoção, hospedagem, alimentação, combustíveis e lubrificantes",
+      "fornecedor": "COMERCIAL MARIVAN LTDA",
+      "documento": "4354",
+      "data": "2026-07-14",
+      "valorReembolsado": 1000
+    },
+    {
+      "id": 2295563,
+      "tipoDocumento": "Recibo",
+      "ano": 2026,
+      "mes": 7,
+      "codSenador": 5982,
+      "nomeSenador": "ALESSANDRO VIEIRA",
+      "tipoDespesa": "Locomoção, hospedagem, alimentação, combustíveis e lubrificantes",
+      "fornecedor": "JB ANDRADE LOCAÇÃO DE VEÍCULOS LTDA",
+      "documento": null,
+      "data": "2026-07-08",
+      "valorReembolsado": 2300
+    }
+  ],
+  "payroll": [
+    {
+      "sequencial": 3582744,
+      "nome": "ALESSANDRO VIEIRA",
+      "mes": 9,
+      "ano": 2026,
+      "previdencia": "-4.582,06",
+      "faltas": "0,00",
+      "diarias": "0,00",
+      "auxilios": "0,00",
+      "tipo_folha": "Normal",
+      "remuneracao_basica": "46.366,19",
+      "vantagens_pessoais": "0,00",
+      "funcao_comissionada": "0,00",
+      "gratificacao_natalina": "-4.582,06",
+      "horas_extras": "0,00",
+      "outras_eventuais": "0,00",
+      "abono_permanencia": "0,00",
+      "reversao_teto_constitucional": "0,00",
+      "imposto_renda": "-10.425,49",
+      "remuneracao_liquida": "26.776,58",
+      "vantagens_indenizatorias": "0,00"
+    }
+  ]
+}

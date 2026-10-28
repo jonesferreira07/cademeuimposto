@@ -2,7 +2,7 @@ import { load } from "cheerio";
 import { getExpenses } from "./expenses";
 import { officialText, normalizePublicName, publicMoney, selectionWindow, sumPublished, mapLimited } from "./official-source";
 
-export type CostComponent = { key: string; label: string; value: number | null; source: string; note: string };
+export type CostComponent = { key: string; label: string; value: number | null; source: string; note: string; coverageLabel?: string };
 export function composeIdentifiedCost(components: CostComponent[], days: number) {
   const known = components.filter(row => row.value !== null);
   const identifiedTotal = known.length ? known.reduce((sum, row) => sum + Math.round(row.value! * 100), 0) / 100 : null;
@@ -68,15 +68,19 @@ async function loadFederalCosts(id: string, year: number, month?: number) {
     officialText(rosterSource).then(parseDeputyStaff).catch(() => []),
     officialText(housingSource).then(html => parseHousingPayments(html,year)).catch(() => null),
   ]);
-  const salary = sumPublished(payroll.map(row => row.gross)), salaryNet = sumPublished(payroll.map(row => row.net));
-  const cabinet = sumPublished(period.months.map(m => main?.cabinet.get(m) ?? null));
+  const salaryMonths=period.months.filter((_,i)=>payroll[i].gross!==null);
+  const salary = sumPublished(month===undefined?payroll.flatMap(row=>row.gross===null?[]:[row.gross]):payroll.map(row=>row.gross));
+  const salaryNet=sumPublished(payroll.filter(row=>row.gross!==null).map(row=>row.net));
+  const cabinetMonths=period.months.filter(m=>main?.cabinet.has(m));
+  const cabinet = sumPublished(month===undefined?cabinetMonths.map(m=>main!.cabinet.get(m)!):period.months.map(m=>main?.cabinet.get(m)??null));
+  const coverage=(months:number[])=>months.length?`${months.length<period.months.length?"Parcial · ":""}Competências confirmadas: ${months.map(m=>String(m).padStart(2,"0")).join(", ")}/${year}`:"Nenhum pagamento confirmado no período selecionado.";
   const housingRows = [...(housing || new Map<number,number>())].filter(([m]) => period.months.includes(m));
   const housingValue = sumPublished(housingRows.map(([,value]) => value));
   const components: CostComponent[] = [
-    { key: "salary", label: "Remuneração bruta do parlamentar", value: salary, source: salarySource, note: "Folhas publicadas para a competência, incluindo complementares e estornos. Não é o subsídio de referência." },
-    { key: "staff", label: "Assessores · verba de gabinete utilizada", value: cabinet, source: staffSource, note: `Gasto publicado pela Câmara para cada mês; não é o teto da verba. CNE e encargos não detalhados podem ficar fora. Última competência publicada na tabela: ${main?.cabinet.size ? String(Math.max(...main.cabinet.keys())).padStart(2,"0") + "/" + year : "não identificada"}.` },
+    { key: "salary", label: "Remuneração bruta do parlamentar", value: salary, coverageLabel: coverage(salaryMonths), source: salarySource, note: "Folhas publicadas para a competência, incluindo complementares e estornos. Não é o subsídio de referência." },
+    { key: "staff", label: "Assessores · verba de gabinete utilizada", value: cabinet, coverageLabel: coverage(cabinetMonths), source: staffSource, note: `Gasto publicado pela Câmara para cada mês; não é o teto da verba. CNE e encargos não detalhados podem ficar fora. Última competência publicada na tabela: ${main?.cabinet.size ? String(Math.max(...main.cabinet.keys())).padStart(2,"0") + "/" + year : "não identificada"}.` },
     { key: "quota", label: "Cota parlamentar · despesas líquidas", value: expenses?.total ?? null, source: expenses?.totalSource || expenses?.source || "https://dadosabertos.camara.leg.br", note: "Inclui despesas como escritório e comunicação. Não são somadas novamente como estrutura." },
-    { key: "housing", label: "Auxílio-moradia · pagamentos publicados", value: housingValue, source: housingSource, note: "Somente os pagamentos da tabela oficial no período escolhido. A ausência de mês não vira zero. Complemento pago pela CEAP já integra a cota e não é somado novamente." },
+    { key: "housing", label: "Auxílio-moradia · pagamentos publicados", value: housingValue, coverageLabel: coverage(housingRows.map(([m])=>m)), source: housingSource, note: "Somente os pagamentos da tabela oficial no período escolhido. A ausência de mês não vira zero. Complemento pago pela CEAP já integra a cota e não é somado novamente." },
     { key: "central", label: "Estrutura central e encargos sem rateio", value: null, source: "https://www.camara.leg.br/transparencia/", note: "Prédios, energia, segurança e outros custos institucionais não têm rateio individual verificado nesta consulta." },
   ];
   return { ...composeIdentifiedCost(components, period.days), period, salaryNet, benefits: main ? { ...main.benefits, source: staffSource, year, housingSource, housingMonths: housingRows.map(([m]) => m) } : null, staff: roster, staffSource: rosterSource, note: "Custo identificado, parcial: soma somente componentes publicados no mesmo período. Não representa o custo integral da instituição nem renda pessoal. Valores desconhecidos não são tratados como zero.", fetchedAt: new Date().toISOString() };
