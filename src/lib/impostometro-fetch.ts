@@ -1,12 +1,13 @@
 import { Agent, fetch as undiciFetch } from "undici";
 import { rootCertificates } from "node:tls";
 import { impostometroCA } from "./impostometro-ca";
+import { sectigoRSADomainValidationCA } from "./impostometro-intermediate";
 
 // A autoridade adicional é usada somente nas requisições ao Impostômetro.
 // A verificação do certificado e do nome do servidor permanece ativada.
 const dispatcher = new Agent({
   connect: {
-    ca: [...rootCertificates, impostometroCA].join("\n"),
+    ca: [...rootCertificates, impostometroCA, sectigoRSADomainValidationCA].join("\n"),
     rejectUnauthorized: true,
   },
 });
