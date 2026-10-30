@@ -4,12 +4,15 @@ import { Minus, Plus, RotateCcw, MousePointer2 } from "lucide-react";
 import paths from "@/lib/brazil-paths.json";
 import { states, getState } from "@/lib/states";
 import { AdSlot } from "./ad-slot";
-export function DashboardMap({ uf, onSelect }: { uf: string | null; onSelect: (uf: string | null) => void }) {
+import { MunicipalMap } from "./municipal-map";
+import type { MunicipalDataset } from "@/lib/municipal";
+export function DashboardMap({ uf, onSelect, cityId, onCity, municipal }: { uf: string | null; onSelect: (uf: string | null) => void; cityId: string | null; onCity: (id: string | null) => void; municipal: { data: MunicipalDataset | null; loading: boolean; error: string | null; retry: () => void } }) {
   const [hover, setHover] = useState<string | null>(null);
   const [zoom, setZoom] = useState(1);
   const focus = getState(uf || "");
   const selectedPath = paths.find(p => p.code === getState(uf || "")?.code);
   const centerX = selectedPath?.x ?? 300, centerY = selectedPath?.y ?? 270;
+  if (uf) return <MunicipalMap key={uf} uf={uf} cityId={cityId} dataset={municipal.data} loading={municipal.loading} error={municipal.error} retry={municipal.retry} onState={onSelect} onCity={onCity} />;
   return <section className="dash-map" aria-label="Mapa do Brasil">
     <div className="map-context"><span className="dash-eyebrow">O BRASIL, ESTADO POR ESTADO</span><h1>{focus?.name || "Cadê Meu Imposto"}<span>{focus ? "." : "?"}</span></h1><p>{focus ? `${focus.region} · ${focus.uf}` : "Escolha um estado para explorar."}</p></div>
     <div className="dash-map-canvas"><svg viewBox="35 0 520 530" aria-label="Selecione um estado no mapa interativo do Brasil"><defs><linearGradient id="map-green" x1="0" y1="1" x2="1" y2="0"><stop offset="0" stopColor="#00583e" /><stop offset="1" stopColor="#00c56e" /></linearGradient><linearGradient id="map-yellow" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stopColor="#ffe32e" /><stop offset="1" stopColor="#f4ac00" /></linearGradient><linearGradient id="map-bright-green" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stopColor="#12d777" /><stop offset="1" stopColor="#00a65d" /></linearGradient><linearGradient id="map-blue" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stopColor="#034071" /><stop offset="1" stopColor="#0875ed" /></linearGradient></defs><g transform={`translate(${-centerX * (zoom - 1)} ${-centerY * (zoom - 1)}) scale(${zoom})`}>

@@ -6,12 +6,14 @@ import { ParliamentPanel } from "./parliament-panel";
 import { DeputyPhoto } from "./deputy-card";
 import { useData, Loading, Failure, Pager } from "./dashboard-ui";
 import { StateRepresentatives } from "./state-representatives";
+import { MunicipalPanel } from "./municipal-panel";
+import type { MunicipalDataset, Municipality } from "@/lib/municipal";
 import type { SenateResult } from "@/lib/senate";
 
-export function RepresentationPanel(props: { uf: string | null; year: number; month: string; periodLabel: string }) {
-  const [role, setRole] = useState("federal");
-  return <aside className="dash-deputies-panel dash-panel"><div className="representation-heading"><UsersRound size={18} /><h2>Seus representantes</h2>{props.uf && <span>{props.uf}</span>}</div><nav className="representation-tabs" aria-label="Cargo do representante">{[["senate", "Senadores"], ["federal", "Dep. Federais"], ["government", "Governadores"], ["assembly", props.uf === "DF" ? "Dep. Distritais" : "Dep. Estaduais"]].map(([value, label]) => <button key={value} aria-pressed={role === value} onClick={() => setRole(value)}>{label}</button>)}</nav>
-    {role === "federal" ? <ParliamentPanel {...props} /> : role === "senate" ? <SenatePanel key={`${props.uf}-${props.year}-${props.month}`} uf={props.uf} year={props.year} month={props.month} /> : <StateRepresentatives key={`${role}-${props.uf}-${props.year}-${props.month}`} uf={props.uf} role={role as "government" | "assembly"} year={props.year} month={props.month} />}
+export function RepresentationPanel(props: { uf: string | null; year: number; month: string; periodLabel: string; cityId: string | null; city: Municipality | null; municipal: { data: MunicipalDataset | null; loading: boolean; error: string | null; retry: () => void }; onClearCity: () => void }) {
+  const [role, setRole] = useState(props.cityId ? "municipal" : "federal");
+  return <aside className="dash-deputies-panel dash-panel"><div className="representation-heading"><UsersRound size={18} /><h2>Seus representantes</h2>{props.uf && <span>{props.uf}</span>}</div><nav className={`representation-tabs ${role === "municipal" ? "municipal-scope-tabs" : ""}`} aria-label="Cargo do representante">{props.cityId && <button className="municipal-tab" aria-pressed={role === "municipal"} onClick={() => setRole("municipal")}>Prefeitura e Vereadores</button>}{role === "municipal" ? <button onClick={() => setRole("federal")}>Estado e União</button> : [["senate", "Senadores"], ["federal", "Dep. Federais"], ["government", "Governadores"], ["assembly", props.uf === "DF" ? "Dep. Distritais" : "Dep. Estaduais"]].map(([value, label]) => <button key={value} aria-pressed={role === value} onClick={() => setRole(value)}>{label}</button>)}</nav>
+    {role === "municipal" ? <><button className="inspector-back" onClick={props.onClearCity}><ArrowLeft size={12} /> Escolher outra cidade</button><MunicipalPanel key={props.cityId} city={props.city} dataset={props.municipal.data} loading={props.municipal.loading} error={props.municipal.error} retry={props.municipal.retry} /></> : role === "federal" ? <ParliamentPanel {...props} /> : role === "senate" ? <SenatePanel key={`${props.uf}-${props.year}-${props.month}`} uf={props.uf} year={props.year} month={props.month} /> : <StateRepresentatives key={`${role}-${props.uf}-${props.year}-${props.month}`} uf={props.uf} role={role as "government" | "assembly"} year={props.year} month={props.month} />}
   </aside>;
 }
 function SenatePanel({ uf, year, month }: { uf: string | null; year: number; month: string }) {
