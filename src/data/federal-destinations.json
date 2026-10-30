@@ -1,0 +1,632 @@
+{
+  "year": 2026,
+  "verifiedAt": "2026-10-30",
+  "endpoint": "https://www1.siop.planejamento.gov.br/sparql/",
+  "source": "https://www1.siop.planejamento.gov.br/siopdoc/doku.php/acesso_publico:dados_abertos",
+  "query": "SELECT ?code ?name (SUM(?p * 100) AS ?paidCents) (MAX(?date) AS ?updated) WHERE { GRAPH <http://orcamento.dados.gov.br/2026/> { ?i loa:temFuncao ?func ; loa:valorPago ?p ; loa:temExercicio ?ex ; loa:temEsfera ?sphere . ?sphere loa:codigo ?sphereCode . FILTER(?sphereCode IN (\"10\",\"20\")) ?func loa:codigo ?code ; rdfs:label ?name . ?ex loa:dataUltimaAtualizacao ?date . } } GROUP BY ?code ?name ORDER BY ?code",
+  "controlQuery": "SELECT (SUM(?p * 100) AS ?paidCents) (MAX(?date) AS ?updated) WHERE { GRAPH <http://orcamento.dados.gov.br/2026/> { ?i loa:valorPago ?p ; loa:temExercicio ?ex ; loa:temEsfera ?sphere . ?sphere loa:codigo ?sphereCode . FILTER(?sphereCode IN (\"10\",\"20\")) ?ex loa:dataUltimaAtualizacao ?date . } }",
+  "raw": {
+    "head": {
+      "link": [],
+      "vars": [
+        "code",
+        "name",
+        "paidCents",
+        "updated"
+      ]
+    },
+    "results": {
+      "distinct": false,
+      "ordered": true,
+      "bindings": [
+        {
+          "code": {
+            "type": "literal",
+            "value": "01"
+          },
+          "name": {
+            "type": "literal",
+            "value": "Legislativa"
+          },
+          "paidCents": {
+            "type": "typed-literal",
+            "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+            "value": "861116975570"
+          },
+          "updated": {
+            "type": "typed-literal",
+            "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+            "value": "2026-10-30T01:32:49.400-03:00"
+          }
+        },
+        {
+          "code": {
+            "type": "literal",
+            "value": "02"
+          },
+          "name": {
+            "type": "literal",
+            "value": "Judiciária"
+          },
+          "paidCents": {
+            "type": "typed-literal",
+            "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+            "value": "4197065751455"
+          },
+          "updated": {
+            "type": "typed-literal",
+            "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+            "value": "2026-10-30T01:32:49.400-03:00"
+          }
+        },
+        {
+          "code": {
+            "type": "literal",
+            "value": "03"
+          },
+          "name": {
+            "type": "literal",
+            "value": "Essencial à Justiça"
+          },
+          "paidCents": {
+            "type": "typed-literal",
+            "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+            "value": "1075118266705"
+          },
+          "updated": {
+            "type": "typed-literal",
+            "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+            "value": "2026-10-30T01:32:49.400-03:00"
+          }
+        },
+        {
+          "code": {
+            "type": "literal",
+            "value": "04"
+          },
+          "name": {
+            "type": "literal",
+            "value": "Administração"
+          },
+          "paidCents": {
+            "type": "typed-literal",
+            "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+            "value": "2346846462905"
+          },
+          "updated": {
+            "type": "typed-literal",
+            "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+            "value": "2026-10-30T01:32:49.400-03:00"
+          }
+        },
+        {
+          "code": {
+            "type": "literal",
+            "value": "05"
+          },
+          "name": {
+            "type": "literal",
+            "value": "Defesa Nacional"
+          },
+          "paidCents": {
+            "type": "typed-literal",
+            "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+            "value": "6911668662417"
+          },
+          "updated": {
+            "type": "typed-literal",
+            "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+            "value": "2026-10-30T01:32:49.400-03:00"
+          }
+        },
+        {
+          "code": {
+            "type": "literal",
+            "value": "06"
+          },
+          "name": {
+            "type": "literal",
+            "value": "Segurança Pública"
+          },
+          "paidCents": {
+            "type": "typed-literal",
+            "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+            "value": "1193901646978"
+          },
+          "updated": {
+            "type": "typed-literal",
+            "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+            "value": "2026-10-30T01:32:49.400-03:00"
+          }
+        },
+        {
+          "code": {
+            "type": "literal",
+            "value": "07"
+          },
+          "name": {
+            "type": "literal",
+            "value": "Relações Exteriores"
+          },
+          "paidCents": {
+            "type": "typed-literal",
+            "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+            "value": "357274729016"
+          },
+          "updated": {
+            "type": "typed-literal",
+            "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+            "value": "2026-10-30T01:32:49.400-03:00"
+          }
+        },
+        {
+          "code": {
+            "type": "literal",
+            "value": "08"
+          },
+          "name": {
+            "type": "literal",
+            "value": "Assistência Social"
+          },
+          "paidCents": {
+            "type": "typed-literal",
+            "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+            "value": "24533386508211"
+          },
+          "updated": {
+            "type": "typed-literal",
+            "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+            "value": "2026-10-30T01:32:49.400-03:00"
+          }
+        },
+        {
+          "code": {
+            "type": "literal",
+            "value": "09"
+          },
+          "name": {
+            "type": "literal",
+            "value": "Previdência Social"
+          },
+          "paidCents": {
+            "type": "typed-literal",
+            "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+            "value": "92073325920660"
+          },
+          "updated": {
+            "type": "typed-literal",
+            "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+            "value": "2026-10-30T01:32:49.400-03:00"
+          }
+        },
+        {
+          "code": {
+            "type": "literal",
+            "value": "10"
+          },
+          "name": {
+            "type": "literal",
+            "value": "Saúde"
+          },
+          "paidCents": {
+            "type": "typed-literal",
+            "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+            "value": "18978079695376"
+          },
+          "updated": {
+            "type": "typed-literal",
+            "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+            "value": "2026-10-30T01:32:49.400-03:00"
+          }
+        },
+        {
+          "code": {
+            "type": "literal",
+            "value": "11"
+          },
+          "name": {
+            "type": "literal",
+            "value": "Trabalho"
+          },
+          "paidCents": {
+            "type": "typed-literal",
+            "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+            "value": "10761301524531"
+          },
+          "updated": {
+            "type": "typed-literal",
+            "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+            "value": "2026-10-30T01:32:49.400-03:00"
+          }
+        },
+        {
+          "code": {
+            "type": "literal",
+            "value": "12"
+          },
+          "name": {
+            "type": "literal",
+            "value": "Educação"
+          },
+          "paidCents": {
+            "type": "typed-literal",
+            "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+            "value": "14923679370678"
+          },
+          "updated": {
+            "type": "typed-literal",
+            "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+            "value": "2026-10-30T01:32:49.400-03:00"
+          }
+        },
+        {
+          "code": {
+            "type": "literal",
+            "value": "13"
+          },
+          "name": {
+            "type": "literal",
+            "value": "Cultura"
+          },
+          "paidCents": {
+            "type": "typed-literal",
+            "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+            "value": "208205841923"
+          },
+          "updated": {
+            "type": "typed-literal",
+            "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+            "value": "2026-10-30T01:32:49.400-03:00"
+          }
+        },
+        {
+          "code": {
+            "type": "literal",
+            "value": "14"
+          },
+          "name": {
+            "type": "literal",
+            "value": "Direitos da Cidadania"
+          },
+          "paidCents": {
+            "type": "typed-literal",
+            "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+            "value": "130791121105"
+          },
+          "updated": {
+            "type": "typed-literal",
+            "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+            "value": "2026-10-30T01:32:49.400-03:00"
+          }
+        },
+        {
+          "code": {
+            "type": "literal",
+            "value": "15"
+          },
+          "name": {
+            "type": "literal",
+            "value": "Urbanismo"
+          },
+          "paidCents": {
+            "type": "typed-literal",
+            "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+            "value": "198798350181"
+          },
+          "updated": {
+            "type": "typed-literal",
+            "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+            "value": "2026-10-30T01:32:49.400-03:00"
+          }
+        },
+        {
+          "code": {
+            "type": "literal",
+            "value": "16"
+          },
+          "name": {
+            "type": "literal",
+            "value": "Habitação"
+          },
+          "paidCents": {
+            "type": "typed-literal",
+            "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+            "value": "176978732599"
+          },
+          "updated": {
+            "type": "typed-literal",
+            "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+            "value": "2026-10-30T01:32:49.400-03:00"
+          }
+        },
+        {
+          "code": {
+            "type": "literal",
+            "value": "17"
+          },
+          "name": {
+            "type": "literal",
+            "value": "Saneamento"
+          },
+          "paidCents": {
+            "type": "typed-literal",
+            "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+            "value": "42237707043"
+          },
+          "updated": {
+            "type": "typed-literal",
+            "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+            "value": "2026-10-30T01:32:49.400-03:00"
+          }
+        },
+        {
+          "code": {
+            "type": "literal",
+            "value": "18"
+          },
+          "name": {
+            "type": "literal",
+            "value": "Gestão Ambiental"
+          },
+          "paidCents": {
+            "type": "typed-literal",
+            "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+            "value": "3376161087907"
+          },
+          "updated": {
+            "type": "typed-literal",
+            "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+            "value": "2026-10-30T01:32:49.400-03:00"
+          }
+        },
+        {
+          "code": {
+            "type": "literal",
+            "value": "19"
+          },
+          "name": {
+            "type": "literal",
+            "value": "Ciência e Tecnologia"
+          },
+          "paidCents": {
+            "type": "typed-literal",
+            "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+            "value": "1631953009771"
+          },
+          "updated": {
+            "type": "typed-literal",
+            "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+            "value": "2026-10-30T01:32:49.400-03:00"
+          }
+        },
+        {
+          "code": {
+            "type": "literal",
+            "value": "20"
+          },
+          "name": {
+            "type": "literal",
+            "value": "Agricultura"
+          },
+          "paidCents": {
+            "type": "typed-literal",
+            "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+            "value": "2498435675507"
+          },
+          "updated": {
+            "type": "typed-literal",
+            "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+            "value": "2026-10-30T01:32:49.400-03:00"
+          }
+        },
+        {
+          "code": {
+            "type": "literal",
+            "value": "21"
+          },
+          "name": {
+            "type": "literal",
+            "value": "Organização Agrária"
+          },
+          "paidCents": {
+            "type": "typed-literal",
+            "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+            "value": "418996274226"
+          },
+          "updated": {
+            "type": "typed-literal",
+            "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+            "value": "2026-10-30T01:32:49.400-03:00"
+          }
+        },
+        {
+          "code": {
+            "type": "literal",
+            "value": "22"
+          },
+          "name": {
+            "type": "literal",
+            "value": "Indústria"
+          },
+          "paidCents": {
+            "type": "typed-literal",
+            "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+            "value": "213301737524"
+          },
+          "updated": {
+            "type": "typed-literal",
+            "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+            "value": "2026-10-30T01:32:49.400-03:00"
+          }
+        },
+        {
+          "code": {
+            "type": "literal",
+            "value": "23"
+          },
+          "name": {
+            "type": "literal",
+            "value": "Comércio e Serviços"
+          },
+          "paidCents": {
+            "type": "typed-literal",
+            "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+            "value": "157688719565"
+          },
+          "updated": {
+            "type": "typed-literal",
+            "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+            "value": "2026-10-30T01:32:49.400-03:00"
+          }
+        },
+        {
+          "code": {
+            "type": "literal",
+            "value": "24"
+          },
+          "name": {
+            "type": "literal",
+            "value": "Comunicações"
+          },
+          "paidCents": {
+            "type": "typed-literal",
+            "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+            "value": "83726663326"
+          },
+          "updated": {
+            "type": "typed-literal",
+            "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+            "value": "2026-10-30T01:32:49.400-03:00"
+          }
+        },
+        {
+          "code": {
+            "type": "literal",
+            "value": "25"
+          },
+          "name": {
+            "type": "literal",
+            "value": "Energia"
+          },
+          "paidCents": {
+            "type": "typed-literal",
+            "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+            "value": "117699360475"
+          },
+          "updated": {
+            "type": "typed-literal",
+            "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+            "value": "2026-10-30T01:32:49.400-03:00"
+          }
+        },
+        {
+          "code": {
+            "type": "literal",
+            "value": "26"
+          },
+          "name": {
+            "type": "literal",
+            "value": "Transporte"
+          },
+          "paidCents": {
+            "type": "typed-literal",
+            "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+            "value": "1047132965497"
+          },
+          "updated": {
+            "type": "typed-literal",
+            "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+            "value": "2026-10-30T01:32:49.400-03:00"
+          }
+        },
+        {
+          "code": {
+            "type": "literal",
+            "value": "27"
+          },
+          "name": {
+            "type": "literal",
+            "value": "Desporto e Lazer"
+          },
+          "paidCents": {
+            "type": "typed-literal",
+            "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+            "value": "49032708193"
+          },
+          "updated": {
+            "type": "typed-literal",
+            "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+            "value": "2026-10-30T01:32:49.400-03:00"
+          }
+        },
+        {
+          "code": {
+            "type": "literal",
+            "value": "28"
+          },
+          "name": {
+            "type": "literal",
+            "value": "Encargos Especiais"
+          },
+          "paidCents": {
+            "type": "typed-literal",
+            "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+            "value": "311469306800063"
+          },
+          "updated": {
+            "type": "typed-literal",
+            "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+            "value": "2026-10-30T01:32:49.400-03:00"
+          }
+        },
+        {
+          "code": {
+            "type": "literal",
+            "value": "99"
+          },
+          "name": {
+            "type": "literal",
+            "value": "Reserva de Contingência"
+          },
+          "paidCents": {
+            "type": "typed-literal",
+            "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+            "value": "0"
+          },
+          "updated": {
+            "type": "typed-literal",
+            "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+            "value": "2026-10-30T01:32:49.400-03:00"
+          }
+        }
+      ]
+    }
+  },
+  "control": {
+    "head": {
+      "link": [],
+      "vars": [
+        "paidCents",
+        "updated"
+      ]
+    },
+    "results": {
+      "distinct": false,
+      "ordered": true,
+      "bindings": [
+        {
+          "paidCents": {
+            "type": "typed-literal",
+            "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+            "value": "500033212269407"
+          },
+          "updated": {
+            "type": "typed-literal",
+            "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+            "value": "2026-10-30T01:32:49.400-03:00"
+          }
+        }
+      ]
+    }
+  }
+}

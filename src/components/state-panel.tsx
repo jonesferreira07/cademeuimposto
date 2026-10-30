@@ -1,6 +1,7 @@
 "use client";
+import { FederalDestinationsPanel } from "./federal-destinations";
 import { useEffect, useState } from "react";
-import { ArrowUpRight, Database, Info, Landmark, MapPin } from "lucide-react";
+import { ArrowUpRight, Landmark } from "lucide-react";
 import { getState } from "@/lib/states";
 import { fiscalDate, money, months } from "@/lib/finance";
 import gdp from "@/data/state-gdp.json";
@@ -14,8 +15,8 @@ export function StatePanel({ uf, year, month }: { uf: string | null; year: numbe
   useEffect(() => { setPage(0); }, [uf, year, month]);
   const state = getState(uf || ""); const data = report.data;
   const production = gdp.records.find(row => row.code === state?.code);
-  return <aside className="dash-state-panel dash-panel"><div className="panel-heading"><span className="panel-icon"><Landmark size={18} /></span><div><span className="dash-eyebrow">CONTAS DO ESTADO</span><h2>{state?.name || "Para onde vai?"}</h2></div>{uf && <span className="uf-tag">{uf}</span>}</div>
-    {!uf ? <div className="panel-intro"><span className="intro-icon"><MapPin size={30} /></span><h3>Seu estado em detalhes.</h3><p>Selecione uma UF no mapa para ver o que produz, o que recebeu da União e quanto o governo gastou.</p><div className="intro-steps"><span><b>1</b> Escolha seu estado</span><span><b>2</b> Consulte as contas públicas</span><span><b>3</b> Acompanhe os representantes</span></div><div className="mini-source"><Database size={13} /> Dados do Tesouro Nacional</div></div> : <>
+  return <aside className="dash-state-panel dash-panel"><div className="panel-heading"><span className="panel-icon"><Landmark size={18} /></span><div><span className="dash-eyebrow">{uf?"CONTAS DO ESTADO":"CONTAS DO BRASIL"}</span><h2>{state?.name || "Para onde vai?"}</h2></div>{uf && <span className="uf-tag">{uf}</span>}</div>
+    {!uf ? <FederalDestinationsPanel /> : <>
       <div className="panel-tabs" role="tablist" aria-label="Contas estaduais"><button role="tab" aria-selected={tab === "summary"} onClick={() => setTab("summary")}>Visão geral</button><button role="tab" aria-selected={tab === "uses"} onClick={() => setTab("uses")}>Onde gastou</button></div>
       {report.loading ? <Loading text="Buscando o relatório do Tesouro…" /> : report.error ? <Failure message={report.error} retry={report.retry} /> : data && <>
         <div className="report-period"><span className="live-dot" />{data.period ? `Janeiro a ${months[data.endMonth! - 1].toLowerCase()} de ${data.year}` : `Sem relatório encerrado em ${year}`}</div>
