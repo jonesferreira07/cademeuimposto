@@ -19,6 +19,21 @@ describe("Destino dos gastos federais com conciliação e escopo",()=>{
   const dates=clone();dates.control.results.bindings[0].updated.value="2026-10-29T01:00:00-03:00";expect(()=>parseFederalDestinations(dates.raw,dates.control)).toThrow("datas");
   const value=clone();value.raw.results.bindings[0].paidCents.value=String(Number(value.raw.results.bindings[0].paidCents.value)+1);expect(()=>parseFederalDestinations(value.raw,value.control)).toThrow("soma");
  });
+ it("separa refinanciamento sem alterar total e percentuais por função",()=>{
+  const full=parseFederalDestinations(snapshot.raw,snapshot.control,snapshot.refinancingRaw),original=parseFederalDestinations(snapshot.raw,snapshot.control);
+  expect(full.refinancing?.paid).toBe(1500619344449.81);
+  expect(Math.round(full.refinancing!.paid*100)+Math.round(full.refinancing!.remainingPaid*100)).toBe(Math.round(full.totalPaid*100));
+  expect(full.records).toEqual(original.records);expect(original.refinancing).toBeNull();
+  const bad=clone();bad.refinancingRaw.results.bindings[0].updated.value="2026-10-29T00:00:00-03:00";
+  expect(()=>parseFederalDestinations(bad.raw,bad.control,bad.refinancingRaw)).toThrow("Refinanciamento");
+  const duplicate=clone();duplicate.refinancingRaw.results.bindings[1]=duplicate.refinancingRaw.results.bindings[0];expect(()=>parseFederalDestinations(duplicate.raw,duplicate.control,duplicate.refinancingRaw)).toThrow();
+  const excessive=clone();excessive.refinancingRaw.results.bindings[0].paidCents.value="600000000000000";expect(()=>parseFederalDestinations(excessive.raw,excessive.control,excessive.refinancingRaw)).toThrow();
+ });
+ it("explica a diferença sem apresentar o restante como serviço ou déficit",()=>{
+  const data={...parseFederalDestinations(snapshot.raw,snapshot.control,snapshot.refinancingRaw),origin:"verified-snapshot" as const,fetchedAt:"2026-10-30T12:00:00Z"};
+  const html=renderToStaticMarkup(<FederalDestinationsContent data={data}/>);
+  for(const text of ["Pagamentos federais · inclui dívida","Subtrair esses dois números não calcula o déficit","Demais pagamentos federais","Não equivalem apenas a serviços públicos","incluindo o refinanciamento","1.500.619.344.449,81"])expect(html).toContain(text);
+ });
  it("não atribui percentuais do gasto federal ao contador de impostos e identifica cópia datada",()=>{
   const data={...parseFederalDestinations(snapshot.raw,snapshot.control),origin:"verified-snapshot" as const,fetchedAt:"2026-10-30T12:00:00Z"};
   const html=renderToStaticMarkup(<FederalDestinationsContent data={data}/>);

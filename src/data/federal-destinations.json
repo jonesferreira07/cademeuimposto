@@ -628,5 +628,63 @@
         }
       ]
     }
+  },
+  "refinancingQuery": "SELECT ?code ?name (SUM(?p * 100) AS ?paidCents) (MAX(?date) AS ?updated) WHERE { GRAPH <http://orcamento.dados.gov.br/2026/> { ?i loa:temSubfuncao ?sub ; loa:temFuncao ?func ; loa:valorPago ?p ; loa:temExercicio ?ex ; loa:temEsfera ?sphere . ?sphere loa:codigo ?sphereCode . FILTER(?sphereCode IN (\"10\",\"20\")) ?func loa:codigo \"28\" . ?sub loa:codigo ?code ; rdfs:label ?name . FILTER(?code IN (\"841\",\"842\")) ?ex loa:dataUltimaAtualizacao ?date . } } GROUP BY ?code ?name ORDER BY ?code",
+  "refinancingRaw": {
+    "head": {
+      "link": [],
+      "vars": [
+        "code",
+        "name",
+        "paidCents",
+        "updated"
+      ]
+    },
+    "results": {
+      "distinct": false,
+      "ordered": true,
+      "bindings": [
+        {
+          "code": {
+            "type": "literal",
+            "value": "841"
+          },
+          "name": {
+            "type": "literal",
+            "value": "Refinanciamento da Dívida Interna"
+          },
+          "paidCents": {
+            "type": "typed-literal",
+            "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+            "value": "148938447963731"
+          },
+          "updated": {
+            "type": "typed-literal",
+            "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+            "value": "2026-10-30T01:32:49.400-03:00"
+          }
+        },
+        {
+          "code": {
+            "type": "literal",
+            "value": "842"
+          },
+          "name": {
+            "type": "literal",
+            "value": "Refinanciamento da Dívida Externa"
+          },
+          "paidCents": {
+            "type": "typed-literal",
+            "datatype": "http://www.w3.org/2001/XMLSchema#decimal",
+            "value": "1123486481250"
+          },
+          "updated": {
+            "type": "typed-literal",
+            "datatype": "http://www.w3.org/2001/XMLSchema#dateTime",
+            "value": "2026-10-30T01:32:49.400-03:00"
+          }
+        }
+      ]
+    }
   }
 }
