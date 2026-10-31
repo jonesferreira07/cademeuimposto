@@ -1,8 +1,9 @@
 "use client";
 import { useEffect, useRef, useState } from "react";
-import { ArrowUpRight, Check, ExternalLink, Info, MapPin, Moon, ShieldCheck, Sun, X, Link as LinkIcon } from "lucide-react";
+import { ArrowUpRight, Check, ExternalLink, Info, Moon, ShieldCheck, Sun, X, Link as LinkIcon } from "lucide-react";
 import { Brand } from "./brand";
 import { DashboardMap } from "./dashboard-map";
+import { DashboardFilters } from "./dashboard-filters";
 import { StatePanel } from "./state-panel";
 import { MunicipalFinancePanel } from "./municipal-finance-panel";
 import { RepresentationPanel } from "./representation-panel";
@@ -10,7 +11,6 @@ import { TaxCounter } from "./tax-counter";
 import { TaxRankings } from "./tax-rankings";
 import { FederalPowers } from "./federal-powers";
 import { ReflectionGuide } from "./reflection-guide";
-import { states } from "@/lib/states";
 import { months, brazilDate } from "@/lib/finance";
 import { REPORTING_YEAR } from "@/lib/reporting-period";
 import { useData } from "./dashboard-ui";
@@ -51,7 +51,7 @@ export function Dashboard({ initialMonth }: { initialMonth: number | "all" }) {
     <header className="dash-header"><Brand onHome={returnHome} /><div className="dash-header-label"><span className="live-dot" /> Seu dinheiro merece atenção.</div><div className="dash-header-actions"><TaxRankings onSelect={selectState} year={year} month={month} /><FederalPowers /><button className="theme-toggle" onClick={toggleTheme} aria-label={theme === "dark" ? "Ativar tema claro" : "Ativar tema escuro"} title={theme === "dark" ? "Ativar tema claro" : "Ativar tema escuro"}>{theme === "dark" ? <Sun size={18} /> : <Moon size={18} />}<span>{theme === "dark" ? "Clarear" : "Escurecer"}</span></button><button aria-label="Fontes e critérios" onClick={() => sources.current?.showModal()}><Info size={17} /><span>Fontes e critérios</span></button><button onClick={share} aria-label="Copiar link deste painel">{copied ? <Check size={17} /> : <LinkIcon size={17} />}<span>{copied ? "Link copiado" : "Compartilhar"}</span></button></div></header>
     <CitizenshipWelcome />
     <TaxCounter key={uf || "BR"} uf={uf} year={year} />
-    <div className="dash-toolbar"><div className="dash-location"><MapPin size={15} /><label className="sr-only" htmlFor="dash-uf">Estado</label><select id="dash-uf" value={uf || ""} onChange={e => selectState(e.target.value || null)}><option value="">Brasil · escolha um estado</option>{states.map(s => <option value={s.uf} key={s.uf}>{s.name} ({s.uf})</option>)}</select></div><div className="dash-period"><span>Consultar gastos em</span><label className="sr-only" htmlFor="dash-month">Mês</label><select id="dash-month" value={month} onChange={e => setMonth(e.target.value)}><option value="all">Acumulado em 2026</option>{months.slice(0, availableMonths).map((name, i) => <option key={name} value={i + 1}>{name}</option>)}</select><span className="reporting-year" aria-label="Ano das contas: 2026">2026</span></div></div>
+    <DashboardFilters uf={uf} year={year} month={month} availableMonths={availableMonths} onState={selectState} onMonth={setMonth} />
     <nav className="dash-mobile-tabs" aria-label="Seção do painel"><button aria-pressed={view === "map"} className={view === "map" ? "active" : ""} onClick={() => setView("map")}>Mapa</button><button aria-pressed={view === "state"} className={view === "state" ? "active" : ""} onClick={() => setView("state")}>{cityId ? "Contas municipais" : uf ? `Estado · ${uf}` : "Brasil"}</button><button aria-pressed={view === "deputies"} className={view === "deputies" ? "active" : ""} onClick={() => setView("deputies")}>Representantes</button></nav>
     <div className={`dash-workspace mobile-${view}`}>{cityId ? <MunicipalFinancePanel key={cityId} id={cityId} name={city?.name || null} uf={uf} year={year} month={month} onState={() => { selectCity(null); setView("state"); }} /> : <StatePanel key={`state-${homeVersion}`} uf={uf} year={year} month={month} />}<DashboardMap key={`map-${homeVersion}`} uf={uf} year={year} month={month} onSelect={selectState} cityId={cityId} onCity={selectCity} municipal={municipal} /><RepresentationPanel key={`${homeVersion}-${uf || "BR"}-${cityId || "state"}`} uf={uf} year={year} month={month} periodLabel={periodLabel} cityId={cityId} city={city} municipal={municipal} onClearCity={() => selectCity(null)} /></div>
     <footer className="dash-footer"><span><ShieldCheck size={12} /> Independente e apartidário. Dados das fontes indicadas.</span><ReflectionGuide /><span className="dash-desktop-only">IBGE · Câmara · Senado · Tesouro · CGU · ACSP/IBPT</span></footer>

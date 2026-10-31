@@ -32,7 +32,7 @@ export function MunicipalMap({ uf, cityId, dataset, loading, error, retry, onSta
     const description = row?.status === "ok" ? `${city.name} — ${appearance.label}. Receita: ${money(row.revenue)}. Pago: ${money(row.paid)}. ${balances.period}º bimestre de ${year}.` : `${city.name} — ${row?.status === "error" ? "consulta indisponível" : row?.status === "missing" ? "dados não disponíveis neste bimestre" : balances.loading ? "consulta em andamento" : "sem comparação confirmada"}.`;
     return { city, appearance, description };
   }), [cities, balances.rows, balances.period, balances.loading, year]);
-  const focusedCity = hovered || selected;
+  const focusedCity = selected || hovered;
   const missingGeometry = cities.filter(city => !city.shape);
   function scale(multiplier: number) {
     setBox(old => {
@@ -59,7 +59,7 @@ export function MunicipalMap({ uf, cityId, dataset, loading, error, retry, onSta
         }} onPointerUp={event => { if (event.currentTarget.hasPointerCapture(event.pointerId)) event.currentTarget.releasePointerCapture(event.pointerId); }}>
           {mapRows.map(({ city, appearance, description }) => <a key={city.id} href={municipalHash(uf, city.id)} tabIndex={-1} aria-label={description} data-balance={appearance.tone} className={`municipal-shape ${city.id === cityId ? "selected" : ""} ${query && !filtered.some(item => item.id === city.id) ? "dimmed" : ""}`} onMouseEnter={() => setHover(city.id)} onMouseLeave={() => setHover(null)} onClick={event => { event.preventDefault(); if (!drag.current?.moved) onCity(city.id); }}><title>{description}</title><path style={{ fill: appearance.color }} d={city.shape!.d} fillRule="evenodd" vectorEffect="non-scaling-stroke" /></a>)}
         </svg></div>
-        <div className="municipal-map-caption"><MunicipalBalanceLegend year={year} period={balances.period} loading={balances.loading} processed={balances.processed} total={balances.total} rows={balances.rows} error={balances.error} retry={balances.retry} /><div className="municipal-map-focus" aria-live="polite"><strong>{focusedCity?.name || "Selecione uma cidade para ver os valores"}</strong>{focusedCity && <MunicipalBalanceInfo row={balances.rows[focusedCity.id]} loading={balances.loading} district={focusedCity.kind === "district"} />}</div>{!!missingGeometry.length && <span className="municipal-geometry-warning">Sem limite disponível nesta malha: {missingGeometry.map(city => city.name).join(", ")}. Selecione pela busca.</span>}</div>
+        <div className="municipal-map-caption"><MunicipalBalanceLegend year={year} period={balances.period} loading={balances.loading} processed={balances.processed} total={balances.total} rows={balances.rows} error={balances.error} retry={balances.retry} /><div className="municipal-map-focus" aria-live="polite"><strong title={focusedCity?.name}>{focusedCity?.name || "Selecione uma cidade para ver os valores"}</strong>{selected && <MunicipalBalanceInfo row={balances.rows[selected.id]} loading={balances.loading} district={selected.kind === "district"} />}</div>{!!missingGeometry.length && <span className="municipal-geometry-warning">Sem limite disponível nesta malha: {missingGeometry.map(city => city.name).join(", ")}. Selecione pela busca.</span>}</div>
       </>}
     </div>
     <AdSlot />

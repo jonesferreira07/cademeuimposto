@@ -837,3 +837,20 @@
   .municipal-map .municipal-explorer { flex: none; }
   .municipal-map .municipal-canvas { height: 260px; min-height: 220px; flex: none; }
 }
+
+/* Controles nativos com alinhamento uniforme, incluindo Safari/iOS. */
+.dashboard .dash-filters { display: grid; grid-template-columns: minmax(0,1fr) minmax(0,1fr); gap: 12px; min-height: 0; padding-block: 10px; }
+.dash-filter-field, .dash-select-control { min-width: 0; }
+.dash-select-control { position: relative; width: 100%; }
+.dashboard .dash-filters .dash-select-control select { display: block; appearance: none; -webkit-appearance: none; width: 100%; max-width: none; min-width: 0; height: 46px; min-height: 46px; border: 1px solid var(--border); border-radius: 8px; margin: 0; padding: 0 44px 0 42px; background: var(--surface); color: var(--text); font-size: 14px; line-height: normal; text-overflow: ellipsis; cursor: pointer; }
+.dash-select-icon, .dash-select-arrow { position: absolute; top: 50%; transform: translateY(-50%); pointer-events: none; }
+.dash-select-icon { left: 14px; color: var(--accent); }
+.dash-select-arrow { right: 14px; color: var(--muted); }
+/* O hover não pode deslocar o desenho nem mudar sua área de detecção. */
+.municipal-shape path, .dash-map-state path { pointer-events: fill; }
+.municipal-map-focus { align-content: flex-start; }
+.municipal-map-focus>strong { display: block; block-size: 17px; line-height: 17px; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+@media (max-width: 560px) {
+  .dashboard .dash-filters { grid-template-columns: minmax(0,1fr); gap: 10px; }
+  .dashboard .dash-filters .dash-select-control select { height: 48px; min-height: 48px; font-size: 16px; }
+}
