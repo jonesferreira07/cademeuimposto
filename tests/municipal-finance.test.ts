@@ -1,5 +1,5 @@
 import { afterEach, describe, expect, it, vi } from "vitest";
-import { getMunicipalFinance, municipalIdentity, parseMunicipalFunctions, parseMunicipalTotals } from "../src/lib/municipal-finance";
+import { getMunicipalFinance, getMunicipalBalanceReport, municipalIdentity, parseMunicipalFunctions, parseMunicipalTotals } from "../src/lib/municipal-finance";
 import { fiscalRowSchema } from "../src/lib/treasury";
 import fixture from "./fixtures/municipal-finance.json";
 import simplified from "./fixtures/municipal-finance-simplified.json";
@@ -99,6 +99,16 @@ describe("Contas municipais oficiais", () => {
       expect(url.searchParams.get("co_tipo_demonstrativo")).toBe("RREO Simplificado");
       expect(url.searchParams.get("nr_periodo")).toBe("4");
     }
+  });
+  it("consulta apenas os totais do bimestre exato para as cores, sem recuar nem buscar o Anexo 02", async () => {
+    const fetcher = vi.fn().mockResolvedValueOnce(response(fixture.report)); vi.stubGlobal("fetch",fetcher);
+    const result = await getMunicipalBalanceReport("2111300",2026,4,Date.now()+30000);
+    expect(result).toMatchObject({status:"ok",revenue:4390633018.2,paid:3486140928.05});
+    expect(fetcher).toHaveBeenCalledTimes(1);
+    const empty = vi.fn().mockImplementation(async () => response({items:[],hasMore:false}));vi.stubGlobal("fetch",empty);
+    expect(await getMunicipalBalanceReport("2111300",2026,3,Date.now()+30000)).toMatchObject({status:"missing",revenue:null,paid:null});
+    expect(empty).toHaveBeenCalledTimes(2);
+    for (const call of empty.mock.calls) expect(new URL(String(call[0])).searchParams.get("nr_periodo")).toBe("3");
   });
   it("não calcula total com páginas faltantes", async () => {
     vi.stubGlobal("fetch", vi.fn().mockImplementation(async () => response({ ...fixture.report, hasMore: true })));

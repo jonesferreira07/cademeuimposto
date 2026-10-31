@@ -725,11 +725,11 @@
 .municipal-picker select { width: 100%; min-width: 0; padding: 8px 20px 8px 8px; border: 1px solid var(--border); border-radius: 7px; background: var(--input); color: var(--text); font-size: 12px; text-overflow: ellipsis; }
 .municipal-canvas { flex: 1; min-height: 80px; min-width: 0; overflow: hidden; display: flex; align-items: center; justify-content: center; }
 .municipal-canvas svg { display: block; width: 100%; height: 100%; overflow: hidden; touch-action: none; user-select: none; }
-.municipal-shape path { fill: #00a66b; stroke: var(--map-border); stroke-width: .75px; stroke-linejoin: round; cursor: pointer; }
-.municipal-shape:nth-child(3n) path { fill: #05b879; }
-.municipal-shape:nth-child(5n) path { fill: #009366; }
+.municipal-shape path { fill: #64748b; stroke: var(--map-border); stroke-width: .75px; stroke-linejoin: round; cursor: pointer; }
+
+
 .municipal-shape.dimmed { opacity: .25; }
-.municipal-shape.selected path, .municipal-shape:hover path { fill: var(--gold); stroke: #fff1a4; stroke-width: 1.6px; }
+.municipal-shape.selected path, .municipal-shape:hover path { stroke: var(--gold); stroke-width: 1.6px; }
 .municipal-map-caption { display: grid; gap: 3px; font-size: 11px; color: var(--muted); line-height: 1.35; flex-shrink: 0; }
 .municipal-map-caption strong { font-size: 12px; color: var(--text); }
 .municipal-map-caption .municipal-geometry-warning { color: var(--gold); }
@@ -786,3 +786,54 @@
 .municipal-finance-panel .inspector-back { margin-bottom: 12px; }
 .municipal-functions .function-list small { display: block; color: var(--muted); font-size: 11px; line-height: 1.5; margin-top: 4px; }
 .municipal-finance-panel .method-details { line-height: 1.6; }
+
+/* Títulos longos de UF crescem dentro do cartão, sem invadir o contador. */
+.dashboard .tax-strip { height: auto; min-height: 160px; }
+.tax-strip-copy { min-width: 0; }
+.tax-strip h2 { max-width: 100%; overflow-wrap: break-word; text-wrap: balance; }
+.tax-strip .dash-eyebrow { flex-wrap: wrap; }
+.dash-toolbar { flex-wrap: wrap; }
+.dash-location { min-width: 0; }
+.dash-location select { min-width: 0; }
+.dash-period { min-width: 0; margin-left: auto; }
+.panel-heading>div { min-width: 0; flex: 1; }
+.panel-heading h2 { overflow-wrap: anywhere; }
+.panel-heading .uf-tag { flex-shrink: 0; }
+.municipal-context h1 { min-width: 0; overflow-wrap: break-word; }
+@media (min-width: 561px) {
+  .tax-amount-block { container-type: inline-size; }
+  .tax-amount { font-size: clamp(20px,6.7cqw,65px); }
+}
+@media (min-width: 561px) and (max-width: 900px) {
+  .dashboard .tax-strip { flex-direction: column; align-items: stretch; gap: 12px; padding-block: 16px; }
+  .tax-strip-copy, .tax-amount-block { flex: none; width: 100%; max-width: none; }
+  .tax-strip h2 { max-width: 100%; }
+  .tax-amount { font-size: clamp(27px,6.7cqw,48px); }
+}
+@media (max-width: 560px) {
+  .dashboard .tax-strip { min-height: 205px; }
+  .dash-period { width: 100%; margin-left: 0; }
+}
+
+.municipal-balance-legend { display: grid; gap: 3px; color: var(--muted); }
+.municipal-balance-key { display: flex; flex-wrap: wrap; gap: 4px 13px; font-size: 11px; }
+.municipal-balance-key>span { display: inline-flex; align-items: center; gap: 5px; }
+.municipal-balance-key i { width: 9px; height: 9px; display: inline-block; border-radius: 3px; flex-shrink: 0; }
+.balance-dot-green { background: #37ac78; }.balance-dot-red { background: #de6578; }.balance-dot-neutral { background: #64748b; }
+.municipal-balance-progress { font-size: 10px; display: flex; align-items: center; flex-wrap: wrap; gap: 4px 10px; }
+.municipal-balance-progress button, .municipal-color-method summary, .municipal-color-method a, .municipal-map-focus a { color: var(--accent); }
+.municipal-balance-progress button { text-decoration: underline; }
+.municipal-color-method { font-size: 10px; line-height: 1.5; }
+.municipal-color-method summary { cursor: pointer; }
+.municipal-color-method[open] { max-height: 130px; overflow: auto; padding-right: 5px; }
+.municipal-color-method p { margin-block: 7px; }
+.municipal-map-focus { display: flex; align-items: baseline; flex-wrap: wrap; gap: 3px 9px; }
+.municipal-map-focus>strong { width: 100%; }
+.municipal-map-focus>span, .municipal-map-focus>a { font-size: 10px; }
+
+/* No celular, valores e legenda aumentam o cartão e não cobrem o anúncio. */
+@media (max-width: 900px) {
+  .dash-workspace.mobile-map>.municipal-map { height: auto; min-height: 650px; grid-template-rows: auto auto auto; }
+  .municipal-map .municipal-explorer { flex: none; }
+  .municipal-map .municipal-canvas { height: 260px; min-height: 220px; flex: none; }
+}

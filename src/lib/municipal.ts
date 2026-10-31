@@ -20,3 +20,12 @@ export function municipalHash(uf: string | null, city: string | null = null) {
   return selected.uf ? `/#uf=${selected.uf.toLowerCase()}${selected.city ? `&municipio=${selected.city}` : ""}` : "/";
 }
 export function electionDate(date: string) { return /^\d{4}-\d{2}-\d{2}$/.test(date) ? date.split("-").reverse().join("/") : "não informada"; }
+
+// Enquadra os limites reais, evitando margens vazias em estados horizontais.
+export function municipalViewBox(cities: readonly Pick<Municipality, "shape">[]): [number, number, number, number] {
+  const bounds = cities.flatMap(city => city.shape && city.shape.bounds.every(Number.isFinite) && city.shape.bounds[2] > 0 && city.shape.bounds[3] > 0 ? [city.shape.bounds] : []);
+  if (!bounds.length) return [0, 0, 600, 550];
+  const left = Math.min(...bounds.map(box => box[0])) - 8, top = Math.min(...bounds.map(box => box[1])) - 8;
+  const right = Math.max(...bounds.map(box => box[0] + box[2])) + 8, bottom = Math.max(...bounds.map(box => box[1] + box[3])) + 8;
+  return [left, top, right - left, bottom - top];
+}

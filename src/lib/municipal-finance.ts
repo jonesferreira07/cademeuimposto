@@ -30,7 +30,7 @@ export function parseMunicipalFunctions(rows: FiscalRow[]) {
   const reconciled = functionTotal !== null && Math.abs(sum - Math.round(functionTotal * 100)) <= 1;
   return { breakdown, functionTotal, reconciled };
 }
-async function municipalReport(id: string, year: number, period: number, annex: string, deadline: number, reportType: ReportType = "RREO") {
+async function municipalReport(id: string, year: number, period: number, annex: string, deadline: number, reportType: ReportType = "RREO", signal?: AbortSignal) {
   const city = municipalIdentity(id);
   const params = new URLSearchParams({ an_exercicio: String(year), nr_periodo: String(period), co_tipo_demonstrativo: reportType, no_anexo: `RREO-Anexo ${annex}`, co_esfera: "M", id_ente: id });
   const source = `${TREASURY_API}?${params}`, rows: FiscalRow[] = [];
@@ -39,7 +39,7 @@ async function municipalReport(id: string, year: number, period: number, annex: 
     const remaining = deadline - Date.now();
     if (remaining <= 0) throw new MunicipalFinanceError("O Tesouro não respondeu a tempo. Tente novamente.");
     let response: Response;
-    try { response = await fetch(`${source}&offset=${offset}&limit=5000`, { headers: { Accept: "application/json" }, signal: AbortSignal.timeout(Math.min(15000, remaining)), next: { revalidate: 3600 } }); }
+    try { response = await fetch(`${source}&offset=${offset}&limit=5000`, { headers: { Accept: "application/json" }, signal: signal ? AbortSignal.any([signal, AbortSignal.timeout(Math.min(15000, remaining))]) : AbortSignal.timeout(Math.min(15000, remaining)), next: { revalidate: 3600 } }); }
     catch { throw new MunicipalFinanceError("O Tesouro não respondeu a tempo. Tente novamente."); }
     if (!response.ok) throw new MunicipalFinanceError("A consulta municipal ao Tesouro está temporariamente indisponível.");
     const parsed = z.object({ items: z.array(fiscalRowSchema.extend({ demonstrativo: z.enum(["RREO", "RREO Simplificado"]), periodicidade: z.literal("B") })), hasMore: z.boolean() }).safeParse(await response.json());
@@ -77,3 +77,13 @@ export async function getMunicipalFinance(id: string, year: number, month?: numb
   return empty;
 }
 export type MunicipalFinance = Awaited<ReturnType<typeof getMunicipalFinance>>;
+
+// Consulta exata para o mapa: não recua para outro bimestre nem busca o Anexo 02.
+export async function getMunicipalBalanceReport(id: string, year: number, period: number, deadline: number, signal?: AbortSignal) {
+  const city = municipalIdentity(id);
+  if (year !== REPORTING_YEAR || !Number.isInteger(period) || period < 1 || period > 6) throw new MunicipalFinanceError("Período de comparação inválido.", 400);
+  let report = await municipalReport(id, year, period, "01", deadline, "RREO", signal);
+  if (!report.rows.length) report = await municipalReport(id, year, period, "01", deadline, "RREO Simplificado", signal);
+  const totals = parseMunicipalTotals(report.rows);
+  return { id: city.id, name: city.name, revenue: totals.revenue, paid: totals.paid, source: report.source, status: totals.revenue !== null && totals.paid !== null ? "ok" as const : "missing" as const };
+}

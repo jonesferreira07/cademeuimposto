@@ -2,7 +2,7 @@ import { readFileSync } from "node:fs";
 import { describe, expect, it } from "vitest";
 import municipalIndex from "../src/data/municipal-index.json";
 import { states } from "../src/lib/states";
-import { municipalSelection, municipalHash, normalizeMunicipalSearch, type MunicipalDataset } from "../src/lib/municipal";
+import { municipalSelection, municipalViewBox, municipalHash, normalizeMunicipalSearch, type MunicipalDataset } from "../src/lib/municipal";
 
 const data = states.filter(state => state.uf !== "DF").map(state => JSON.parse(readFileSync(new URL(`../public/data/municipal/${state.uf.toLowerCase()}.json`, import.meta.url), "utf8")) as MunicipalDataset);
 const manifest = JSON.parse(readFileSync(new URL("../public/data/municipal/manifest.json", import.meta.url), "utf8"));
@@ -19,6 +19,20 @@ describe("Navegação municipal", () => {
     expect(municipalHash("MA", "2111300")).toBe("/#uf=ma&municipio=2111300");
     expect(municipalHash("CE", "2111300")).toBe("/#uf=ce");
     expect(municipalHash(null)).toBe("/");
+  });
+  it("enquadra os polígonos sem cortar municípios e aproveita o formato horizontal do RN", () => {
+    for (const dataset of data) {
+      const [left,top,width,height] = municipalViewBox(dataset.cities);
+      expect(width).toBeGreaterThan(0); expect(height).toBeGreaterThan(0);
+      for (const city of dataset.cities) if (city.shape) {
+        const [x,y,w,h] = city.shape.bounds;
+        expect(x).toBeGreaterThanOrEqual(left); expect(y).toBeGreaterThanOrEqual(top);
+        expect(x+w).toBeLessThanOrEqual(left+width); expect(y+h).toBeLessThanOrEqual(top+height);
+      }
+    }
+    const rn = municipalViewBox(data.find(dataset => dataset.uf === "RN")!.cities);
+    expect(rn[2]/rn[3]).toBeGreaterThan(1.5);
+    expect(municipalViewBox([])).toEqual([0,0,600,550]);
   });
   it("pesquisa cidades e pessoas sem exigir acentos", () => {
     expect(normalizeMunicipalSearch("  São LUÍS ")).toBe("sao luis");
