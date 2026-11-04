@@ -26,6 +26,47 @@ describe("Comparação paginada por UF", () => {
     expect(page.period).toBe(0); expect(provider).not.toHaveBeenCalled();
     expect(page.records.every(row => row.revenue === null && row.paid === null && row.status === "missing")).toBe(true);
   });
+  it("na virada do mês conserva um corte comum com dados, em vez de apagar todas as cores", async () => {
+    vi.setSystemTime(new Date("2026-11-03T12:00:00Z"));
+    provider.mockImplementation(async (id, _year, period) => ({ id, name: id, revenue: period === 5 ? null : 100, paid: period === 5 ? null : 80, status: period === 5 ? "missing" : "ok", source: "https://apidatalake.tesouro.gov.br/" }));
+    const first = await getMunicipalBalancePage("MA", 2026);
+    expect(first).toMatchObject({ period: 4, endMonth: 8, nextOffset: 24 });
+    expect(first.records.every(row => row.status === "ok")).toBe(true);
+    expect(provider.mock.calls.map(call => call[2])).toEqual([...Array(24).fill(5), ...Array(24).fill(4)]);
+    provider.mockClear();
+    const next = await getMunicipalBalancePage("MA", 2026, undefined, first.nextOffset!, first.period);
+    expect(next.period).toBe(4);
+    expect(provider.mock.calls.every(call => call[2] === 4)).toBe(true);
+  });
+  it("não troca de bimestre por falha nem quando parte dos relatórios atuais já está disponível", async () => {
+    vi.setSystemTime(new Date("2026-11-03T12:00:00Z"));
+    provider.mockImplementation(async id => ({ id, name: id, revenue: null, paid: null, status: "missing", source: null }));
+    provider.mockRejectedValueOnce(new Error("offline"));
+    const failed = await getMunicipalBalancePage("MA", 2026);
+    expect(failed.period).toBe(5); expect(failed.records[0].status).toBe("error");
+    expect(provider).toHaveBeenCalledTimes(24);
+    provider.mockClear();
+    provider.mockResolvedValueOnce({ id: "2100055", name: "Açailândia", revenue: 100, paid: 80, status: "ok", source: "https://apidatalake.tesouro.gov.br/" });
+    const partial = await getMunicipalBalancePage("MA", 2026);
+    expect(partial.period).toBe(5);
+    expect(provider).toHaveBeenCalledTimes(24);
+  });
+  it("mantém o bimestre fixado nas outras páginas mesmo quando todas as cidades estão sem valores", async () => {
+    vi.setSystemTime(new Date("2026-11-03T12:00:00Z"));
+    provider.mockImplementation(async id => ({ id, name: id, revenue: null, paid: null, status: "missing", source: null }));
+    expect((await getMunicipalBalancePage("MA", 2026, undefined, 24, 5)).period).toBe(5);
+    expect((await getMunicipalBalancePage("MA", 2026, undefined, 0, 5)).period).toBe(5);
+    expect(provider.mock.calls.every(call => call[2] === 5)).toBe(true);
+    expect(provider).toHaveBeenCalledTimes(48);
+  });
+  it("limita a busca ao mês solicitado e ao próprio exercício sem inventar valores", async () => {
+    vi.setSystemTime(new Date("2026-11-03T12:00:00Z"));
+    provider.mockImplementation(async id => ({ id, name: id, revenue: null, paid: null, status: "missing", source: null }));
+    const result = await getMunicipalBalancePage("MA", 2026, 4);
+    expect(result.period).toBe(1);
+    expect(result.records.every(row => row.status === "missing" && row.revenue === null && row.paid === null)).toBe(true);
+    expect(provider.mock.calls.map(call => call[2])).toEqual([...Array(24).fill(2), ...Array(24).fill(1)]);
+  });
   it("mantém falha individual neutra sem descartar municípios válidos", async () => {
     provider.mockRejectedValueOnce(new Error("offline"));
     const page = await getMunicipalBalancePage("MA",2026,8);

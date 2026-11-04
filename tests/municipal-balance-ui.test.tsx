@@ -9,6 +9,9 @@ describe("Legenda e informação acessível das cores", () => {
     expect(html).toContain("Pago ≤ receita");expect(html).toContain("Pago &gt; receita");
     expect(html).toContain("Jan–agosto/2026");expect(html).toContain("1/217");
     expect(html).toContain("não é o resultado fiscal oficial");
+    expect(html).toContain("relatórios já foram publicados");
+    expect(html).toContain("aplicado a todas as cidades do mapa");
+    expect(html).toContain("Falhas de consulta não são tratadas como ausência");
   });
   it("mostra valores e diferença sem substituir gastos desconhecidos por zero", () => {
     const html = renderToStaticMarkup(<MunicipalBalanceInfo row={row} loading={false} />);

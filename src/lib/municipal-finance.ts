@@ -3,6 +3,7 @@ import index from "@/data/municipal-index.json";
 import { brazilDate } from "./finance";
 import { REPORTING_YEAR } from "./reporting-period";
 import { fiscalRowSchema, parseStateAccounts, TREASURY_API, TREASURY_DOCS, type FiscalRow } from "./treasury";
+import type { MunicipalBalanceRow } from "./municipal-balance";
 
 type ReportType = "RREO" | "RREO Simplificado";
 const registry = new Map(index.map(city => [city.id, city]));
@@ -79,7 +80,7 @@ export async function getMunicipalFinance(id: string, year: number, month?: numb
 export type MunicipalFinance = Awaited<ReturnType<typeof getMunicipalFinance>>;
 
 // Consulta exata para o mapa: não recua para outro bimestre nem busca o Anexo 02.
-export async function getMunicipalBalanceReport(id: string, year: number, period: number, deadline: number, signal?: AbortSignal) {
+export async function getMunicipalBalanceReport(id: string, year: number, period: number, deadline: number, signal?: AbortSignal): Promise<MunicipalBalanceRow> {
   const city = municipalIdentity(id);
   if (year !== REPORTING_YEAR || !Number.isInteger(period) || period < 1 || period > 6) throw new MunicipalFinanceError("Período de comparação inválido.", 400);
   let report = await municipalReport(id, year, period, "01", deadline, "RREO", signal);
