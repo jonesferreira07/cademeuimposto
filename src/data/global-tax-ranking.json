@@ -1,0 +1,795 @@
+{
+  "year": 2024,
+  "verifiedAt": "2026-10-27",
+  "datasetVersion": "2.1",
+  "source": "https://www.oecd.org/en/data/datasets/global-revenue-statistics-database.html",
+  "dataSource": "https://sdmx.oecd.org/public/rest/v1/data/OECD.CTP.TPS,DSD_REV_COMP_GLOBAL@DF_RSGLOBAL,/..S13._T..PT_B1GQ.A?startPeriod=2024&endPeriod=2024&format=csvfilewithlabels",
+  "measure": "Receita tributária total do governo geral como percentual do PIB; mesmo ano e conceito para todas as economias. Não é ranking de todos os países do mundo nem de retorno dos serviços públicos.",
+  "countries": [
+    {
+      "code": "AUT",
+      "alpha2": "AT",
+      "name": "Austria",
+      "value": 43.374411
+    },
+    {
+      "code": "BEL",
+      "alpha2": "BE",
+      "name": "Belgium",
+      "value": 42.571263
+    },
+    {
+      "code": "CAN",
+      "alpha2": "CA",
+      "name": "Canada",
+      "value": 34.90457
+    },
+    {
+      "code": "CHL",
+      "alpha2": "CL",
+      "name": "Chile",
+      "value": 20.479447
+    },
+    {
+      "code": "COL",
+      "alpha2": "CO",
+      "name": "Colombia",
+      "value": 19.865884
+    },
+    {
+      "code": "CRI",
+      "alpha2": "CR",
+      "name": "Costa Rica",
+      "value": 24.840079
+    },
+    {
+      "code": "CZE",
+      "alpha2": "CZ",
+      "name": "Czechia",
+      "value": 33.975018
+    },
+    {
+      "code": "DNK",
+      "alpha2": "DK",
+      "name": "Denmark",
+      "value": 45.177061
+    },
+    {
+      "code": "EST",
+      "alpha2": "EE",
+      "name": "Estonia",
+      "value": 35.231248
+    },
+    {
+      "code": "FIN",
+      "alpha2": "FI",
+      "name": "Finland",
+      "value": 42.217254
+    },
+    {
+      "code": "FRA",
+      "alpha2": "FR",
+      "name": "France",
+      "value": 43.462209
+    },
+    {
+      "code": "DEU",
+      "alpha2": "DE",
+      "name": "Germany",
+      "value": 38.021492
+    },
+    {
+      "code": "GRC",
+      "alpha2": "GR",
+      "name": "Greece",
+      "value": 39.826849
+    },
+    {
+      "code": "HUN",
+      "alpha2": "HU",
+      "name": "Hungary",
+      "value": 34.353895
+    },
+    {
+      "code": "ISL",
+      "alpha2": "IS",
+      "name": "Iceland",
+      "value": 36.948753
+    },
+    {
+      "code": "IRL",
+      "alpha2": "IE",
+      "name": "Ireland",
+      "value": 21.694294
+    },
+    {
+      "code": "ISR",
+      "alpha2": "IL",
+      "name": "Israel",
+      "value": 30.877349
+    },
+    {
+      "code": "ITA",
+      "alpha2": "IT",
+      "name": "Italy",
+      "value": 42.752192
+    },
+    {
+      "code": "KOR",
+      "alpha2": "KR",
+      "name": "Korea",
+      "value": 25.333638
+    },
+    {
+      "code": "LVA",
+      "alpha2": "LV",
+      "name": "Latvia",
+      "value": 34.90567
+    },
+    {
+      "code": "LTU",
+      "alpha2": "LT",
+      "name": "Lithuania",
+      "value": 33.129851
+    },
+    {
+      "code": "LUX",
+      "alpha2": "LU",
+      "name": "Luxembourg",
+      "value": 41.458699
+    },
+    {
+      "code": "MEX",
+      "alpha2": "MX",
+      "name": "Mexico",
+      "value": 18.280109
+    },
+    {
+      "code": "NLD",
+      "alpha2": "NL",
+      "name": "Netherlands",
+      "value": 38.541274
+    },
+    {
+      "code": "NZL",
+      "alpha2": "NZ",
+      "name": "New Zealand",
+      "value": 32.891771
+    },
+    {
+      "code": "NOR",
+      "alpha2": "NO",
+      "name": "Norway",
+      "value": 40.190578
+    },
+    {
+      "code": "POL",
+      "alpha2": "PL",
+      "name": "Poland",
+      "value": 36.64229
+    },
+    {
+      "code": "PRT",
+      "alpha2": "PT",
+      "name": "Portugal",
+      "value": 35.134621
+    },
+    {
+      "code": "SVK",
+      "alpha2": "SK",
+      "name": "Slovak Republic",
+      "value": 35.551369
+    },
+    {
+      "code": "SVN",
+      "alpha2": "SI",
+      "name": "Slovenia",
+      "value": 38.296929
+    },
+    {
+      "code": "ESP",
+      "alpha2": "ES",
+      "name": "Spain",
+      "value": 36.682055
+    },
+    {
+      "code": "SWE",
+      "alpha2": "SE",
+      "name": "Sweden",
+      "value": 41.437904
+    },
+    {
+      "code": "CHE",
+      "alpha2": "CH",
+      "name": "Switzerland",
+      "value": 27.169048
+    },
+    {
+      "code": "TUR",
+      "alpha2": "TR",
+      "name": "Türkiye",
+      "value": 23.954049
+    },
+    {
+      "code": "GBR",
+      "alpha2": "GB",
+      "name": "United Kingdom",
+      "value": 34.366806
+    },
+    {
+      "code": "USA",
+      "alpha2": "US",
+      "name": "United States",
+      "value": 25.618333
+    },
+    {
+      "code": "ATG",
+      "alpha2": "AG",
+      "name": "Antigua and Barbuda",
+      "value": 19.79412518
+    },
+    {
+      "code": "ARG",
+      "alpha2": "AR",
+      "name": "Argentina",
+      "value": 27.62703567
+    },
+    {
+      "code": "ARM",
+      "alpha2": "AM",
+      "name": "Armenia",
+      "value": 22.6659317914664
+    },
+    {
+      "code": "AZE",
+      "alpha2": "AZ",
+      "name": "Azerbaijan",
+      "value": 22.8966169971912
+    },
+    {
+      "code": "BHS",
+      "alpha2": "BS",
+      "name": "Bahamas",
+      "value": 19.34522791
+    },
+    {
+      "code": "BGD",
+      "alpha2": "BD",
+      "name": "Bangladesh",
+      "value": 6.72480939437786
+    },
+    {
+      "code": "BRB",
+      "alpha2": "BB",
+      "name": "Barbados",
+      "value": 30.73916343
+    },
+    {
+      "code": "BLZ",
+      "alpha2": "BZ",
+      "name": "Belize",
+      "value": 24.50710522
+    },
+    {
+      "code": "BTN",
+      "alpha2": "BT",
+      "name": "Bhutan",
+      "value": 13.1682550282851
+    },
+    {
+      "code": "BOL",
+      "alpha2": "BO",
+      "name": "Bolivia",
+      "value": 23.60497369
+    },
+    {
+      "code": "BRA",
+      "alpha2": "BR",
+      "name": "Brazil",
+      "value": 33.67750895
+    },
+    {
+      "code": "BGR",
+      "alpha2": "BG",
+      "name": "Bulgaria",
+      "value": 30.45549451
+    },
+    {
+      "code": "KHM",
+      "alpha2": "KH",
+      "name": "Cambodia",
+      "value": 12.5312219711394
+    },
+    {
+      "code": "CMR",
+      "alpha2": "CM",
+      "name": "Cameroon",
+      "value": 14.5352375
+    },
+    {
+      "code": "TCD",
+      "alpha2": "TD",
+      "name": "Chad",
+      "value": 9.229707418
+    },
+    {
+      "code": "CHN",
+      "alpha2": "CN",
+      "name": "China (People’s Republic of)",
+      "value": 19.5120687488951
+    },
+    {
+      "code": "COG",
+      "alpha2": "CG",
+      "name": "Congo",
+      "value": 11.54953875
+    },
+    {
+      "code": "COK",
+      "alpha2": "CK",
+      "name": "Cook Islands",
+      "value": 31.1083021303852
+    },
+    {
+      "code": "CIV",
+      "alpha2": "CI",
+      "name": "Côte d’Ivoire",
+      "value": 13.8623881
+    },
+    {
+      "code": "HRV",
+      "alpha2": "HR",
+      "name": "Croatia",
+      "value": 38.42602458
+    },
+    {
+      "code": "CUB",
+      "alpha2": "CU",
+      "name": "Cuba",
+      "value": 22.90668346
+    },
+    {
+      "code": "DOM",
+      "alpha2": "DO",
+      "name": "Dominican Republic",
+      "value": 14.68854633
+    },
+    {
+      "code": "ECU",
+      "alpha2": "EC",
+      "name": "Ecuador",
+      "value": 21.69419775
+    },
+    {
+      "code": "EGY",
+      "alpha2": "EG",
+      "name": "Egypt",
+      "value": 13.00171477
+    },
+    {
+      "code": "SLV",
+      "alpha2": "SV",
+      "name": "El Salvador",
+      "value": 23.59301442
+    },
+    {
+      "code": "GNQ",
+      "alpha2": "GQ",
+      "name": "Equatorial Guinea",
+      "value": 6.910501907
+    },
+    {
+      "code": "FJI",
+      "alpha2": "FJ",
+      "name": "Fiji",
+      "value": 23.9999034670962
+    },
+    {
+      "code": "GAB",
+      "alpha2": "GA",
+      "name": "Gabon",
+      "value": 15.12230733
+    },
+    {
+      "code": "GMB",
+      "alpha2": "GM",
+      "name": "Gambia",
+      "value": 11.38534893
+    },
+    {
+      "code": "GEO",
+      "alpha2": "GE",
+      "name": "Georgia",
+      "value": 25.0082036802476
+    },
+    {
+      "code": "GHA",
+      "alpha2": "GH",
+      "name": "Ghana",
+      "value": 14.57106089
+    },
+    {
+      "code": "GRD",
+      "alpha2": "GD",
+      "name": "Grenada",
+      "value": 23.49678618
+    },
+    {
+      "code": "GTM",
+      "alpha2": "GT",
+      "name": "Guatemala",
+      "value": 14.31954624
+    },
+    {
+      "code": "GIN",
+      "alpha2": "GN",
+      "name": "Guinea",
+      "value": 12.79219435
+    },
+    {
+      "code": "GUY",
+      "alpha2": "GY",
+      "name": "Guyana",
+      "value": 9.19298542
+    },
+    {
+      "code": "HND",
+      "alpha2": "HN",
+      "name": "Honduras",
+      "value": 21.07336846
+    },
+    {
+      "code": "HKG",
+      "alpha2": "HK",
+      "name": "Hong Kong (China)",
+      "value": 13.2760204832052
+    },
+    {
+      "code": "IDN",
+      "alpha2": "ID",
+      "name": "Indonesia",
+      "value": 11.8373397373229
+    },
+    {
+      "code": "JAM",
+      "alpha2": "JM",
+      "name": "Jamaica",
+      "value": 30.70062514
+    },
+    {
+      "code": "KAZ",
+      "alpha2": "KZ",
+      "name": "Kazakhstan",
+      "value": 17.4740166578887
+    },
+    {
+      "code": "KEN",
+      "alpha2": "KE",
+      "name": "Kenya",
+      "value": 15.63141895
+    },
+    {
+      "code": "KIR",
+      "alpha2": "KI",
+      "name": "Kiribati",
+      "value": 17.8348162729732
+    },
+    {
+      "code": "KGZ",
+      "alpha2": "KG",
+      "name": "Kyrgyzstan",
+      "value": 21.8542614132825
+    },
+    {
+      "code": "LAO",
+      "alpha2": "LA",
+      "name": "Lao People’s Democratic Republic",
+      "value": 12.7313911999774
+    },
+    {
+      "code": "LBR",
+      "alpha2": "LR",
+      "name": "Liberia",
+      "value": 11.75147767
+    },
+    {
+      "code": "LIE",
+      "alpha2": "LI",
+      "name": "Liechtenstein",
+      "value": 21.06934295
+    },
+    {
+      "code": "MDG",
+      "alpha2": "MG",
+      "name": "Madagascar",
+      "value": 12.18996505
+    },
+    {
+      "code": "MYS",
+      "alpha2": "MY",
+      "name": "Malaysia",
+      "value": 12.9966672931422
+    },
+    {
+      "code": "MDV",
+      "alpha2": "MV",
+      "name": "Maldives",
+      "value": 26.2513023482687
+    },
+    {
+      "code": "MLI",
+      "alpha2": "ML",
+      "name": "Mali",
+      "value": 19.54889067
+    },
+    {
+      "code": "MLT",
+      "alpha2": "MT",
+      "name": "Malta",
+      "value": 28.74159311
+    },
+    {
+      "code": "MHL",
+      "alpha2": "MH",
+      "name": "Marshall Islands",
+      "value": 30.4863878762658
+    },
+    {
+      "code": "MRT",
+      "alpha2": "MR",
+      "name": "Mauritania",
+      "value": 15.13305564
+    },
+    {
+      "code": "MUS",
+      "alpha2": "MU",
+      "name": "Mauritius",
+      "value": 20.36007737
+    },
+    {
+      "code": "MDA",
+      "alpha2": "MD",
+      "name": "Moldova",
+      "value": 31.51332388
+    },
+    {
+      "code": "MNG",
+      "alpha2": "MN",
+      "name": "Mongolia",
+      "value": 29.5019606269472
+    },
+    {
+      "code": "MAR",
+      "alpha2": "MA",
+      "name": "Morocco",
+      "value": 30.42346355
+    },
+    {
+      "code": "MOZ",
+      "alpha2": "MZ",
+      "name": "Mozambique",
+      "value": 19.33553086
+    },
+    {
+      "code": "NAM",
+      "alpha2": "NA",
+      "name": "Namibia",
+      "value": 31.10518567
+    },
+    {
+      "code": "NRU",
+      "alpha2": "NR",
+      "name": "Nauru",
+      "value": 15.0960964924673
+    },
+    {
+      "code": "NIC",
+      "alpha2": "NI",
+      "name": "Nicaragua",
+      "value": 27.61129981
+    },
+    {
+      "code": "NER",
+      "alpha2": "NE",
+      "name": "Niger",
+      "value": 7.164929984
+    },
+    {
+      "code": "NIU",
+      "alpha2": "NU",
+      "name": "Niue",
+      "value": 28.4585860786718
+    },
+    {
+      "code": "PAK",
+      "alpha2": "PK",
+      "name": "Pakistan",
+      "value": 12.2809221786779
+    },
+    {
+      "code": "PAN",
+      "alpha2": "PA",
+      "name": "Panama",
+      "value": 11.31368442
+    },
+    {
+      "code": "PNG",
+      "alpha2": "PG",
+      "name": "Papua New Guinea",
+      "value": 15.5434614224389
+    },
+    {
+      "code": "PRY",
+      "alpha2": "PY",
+      "name": "Paraguay",
+      "value": 15.75633268
+    },
+    {
+      "code": "PER",
+      "alpha2": "PE",
+      "name": "Peru",
+      "value": 16.26472301
+    },
+    {
+      "code": "PHL",
+      "alpha2": "PH",
+      "name": "Philippines",
+      "value": 18.0996915083879
+    },
+    {
+      "code": "RWA",
+      "alpha2": "RW",
+      "name": "Rwanda",
+      "value": 16.00683674
+    },
+    {
+      "code": "LCA",
+      "alpha2": "LC",
+      "name": "Saint Lucia",
+      "value": 21.28006673
+    },
+    {
+      "code": "WSM",
+      "alpha2": "WS",
+      "name": "Samoa",
+      "value": 22.014637364329
+    },
+    {
+      "code": "SEN",
+      "alpha2": "SN",
+      "name": "Senegal",
+      "value": 19.30632214
+    },
+    {
+      "code": "SYC",
+      "alpha2": "SC",
+      "name": "Seychelles",
+      "value": 30.9528156
+    },
+    {
+      "code": "SLE",
+      "alpha2": "SL",
+      "name": "Sierra Leone",
+      "value": 7.360608711
+    },
+    {
+      "code": "SGP",
+      "alpha2": "SG",
+      "name": "Singapore",
+      "value": 13.4236089540352
+    },
+    {
+      "code": "SLB",
+      "alpha2": "SB",
+      "name": "Solomon Islands",
+      "value": 23.9691908555704
+    },
+    {
+      "code": "SOM",
+      "alpha2": "SO",
+      "name": "Somalia",
+      "value": 3.110272865
+    },
+    {
+      "code": "LKA",
+      "alpha2": "LK",
+      "name": "Sri Lanka",
+      "value": 12.540805874149
+    },
+    {
+      "code": "SUR",
+      "alpha2": "SR",
+      "name": "Suriname",
+      "value": 19.79743023
+    },
+    {
+      "code": "THA",
+      "alpha2": "TH",
+      "name": "Thailand",
+      "value": 17.0637284701958
+    },
+    {
+      "code": "TLS",
+      "alpha2": "TL",
+      "name": "Timor-Leste",
+      "value": 10.0193084398845
+    },
+    {
+      "code": "TGO",
+      "alpha2": "TG",
+      "name": "Togo",
+      "value": 18.86610037
+    },
+    {
+      "code": "TKL",
+      "alpha2": "TK",
+      "name": "Tokelau",
+      "value": 15.1069850568436
+    },
+    {
+      "code": "TON",
+      "alpha2": "TO",
+      "name": "Tonga",
+      "value": 18.2332286016765
+    },
+    {
+      "code": "TTO",
+      "alpha2": "TT",
+      "name": "Trinidad and Tobago",
+      "value": 24.59126401
+    },
+    {
+      "code": "UGA",
+      "alpha2": "UG",
+      "name": "Uganda",
+      "value": 12.68624986
+    },
+    {
+      "code": "UKR",
+      "alpha2": "UA",
+      "name": "Ukraine",
+      "value": 35.93038211
+    },
+    {
+      "code": "URY",
+      "alpha2": "UY",
+      "name": "Uruguay",
+      "value": 27.25086066
+    },
+    {
+      "code": "VUT",
+      "alpha2": "VU",
+      "name": "Vanuatu",
+      "value": 15.5293532032508
+    },
+    {
+      "code": "VNM",
+      "alpha2": "VN",
+      "name": "Viet Nam",
+      "value": 17.1790895525598
+    },
+    {
+      "code": "ZMB",
+      "alpha2": "ZM",
+      "name": "Zambia",
+      "value": 17.23736168
+    }
+  ],
+  "exclusions": [
+    "OECD_REP",
+    "A9",
+    "SO"
+  ],
+  "missing": [
+    "JPN"
+  ],
+  "latestBrazil": {
+    "year": 2025,
+    "value": 32.4,
+    "publisher": "Tesouro Nacional",
+    "status": "Estimativa preliminar",
+    "publishedAt": "2026-04-10",
+    "source": "https://www.tesourotransparente.gov.br/publicacoes/carga-tributaria-do-governo-geral/2025/114",
+    "note": "Estimativa nacional do Tesouro, padrão GFSM 2014. Não é inserida no ranking da OCDE: ano, cobertura e método são diferentes."
+  }
+}

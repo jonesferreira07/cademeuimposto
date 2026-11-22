@@ -1,0 +1,148 @@
+{
+  "year": 2023,
+  "verifiedAt": "2026-10-27",
+  "publisher": "IBGE · Contas Regionais / SIDRA",
+  "source": "https://www.ibge.gov.br/estatisticas/economicas/contas-nacionais/9054-contas-regionais-do-brasil.html",
+  "dataSource": "https://servicodados.ibge.gov.br/api/v3/agregados/5938/periodos/2023/variaveis/37?localidades=N3[all]",
+  "periodSource": "https://servicodados.ibge.gov.br/api/v3/agregados/5938/periodos",
+  "unit": "BRL",
+  "originalUnit": "Mil Reais",
+  "conversion": 1000,
+  "records": [
+    {
+      "code": "11",
+      "name": "Rondônia",
+      "value": 76456179000
+    },
+    {
+      "code": "12",
+      "name": "Acre",
+      "value": 26291321000
+    },
+    {
+      "code": "13",
+      "name": "Amazonas",
+      "value": 161794976000
+    },
+    {
+      "code": "14",
+      "name": "Roraima",
+      "value": 25124805000
+    },
+    {
+      "code": "15",
+      "name": "Pará",
+      "value": 254546511000
+    },
+    {
+      "code": "16",
+      "name": "Amapá",
+      "value": 28020120000
+    },
+    {
+      "code": "17",
+      "name": "Tocantins",
+      "value": 64317699000
+    },
+    {
+      "code": "21",
+      "name": "Maranhão",
+      "value": 149227195000
+    },
+    {
+      "code": "22",
+      "name": "Piauí",
+      "value": 80916856000
+    },
+    {
+      "code": "23",
+      "name": "Ceará",
+      "value": 232239257000
+    },
+    {
+      "code": "24",
+      "name": "Rio Grande do Norte",
+      "value": 101740275000
+    },
+    {
+      "code": "25",
+      "name": "Paraíba",
+      "value": 96963174000
+    },
+    {
+      "code": "26",
+      "name": "Pernambuco",
+      "value": 270474919000
+    },
+    {
+      "code": "27",
+      "name": "Alagoas",
+      "value": 89688932000
+    },
+    {
+      "code": "28",
+      "name": "Sergipe",
+      "value": 60816662000
+    },
+    {
+      "code": "29",
+      "name": "Bahia",
+      "value": 430987853000
+    },
+    {
+      "code": "31",
+      "name": "Minas Gerais",
+      "value": 971977551000
+    },
+    {
+      "code": "32",
+      "name": "Espírito Santo",
+      "value": 209829732000
+    },
+    {
+      "code": "33",
+      "name": "Rio de Janeiro",
+      "value": 1172871443000
+    },
+    {
+      "code": "35",
+      "name": "São Paulo",
+      "value": 3444814033000
+    },
+    {
+      "code": "41",
+      "name": "Paraná",
+      "value": 670919162000
+    },
+    {
+      "code": "42",
+      "name": "Santa Catarina",
+      "value": 513392973000
+    },
+    {
+      "code": "43",
+      "name": "Rio Grande do Sul",
+      "value": 650107022000
+    },
+    {
+      "code": "50",
+      "name": "Mato Grosso do Sul",
+      "value": 184402118000
+    },
+    {
+      "code": "51",
+      "name": "Mato Grosso",
+      "value": 273008586000
+    },
+    {
+      "code": "52",
+      "name": "Goiás",
+      "value": 336746975000
+    },
+    {
+      "code": "53",
+      "name": "Distrito Federal",
+      "value": 365669108000
+    }
+  ]
+}

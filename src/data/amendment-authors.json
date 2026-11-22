@@ -1,0 +1,2959 @@
+{
+  "verifiedAt": "2026-10-27",
+  "source": "https://www.congressonacional.leg.br/documents/150599582/152195354/individuais.pdf/b04027ac-a228-4b4d-b626-45f5f0b63e4d",
+  "method": "Código e nome publicados pelo Congresso como Deputado Federal, cruzados apenas com nome parlamentar exato e único na listagem oficial da Câmara, sem aproximação. Não inclui autoria coletiva.",
+  "links": {
+    "204379": {
+      "authorCode": "3897",
+      "authorName": "Acácio Favacho",
+      "deputyName": "Acácio Favacho",
+      "uf": "AP"
+    },
+    "220714": {
+      "authorCode": "4291",
+      "authorName": "Adail Filho",
+      "deputyName": "Adail Filho",
+      "uf": "AM"
+    },
+    "204560": {
+      "authorCode": "3898",
+      "authorName": "Adolfo Viana",
+      "deputyName": "Adolfo Viana",
+      "uf": "BA"
+    },
+    "204528": {
+      "authorCode": "3899",
+      "authorName": "Adriana Ventura",
+      "deputyName": "Adriana Ventura",
+      "uf": "SP"
+    },
+    "121948": {
+      "authorCode": "3900",
+      "authorName": "Adriano do Baldy",
+      "deputyName": "Adriano do Baldy",
+      "uf": "GO"
+    },
+    "74646": {
+      "authorCode": "1349",
+      "authorName": "Aécio Neves",
+      "deputyName": "Aécio Neves",
+      "uf": "MG"
+    },
+    "160508": {
+      "authorCode": "2871",
+      "authorName": "Afonso Florence",
+      "deputyName": "Afonso Florence",
+      "uf": "BA"
+    },
+    "136811": {
+      "authorCode": "2098",
+      "authorName": "Afonso Hamm",
+      "deputyName": "Afonso Hamm",
+      "uf": "RS"
+    },
+    "178835": {
+      "authorCode": "3020",
+      "authorName": "Afonso Motta",
+      "deputyName": "Afonso Motta",
+      "uf": "RS"
+    },
+    "160527": {
+      "authorCode": "2711",
+      "authorName": "Aguinaldo Ribeiro",
+      "deputyName": "Aguinaldo Ribeiro",
+      "uf": "PB"
+    },
+    "204495": {
+      "authorCode": "3901",
+      "authorName": "Airton Faleiro",
+      "deputyName": "Airton Faleiro",
+      "uf": "PA"
+    },
+    "204549": {
+      "authorCode": "3902",
+      "authorName": "Aj Albuquerque",
+      "deputyName": "AJ Albuquerque",
+      "uf": "CE"
+    },
+    "73579": {
+      "authorCode": "3630",
+      "authorName": "Alberto Fraga",
+      "deputyName": "Alberto Fraga",
+      "uf": "DF"
+    },
+    "220538": {
+      "authorCode": "4293",
+      "authorName": "Albuquerque",
+      "deputyName": "Albuquerque",
+      "uf": "RR"
+    },
+    "160559": {
+      "authorCode": "2858",
+      "authorName": "Alceu Moreira",
+      "deputyName": "Alceu Moreira",
+      "uf": "RS"
+    },
+    "204501": {
+      "authorCode": "3905",
+      "authorName": "Alencar Santana",
+      "deputyName": "Alencar Santana",
+      "uf": "SP"
+    },
+    "178972": {
+      "authorCode": "3037",
+      "authorName": "Alex Manente",
+      "deputyName": "Alex Manente",
+      "uf": "SP"
+    },
+    "220542": {
+      "authorCode": "4294",
+      "authorName": "Alexandre Guimarães",
+      "deputyName": "Alexandre Guimarães",
+      "uf": "TO"
+    },
+    "160545": {
+      "authorCode": "2796",
+      "authorName": "Alexandre Leite",
+      "deputyName": "Alexandre Leite",
+      "uf": "SP"
+    },
+    "220554": {
+      "authorCode": "4295",
+      "authorName": "Alexandre Lindenmeyer",
+      "deputyName": "Alexandre Lindenmeyer",
+      "uf": "RS"
+    },
+    "221148": {
+      "authorCode": "4258",
+      "authorName": "Alfredinho",
+      "deputyName": "Alfredinho",
+      "uf": "SP"
+    },
+    "220576": {
+      "authorCode": "4296",
+      "authorName": "Alfredo Gaspar",
+      "deputyName": "Alfredo Gaspar",
+      "uf": "AL"
+    },
+    "74057": {
+      "authorCode": "1331",
+      "authorName": "Alice Portugal",
+      "deputyName": "Alice Portugal",
+      "uf": "BA"
+    },
+    "178927": {
+      "authorCode": "3041",
+      "authorName": "Aliel Machado",
+      "deputyName": "Aliel Machado",
+      "uf": "PR"
+    },
+    "178937": {
+      "authorCode": "3042",
+      "authorName": "Altineu Côrtes",
+      "deputyName": "Altineu Côrtes",
+      "uf": "RJ"
+    },
+    "178881": {
+      "authorCode": "3043",
+      "authorName": "Aluisio Mendes",
+      "deputyName": "Aluisio Mendes",
+      "uf": "MA"
+    },
+    "220707": {
+      "authorCode": "4298",
+      "authorName": "Amanda Gentil",
+      "deputyName": "Amanda Gentil",
+      "uf": "MA"
+    },
+    "204356": {
+      "authorCode": "3912",
+      "authorName": "Amaro Neto",
+      "deputyName": "Amaro Neto",
+      "uf": "ES"
+    },
+    "220715": {
+      "authorCode": "4299",
+      "authorName": "Amom Mandel",
+      "deputyName": "Amom Mandel",
+      "uf": "AM"
+    },
+    "107970": {
+      "authorCode": "4300",
+      "authorName": "Ana Paula Leão",
+      "deputyName": "Ana Paula Leão",
+      "uf": "MG"
+    },
+    "220556": {
+      "authorCode": "4301",
+      "authorName": "Ana Paula Lima",
+      "deputyName": "Ana Paula Lima",
+      "uf": "SC"
+    },
+    "220632": {
+      "authorCode": "4302",
+      "authorName": "Ana Pimentel",
+      "deputyName": "Ana Pimentel",
+      "uf": "MG"
+    },
+    "178831": {
+      "authorCode": "3045",
+      "authorName": "André Abdon",
+      "deputyName": "André Abdon",
+      "uf": "AP"
+    },
+    "220657": {
+      "authorCode": "4303",
+      "authorName": "André Fernandes",
+      "deputyName": "André Fernandes",
+      "uf": "CE"
+    },
+    "204423": {
+      "authorCode": "3913",
+      "authorName": "André Ferreira",
+      "deputyName": "André Ferreira",
+      "uf": "PE"
+    },
+    "133439": {
+      "authorCode": "2083",
+      "authorName": "André Figueiredo",
+      "deputyName": "André Figueiredo",
+      "uf": "CE"
+    },
+    "178882": {
+      "authorCode": "3046",
+      "authorName": "André Fufuca",
+      "deputyName": "André Fufuca",
+      "uf": "MA"
+    },
+    "204515": {
+      "authorCode": "3914",
+      "authorName": "André Janones",
+      "deputyName": "André Janones",
+      "uf": "MG"
+    },
+    "220676": {
+      "authorCode": "4304",
+      "authorName": "Andreia Siqueira",
+      "deputyName": "Andreia Siqueira",
+      "uf": "PA"
+    },
+    "123756": {
+      "authorCode": "2686",
+      "authorName": "Antônia Lúcia",
+      "deputyName": "Antônia Lúcia",
+      "uf": "AC"
+    },
+    "220544": {
+      "authorCode": "4305",
+      "authorName": "Antonio Andrade",
+      "deputyName": "Antonio Andrade",
+      "uf": "TO"
+    },
+    "160553": {
+      "authorCode": "2737",
+      "authorName": "Antonio Brito",
+      "deputyName": "Antonio Brito",
+      "uf": "BA"
+    },
+    "220638": {
+      "authorCode": "4306",
+      "authorName": "Antonio Carlos Rodrigues",
+      "deputyName": "Antonio Carlos Rodrigues",
+      "uf": "SP"
+    },
+    "220675": {
+      "authorCode": "4307",
+      "authorName": "Antônio Doido",
+      "deputyName": "Antônio Doido",
+      "uf": "PA"
+    },
+    "220549": {
+      "authorCode": "4308",
+      "authorName": "Any Ortiz",
+      "deputyName": "Any Ortiz",
+      "uf": "RS"
+    },
+    "73433": {
+      "authorCode": "3135",
+      "authorName": "Arlindo Chinaglia",
+      "deputyName": "Arlindo Chinaglia",
+      "uf": "SP"
+    },
+    "141391": {
+      "authorCode": "2356",
+      "authorName": "Arnaldo Jardim",
+      "deputyName": "Arnaldo Jardim",
+      "uf": "SP"
+    },
+    "160541": {
+      "authorCode": "2726",
+      "authorName": "Arthur Lira",
+      "deputyName": "Arthur Lira",
+      "uf": "AL"
+    },
+    "160600": {
+      "authorCode": "2739",
+      "authorName": "Arthur Oliveira Maia",
+      "deputyName": "Arthur Oliveira Maia",
+      "uf": "BA"
+    },
+    "74090": {
+      "authorCode": "1619",
+      "authorName": "Átila Lins",
+      "deputyName": "Átila Lins",
+      "uf": "AM"
+    },
+    "123086": {
+      "authorCode": "4309",
+      "authorName": "Átila Lira",
+      "deputyName": "Átila Lira",
+      "uf": "PI"
+    },
+    "160665": {
+      "authorCode": "2718",
+      "authorName": "Augusto Coutinho",
+      "deputyName": "Augusto Coutinho",
+      "uf": "PE"
+    },
+    "160512": {
+      "authorCode": "2778",
+      "authorName": "Aureo Ribeiro",
+      "deputyName": "Aureo Ribeiro",
+      "uf": "RJ"
+    },
+    "69871": {
+      "authorCode": "3051",
+      "authorName": "Bacelar",
+      "deputyName": "Bacelar",
+      "uf": "BA"
+    },
+    "178975": {
+      "authorCode": "3052",
+      "authorName": "Baleia Rossi",
+      "deputyName": "Baleia Rossi",
+      "uf": "SP"
+    },
+    "220605": {
+      "authorCode": "4311",
+      "authorName": "Bandeira de Mello",
+      "deputyName": "Bandeira de Mello",
+      "uf": "RJ"
+    },
+    "220612": {
+      "authorCode": "4312",
+      "authorName": "Bebeto",
+      "deputyName": "Bebeto",
+      "uf": "RJ"
+    },
+    "73701": {
+      "authorCode": "1310",
+      "authorName": "Benedita da Silva",
+      "deputyName": "Benedita da Silva",
+      "uf": "RJ"
+    },
+    "109429": {
+      "authorCode": "3917",
+      "authorName": "Benes Leocádio",
+      "deputyName": "Benes Leocádio",
+      "uf": "RN"
+    },
+    "204358": {
+      "authorCode": "3918",
+      "authorName": "Beto Pereira",
+      "deputyName": "Beto Pereira",
+      "uf": "MS"
+    },
+    "220698": {
+      "authorCode": "4313",
+      "authorName": "Beto Preto",
+      "deputyName": "Beto Preto",
+      "uf": "PR"
+    },
+    "220683": {
+      "authorCode": "4314",
+      "authorName": "Beto Richa",
+      "deputyName": "Beto Richa",
+      "uf": "PR"
+    },
+    "204374": {
+      "authorCode": "3919",
+      "authorName": "Bia Kicis",
+      "deputyName": "Bia Kicis",
+      "uf": "DF"
+    },
+    "204388": {
+      "authorCode": "3920",
+      "authorName": "Bibo Nunes",
+      "deputyName": "Bibo Nunes",
+      "uf": "RS"
+    },
+    "160538": {
+      "authorCode": "2862",
+      "authorName": "Bohn Gass",
+      "deputyName": "Bohn Gass",
+      "uf": "RS"
+    },
+    "210989": {
+      "authorCode": "4315",
+      "authorName": "Bruno Farias",
+      "deputyName": "Bruno Farias",
+      "uf": "MG"
+    },
+    "220635": {
+      "authorCode": "4316",
+      "authorName": "Bruno Ganem",
+      "deputyName": "Bruno Ganem",
+      "uf": "SP"
+    },
+    "220574": {
+      "authorCode": "4317",
+      "authorName": "Cabo Gilberto Silva",
+      "deputyName": "Cabo Gilberto Silva",
+      "uf": "PB"
+    },
+    "220548": {
+      "authorCode": "4318",
+      "authorName": "Camila Jara",
+      "deputyName": "Camila Jara",
+      "uf": "MS"
+    },
+    "204572": {
+      "authorCode": "3926",
+      "authorName": "Capitão Alberto Neto",
+      "deputyName": "Capitão Alberto Neto",
+      "uf": "AM"
+    },
+    "220690": {
+      "authorCode": "4319",
+      "authorName": "Capitão Alden",
+      "deputyName": "Capitão Alden",
+      "uf": "BA"
+    },
+    "178829": {
+      "authorCode": "3064",
+      "authorName": "Capitão Augusto",
+      "deputyName": "Capitão Augusto",
+      "uf": "SP"
+    },
+    "213762": {
+      "authorCode": "4202",
+      "authorName": "Carla Dickson",
+      "deputyName": "Carla Dickson",
+      "uf": "RN"
+    },
+    "204361": {
+      "authorCode": "3929",
+      "authorName": "Carlos Chiodini",
+      "deputyName": "Carlos Chiodini",
+      "uf": "SC"
+    },
+    "178962": {
+      "authorCode": "3067",
+      "authorName": "Carlos Gomes",
+      "deputyName": "Carlos Gomes",
+      "uf": "RS"
+    },
+    "178993": {
+      "authorCode": "3068",
+      "authorName": "Carlos Henrique Gaguim",
+      "deputyName": "Carlos Henrique Gaguim",
+      "uf": "TO"
+    },
+    "204460": {
+      "authorCode": "3930",
+      "authorName": "Carlos Jordy",
+      "deputyName": "Carlos Jordy",
+      "uf": "RJ"
+    },
+    "74262": {
+      "authorCode": "1527",
+      "authorName": "Carlos Sampaio",
+      "deputyName": "Carlos Sampaio",
+      "uf": "SP"
+    },
+    "204426": {
+      "authorCode": "3931",
+      "authorName": "Carlos Veras",
+      "deputyName": "Carlos Veras",
+      "uf": "PE"
+    },
+    "141398": {
+      "authorCode": "2520",
+      "authorName": "Carlos Zarattini",
+      "deputyName": "Carlos Zarattini",
+      "uf": "SP"
+    },
+    "220704": {
+      "authorCode": "4320",
+      "authorName": "Carol Dartora",
+      "deputyName": "Carol Dartora",
+      "uf": "PR"
+    },
+    "204369": {
+      "authorCode": "3932",
+      "authorName": "Caroline de Toni",
+      "deputyName": "Caroline de Toni",
+      "uf": "SC"
+    },
+    "220699": {
+      "authorCode": "4321",
+      "authorName": "Castro Neto",
+      "deputyName": "Castro Neto",
+      "uf": "PI"
+    },
+    "206018": {
+      "authorCode": "4322",
+      "authorName": "Célia Xakriabá",
+      "deputyName": "Célia Xakriabá",
+      "uf": "MG"
+    },
+    "178876": {
+      "authorCode": "3070",
+      "authorName": "Célio Silveira",
+      "deputyName": "Célio Silveira",
+      "uf": "GO"
+    },
+    "204488": {
+      "authorCode": "3936",
+      "authorName": "Célio Studart",
+      "deputyName": "Célio Studart",
+      "uf": "CE"
+    },
+    "73441": {
+      "authorCode": "3160",
+      "authorName": "Celso Russomanno",
+      "deputyName": "Celso Russomanno",
+      "uf": "SP"
+    },
+    "204496": {
+      "authorCode": "3937",
+      "authorName": "Celso Sabino",
+      "deputyName": "Celso Sabino",
+      "uf": "PA"
+    },
+    "204504": {
+      "authorCode": "3938",
+      "authorName": "Cezinha de Madureira",
+      "deputyName": "Cezinha de Madureira",
+      "uf": "SP"
+    },
+    "74171": {
+      "authorCode": "1468",
+      "authorName": "Chico Alencar",
+      "deputyName": "Chico Alencar",
+      "uf": "RJ"
+    },
+    "204462": {
+      "authorCode": "3942",
+      "authorName": "Chris Tonietto",
+      "deputyName": "Chris Tonietto",
+      "uf": "RJ"
+    },
+    "220665": {
+      "authorCode": "4323",
+      "authorName": "Clarissa Tércio",
+      "deputyName": "Clarissa Tércio",
+      "uf": "PE"
+    },
+    "74537": {
+      "authorCode": "3166",
+      "authorName": "Claudio Cajado",
+      "deputyName": "Claudio Cajado",
+      "uf": "BA"
+    },
+    "141408": {
+      "authorCode": "2388",
+      "authorName": "Cleber Verde",
+      "deputyName": "Cleber Verde",
+      "uf": "MA"
+    },
+    "88256": {
+      "authorCode": "4324",
+      "authorName": "Clodoaldo Magalhães",
+      "deputyName": "Clodoaldo Magalhães",
+      "uf": "PE"
+    },
+    "98148": {
+      "authorCode": "4325",
+      "authorName": "Cobalchini",
+      "deputyName": "Cobalchini",
+      "uf": "SC"
+    },
+    "220594": {
+      "authorCode": "4326",
+      "authorName": "Coronel Assis",
+      "deputyName": "Coronel Assis",
+      "uf": "MT"
+    },
+    "204378": {
+      "authorCode": "3945",
+      "authorName": "Coronel Chrisóstomo",
+      "deputyName": "Coronel Chrisóstomo",
+      "uf": "RO"
+    },
+    "220595": {
+      "authorCode": "4327",
+      "authorName": "Coronel Fernanda",
+      "deputyName": "Coronel Fernanda",
+      "uf": "MT"
+    },
+    "220666": {
+      "authorCode": "4328",
+      "authorName": "Coronel Meira",
+      "deputyName": "Coronel Meira",
+      "uf": "PE"
+    },
+    "220590": {
+      "authorCode": "4330",
+      "authorName": "Coronel Ulysses",
+      "deputyName": "Coronel Ulysses",
+      "uf": "AC"
+    },
+    "178963": {
+      "authorCode": "3077",
+      "authorName": "Covatti Filho",
+      "deputyName": "Covatti Filho",
+      "uf": "RS"
+    },
+    "220608": {
+      "authorCode": "4331",
+      "authorName": "Cristiane Lopes",
+      "deputyName": "Cristiane Lopes",
+      "uf": "RO"
+    },
+    "204355": {
+      "authorCode": "3948",
+      "authorName": "Da Vitoria",
+      "deputyName": "Da Vitoria",
+      "uf": "ES"
+    },
+    "141411": {
+      "authorCode": "2170",
+      "authorName": "Dagoberto Nogueira",
+      "deputyName": "Dagoberto Nogueira",
+      "uf": "MS"
+    },
+    "220555": {
+      "authorCode": "4332",
+      "authorName": "Daiana Santos",
+      "deputyName": "Daiana Santos",
+      "uf": "RS"
+    },
+    "220692": {
+      "authorCode": "4333",
+      "authorName": "Dal Barreto",
+      "deputyName": "Dal Barreto",
+      "uf": "BA"
+    },
+    "74467": {
+      "authorCode": "3530",
+      "authorName": "Damião Feliciano",
+      "deputyName": "Damião Feliciano",
+      "uf": "PB"
+    },
+    "220629": {
+      "authorCode": "4334",
+      "authorName": "Dandara",
+      "deputyName": "Dandara",
+      "uf": "MG"
+    },
+    "220603": {
+      "authorCode": "4335",
+      "authorName": "Dani Cunha",
+      "deputyName": "Dani Cunha",
+      "uf": "RJ"
+    },
+    "220571": {
+      "authorCode": "4336",
+      "authorName": "Daniel Agrobom",
+      "deputyName": "Daniel Agrobom",
+      "uf": "GO"
+    },
+    "74060": {
+      "authorCode": "1339",
+      "authorName": "Daniel Almeida",
+      "deputyName": "Daniel Almeida",
+      "uf": "BA"
+    },
+    "220582": {
+      "authorCode": "4337",
+      "authorName": "Daniel Barbosa",
+      "deputyName": "Daniel Barbosa",
+      "uf": "AL"
+    },
+    "204367": {
+      "authorCode": "3949",
+      "authorName": "Daniel Freitas",
+      "deputyName": "Daniel Freitas",
+      "uf": "SC"
+    },
+    "204409": {
+      "authorCode": "3951",
+      "authorName": "Daniel Trzeciak",
+      "deputyName": "Daniel Trzeciak",
+      "uf": "RS"
+    },
+    "204459": {
+      "authorCode": "3952",
+      "authorName": "Daniela do Waguinho",
+      "deputyName": "Daniela do Waguinho",
+      "uf": "RJ"
+    },
+    "220557": {
+      "authorCode": "4339",
+      "authorName": "Daniela Reinehr",
+      "deputyName": "Daniela Reinehr",
+      "uf": "SC"
+    },
+    "62881": {
+      "authorCode": "2700",
+      "authorName": "Danilo Forte",
+      "deputyName": "Danilo Forte",
+      "uf": "CE"
+    },
+    "160552": {
+      "authorCode": "2861",
+      "authorName": "Danrlei de Deus Hinterholz",
+      "deputyName": "Danrlei de Deus Hinterholz",
+      "uf": "RS"
+    },
+    "204511": {
+      "authorCode": "3955",
+      "authorName": "David Soares",
+      "deputyName": "David Soares",
+      "uf": "SP"
+    },
+    "220539": {
+      "authorCode": "4341",
+      "authorName": "Defensor Stélio Dener",
+      "deputyName": "Defensor Stélio Dener",
+      "uf": "RR"
+    },
+    "220565": {
+      "authorCode": "4342",
+      "authorName": "Delegada Adriana Accorsi",
+      "deputyName": "Delegada Adriana Accorsi",
+      "uf": "GO"
+    },
+    "220625": {
+      "authorCode": "4343",
+      "authorName": "Delegada Ione",
+      "deputyName": "Delegada Ione",
+      "uf": "MG"
+    },
+    "220561": {
+      "authorCode": "4344",
+      "authorName": "Delegada Katarina",
+      "deputyName": "Delegada Katarina",
+      "uf": "SE"
+    },
+    "220642": {
+      "authorCode": "4289",
+      "authorName": "Delegado Bruno Lima",
+      "deputyName": "Delegado Bruno Lima",
+      "uf": "SP"
+    },
+    "220673": {
+      "authorCode": "4345",
+      "authorName": "Delegado Caveira",
+      "deputyName": "Delegado Caveira",
+      "uf": "PA"
+    },
+    "220649": {
+      "authorCode": "4346",
+      "authorName": "Delegado da Cunha",
+      "deputyName": "Delegado da Cunha",
+      "uf": "SP"
+    },
+    "178908": {
+      "authorCode": "3082",
+      "authorName": "Delegado Éder Mauro",
+      "deputyName": "Delegado Éder Mauro",
+      "uf": "PA"
+    },
+    "220583": {
+      "authorCode": "4347",
+      "authorName": "Delegado Fabio Costa",
+      "deputyName": "Delegado Fabio Costa",
+      "uf": "AL"
+    },
+    "204512": {
+      "authorCode": "3957",
+      "authorName": "Delegado Marcelo Freitas",
+      "deputyName": "Delegado Marcelo Freitas",
+      "uf": "MG"
+    },
+    "220701": {
+      "authorCode": "4348",
+      "authorName": "Delegado Matheus Laiola",
+      "deputyName": "Delegado Matheus Laiola",
+      "uf": "PR"
+    },
+    "220652": {
+      "authorCode": "4349",
+      "authorName": "Delegado Palumbo",
+      "deputyName": "Delegado Palumbo",
+      "uf": "SP"
+    },
+    "220654": {
+      "authorCode": "4350",
+      "authorName": "Delegado Paulo Bilynskyj",
+      "deputyName": "Delegado Paulo Bilynskyj",
+      "uf": "SP"
+    },
+    "220553": {
+      "authorCode": "4353",
+      "authorName": "Denise Pessôa",
+      "deputyName": "Denise Pessôa",
+      "uf": "RS"
+    },
+    "220689": {
+      "authorCode": "4354",
+      "authorName": "Detinha",
+      "deputyName": "Detinha",
+      "uf": "MA"
+    },
+    "160588": {
+      "authorCode": "2754",
+      "authorName": "Diego Andrade",
+      "deputyName": "Diego Andrade",
+      "uf": "MG"
+    },
+    "220691": {
+      "authorCode": "4355",
+      "authorName": "Diego Coronel",
+      "deputyName": "Diego Coronel",
+      "uf": "BA"
+    },
+    "178929": {
+      "authorCode": "3084",
+      "authorName": "Diego Garcia",
+      "deputyName": "Diego Garcia",
+      "uf": "PR"
+    },
+    "73768": {
+      "authorCode": "3176",
+      "authorName": "Dilceu Sperafico",
+      "deputyName": "Dilceu Sperafico",
+      "uf": "PR"
+    },
+    "220671": {
+      "authorCode": "4356",
+      "authorName": "Dilvanda Faro",
+      "deputyName": "Dilvanda Faro",
+      "uf": "PA"
+    },
+    "160599": {
+      "authorCode": "2755",
+      "authorName": "Dimas Fabiano",
+      "deputyName": "Dimas Fabiano",
+      "uf": "MG"
+    },
+    "220602": {
+      "authorCode": "4357",
+      "authorName": "Dimas Gadelha",
+      "deputyName": "Dimas Gadelha",
+      "uf": "RJ"
+    },
+    "143632": {
+      "authorCode": "2701",
+      "authorName": "Domingos Neto",
+      "deputyName": "Domingos Neto",
+      "uf": "CE"
+    },
+    "160758": {
+      "authorCode": "2756",
+      "authorName": "Domingos Sávio",
+      "deputyName": "Domingos Sávio",
+      "uf": "MG"
+    },
+    "220573": {
+      "authorCode": "4358",
+      "authorName": "Dorinaldo Malafaia",
+      "deputyName": "Dorinaldo Malafaia",
+      "uf": "AP"
+    },
+    "204450": {
+      "authorCode": "3963",
+      "authorName": "Doutor Luizinho",
+      "deputyName": "Doutor Luizinho",
+      "uf": "RJ"
+    },
+    "220614": {
+      "authorCode": "4338",
+      "authorName": "Dr. Daniel Soranz",
+      "deputyName": "Dr. Daniel Soranz",
+      "uf": "RJ"
+    },
+    "220610": {
+      "authorCode": "4360",
+      "authorName": "Dr. Fernando Máximo",
+      "deputyName": "Dr. Fernando Máximo",
+      "uf": "RO"
+    },
+    "220688": {
+      "authorCode": "4361",
+      "authorName": "Dr. Francisco",
+      "deputyName": "Dr. Francisco",
+      "uf": "PI"
+    },
+    "204518": {
+      "authorCode": "3960",
+      "authorName": "Dr. Frederico",
+      "deputyName": "Dr. Frederico",
+      "uf": "MG"
+    },
+    "220570": {
+      "authorCode": "4393",
+      "authorName": "Dr. Ismael Alexandrino",
+      "deputyName": "Dr. Ismael Alexandrino",
+      "uf": "GO"
+    },
+    "204481": {
+      "authorCode": "3961",
+      "authorName": "Dr. Jaziel",
+      "deputyName": "Dr. Jaziel",
+      "uf": "CE"
+    },
+    "204351": {
+      "authorCode": "3964",
+      "authorName": "Dr. Luiz Ovando",
+      "deputyName": "Dr. Luiz Ovando",
+      "uf": "MS"
+    },
+    "220528": {
+      "authorCode": "4362",
+      "authorName": "Dr. Victor Linhalis",
+      "deputyName": "Dr. Victor Linhalis",
+      "uf": "ES"
+    },
+    "204412": {
+      "authorCode": "3965",
+      "authorName": "Dr. Zacharias Calil",
+      "deputyName": "Dr. Zacharias Calil",
+      "uf": "GO"
+    },
+    "220674": {
+      "authorCode": "4363",
+      "authorName": "Dra. Alessandra Haber",
+      "deputyName": "Dra. Alessandra Haber",
+      "uf": "PA"
+    },
+    "220686": {
+      "authorCode": "4364",
+      "authorName": "Duarte Jr.",
+      "deputyName": "Duarte Jr.",
+      "uf": "MA"
+    },
+    "220540": {
+      "authorCode": "4365",
+      "authorName": "Duda Ramos",
+      "deputyName": "Duda Ramos",
+      "uf": "RR"
+    },
+    "220623": {
+      "authorCode": "4366",
+      "authorName": "Duda Salabert",
+      "deputyName": "Duda Salabert",
+      "uf": "MG"
+    },
+    "204541": {
+      "authorCode": "3970",
+      "authorName": "Eduardo Bismarck",
+      "deputyName": "Eduardo Bismarck",
+      "uf": "CE"
+    },
+    "141421": {
+      "authorCode": "2456",
+      "authorName": "Eduardo da Fonte",
+      "deputyName": "Eduardo da Fonte",
+      "uf": "PE"
+    },
+    "220589": {
+      "authorCode": "4499",
+      "authorName": "Eduardo Velloso",
+      "deputyName": "Eduardo Velloso",
+      "uf": "AC"
+    },
+    "74075": {
+      "authorCode": "3188",
+      "authorName": "Elcione Barbalho",
+      "deputyName": "Elcione Barbalho",
+      "uf": "PA"
+    },
+    "204364": {
+      "authorCode": "3973",
+      "authorName": "Eli Borges",
+      "deputyName": "Eli Borges",
+      "uf": "TO"
+    },
+    "178854": {
+      "authorCode": "3091",
+      "authorName": "Elmar Nascimento",
+      "deputyName": "Elmar Nascimento",
+      "uf": "BA"
+    },
+    "198783": {
+      "authorCode": "3975",
+      "authorName": "Emanuel Pinheiro Neto",
+      "deputyName": "Emanuel Pinheiro Neto",
+      "uf": "MT"
+    },
+    "161550": {
+      "authorCode": "3976",
+      "authorName": "Emidinho Madeira",
+      "deputyName": "Emidinho Madeira",
+      "uf": "MG"
+    },
+    "230765": {
+      "authorCode": "4550",
+      "authorName": "Enfermeira Rejane",
+      "deputyName": "Enfermeira Rejane",
+      "uf": "RJ"
+    },
+    "220663": {
+      "authorCode": "4367",
+      "authorName": "Eriberto Medeiros",
+      "deputyName": "Eriberto Medeiros",
+      "uf": "PE"
+    },
+    "220645": {
+      "authorCode": "4368",
+      "authorName": "Erika Hilton",
+      "deputyName": "Erika Hilton",
+      "uf": "SP"
+    },
+    "160575": {
+      "authorCode": "2826",
+      "authorName": "Erika Kokay",
+      "deputyName": "Erika Kokay",
+      "uf": "DF"
+    },
+    "160640": {
+      "authorCode": "2759",
+      "authorName": "Eros Biondini",
+      "deputyName": "Eros Biondini",
+      "uf": "MG"
+    },
+    "204482": {
+      "authorCode": "3978",
+      "authorName": "Euclydes Pettersen",
+      "deputyName": "Euclydes Pettersen",
+      "uf": "MG"
+    },
+    "74454": {
+      "authorCode": "3520",
+      "authorName": "Eunício Oliveira",
+      "deputyName": "Eunício Oliveira",
+      "uf": "CE"
+    },
+    "178871": {
+      "authorCode": "3093",
+      "authorName": "Evair Vieira De Melo",
+      "deputyName": "Evair Vieira de Melo",
+      "uf": "ES"
+    },
+    "178905": {
+      "authorCode": "3101",
+      "authorName": "Fabio Garcia",
+      "deputyName": "Fabio Garcia",
+      "uf": "MT"
+    },
+    "220681": {
+      "authorCode": "4369",
+      "authorName": "Fábio Macedo",
+      "deputyName": "Fábio Macedo",
+      "uf": "MA"
+    },
+    "171623": {
+      "authorCode": "2979",
+      "authorName": "Fabio Reis",
+      "deputyName": "Fabio Reis",
+      "uf": "SE"
+    },
+    "204368": {
+      "authorCode": "3980",
+      "authorName": "Fabio Schiochet",
+      "deputyName": "Fabio Schiochet",
+      "uf": "SC"
+    },
+    "220653": {
+      "authorCode": "4370",
+      "authorName": "Fábio Teruel",
+      "deputyName": "Fábio Teruel",
+      "uf": "SP"
+    },
+    "220712": {
+      "authorCode": "4371",
+      "authorName": "Fausto Jr.",
+      "deputyName": "Fausto Jr.",
+      "uf": "AM"
+    },
+    "66828": {
+      "authorCode": "3134",
+      "authorName": "Fausto Pinato",
+      "deputyName": "Fausto Pinato",
+      "uf": "SP"
+    },
+    "220646": {
+      "authorCode": "4372",
+      "authorName": "Felipe Becari",
+      "deputyName": "Felipe Becari",
+      "uf": "SP"
+    },
+    "72442": {
+      "authorCode": "3187",
+      "authorName": "Felipe Carreras",
+      "deputyName": "Felipe Carreras",
+      "uf": "PE"
+    },
+    "204398": {
+      "authorCode": "3982",
+      "authorName": "Felipe Francischini",
+      "deputyName": "Felipe Francischini",
+      "uf": "PR"
+    },
+    "160666": {
+      "authorCode": "2742",
+      "authorName": "Félix Mendonça Júnior",
+      "deputyName": "Félix Mendonça Júnior",
+      "uf": "BA"
+    },
+    "204407": {
+      "authorCode": "3984",
+      "authorName": "Fernanda Melchionna",
+      "deputyName": "Fernanda Melchionna",
+      "uf": "RS"
+    },
+    "220656": {
+      "authorCode": "4373",
+      "authorName": "Fernanda Pessoa",
+      "deputyName": "Fernanda Pessoa",
+      "uf": "CE"
+    },
+    "141431": {
+      "authorCode": "2392",
+      "authorName": "Fernando Coelho Filho",
+      "deputyName": "Fernando Coelho Filho",
+      "uf": "PE"
+    },
+    "204445": {
+      "authorCode": "4374",
+      "authorName": "Fernando Mineiro",
+      "deputyName": "Fernando Mineiro",
+      "uf": "RN"
+    },
+    "92699": {
+      "authorCode": "3813",
+      "authorName": "Fernando Monteiro",
+      "deputyName": "Fernando Monteiro",
+      "uf": "PE"
+    },
+    "204427": {
+      "authorCode": "3985",
+      "authorName": "Fernando Rodolfo",
+      "deputyName": "Fernando Rodolfo",
+      "uf": "PE"
+    },
+    "204411": {
+      "authorCode": "3986",
+      "authorName": "Filipe Barros",
+      "deputyName": "Filipe Barros",
+      "uf": "PR"
+    },
+    "220545": {
+      "authorCode": "4375",
+      "authorName": "Filipe Martins",
+      "deputyName": "Filipe Martins",
+      "uf": "TO"
+    },
+    "160598": {
+      "authorCode": "2833",
+      "authorName": "Flávia Morais",
+      "deputyName": "Flávia Morais",
+      "uf": "GO"
+    },
+    "191923": {
+      "authorCode": "3827",
+      "authorName": "Flávio Nogueira",
+      "deputyName": "Flávio Nogueira",
+      "uf": "PI"
+    },
+    "220700": {
+      "authorCode": "4376",
+      "authorName": "Florentino Neto",
+      "deputyName": "Florentino Neto",
+      "uf": "PI"
+    },
+    "220551": {
+      "authorCode": "4377",
+      "authorName": "Franciane Bayer",
+      "deputyName": "Franciane Bayer",
+      "uf": "RS"
+    },
+    "204494": {
+      "authorCode": "3991",
+      "authorName": "Fred Costa",
+      "deputyName": "Fred Costa",
+      "uf": "MG"
+    },
+    "220534": {
+      "authorCode": "4378",
+      "authorName": "Fred Linhares",
+      "deputyName": "Fred Linhares",
+      "uf": "DF"
+    },
+    "224117": {
+      "authorCode": "4498",
+      "authorName": "Gabriel Mota",
+      "deputyName": "Gabriel Mota",
+      "uf": "RR"
+    },
+    "220708": {
+      "authorCode": "4379",
+      "authorName": "Gabriel Nunes",
+      "deputyName": "Gabriel Nunes",
+      "uf": "BA"
+    },
+    "204473": {
+      "authorCode": "3994",
+      "authorName": "General Girão",
+      "deputyName": "General Girão",
+      "uf": "RN"
+    },
+    "220611": {
+      "authorCode": "4380",
+      "authorName": "General Pazuello",
+      "deputyName": "General Pazuello",
+      "uf": "RJ"
+    },
+    "178966": {
+      "authorCode": "3235",
+      "authorName": "Geovania De Sá",
+      "deputyName": "Geovania de Sá",
+      "uf": "SC"
+    },
+    "220702": {
+      "authorCode": "4381",
+      "authorName": "Geraldo Mendes",
+      "deputyName": "Geraldo Mendes",
+      "uf": "PR"
+    },
+    "74374": {
+      "authorCode": "1445",
+      "authorName": "Geraldo Resende",
+      "deputyName": "Geraldo Resende",
+      "uf": "MS"
+    },
+    "204394": {
+      "authorCode": "3997",
+      "authorName": "Gervásio Maia",
+      "deputyName": "Gervásio Maia",
+      "uf": "PB"
+    },
+    "204491": {
+      "authorCode": "3999",
+      "authorName": "Gilberto Abramo",
+      "deputyName": "Gilberto Abramo",
+      "uf": "MG"
+    },
+    "74270": {
+      "authorCode": "1568",
+      "authorName": "Gilberto Nascimento",
+      "deputyName": "Gilberto Nascimento",
+      "uf": "SP"
+    },
+    "220529": {
+      "authorCode": "4383",
+      "authorName": "Gilson Daniel",
+      "deputyName": "Gilson Daniel",
+      "uf": "ES"
+    },
+    "204365": {
+      "authorCode": "9055",
+      "authorName": "Gilson Marques",
+      "deputyName": "Gilson Marques",
+      "uf": "SC"
+    },
+    "220526": {
+      "authorCode": "4384",
+      "authorName": "Gilvan da Federal",
+      "deputyName": "Gilvan da Federal",
+      "uf": "ES"
+    },
+    "160673": {
+      "authorCode": "2863",
+      "authorName": "Giovani Cherini",
+      "deputyName": "Giovani Cherini",
+      "uf": "RS"
+    },
+    "152605": {
+      "authorCode": "2616",
+      "authorName": "Glauber Braga",
+      "deputyName": "Glauber Braga",
+      "uf": "RJ"
+    },
+    "198197": {
+      "authorCode": "4100",
+      "authorName": "Greyce Elias",
+      "deputyName": "Greyce Elias",
+      "uf": "MG"
+    },
+    "204531": {
+      "authorCode": "9060",
+      "authorName": "Guilherme Derrite",
+      "deputyName": "Guilherme Derrite",
+      "uf": "SP"
+    },
+    "220664": {
+      "authorCode": "4387",
+      "authorName": "Guilherme Uchoa",
+      "deputyName": "Guilherme Uchoa",
+      "uf": "PE"
+    },
+    "204408": {
+      "authorCode": "4101",
+      "authorName": "Gustinho Ribeiro",
+      "deputyName": "Gustinho Ribeiro",
+      "uf": "SE"
+    },
+    "204456": {
+      "authorCode": "4014",
+      "authorName": "Gutemberg Reis",
+      "deputyName": "Gutemberg Reis",
+      "uf": "RJ"
+    },
+    "178964": {
+      "authorCode": "3298",
+      "authorName": "Heitor Schuch",
+      "deputyName": "Heitor Schuch",
+      "uf": "RS"
+    },
+    "178873": {
+      "authorCode": "3312",
+      "authorName": "Helder Salomão",
+      "deputyName": "Helder Salomão",
+      "uf": "ES"
+    },
+    "220537": {
+      "authorCode": "4389",
+      "authorName": "Helena Lima",
+      "deputyName": "Helena Lima",
+      "uf": "RR"
+    },
+    "204444": {
+      "authorCode": "4102",
+      "authorName": "Helio Lopes",
+      "deputyName": "Helio Lopes",
+      "uf": "RJ"
+    },
+    "220672": {
+      "authorCode": "4390",
+      "authorName": "Henderson Pinto",
+      "deputyName": "Henderson Pinto",
+      "uf": "PA"
+    },
+    "204539": {
+      "authorCode": "4016",
+      "authorName": "Hercílio Coelho Diniz",
+      "deputyName": "Hercílio Coelho Diniz",
+      "uf": "MG"
+    },
+    "178884": {
+      "authorCode": "3393",
+      "authorName": "Hildo Rocha",
+      "deputyName": "Hildo Rocha",
+      "uf": "MA"
+    },
+    "141450": {
+      "authorCode": "2397",
+      "authorName": "Hugo Leal",
+      "deputyName": "Hugo Leal",
+      "uf": "RJ"
+    },
+    "160674": {
+      "authorCode": "2712",
+      "authorName": "Hugo Motta",
+      "deputyName": "Hugo Motta",
+      "uf": "PB"
+    },
+    "220563": {
+      "authorCode": "4391",
+      "authorName": "Icaro de Valmir",
+      "deputyName": "Icaro de Valmir",
+      "uf": "SE"
+    },
+    "204508": {
+      "authorCode": "4148",
+      "authorName": "Igor Timo",
+      "deputyName": "Igor Timo",
+      "uf": "MG"
+    },
+    "98615": {
+      "authorCode": "4392",
+      "authorName": "Ismael",
+      "deputyName": "Ismael",
+      "uf": "SC"
+    },
+    "204436": {
+      "authorCode": "4018",
+      "authorName": "Isnaldo Bulhões Jr.",
+      "deputyName": "Isnaldo Bulhões Jr.",
+      "uf": "AL"
+    },
+    "220696": {
+      "authorCode": "4395",
+      "authorName": "Ivoneide Caetano",
+      "deputyName": "Ivoneide Caetano",
+      "uf": "BA"
+    },
+    "220670": {
+      "authorCode": "4396",
+      "authorName": "Iza Arruda",
+      "deputyName": "Iza Arruda",
+      "uf": "PE"
+    },
+    "220527": {
+      "authorCode": "4397",
+      "authorName": "Jack Rocha",
+      "deputyName": "Jack Rocha",
+      "uf": "ES"
+    },
+    "220697": {
+      "authorCode": "4398",
+      "authorName": "Jadyel Alencar",
+      "deputyName": "Jadyel Alencar",
+      "uf": "PI"
+    },
+    "74848": {
+      "authorCode": "1775",
+      "authorName": "Jandira Feghali",
+      "deputyName": "Jandira Feghali",
+      "uf": "RJ"
+    },
+    "220567": {
+      "authorCode": "4399",
+      "authorName": "Jeferson Rodrigues",
+      "deputyName": "Jeferson Rodrigues",
+      "uf": "GO"
+    },
+    "74273": {
+      "authorCode": "1581",
+      "authorName": "Jefferson Campos",
+      "deputyName": "Jefferson Campos",
+      "uf": "SP"
+    },
+    "141456": {
+      "authorCode": "2528",
+      "authorName": "Jilmar Tatto",
+      "deputyName": "Jilmar Tatto",
+      "uf": "SP"
+    },
+    "141458": {
+      "authorCode": "1270",
+      "authorName": "João Carlos Bacelar",
+      "deputyName": "João Carlos Bacelar",
+      "uf": "BA"
+    },
+    "230957": {
+      "authorCode": "4551",
+      "authorName": "João Cury",
+      "deputyName": "João Cury",
+      "uf": "SP"
+    },
+    "178970": {
+      "authorCode": "3691",
+      "authorName": "João Daniel",
+      "deputyName": "João Daniel",
+      "uf": "SE"
+    },
+    "74550": {
+      "authorCode": "3239",
+      "authorName": "João Leão",
+      "deputyName": "João Leão",
+      "uf": "BA"
+    },
+    "141459": {
+      "authorCode": "2446",
+      "authorName": "João Maia",
+      "deputyName": "João Maia",
+      "uf": "RN"
+    },
+    "178910": {
+      "authorCode": "3692",
+      "authorName": "Joaquim Passarinho",
+      "deputyName": "Joaquim Passarinho",
+      "uf": "PA"
+    },
+    "160548": {
+      "authorCode": "2802",
+      "authorName": "Jonas Donizette",
+      "deputyName": "Jonas Donizette",
+      "uf": "SP"
+    },
+    "205550": {
+      "authorCode": "4152",
+      "authorName": "Jorge Braz",
+      "deputyName": "Jorge Braz",
+      "uf": "RJ"
+    },
+    "214694": {
+      "authorCode": "4209",
+      "authorName": "Jorge Goetten",
+      "deputyName": "Jorge Goetten",
+      "uf": "SC"
+    },
+    "178857": {
+      "authorCode": "3694",
+      "authorName": "Jorge Solla",
+      "deputyName": "Jorge Solla",
+      "uf": "BA"
+    },
+    "141464": {
+      "authorCode": "2441",
+      "authorName": "José Airton Félix Cirilo",
+      "deputyName": "José Airton Félix Cirilo",
+      "uf": "CE"
+    },
+    "204472": {
+      "authorCode": "4153",
+      "authorName": "José Medeiros",
+      "deputyName": "José Medeiros",
+      "uf": "MT"
+    },
+    "204391": {
+      "authorCode": "4023",
+      "authorName": "José Nelto",
+      "deputyName": "José Nelto",
+      "uf": "GO"
+    },
+    "74079": {
+      "authorCode": "3260",
+      "authorName": "José Priante",
+      "deputyName": "José Priante",
+      "uf": "PA"
+    },
+    "74554": {
+      "authorCode": "3262",
+      "authorName": "José Rocha",
+      "deputyName": "José Rocha",
+      "uf": "BA"
+    },
+    "209189": {
+      "authorCode": "4190",
+      "authorName": "Joseildo Ramos",
+      "deputyName": "Joseildo Ramos",
+      "uf": "BA"
+    },
+    "220578": {
+      "authorCode": "4400",
+      "authorName": "Josenildo",
+      "deputyName": "Josenildo",
+      "uf": "AP"
+    },
+    "204563": {
+      "authorCode": "4024",
+      "authorName": "Josimar Maranhãozinho",
+      "deputyName": "Josimar Maranhãozinho",
+      "uf": "MA"
+    },
+    "215043": {
+      "authorCode": "4212",
+      "authorName": "Josivaldo JP",
+      "deputyName": "Josivaldo JP",
+      "uf": "MA"
+    },
+    "204474": {
+      "authorCode": "4154",
+      "authorName": "Juarez Costa",
+      "deputyName": "Juarez Costa",
+      "uf": "MT"
+    },
+    "220559": {
+      "authorCode": "4401",
+      "authorName": "Julia Zanatta",
+      "deputyName": "Julia Zanatta",
+      "uf": "SC"
+    },
+    "220640": {
+      "authorCode": "4402",
+      "authorName": "Juliana Cardoso",
+      "deputyName": "Juliana Cardoso",
+      "uf": "SP"
+    },
+    "66385": {
+      "authorCode": "4403",
+      "authorName": "Julio Arcoverde",
+      "deputyName": "Julio Arcoverde",
+      "uf": "PI"
+    },
+    "74317": {
+      "authorCode": "1246",
+      "authorName": "Júlio Cesar",
+      "deputyName": "Júlio Cesar",
+      "uf": "PI"
+    },
+    "204372": {
+      "authorCode": "4110",
+      "authorName": "Julio Cesar Ribeiro",
+      "deputyName": "Julio Cesar Ribeiro",
+      "uf": "DF"
+    },
+    "74253": {
+      "authorCode": "1504",
+      "authorName": "Julio Lopes",
+      "deputyName": "Julio Lopes",
+      "uf": "RJ"
+    },
+    "204457": {
+      "authorCode": "4026",
+      "authorName": "Juninho do Pneu",
+      "deputyName": "Juninho do Pneu",
+      "uf": "RJ"
+    },
+    "204520": {
+      "authorCode": "3924",
+      "authorName": "Junio Amaral",
+      "deputyName": "Junio Amaral",
+      "uf": "MG"
+    },
+    "204497": {
+      "authorCode": "4027",
+      "authorName": "Júnior Ferrari",
+      "deputyName": "Júnior Ferrari",
+      "uf": "PA"
+    },
+    "204574": {
+      "authorCode": "4111",
+      "authorName": "Junior Lourenço",
+      "deputyName": "Junior Lourenço",
+      "uf": "MA"
+    },
+    "204550": {
+      "authorCode": "4028",
+      "authorName": "Júnior Mano",
+      "deputyName": "Júnior Mano",
+      "uf": "CE"
+    },
+    "178886": {
+      "authorCode": "3699",
+      "authorName": "Juscelino Filho",
+      "deputyName": "Juscelino Filho",
+      "uf": "MA"
+    },
+    "220677": {
+      "authorCode": "4404",
+      "authorName": "Keniston Braga",
+      "deputyName": "Keniston Braga",
+      "uf": "PA"
+    },
+    "162067": {
+      "authorCode": "4405",
+      "authorName": "Kiko Celeguim",
+      "deputyName": "Kiko Celeguim",
+      "uf": "SP"
+    },
+    "204536": {
+      "authorCode": "4155",
+      "authorName": "Kim Kataguiri",
+      "deputyName": "Kim Kataguiri",
+      "uf": "SP"
+    },
+    "98057": {
+      "authorCode": "4029",
+      "authorName": "Lafayette de Andrada",
+      "deputyName": "Lafayette de Andrada",
+      "uf": "MG"
+    },
+    "74856": {
+      "authorCode": "3268",
+      "authorName": "Laura Carneiro",
+      "deputyName": "Laura Carneiro",
+      "uf": "RJ"
+    },
+    "178832": {
+      "authorCode": "3702",
+      "authorName": "Leandre",
+      "deputyName": "Leandre",
+      "uf": "PR"
+    },
+    "220566": {
+      "authorCode": "4407",
+      "authorName": "Lêda Borges",
+      "deputyName": "Lêda Borges",
+      "uf": "GO"
+    },
+    "80815": {
+      "authorCode": "4408",
+      "authorName": "Leo Prates",
+      "deputyName": "Leo Prates",
+      "uf": "BA"
+    },
+    "74156": {
+      "authorCode": "1403",
+      "authorName": "Leonardo Monteiro",
+      "deputyName": "Leonardo Monteiro",
+      "uf": "MG"
+    },
+    "92102": {
+      "authorCode": "4031",
+      "authorName": "Leur Lomanto Júnior",
+      "deputyName": "Leur Lomanto Júnior",
+      "uf": "BA"
+    },
+    "139285": {
+      "authorCode": "2468",
+      "authorName": "Lídice da Mata",
+      "deputyName": "Lídice da Mata",
+      "uf": "BA"
+    },
+    "74585": {
+      "authorCode": "3595",
+      "authorName": "Lincoln Portela",
+      "deputyName": "Lincoln Portela",
+      "uf": "MG"
+    },
+    "74858": {
+      "authorCode": "3273",
+      "authorName": "Lindbergh Farias",
+      "deputyName": "Lindbergh Farias",
+      "uf": "RJ"
+    },
+    "220662": {
+      "authorCode": "4409",
+      "authorName": "Lucas Ramos",
+      "deputyName": "Lucas Ramos",
+      "uf": "PE"
+    },
+    "204404": {
+      "authorCode": "4033",
+      "authorName": "Lucas Redecker",
+      "deputyName": "Lucas Redecker",
+      "uf": "RS"
+    },
+    "220581": {
+      "authorCode": "4410",
+      "authorName": "Luciano Amaral",
+      "deputyName": "Luciano Amaral",
+      "uf": "AL"
+    },
+    "74478": {
+      "authorCode": "3539",
+      "authorName": "Luciano Bivar",
+      "deputyName": "Luciano Bivar",
+      "uf": "PE"
+    },
+    "178931": {
+      "authorCode": "3705",
+      "authorName": "Luciano Ducci",
+      "deputyName": "Luciano Ducci",
+      "uf": "PR"
+    },
+    "220616": {
+      "authorCode": "4411",
+      "authorName": "Luciano Vieira",
+      "deputyName": "Luciano Vieira",
+      "uf": "RJ"
+    },
+    "178954": {
+      "authorCode": "3706",
+      "authorName": "Lucio Mosquini",
+      "deputyName": "Lucio Mosquini",
+      "uf": "RO"
+    },
+    "160510": {
+      "authorCode": "2762",
+      "authorName": "Luis Tibé",
+      "deputyName": "Luis Tibé",
+      "uf": "MG"
+    },
+    "204410": {
+      "authorCode": "4034",
+      "authorName": "Luisa Canziani",
+      "deputyName": "Luisa Canziani",
+      "uf": "PR"
+    },
+    "141485": {
+      "authorCode": "2407",
+      "authorName": "Luiz Carlos Busato",
+      "deputyName": "Luiz Carlos Busato",
+      "uf": "RS"
+    },
+    "73778": {
+      "authorCode": "1867",
+      "authorName": "Luiz Carlos Hauly",
+      "deputyName": "Luiz Carlos Hauly",
+      "uf": "PR"
+    },
+    "204485": {
+      "authorCode": "4035",
+      "authorName": "Luiz Carlos Motta",
+      "deputyName": "Luiz Carlos Motta",
+      "uf": "SP"
+    },
+    "74041": {
+      "authorCode": "1271",
+      "authorName": "Luiz Couto",
+      "deputyName": "Luiz Couto",
+      "uf": "PB"
+    },
+    "141487": {
+      "authorCode": "2482",
+      "authorName": "Luiz Fernando Faria",
+      "deputyName": "Luiz Fernando Faria",
+      "uf": "MG"
+    },
+    "220658": {
+      "authorCode": "4413",
+      "authorName": "Luiz Gastão",
+      "deputyName": "Luiz Gastão",
+      "uf": "CE"
+    },
+    "204455": {
+      "authorCode": "4158",
+      "authorName": "Luiz Lima",
+      "deputyName": "Luiz Lima",
+      "uf": "RJ"
+    },
+    "162332": {
+      "authorCode": "2874",
+      "authorName": "Luiz Nishimori",
+      "deputyName": "Luiz Nishimori",
+      "uf": "PR"
+    },
+    "204526": {
+      "authorCode": "4036",
+      "authorName": "Luiz Philippe de Orleans e Bragança",
+      "deputyName": "Luiz Philippe de Orleans e Bragança",
+      "uf": "SP"
+    },
+    "74784": {
+      "authorCode": "3611",
+      "authorName": "Luiza Erundina",
+      "deputyName": "Luiza Erundina",
+      "uf": "SP"
+    },
+    "178866": {
+      "authorCode": "3710",
+      "authorName": "Luizianne Lins",
+      "deputyName": "Luizianne Lins",
+      "uf": "CE"
+    },
+    "220669": {
+      "authorCode": "4414",
+      "authorName": "Lula da Fonte",
+      "deputyName": "Lula da Fonte",
+      "uf": "PE"
+    },
+    "166402": {
+      "authorCode": "2935",
+      "authorName": "Magda Mofatto",
+      "deputyName": "Magda Mofatto",
+      "uf": "GO"
+    },
+    "220648": {
+      "authorCode": "4415",
+      "authorName": "Marangoni",
+      "deputyName": "Marangoni",
+      "uf": "SP"
+    },
+    "156190": {
+      "authorCode": "4116",
+      "authorName": "Marcel Van Hattem",
+      "deputyName": "Marcel van Hattem",
+      "uf": "RS"
+    },
+    "179000": {
+      "authorCode": "3713",
+      "authorName": "Marcelo Álvaro Antônio",
+      "deputyName": "Marcelo Álvaro Antônio",
+      "uf": "MG"
+    },
+    "220599": {
+      "authorCode": "4416",
+      "authorName": "Marcelo Crivella",
+      "deputyName": "Marcelo Crivella",
+      "uf": "RJ"
+    },
+    "133810": {
+      "authorCode": "4040",
+      "authorName": "Marcelo Moraes",
+      "deputyName": "Marcelo Moraes",
+      "uf": "RS"
+    },
+    "160161": {
+      "authorCode": "4418",
+      "authorName": "Marcelo Queiroz",
+      "deputyName": "Marcelo Queiroz",
+      "uf": "RJ"
+    },
+    "178983": {
+      "authorCode": "3717",
+      "authorName": "Marcio Alvino",
+      "deputyName": "Marcio Alvino",
+      "uf": "SP"
+    },
+    "179001": {
+      "authorCode": "3718",
+      "authorName": "Márcio Biolchi",
+      "deputyName": "Márcio Biolchi",
+      "uf": "RS"
+    },
+    "220687": {
+      "authorCode": "4419",
+      "authorName": "Márcio Honaiser",
+      "deputyName": "Márcio Honaiser",
+      "uf": "MA"
+    },
+    "81055": {
+      "authorCode": "3893",
+      "authorName": "Márcio Jerry",
+      "deputyName": "Márcio Jerry",
+      "uf": "MA"
+    },
+    "150418": {
+      "authorCode": "2601",
+      "authorName": "Márcio Marinho",
+      "deputyName": "Márcio Marinho",
+      "uf": "BA"
+    },
+    "160535": {
+      "authorCode": "2867",
+      "authorName": "Marcon",
+      "deputyName": "Marcon",
+      "uf": "RS"
+    },
+    "204431": {
+      "authorCode": "4042",
+      "authorName": "Marcos Aurélio Sampaio",
+      "deputyName": "Marcos Aurélio Sampaio",
+      "uf": "PI"
+    },
+    "204506": {
+      "authorCode": "4161",
+      "authorName": "Marcos Pereira",
+      "deputyName": "Marcos Pereira",
+      "uf": "SP"
+    },
+    "220547": {
+      "authorCode": "4420",
+      "authorName": "Marcos Pollon",
+      "deputyName": "Marcos Pollon",
+      "uf": "MS"
+    },
+    "178943": {
+      "authorCode": "3724",
+      "authorName": "Marcos Soares",
+      "deputyName": "Marcos Soares",
+      "uf": "RJ"
+    },
+    "220604": {
+      "authorCode": "4421",
+      "authorName": "Marcos Tavares",
+      "deputyName": "Marcos Tavares",
+      "uf": "RJ"
+    },
+    "220668": {
+      "authorCode": "4422",
+      "authorName": "Maria Arraes",
+      "deputyName": "Maria Arraes",
+      "uf": "PE"
+    },
+    "74398": {
+      "authorCode": "1983",
+      "authorName": "Maria do Rosário",
+      "deputyName": "Maria do Rosário",
+      "uf": "RS"
+    },
+    "204540": {
+      "authorCode": "4119",
+      "authorName": "Maria Rosas",
+      "deputyName": "Maria Rosas",
+      "uf": "SP"
+    },
+    "220655": {
+      "authorCode": "4423",
+      "authorName": "Mario Frias",
+      "deputyName": "Mario Frias",
+      "uf": "SP"
+    },
+    "74158": {
+      "authorCode": "1405",
+      "authorName": "Mário Heringer",
+      "deputyName": "Mário Heringer",
+      "uf": "MG"
+    },
+    "178858": {
+      "authorCode": "3727",
+      "authorName": "Mário Negromonte Jr.",
+      "deputyName": "Mário Negromonte Jr.",
+      "uf": "BA"
+    },
+    "204566": {
+      "authorCode": "4120",
+      "authorName": "Marreca Filho",
+      "deputyName": "Marreca Filho",
+      "uf": "MA"
+    },
+    "220572": {
+      "authorCode": "4424",
+      "authorName": "Marussa Boldrin",
+      "deputyName": "Marussa Boldrin",
+      "uf": "GO"
+    },
+    "178843": {
+      "authorCode": "3728",
+      "authorName": "Marx Beltrão",
+      "deputyName": "Marx Beltrão",
+      "uf": "AL"
+    },
+    "220661": {
+      "authorCode": "4425",
+      "authorName": "Matheus Noronha",
+      "deputyName": "Matheus Noronha",
+      "uf": "CE"
+    },
+    "220609": {
+      "authorCode": "4426",
+      "authorName": "Maurício Carvalho",
+      "deputyName": "Maurício Carvalho",
+      "uf": "RO"
+    },
+    "220628": {
+      "authorCode": "4427",
+      "authorName": "Mauricio do Vôlei",
+      "deputyName": "Mauricio do Vôlei",
+      "uf": "MG"
+    },
+    "220550": {
+      "authorCode": "4428",
+      "authorName": "Mauricio Marcon",
+      "deputyName": "Mauricio Marcon",
+      "uf": "RS"
+    },
+    "220647": {
+      "authorCode": "4429",
+      "authorName": "Mauricio Neves",
+      "deputyName": "Mauricio Neves",
+      "uf": "SP"
+    },
+    "204486": {
+      "authorCode": "4046",
+      "authorName": "Mauro Benevides Filho",
+      "deputyName": "Mauro Benevides Filho",
+      "uf": "CE"
+    },
+    "220607": {
+      "authorCode": "4430",
+      "authorName": "Max Lemos",
+      "deputyName": "Max Lemos",
+      "uf": "RJ"
+    },
+    "220591": {
+      "authorCode": "4431",
+      "authorName": "Meire Serafim",
+      "deputyName": "Meire Serafim",
+      "uf": "AC"
+    },
+    "74428": {
+      "authorCode": "3299",
+      "authorName": "Mendonça Filho",
+      "deputyName": "Mendonça Filho",
+      "uf": "PE"
+    },
+    "188097": {
+      "authorCode": "3822",
+      "authorName": "Merlong Solano",
+      "deputyName": "Merlong Solano",
+      "uf": "PI"
+    },
+    "220585": {
+      "authorCode": "4432",
+      "authorName": "Mersinho Lucena",
+      "deputyName": "Mersinho Lucena",
+      "uf": "PB"
+    },
+    "220530": {
+      "authorCode": "4433",
+      "authorName": "Messias Donato",
+      "deputyName": "Messias Donato",
+      "uf": "ES"
+    },
+    "171786": {
+      "authorCode": "4434",
+      "authorName": "Miguel Ângelo",
+      "deputyName": "Miguel Ângelo",
+      "uf": "MG"
+    },
+    "178985": {
+      "authorCode": "3730",
+      "authorName": "Miguel Lombardi",
+      "deputyName": "Miguel Lombardi",
+      "uf": "SP"
+    },
+    "178895": {
+      "authorCode": "3731",
+      "authorName": "Misael Varella",
+      "deputyName": "Misael Varella",
+      "uf": "MG"
+    },
+    "178997": {
+      "authorCode": "3733",
+      "authorName": "Moses Rodrigues",
+      "deputyName": "Moses Rodrigues",
+      "uf": "CE"
+    },
+    "220617": {
+      "authorCode": "4435",
+      "authorName": "Murillo Gouvea",
+      "deputyName": "Murillo Gouvea",
+      "uf": "RJ"
+    },
+    "220584": {
+      "authorCode": "4436",
+      "authorName": "Murilo Galdino",
+      "deputyName": "Murilo Galdino",
+      "uf": "PB"
+    },
+    "204453": {
+      "authorCode": "4163",
+      "authorName": "Natália Bonavides",
+      "deputyName": "Natália Bonavides",
+      "uf": "RN"
+    },
+    "204449": {
+      "authorCode": "4047",
+      "authorName": "Nelson Barbudo",
+      "deputyName": "Nelson Barbudo",
+      "uf": "MT"
+    },
+    "220622": {
+      "authorCode": "4437",
+      "authorName": "Nely Aquino",
+      "deputyName": "Nely Aquino",
+      "uf": "MG"
+    },
+    "220703": {
+      "authorCode": "4438",
+      "authorName": "Neto Carletto",
+      "deputyName": "Neto Carletto",
+      "uf": "BA"
+    },
+    "178896": {
+      "authorCode": "3734",
+      "authorName": "Newton Cardoso Jr",
+      "deputyName": "Newton Cardoso Jr",
+      "uf": "MG"
+    },
+    "204479": {
+      "authorCode": "4164",
+      "authorName": "Nicoletti",
+      "deputyName": "Nicoletti",
+      "uf": "RR"
+    },
+    "209787": {
+      "authorCode": "4439",
+      "authorName": "Nikolas Ferreira",
+      "deputyName": "Nikolas Ferreira",
+      "uf": "MG"
+    },
+    "178986": {
+      "authorCode": "3735",
+      "authorName": "Nilto Tatto",
+      "deputyName": "Nilto Tatto",
+      "uf": "SP"
+    },
+    "204498": {
+      "authorCode": "4049",
+      "authorName": "Olival Marques",
+      "deputyName": "Olival Marques",
+      "uf": "PA"
+    },
+    "178987": {
+      "authorCode": "3737",
+      "authorName": "Orlando Silva",
+      "deputyName": "Orlando Silva",
+      "uf": "SP"
+    },
+    "73692": {
+      "authorCode": "9048",
+      "authorName": "Osmar Terra",
+      "deputyName": "Osmar Terra",
+      "uf": "RS"
+    },
+    "204441": {
+      "authorCode": "4051",
+      "authorName": "Otoni de Paula",
+      "deputyName": "Otoni de Paula",
+      "uf": "RJ"
+    },
+    "220706": {
+      "authorCode": "4440",
+      "authorName": "Padovani",
+      "deputyName": "Padovani",
+      "uf": "PR"
+    },
+    "160556": {
+      "authorCode": "2764",
+      "authorName": "Padre João",
+      "deputyName": "Padre João",
+      "uf": "MG"
+    },
+    "180214": {
+      "authorCode": "4441",
+      "authorName": "Pastor Diniz",
+      "deputyName": "Pastor Diniz",
+      "uf": "RR"
+    },
+    "160642": {
+      "authorCode": "2724",
+      "authorName": "Pastor Eurico",
+      "deputyName": "Pastor Eurico",
+      "uf": "PE"
+    },
+    "204570": {
+      "authorCode": "4052",
+      "authorName": "Pastor Gil",
+      "deputyName": "Pastor Gil",
+      "uf": "MA"
+    },
+    "220615": {
+      "authorCode": "4442",
+      "authorName": "Pastor Henrique Vieira",
+      "deputyName": "Pastor Henrique Vieira",
+      "uf": "RJ"
+    },
+    "204553": {
+      "authorCode": "4166",
+      "authorName": "Pastor Sargento Isidório",
+      "deputyName": "Pastor Sargento Isidório",
+      "uf": "BA"
+    },
+    "74160": {
+      "authorCode": "1408",
+      "authorName": "Patrus Ananias",
+      "deputyName": "Patrus Ananias",
+      "uf": "MG"
+    },
+    "171617": {
+      "authorCode": "2973",
+      "authorName": "Paulão",
+      "deputyName": "Paulão",
+      "uf": "AL"
+    },
+    "141518": {
+      "authorCode": "2532",
+      "authorName": "Paulinho da Força",
+      "deputyName": "Paulinho da Força",
+      "uf": "SP"
+    },
+    "141516": {
+      "authorCode": "2487",
+      "authorName": "Paulo Abi-Ackel",
+      "deputyName": "Paulo Abi-Ackel",
+      "uf": "MG"
+    },
+    "220650": {
+      "authorCode": "4444",
+      "authorName": "Paulo Alexandre Barbosa",
+      "deputyName": "Paulo Alexandre Barbosa",
+      "uf": "SP"
+    },
+    "178860": {
+      "authorCode": "3738",
+      "authorName": "Paulo Azi",
+      "deputyName": "Paulo Azi",
+      "uf": "BA"
+    },
+    "160517": {
+      "authorCode": "2774",
+      "authorName": "Paulo Folletto",
+      "deputyName": "Paulo Folletto",
+      "uf": "ES"
+    },
+    "160558": {
+      "authorCode": "2813",
+      "authorName": "Paulo Freire Costa",
+      "deputyName": "Paulo Freire Costa",
+      "uf": "SP"
+    },
+    "204492": {
+      "authorCode": "4167",
+      "authorName": "Paulo Guedes",
+      "deputyName": "Paulo Guedes",
+      "uf": "MG"
+    },
+    "233592": {
+      "authorCode": "4556",
+      "authorName": "PAULO LEMOS",
+      "deputyName": "Paulo Lemos",
+      "uf": "AP"
+    },
+    "220685": {
+      "authorCode": "4445",
+      "authorName": "Paulo Litro",
+      "deputyName": "Paulo Litro",
+      "uf": "PR"
+    },
+    "74574": {
+      "authorCode": "3568",
+      "authorName": "Paulo Magalhães",
+      "deputyName": "Paulo Magalhães",
+      "uf": "BA"
+    },
+    "74400": {
+      "authorCode": "1986",
+      "authorName": "Paulo Pimenta",
+      "deputyName": "Paulo Pimenta",
+      "uf": "RS"
+    },
+    "220630": {
+      "authorCode": "4446",
+      "authorName": "Pedro Aihara",
+      "deputyName": "Pedro Aihara",
+      "uf": "MG"
+    },
+    "220667": {
+      "authorCode": "4447",
+      "authorName": "Pedro Campos",
+      "deputyName": "Pedro Campos",
+      "uf": "PE"
+    },
+    "122974": {
+      "authorCode": "4125",
+      "authorName": "Pedro Lucas Fernandes",
+      "deputyName": "Pedro Lucas Fernandes",
+      "uf": "MA"
+    },
+    "204395": {
+      "authorCode": "4056",
+      "authorName": "Pedro Lupion",
+      "deputyName": "Pedro Lupion",
+      "uf": "PR"
+    },
+    "122158": {
+      "authorCode": "2787",
+      "authorName": "Pedro Paulo",
+      "deputyName": "Pedro Paulo",
+      "uf": "RJ"
+    },
+    "160604": {
+      "authorCode": "2855",
+      "authorName": "Pedro Uczai",
+      "deputyName": "Pedro Uczai",
+      "uf": "SC"
+    },
+    "204406": {
+      "authorCode": "4168",
+      "authorName": "Pedro Westphalen",
+      "deputyName": "Pedro Westphalen",
+      "uf": "RS"
+    },
+    "161440": {
+      "authorCode": "4448",
+      "authorName": "Pezenti",
+      "deputyName": "Pezenti",
+      "uf": "SC"
+    },
+    "204524": {
+      "authorCode": "4057",
+      "authorName": "Pinheirinho",
+      "deputyName": "Pinheirinho",
+      "uf": "MG"
+    },
+    "73486": {
+      "authorCode": "3666",
+      "authorName": "Pompeo de Mattos",
+      "deputyName": "Pompeo de Mattos",
+      "uf": "RS"
+    },
+    "160601": {
+      "authorCode": "2812",
+      "authorName": "Pr. Marco Feliciano",
+      "deputyName": "Pr. Marco Feliciano",
+      "uf": "SP"
+    },
+    "220533": {
+      "authorCode": "4449",
+      "authorName": "Prof. Reginaldo Veras",
+      "deputyName": "Prof. Reginaldo Veras",
+      "uf": "DF"
+    },
+    "204390": {
+      "authorCode": "4058",
+      "authorName": "Professor Alcides",
+      "deputyName": "Professor Alcides",
+      "uf": "GO"
+    },
+    "221338": {
+      "authorCode": "4451",
+      "authorName": "Professora Luciene Cavalcante",
+      "deputyName": "Professora Luciene Cavalcante",
+      "uf": "SP"
+    },
+    "160641": {
+      "authorCode": "2675",
+      "authorName": "Professora Marcivania",
+      "deputyName": "Professora Marcivania",
+      "uf": "AP"
+    },
+    "220586": {
+      "authorCode": "4452",
+      "authorName": "Rafael Brito",
+      "deputyName": "Rafael Brito",
+      "uf": "AL"
+    },
+    "233594": {
+      "authorCode": "4557",
+      "authorName": "Rafael Fera",
+      "deputyName": "Rafael Fera",
+      "uf": "RO"
+    },
+    "220532": {
+      "authorCode": "4453",
+      "authorName": "Rafael Prudente",
+      "deputyName": "Rafael Prudente",
+      "uf": "DF"
+    },
+    "220626": {
+      "authorCode": "4454",
+      "authorName": "Rafael Simoes",
+      "deputyName": "Rafael Simoes",
+      "uf": "MG"
+    },
+    "204567": {
+      "authorCode": "4128",
+      "authorName": "Raimundo Costa",
+      "deputyName": "Raimundo Costa",
+      "uf": "BA"
+    },
+    "74084": {
+      "authorCode": "3328",
+      "authorName": "Raimundo Santos",
+      "deputyName": "Raimundo Santos",
+      "uf": "PA"
+    },
+    "74161": {
+      "authorCode": "1411",
+      "authorName": "Reginaldo Lopes",
+      "deputyName": "Reginaldo Lopes",
+      "uf": "MG"
+    },
+    "220606": {
+      "authorCode": "4456",
+      "authorName": "Reimont",
+      "deputyName": "Reimont",
+      "uf": "RJ"
+    },
+    "178989": {
+      "authorCode": "3746",
+      "authorName": "Renata Abreu",
+      "deputyName": "Renata Abreu",
+      "uf": "SP"
+    },
+    "153423": {
+      "authorCode": "4457",
+      "authorName": "Renilce Nicodemos",
+      "deputyName": "Renilce Nicodemos",
+      "uf": "PA"
+    },
+    "73801": {
+      "authorCode": "1690",
+      "authorName": "Renildo Calheiros",
+      "deputyName": "Renildo Calheiros",
+      "uf": "PE"
+    },
+    "175765": {
+      "authorCode": "4545",
+      "authorName": "Ribamar Silva",
+      "deputyName": "Ribamar Silva",
+      "uf": "SP"
+    },
+    "221329": {
+      "authorCode": "4458",
+      "authorName": "Ricardo Abrão",
+      "deputyName": "Ricardo Abrão",
+      "uf": "RJ"
+    },
+    "220543": {
+      "authorCode": "4459",
+      "authorName": "Ricardo Ayres",
+      "deputyName": "Ricardo Ayres",
+      "uf": "TO"
+    },
+    "73788": {
+      "authorCode": "3332",
+      "authorName": "Ricardo Barros",
+      "deputyName": "Ricardo Barros",
+      "uf": "PR"
+    },
+    "204362": {
+      "authorCode": "4062",
+      "authorName": "Ricardo Guidi",
+      "deputyName": "Ricardo Guidi",
+      "uf": "SC"
+    },
+    "220694": {
+      "authorCode": "4460",
+      "authorName": "Ricardo Maia",
+      "deputyName": "Ricardo Maia",
+      "uf": "BA"
+    },
+    "220633": {
+      "authorCode": "4461",
+      "authorName": "Ricardo Salles",
+      "deputyName": "Ricardo Salles",
+      "uf": "SP"
+    },
+    "204489": {
+      "authorCode": "9162",
+      "authorName": "Robério Monteiro",
+      "deputyName": "Robério Monteiro",
+      "uf": "CE"
+    },
+    "220693": {
+      "authorCode": "4462",
+      "authorName": "Roberta Roma",
+      "deputyName": "Roberta Roma",
+      "uf": "BA"
+    },
+    "220588": {
+      "authorCode": "4463",
+      "authorName": "Roberto Duarte",
+      "deputyName": "Roberto Duarte",
+      "uf": "AC"
+    },
+    "220613": {
+      "authorCode": "4464",
+      "authorName": "Roberto Monteiro Pai",
+      "deputyName": "Roberto Monteiro Pai",
+      "uf": "RJ"
+    },
+    "220624": {
+      "authorCode": "4465",
+      "authorName": "Robinson Faria",
+      "deputyName": "Robinson Faria",
+      "uf": "RN"
+    },
+    "220546": {
+      "authorCode": "4466",
+      "authorName": "Rodolfo Nogueira",
+      "deputyName": "Rodolfo Nogueira",
+      "uf": "MS"
+    },
+    "230767": {
+      "authorCode": "4548",
+      "authorName": "Rodrigo da Zaeli",
+      "deputyName": "Rodrigo da Zaeli",
+      "uf": "MT"
+    },
+    "141531": {
+      "authorCode": "2488",
+      "authorName": "Rodrigo de Castro",
+      "deputyName": "Rodrigo de Castro",
+      "uf": "MG"
+    },
+    "220641": {
+      "authorCode": "4468",
+      "authorName": "Rodrigo Gambale",
+      "deputyName": "Rodrigo Gambale",
+      "uf": "SP"
+    },
+    "141533": {
+      "authorCode": "2553",
+      "authorName": "Rodrigo Rollemberg",
+      "deputyName": "Rodrigo Rollemberg",
+      "uf": "DF"
+    },
+    "165470": {
+      "authorCode": "4469",
+      "authorName": "Rodrigo Valadares",
+      "deputyName": "Rodrigo Valadares",
+      "uf": "SE"
+    },
+    "220695": {
+      "authorCode": "4470",
+      "authorName": "Rogéria Santos",
+      "deputyName": "Rogéria Santos",
+      "uf": "BA"
+    },
+    "204480": {
+      "authorCode": "4064",
+      "authorName": "Rogério Correia",
+      "deputyName": "Rogério Correia",
+      "uf": "MG"
+    },
+    "204525": {
+      "authorCode": "4171",
+      "authorName": "Rosana Valle",
+      "deputyName": "Rosana Valle",
+      "uf": "SP"
+    },
+    "178945": {
+      "authorCode": "3756",
+      "authorName": "Rosangela Gomes",
+      "deputyName": "Rosangela Gomes",
+      "uf": "RJ"
+    },
+    "220644": {
+      "authorCode": "4471",
+      "authorName": "Rosângela Moro",
+      "deputyName": "Rosangela Moro",
+      "uf": "SP"
+    },
+    "220620": {
+      "authorCode": "4472",
+      "authorName": "Rosângela Reis",
+      "deputyName": "Rosângela Reis",
+      "uf": "MG"
+    },
+    "74371": {
+      "authorCode": "1960",
+      "authorName": "Rubens Otoni",
+      "deputyName": "Rubens Otoni",
+      "uf": "GO"
+    },
+    "178887": {
+      "authorCode": "3758",
+      "authorName": "Rubens Pereira Júnior",
+      "deputyName": "Rubens Pereira Júnior",
+      "uf": "MA"
+    },
+    "73604": {
+      "authorCode": "9032",
+      "authorName": "Rui Falcão",
+      "deputyName": "Rui Falcão",
+      "uf": "SP"
+    },
+    "160635": {
+      "authorCode": "2715",
+      "authorName": "Ruy Carneiro",
+      "deputyName": "Ruy Carneiro",
+      "uf": "PB"
+    },
+    "204535": {
+      "authorCode": "4130",
+      "authorName": "Sâmia Bomfim",
+      "deputyName": "Sâmia Bomfim",
+      "uf": "SP"
+    },
+    "220631": {
+      "authorCode": "4473",
+      "authorName": "Samuel Viana",
+      "deputyName": "Samuel Viana",
+      "uf": "MG"
+    },
+    "204416": {
+      "authorCode": "4073",
+      "authorName": "Sanderson",
+      "deputyName": "Sanderson",
+      "uf": "RS"
+    },
+    "160621": {
+      "authorCode": "2847",
+      "authorName": "Sandro Alex",
+      "deputyName": "Sandro Alex",
+      "uf": "PR"
+    },
+    "204387": {
+      "authorCode": "4066",
+      "authorName": "Sargento Fahur",
+      "deputyName": "Sargento Fahur",
+      "uf": "PR"
+    },
+    "220621": {
+      "authorCode": "4474",
+      "authorName": "Sargento Gonçalves",
+      "deputyName": "Sargento Gonçalves",
+      "uf": "RN"
+    },
+    "220618": {
+      "authorCode": "4475",
+      "authorName": "Sargento Portugal",
+      "deputyName": "Sargento Portugal",
+      "uf": "RJ"
+    },
+    "220713": {
+      "authorCode": "4476",
+      "authorName": "Saullo Vianna",
+      "deputyName": "Saullo Vianna",
+      "uf": "AM"
+    },
+    "226837": {
+      "authorCode": "4512",
+      "authorName": "Saulo Pedroso",
+      "deputyName": "Saulo Pedroso",
+      "uf": "SP"
+    },
+    "73808": {
+      "authorCode": "2471",
+      "authorName": "Sérgio Brito",
+      "deputyName": "Sérgio Brito",
+      "uf": "BA"
+    },
+    "178933": {
+      "authorCode": "3809",
+      "authorName": "Sergio Souza",
+      "deputyName": "Sergio Souza",
+      "uf": "PR"
+    },
+    "204557": {
+      "authorCode": "4068",
+      "authorName": "Sidney Leite",
+      "deputyName": "Sidney Leite",
+      "uf": "AM"
+    },
+    "74356": {
+      "authorCode": "3496",
+      "authorName": "Silas Câmara",
+      "deputyName": "Silas Câmara",
+      "uf": "AM"
+    },
+    "204360": {
+      "authorCode": "4173",
+      "authorName": "Silvia Cristina",
+      "deputyName": "Silvia Cristina",
+      "uf": "RO"
+    },
+    "220569": {
+      "authorCode": "4478",
+      "authorName": "Silvye Alves",
+      "deputyName": "Silvye Alves",
+      "uf": "GO"
+    },
+    "220651": {
+      "authorCode": "4479",
+      "authorName": "Simone Marquetto",
+      "deputyName": "Simone Marquetto",
+      "uf": "SP"
+    },
+    "104552": {
+      "authorCode": "4480",
+      "authorName": "Socorro Neri",
+      "deputyName": "Socorro Neri",
+      "uf": "AC"
+    },
+    "178946": {
+      "authorCode": "3765",
+      "authorName": "Soraya Santos",
+      "deputyName": "Soraya Santos",
+      "uf": "RJ"
+    },
+    "178947": {
+      "authorCode": "3766",
+      "authorName": "Sóstenes Cavalcante",
+      "deputyName": "Sóstenes Cavalcante",
+      "uf": "RJ"
+    },
+    "92776": {
+      "authorCode": "2924",
+      "authorName": "Stefano Aguiar",
+      "deputyName": "Stefano Aguiar",
+      "uf": "MG"
+    },
+    "204534": {
+      "authorCode": "4132",
+      "authorName": "Tabata Amaral",
+      "deputyName": "Tabata Amaral",
+      "uf": "SP"
+    },
+    "220682": {
+      "authorCode": "4482",
+      "authorName": "Tadeu Veneri",
+      "deputyName": "Tadeu Veneri",
+      "uf": "PR"
+    },
+    "204464": {
+      "authorCode": "4070",
+      "authorName": "Talíria Petrone",
+      "deputyName": "Talíria Petrone",
+      "uf": "RJ"
+    },
+    "220598": {
+      "authorCode": "4483",
+      "authorName": "Tarcísio Motta",
+      "deputyName": "Tarcísio Motta",
+      "uf": "RJ"
+    },
+    "220560": {
+      "authorCode": "4485",
+      "authorName": "Thiago de Joaldo",
+      "deputyName": "Thiago de Joaldo",
+      "uf": "SE"
+    },
+    "220597": {
+      "authorCode": "4486",
+      "authorName": "Thiago Flores",
+      "deputyName": "Thiago Flores",
+      "uf": "RO"
+    },
+    "143084": {
+      "authorCode": "4071",
+      "authorName": "Tiago Dimas",
+      "deputyName": "Tiago Dimas",
+      "uf": "TO"
+    },
+    "220684": {
+      "authorCode": "4487",
+      "authorName": "Tião Medeiros",
+      "deputyName": "Tião Medeiros",
+      "uf": "PR"
+    },
+    "160976": {
+      "authorCode": "2818",
+      "authorName": "Tiririca",
+      "deputyName": "Tiririca",
+      "uf": "SP"
+    },
+    "178934": {
+      "authorCode": "3771",
+      "authorName": "Toninho Wandscheer",
+      "deputyName": "Toninho Wandscheer",
+      "uf": "PR"
+    },
+    "157130": {
+      "authorCode": "4175",
+      "authorName": "Túlio Gadêlha",
+      "deputyName": "Túlio Gadêlha",
+      "uf": "PE"
+    },
+    "160610": {
+      "authorCode": "2750",
+      "authorName": "Valmir Assunção",
+      "deputyName": "Valmir Assunção",
+      "uf": "BA"
+    },
+    "74376": {
+      "authorCode": "1451",
+      "authorName": "Vander Loubet",
+      "deputyName": "Vander Loubet",
+      "uf": "MS"
+    },
+    "204396": {
+      "authorCode": "4074",
+      "authorName": "Vermelho",
+      "deputyName": "Vermelho",
+      "uf": "PR"
+    },
+    "137070": {
+      "authorCode": "3775",
+      "authorName": "Vicentinho Júnior",
+      "deputyName": "Vicentinho Júnior",
+      "uf": "TO"
+    },
+    "141555": {
+      "authorCode": "2517",
+      "authorName": "Vinicius Carvalho",
+      "deputyName": "Vinicius Carvalho",
+      "uf": "SP"
+    },
+    "160591": {
+      "authorCode": "2676",
+      "authorName": "Vinicius Gurgel",
+      "deputyName": "Vinicius Gurgel",
+      "uf": "AP"
+    },
+    "178992": {
+      "authorCode": "3777",
+      "authorName": "Vitor Lippi",
+      "deputyName": "Vitor Lippi",
+      "uf": "SP"
+    },
+    "91228": {
+      "authorCode": "4488",
+      "authorName": "Waldemar Oliveira",
+      "deputyName": "Waldemar Oliveira",
+      "uf": "PE"
+    },
+    "160569": {
+      "authorCode": "2751",
+      "authorName": "Waldenor Pereira",
+      "deputyName": "Waldenor Pereira",
+      "uf": "BA"
+    },
+    "160518": {
+      "authorCode": "2768",
+      "authorName": "Weliton Prado",
+      "deputyName": "Weliton Prado",
+      "uf": "MG"
+    },
+    "74043": {
+      "authorCode": "1277",
+      "authorName": "Wellington Roberto",
+      "deputyName": "Wellington Roberto",
+      "uf": "PB"
+    },
+    "224333": {
+      "authorCode": "4500",
+      "authorName": "Welter",
+      "deputyName": "Welter",
+      "uf": "PR"
+    },
+    "74044": {
+      "authorCode": "1283",
+      "authorName": "Wilson Santiago",
+      "deputyName": "Wilson Santiago",
+      "uf": "PB"
+    },
+    "220564": {
+      "authorCode": "4490",
+      "authorName": "Yandra Moura",
+      "deputyName": "Yandra Moura",
+      "uf": "SE"
+    },
+    "230768": {
+      "authorCode": "4546",
+      "authorName": "Zé Adriano",
+      "deputyName": "Zé Adriano",
+      "uf": "AC"
+    },
+    "220536": {
+      "authorCode": "4492",
+      "authorName": "Zé Haroldo Cathedral",
+      "deputyName": "Zé Haroldo Cathedral",
+      "uf": "RR"
+    },
+    "204559": {
+      "authorCode": "9191",
+      "authorName": "Zé Neto",
+      "deputyName": "Zé Neto",
+      "uf": "BA"
+    },
+    "160632": {
+      "authorCode": "2769",
+      "authorName": "Zé Silva",
+      "deputyName": "Zé Silva",
+      "uf": "MG"
+    },
+    "220558": {
+      "authorCode": "4493",
+      "authorName": "Zé Trovão",
+      "deputyName": "Zé Trovão",
+      "uf": "SC"
+    },
+    "204517": {
+      "authorCode": "4077",
+      "authorName": "Zé Vitor",
+      "deputyName": "Zé Vitor",
+      "uf": "MG"
+    },
+    "160592": {
+      "authorCode": "2849",
+      "authorName": "Zeca Dirceu",
+      "deputyName": "Zeca Dirceu",
+      "uf": "PR"
+    },
+    "220592": {
+      "authorCode": "4494",
+      "authorName": "Zezinho Barbary",
+      "deputyName": "Zezinho Barbary",
+      "uf": "AC"
+    },
+    "220552": {
+      "authorCode": "4484",
+      "authorName": "Zucco",
+      "deputyName": "Zucco",
+      "uf": "RS"
+    }
+  }
+}

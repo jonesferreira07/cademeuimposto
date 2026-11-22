@@ -1,0 +1,53 @@
+{
+  "ListaParlamentarEmExercicio": {
+    "Metadados": {
+      "Versao": "27/10/2026 19:40:09",
+      "VersaoServico": "4",
+      "DataVersaoServico": "2020-07-15",
+      "DescricaoDataSet": "Lista dos Parlamentares que estão atualmente em Exercício. Informações atuais sobre o Parlamentar."
+    },
+    "Parlamentares": {
+      "Parlamentar": [
+        {
+          "IdentificacaoParlamentar": {
+            "CodigoParlamentar": "739",
+            "NomeParlamentar": "Ciro Nogueira",
+            "SiglaPartidoParlamentar": "PP",
+            "UfParlamentar": "PI",
+            "UrlFotoParlamentar": "http://www.senado.leg.br/senadores/img/fotos-oficiais/senador739.jpg",
+            "EmailParlamentar": "sen.cironogueira@senado.leg.br"
+          },
+          "Mandato": {
+            "DescricaoParticipacao": "Titular"
+          }
+        },
+        {
+          "IdentificacaoParlamentar": {
+            "CodigoParlamentar": "6369",
+            "NomeParlamentar": "Jussara Lima",
+            "SiglaPartidoParlamentar": "PSD",
+            "UfParlamentar": "PI",
+            "UrlFotoParlamentar": "http://www.senado.leg.br/senadores/img/fotos-oficiais/senador6369.jpg",
+            "EmailParlamentar": "sen.jussaralima@senado.leg.br"
+          },
+          "Mandato": {
+            "DescricaoParticipacao": "1º Suplente"
+          }
+        },
+        {
+          "IdentificacaoParlamentar": {
+            "CodigoParlamentar": "742",
+            "NomeParlamentar": "Marcelo Castro",
+            "SiglaPartidoParlamentar": "MDB",
+            "UfParlamentar": "PI",
+            "UrlFotoParlamentar": "http://www.senado.leg.br/senadores/img/fotos-oficiais/senador742.jpg",
+            "EmailParlamentar": "sen.marcelocastro@senado.leg.br"
+          },
+          "Mandato": {
+            "DescricaoParticipacao": "Titular"
+          }
+        }
+      ]
+    }
+  }
+}

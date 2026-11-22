@@ -1,0 +1,9 @@
+import { describe,expect,it } from "vitest";
+import { rankAmendments } from "../src/lib/amendment-ranking";
+import type { Amendment } from "../src/lib/amendments";
+const person=(id:string,name:string)=>({id,name,party:"",uf:"CE",photo:null,profile:"https://www.camara.leg.br"});
+const amendment=(authorCode:string,authorName:string,code:string,committed:number,liquidated:number,paid:number)=>({authorCode,authorName,code,committed,liquidated,paid,remainingPaid:0} as Amendment);
+describe("Ranking de emendas: execução não é renda pessoal",()=>{
+ it("soma em centavos, mantém etapas separadas e não classifica autores sem vínculo",()=>{const people=[person("1","Ana"),person("2","Bia"),person("3","Caio"),person("4","Davi")],links={"1":{authorCode:"1001",authorName:"Ana",deputyName:"Ana",uf:"CE"},"2":{authorCode:"1002",authorName:"Bia",deputyName:"Bia",uf:"CE"},"4":{authorCode:"1004",authorName:"Davi",deputyName:"Davi",uf:"CE"}};const result=rankAmendments(people,links,[amendment("1001","Ana","a",100.11,50.01,20.01),amendment("1001","Ana","b",200,100,30),amendment("1002","Bia","c",100,100,50.01)],"paid");expect(result.records.map(row=>[row.name,row.rank,row.value])).toEqual([["Ana",1,50.01],["Bia",1,50.01]]);expect(result.records[0]).toMatchObject({committed:300.11,liquidated:150.01,awaitingLiquidation:150.1});expect(result.unlinked).toBe(1);expect(result.withoutRecords).toBe(1);});
+ it("exclui divergência de autoria e saldo negativo em vez de inventar zero",()=>{const links={"1":{authorCode:"1001",authorName:"Ana",deputyName:"Ana",uf:"CE"}};expect(rankAmendments([person("1","Ana")],links,[amendment("1001","Outra pessoa","a",100,50,20)],"paid")).toMatchObject({records:[],inconsistent:1});expect(rankAmendments([person("1","Ana")],links,[amendment("1001","Ana","a",50,100,20)],"awaitingLiquidation")).toMatchObject({records:[],inconsistent:1});});
+});

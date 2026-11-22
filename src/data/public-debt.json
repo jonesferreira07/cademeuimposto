@@ -1,0 +1,204 @@
+{
+  "year": 2026,
+  "period": 2,
+  "checkedAt": "2026-10-28T05:11:00Z",
+  "records": [
+    {
+      "uf": "AC",
+      "name": "Acre",
+      "gross": 2995461965.38,
+      "net": 894851713.63,
+      "source": "https://apidatalake.tesouro.gov.br/ords/siconfi/tt/rgf?an_exercicio=2026&in_periodicidade=Q&nr_periodo=2&co_tipo_demonstrativo=RGF&no_anexo=RGF-Anexo%2002&co_esfera=E&co_poder=E&id_ente=12&limit=5000"
+    },
+    {
+      "uf": "AL",
+      "name": "Alagoas",
+      "gross": 16519734076.52,
+      "net": 13927771008.81,
+      "source": "https://apidatalake.tesouro.gov.br/ords/siconfi/tt/rgf?an_exercicio=2026&in_periodicidade=Q&nr_periodo=2&co_tipo_demonstrativo=RGF&no_anexo=RGF-Anexo%2002&co_esfera=E&co_poder=E&id_ente=27&limit=5000"
+    },
+    {
+      "uf": "AP",
+      "name": "Amapá",
+      "gross": 5575378026.14,
+      "net": -1063876867.41,
+      "source": "https://apidatalake.tesouro.gov.br/ords/siconfi/tt/rgf?an_exercicio=2026&in_periodicidade=Q&nr_periodo=2&co_tipo_demonstrativo=RGF&no_anexo=RGF-Anexo%2002&co_esfera=E&co_poder=E&id_ente=16&limit=5000"
+    },
+    {
+      "uf": "AM",
+      "name": "Amazonas",
+      "gross": 10087765866.21,
+      "net": 6055597872.55,
+      "source": "https://apidatalake.tesouro.gov.br/ords/siconfi/tt/rgf?an_exercicio=2026&in_periodicidade=Q&nr_periodo=2&co_tipo_demonstrativo=RGF&no_anexo=RGF-Anexo%2002&co_esfera=E&co_poder=E&id_ente=13&limit=5000"
+    },
+    {
+      "uf": "BA",
+      "name": "Bahia",
+      "gross": 39256577595.6,
+      "net": 25084187067.16,
+      "source": "https://apidatalake.tesouro.gov.br/ords/siconfi/tt/rgf?an_exercicio=2026&in_periodicidade=Q&nr_periodo=2&co_tipo_demonstrativo=RGF&no_anexo=RGF-Anexo%2002&co_esfera=E&co_poder=E&id_ente=29&limit=5000"
+    },
+    {
+      "uf": "CE",
+      "name": "Ceará",
+      "gross": 21285748437.27,
+      "net": 12217943948.98,
+      "source": "https://apidatalake.tesouro.gov.br/ords/siconfi/tt/rgf?an_exercicio=2026&in_periodicidade=Q&nr_periodo=2&co_tipo_demonstrativo=RGF&no_anexo=RGF-Anexo%2002&co_esfera=E&co_poder=E&id_ente=23&limit=5000"
+    },
+    {
+      "uf": "DF",
+      "name": "Distrito Federal",
+      "gross": 11514296984.97,
+      "net": 4645071774.88,
+      "source": "https://apidatalake.tesouro.gov.br/ords/siconfi/tt/rgf?an_exercicio=2026&in_periodicidade=Q&nr_periodo=2&co_tipo_demonstrativo=RGF&no_anexo=RGF-Anexo%2002&co_esfera=E&co_poder=E&id_ente=53&limit=5000"
+    },
+    {
+      "uf": "ES",
+      "name": "Espírito Santo",
+      "gross": 8665615327.34,
+      "net": -16532444071.68,
+      "source": "https://apidatalake.tesouro.gov.br/ords/siconfi/tt/rgf?an_exercicio=2026&in_periodicidade=Q&nr_periodo=2&co_tipo_demonstrativo=RGF&no_anexo=RGF-Anexo%2002&co_esfera=E&co_poder=E&id_ente=32&limit=5000"
+    },
+    {
+      "uf": "GO",
+      "name": "Goiás",
+      "gross": 28777753594.72,
+      "net": 16263889119.22,
+      "source": "https://apidatalake.tesouro.gov.br/ords/siconfi/tt/rgf?an_exercicio=2026&in_periodicidade=Q&nr_periodo=2&co_tipo_demonstrativo=RGF&no_anexo=RGF-Anexo%2002&co_esfera=E&co_poder=E&id_ente=52&limit=5000"
+    },
+    {
+      "uf": "MA",
+      "name": "Maranhão",
+      "gross": 7533365526.01,
+      "net": 1141552426.19,
+      "source": "https://apidatalake.tesouro.gov.br/ords/siconfi/tt/rgf?an_exercicio=2026&in_periodicidade=Q&nr_periodo=2&co_tipo_demonstrativo=RGF&no_anexo=RGF-Anexo%2002&co_esfera=E&co_poder=E&id_ente=21&limit=5000"
+    },
+    {
+      "uf": "MT",
+      "name": "Mato Grosso",
+      "gross": 3920631523.64,
+      "net": -7009207504.9,
+      "source": "https://apidatalake.tesouro.gov.br/ords/siconfi/tt/rgf?an_exercicio=2026&in_periodicidade=Q&nr_periodo=2&co_tipo_demonstrativo=RGF&no_anexo=RGF-Anexo%2002&co_esfera=E&co_poder=E&id_ente=51&limit=5000"
+    },
+    {
+      "uf": "MS",
+      "name": "Mato Grosso do Sul",
+      "gross": 11579677519.77,
+      "net": 6284690699.08,
+      "source": "https://apidatalake.tesouro.gov.br/ords/siconfi/tt/rgf?an_exercicio=2026&in_periodicidade=Q&nr_periodo=2&co_tipo_demonstrativo=RGF&no_anexo=RGF-Anexo%2002&co_esfera=E&co_poder=E&id_ente=50&limit=5000"
+    },
+    {
+      "uf": "MG",
+      "name": "Minas Gerais",
+      "gross": 217165894197.27,
+      "net": 173163037552.95,
+      "source": "https://apidatalake.tesouro.gov.br/ords/siconfi/tt/rgf?an_exercicio=2026&in_periodicidade=Q&nr_periodo=2&co_tipo_demonstrativo=RGF&no_anexo=RGF-Anexo%2002&co_esfera=E&co_poder=E&id_ente=31&limit=5000"
+    },
+    {
+      "uf": "PA",
+      "name": "Pará",
+      "gross": 11245884206.38,
+      "net": 1966692215.51,
+      "source": "https://apidatalake.tesouro.gov.br/ords/siconfi/tt/rgf?an_exercicio=2026&in_periodicidade=Q&nr_periodo=2&co_tipo_demonstrativo=RGF&no_anexo=RGF-Anexo%2002&co_esfera=E&co_poder=E&id_ente=15&limit=5000"
+    },
+    {
+      "uf": "PB",
+      "name": "Paraíba",
+      "gross": 8432892335.29,
+      "net": 964265960.15,
+      "source": "https://apidatalake.tesouro.gov.br/ords/siconfi/tt/rgf?an_exercicio=2026&in_periodicidade=Q&nr_periodo=2&co_tipo_demonstrativo=RGF&no_anexo=RGF-Anexo%2002&co_esfera=E&co_poder=E&id_ente=25&limit=5000"
+    },
+    {
+      "uf": "PR",
+      "name": "Paraná",
+      "gross": 28011535913.34,
+      "net": -15579823.75,
+      "source": "https://apidatalake.tesouro.gov.br/ords/siconfi/tt/rgf?an_exercicio=2026&in_periodicidade=Q&nr_periodo=2&co_tipo_demonstrativo=RGF&no_anexo=RGF-Anexo%2002&co_esfera=E&co_poder=E&id_ente=41&limit=5000"
+    },
+    {
+      "uf": "PE",
+      "name": "Pernambuco",
+      "gross": 20957288769.96,
+      "net": 12888474855.21,
+      "source": "https://apidatalake.tesouro.gov.br/ords/siconfi/tt/rgf?an_exercicio=2026&in_periodicidade=Q&nr_periodo=2&co_tipo_demonstrativo=RGF&no_anexo=RGF-Anexo%2002&co_esfera=E&co_poder=E&id_ente=26&limit=5000"
+    },
+    {
+      "uf": "PI",
+      "name": "Piauí",
+      "gross": 17694375773.43,
+      "net": 13588384829.7,
+      "source": "https://apidatalake.tesouro.gov.br/ords/siconfi/tt/rgf?an_exercicio=2026&in_periodicidade=Q&nr_periodo=2&co_tipo_demonstrativo=RGF&no_anexo=RGF-Anexo%2002&co_esfera=E&co_poder=E&id_ente=22&limit=5000"
+    },
+    {
+      "uf": "RJ",
+      "name": "Rio de Janeiro",
+      "gross": 250592975506.12,
+      "net": 225081856740.31,
+      "source": "https://apidatalake.tesouro.gov.br/ords/siconfi/tt/rgf?an_exercicio=2026&in_periodicidade=Q&nr_periodo=2&co_tipo_demonstrativo=RGF&no_anexo=RGF-Anexo%2002&co_esfera=E&co_poder=E&id_ente=33&limit=5000"
+    },
+    {
+      "uf": "RN",
+      "name": "Rio Grande do Norte",
+      "gross": 8972966058.1,
+      "net": 8221978533.83,
+      "source": "https://apidatalake.tesouro.gov.br/ords/siconfi/tt/rgf?an_exercicio=2026&in_periodicidade=Q&nr_periodo=2&co_tipo_demonstrativo=RGF&no_anexo=RGF-Anexo%2002&co_esfera=E&co_poder=E&id_ente=24&limit=5000"
+    },
+    {
+      "uf": "RS",
+      "name": "Rio Grande do Sul",
+      "gross": 140493156019.32,
+      "net": 115015930564.27,
+      "source": "https://apidatalake.tesouro.gov.br/ords/siconfi/tt/rgf?an_exercicio=2026&in_periodicidade=Q&nr_periodo=2&co_tipo_demonstrativo=RGF&no_anexo=RGF-Anexo%2002&co_esfera=E&co_poder=E&id_ente=43&limit=5000"
+    },
+    {
+      "uf": "RO",
+      "name": "Rondônia",
+      "gross": 5655057076.63,
+      "net": -459833342.4,
+      "source": "https://apidatalake.tesouro.gov.br/ords/siconfi/tt/rgf?an_exercicio=2026&in_periodicidade=Q&nr_periodo=2&co_tipo_demonstrativo=RGF&no_anexo=RGF-Anexo%2002&co_esfera=E&co_poder=E&id_ente=11&limit=5000"
+    },
+    {
+      "uf": "RR",
+      "name": "Roraima",
+      "gross": 2983299741.56,
+      "net": 500322765.15,
+      "source": "https://apidatalake.tesouro.gov.br/ords/siconfi/tt/rgf?an_exercicio=2026&in_periodicidade=Q&nr_periodo=2&co_tipo_demonstrativo=RGF&no_anexo=RGF-Anexo%2002&co_esfera=E&co_poder=E&id_ente=14&limit=5000"
+    },
+    {
+      "uf": "SC",
+      "name": "Santa Catarina",
+      "gross": 23477044679.19,
+      "net": 11445097043.15,
+      "source": "https://apidatalake.tesouro.gov.br/ords/siconfi/tt/rgf?an_exercicio=2026&in_periodicidade=Q&nr_periodo=2&co_tipo_demonstrativo=RGF&no_anexo=RGF-Anexo%2002&co_esfera=E&co_poder=E&id_ente=42&limit=5000"
+    },
+    {
+      "uf": "SP",
+      "name": "São Paulo",
+      "gross": 390041766345.85,
+      "net": 315908470847.25,
+      "source": "https://apidatalake.tesouro.gov.br/ords/siconfi/tt/rgf?an_exercicio=2026&in_periodicidade=Q&nr_periodo=2&co_tipo_demonstrativo=RGF&no_anexo=RGF-Anexo%2002&co_esfera=E&co_poder=E&id_ente=35&limit=5000"
+    },
+    {
+      "uf": "SE",
+      "name": "Sergipe",
+      "gross": 5005109661.88,
+      "net": 1225519193.5,
+      "source": "https://apidatalake.tesouro.gov.br/ords/siconfi/tt/rgf?an_exercicio=2026&in_periodicidade=Q&nr_periodo=2&co_tipo_demonstrativo=RGF&no_anexo=RGF-Anexo%2002&co_esfera=E&co_poder=E&id_ente=28&limit=5000"
+    },
+    {
+      "uf": "TO",
+      "name": "Tocantins",
+      "gross": 5471655652.86,
+      "net": 2851427360.25,
+      "source": "https://apidatalake.tesouro.gov.br/ords/siconfi/tt/rgf?an_exercicio=2026&in_periodicidade=Q&nr_periodo=2&co_tipo_demonstrativo=RGF&no_anexo=RGF-Anexo%2002&co_esfera=E&co_poder=E&id_ente=17&limit=5000"
+    }
+  ],
+  "national": {
+    "date": "01/08/2026",
+    "gross": 11054954370000.0,
+    "gdpPercent": 82.87,
+    "source": "https://www.bcb.gov.br/estatisticas/estatisticasfiscais",
+    "amountSource": "https://api.bcb.gov.br/dados/serie/bcdata.sgs.13761/dados/ultimos/1?formato=json",
+    "ratioSource": "https://api.bcb.gov.br/dados/serie/bcdata.sgs.13762/dados/ultimos/1?formato=json"
+  }
+}
