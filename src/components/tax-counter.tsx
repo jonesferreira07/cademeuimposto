@@ -37,9 +37,17 @@ export function TaxCounter({ uf, year }: { uf: string | null; year: number }) {
     setSample(lastVerifiedSample(uf, year)); setError(null); setNow(Date.now());
     async function refresh() {
       controller?.abort(); controller = new AbortController();
-      const timeout = setTimeout(() => controller?.abort(), 20000);
+      const timeout = setTimeout(() => controller?.abort(), 30000);
       try {
-        const response = await fetch(`/api/impostos${uf ? `?uf=${uf}` : ""}`, { signal: controller.signal });
+        const suffix = uf ? `?uf=${uf}` : "";
+        // A fonte pode falhar somente no TLS da função Node. Tente também a rede Edge.
+        let response: Response | null = null;
+        try {
+          response = await fetch(`/api/impostos${suffix}`, { signal: controller.signal });
+        } catch { /* falha de rede Node; rota Edge será consultada abaixo */ }
+        if (!response?.ok) {
+          response = await fetch(`/api/impostos-edge${suffix}`, { signal: controller.signal });
+        }
         const data = await response.json(); if (!response.ok) throw new Error(data.error || "Contador indisponível.");
         if (!disposed) {
           setSample(data); setError(null); setNow(Date.now());
